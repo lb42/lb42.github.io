@@ -863,7 +863,7 @@ tei-listApp {
 tei-listBibl {
   display:block;
   list-style-type: none;
-  margin-left: .5 em;
+  margin-left: .5em;
   margin-top: .5em;
 }
 tei-listBibl > tei-head {
@@ -1258,7 +1258,7 @@ tei-quotation {
   /* Empty Rule Set */
 }
 tei-quote {
-tei-font-style:italic;
+font-style:italic;
 }
 /*
 tei-quote {
@@ -1303,7 +1303,7 @@ tei-recordingStmt {
 }
 tei-ref {
   color: #5f0000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 tei-region {
   /* Empty Rule Set */

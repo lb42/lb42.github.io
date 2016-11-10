@@ -47,9 +47,9 @@
         <table>
           <row>
             <cell>
-              <graphic width="40%" url="media/corbeau-1.jpg"/></cell>
+              <graphic width="40%" url="../media/corbeau-1.jpg"/></cell>
             <cell>
-              <graphic width="40%" url="media/corbeau-2.jpg"/></cell>
+              <graphic width="40%" url="../media/corbeau-2.jpg"/></cell>
           </row>
         </table>
       </div>

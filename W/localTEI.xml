@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rip's poems</title>
+                <author/>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2017-01-09</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from Word documents</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2017-01-09T12:54:18Z">Initial conversion</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg xml:lang="de">
+                <l n="1">'In welchem Zimmer bist du?'</l>
+                <l n="2">So erwache Ich oft;</l>
+                <l n="3">unbeantwortet, außer</l>
+                <l n="4">ihr Gähnen ohne sie,</l>
+                <l n="5">und ohne Trost.</l>
+            </lg>
+            <lg xml:lang="en">
+                <l n="1">‘Which room are you in?’</l>
+                <l n="2">I often wake so;</l>
+                <l n="3">unanswered, except</l>
+                <l n="4">her yawn without her</l>
+                <l n="5">and without comfort.</l>
+            </lg>
+            <lg xml:lang="es">
+                <l n="1">'En qué cuarto estaís?'</l>
+                <l n="2">A menudo me despierto</l>
+                <l n="3">sín respuesta, salvo</l>
+                <l n="4">su bostezo sín ella,</l>
+                <l n="5">y sín consuelo.</l>
+            </lg>
+            <lg xml:lang="fr">
+                <l n="1">'Dans quelle chambre es-tu?'</l>
+                <l n="2">Je me reveille souvent ainsi;</l>
+                <l n="3">sans réponse, sauf</l>
+                <l n="4">son bâillement sans elle</l>
+                <l n="5">et sans réconfort.</l>
+            </lg>
+            <lg xml:lang="gr">
+                <l n="1">"Σε ποιο δωμάτιο είσαι;"</l>
+                <l n="2">Ξυπνάω συγνά έτσι·</l>
+                <l n="3">αναπάντητος, εκτός από</l>
+                <l n="4">το χασμουρητό της χωρίς αυτήν</l>
+                <l n="5">και χωρίς παρηγοριά.</l>
+            </lg>
+            <lg xml:lang="ru">
+                <l n="1">'В какой комнате ты?'</l>
+                <l n="2">Я часто так просыпаюсь;</l>
+                <l n="2">без ответа, только</l>
+                <l n="2">ее зевота без нее,</l>
+                <l n="2">и без утешения.</l>
+            </lg>
+            <lg xml:lang="zh">
+                <l n="1">“你在哪间屋里呀?”</l>
+                <l n="2">我常常这样醒来；</l>
+                <l n="3">没有回答，只有那</l>
+                <l n="4">没有她的呵欠声，</l>
+                <l n="5">当然也没有，安慰。</l>
+            </lg>
+        </body>
+    </text>
+</TEI>

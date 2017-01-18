@@ -23,7 +23,7 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
+        <body style="text-size:24pt">
             <lg xml:lang="de">
                 <l n="1">'In welchem Zimmer bist du?'</l>
                 <l n="2">So erwache Ich oft;</l>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rip's poems</title>
+                <author/>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2017-01-09</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from Word documents</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-01-19Z">auto derived from xml source </change>
+                <change when="2017-01-09T12:54:18Z">Initial conversion</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body><lg xml:lang=""><l class="en">‘Which room are you in?’</l><l class="fr">Je me reveille souvent ainsi;</l><l class="de">unbeantwortet, außer</l><l class="zh">没有她的呵欠声，</l><l class="ru">и без утешения.</l></lg></body>
+    </text>
+</TEI>

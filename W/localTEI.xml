@@ -24,7 +24,7 @@
     </teiHeader>
     <text>
         <body style="text-size:24pt">
-            <lg xml:lang="de">
+            <lg xml:lang="de" class="ry">
                 <l n="1">'In welchem Zimmer bist du?'</l>
                 <l n="2">So erwache Ich oft;</l>
                 <l n="3">unbeantwortet, außer</l>
@@ -38,7 +38,7 @@
                 <l n="4">her yawn without her</l>
                 <l n="5">and without comfort.</l>
             </lg>
-            <lg xml:lang="es">
+            <lg xml:lang="es" class="bg">
                 <l n="1">'En qué cuarto estaís?'</l>
                 <l n="2">A menudo me despierto</l>
                 <l n="3">sín respuesta, salvo</l>
@@ -52,7 +52,7 @@
                 <l n="4">son bâillement sans elle</l>
                 <l n="5">et sans réconfort.</l>
             </lg>
-            <lg xml:lang="gr">
+            <lg xml:lang="gr" class="gp">
                 <l n="1">"Σε ποιο δωμάτιο είσαι;"</l>
                 <l n="2">Ξυπνάω συγνά έτσι·</l>
                 <l n="3">αναπάντητος, εκτός από</l>
@@ -66,7 +66,7 @@
                 <l n="2">ее зевота без нее,</l>
                 <l n="2">и без утешения.</l>
             </lg>
-            <lg xml:lang="zh">
+            <lg xml:lang="zh" class="wb">
                 <l n="1">“你在哪间屋里呀?”</l>
                 <l n="2">我常常这样醒来；</l>
                 <l n="3">没有回答，只有那</l>

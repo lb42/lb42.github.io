@@ -1,15 +1,16 @@
 /* general styles */
 
-tei-TEI {
+body {
 color: #000000;
-font-family: Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+font-family: "Noto Sans", Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
 font-size: 0.8em;
 line-height: 1.6em;
+margin:1em;
 }
-tei-teiHeader {
+tei-teiheader {
   display: block;
 }
-tei-teiHeader tei-titleStmt>tei-title {
+tei-teiheader tei-titlestmt>tei-title {
   display: block;
   font-size: 16pt;
   font-weight: bold;
@@ -17,23 +18,23 @@ tei-teiHeader tei-titleStmt>tei-title {
   background-color: #FFFFFF;
   margin-bottom: .5em;
 }
-tei-fileDesc>tei-titleStmt {
+tei-filedesc>tei-titlestmt {
   font-size: 11pt;
 }
-tei-fileDesc>tei-titleStmt>tei-author:after {
+tei-filedesc>tei-titlestmt>tei-author:after {
   content: ', ';
 }
-tei-fileDesc>tei-titleStmt>tei-author:last-child:after {
+tei-filedesc>tei-titlestmt>tei-author:last-child:after {
   content: '.';
 }
-tei-fileDesc>tei-publicationStmt {
+tei-filedesc>tei-publicationstmt {
   display: block;
   font-size: 11pt;
 }
-tei-teiHeader tei-sourceDesc {
+tei-teiheader tei-sourcedesc {
   display: none;
 }
-tei-teiHeader>tei-revisionDesc {
+tei-teiheader>tei-revisiondesc {
   display: none;
 }
 tei-body {
@@ -44,6 +45,9 @@ tei-div {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+tei-head {
+  display: block;
 }
 /* h1 */
 tei-div>tei-head {
@@ -89,23 +93,41 @@ tei-list[type=ordered]>tei-item:before {
 tei-item {
   display: list-item;
 }
+tei-listbibl {
+  display: block;
+  margin-left: 30px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-left: 0;
+}
+tei-listbibl>tei-bibl {
+  display: list-item;
+  list-style-type: none;
+}
+tei-figure {
+  display: block;
+  text-align: center;
+}
 tei-code {
-  font-family: Monaco, "Courier New", Courier, monospace;
+  font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;
 }
 tei-ident {
-  font-family: Monaco, "Courier New", Courier, monospace;
+  font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;
 }
 tei-gi {
     text-before: "<";
-  font-family: Monaco, "Courier New", Courier, monospace;
+  font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEF;
   text-after: ">";
 }
 tei-att {
-  font-family: Monaco, "Courier New", Courier, monospace;
+  font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEF;
+}
+tei-att::before {
+  content: '@';
 }
 tei-lb::before {
   content: '\a';
@@ -129,6 +151,10 @@ tei-row {
 }
 tei-cell {
   /* replaced by td */
+}
+/* HTML */
+dt {
+  font-weight: bold;
 }
 table {
   border-collapse: collapse;

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notes towards a definition of TEI Conformance</title>
+            <author>Lou Burnard</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished draft</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Made up from thin air</p>
+         </sourceDesc>
+        
+      </fileDesc>
+   <revisionDesc><change when="2017-03-14">First draft</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div rend="slide">
+            <head>What is TEI conformance? </head>
+            <p>
+               <figure>
+                  <graphic url="oddflavours.png"/>
+               </figure></p>
+            <p>Each of the blobs here represents three subtly different things: <list>
+                  <item>an ODD : that is, a collection of TEI specifications</item>
+                  <item>a formal schema generated from that ODD, and its natural language
+                     documentation</item>
+                  <item>the set of documents considered valid by that schema</item>
+               </list></p>
+            <p>The TEI provides TEI All : a set of over 500 uniquely identifiable elements, classes,
+               attributes, etc. and a schema in which they are all permitted. For all practical
+               purposes a user of the TEI must make a selection from this cornucopia, and we call
+               that selection a <term>TEI subset</term>. Of course there are many many possible TEI
+               subsets, each making different choices of elements or attributes or classes, but the
+               sets of documents which each consequent schema will validate all have in common that
+               they will also be considered valid by the schema TEI All. </p>
+            <p>A user of the TEI may however do more than simply choose a subset of the provided
+               specifications. They may also provide additional constraints for aspects of an
+               encoding left underspecified by the TEI, for example by requiring that attribute
+               values be taken from a closed list of possible values rather than being any
+               syntactically valid token. They may simply change the datatype of an attribute, for
+               example from a string to an integer or a date. They may also provide an alternative
+               identifier for an element or an attribute, for example to change its canonical
+               English name for one from another language. In some cases, attribute value changes
+               are equivalent to a subsetting operation; in others not. Renaming operations never
+               result in a subset: a document in which the element names have all been changed to
+               their French equivalents cannot be validated by an English language version of TEI
+               All. A user of the TEI can also change the content model or the class membership of
+               existing TEI elements, in ways which may or may not be equivalent to a subsetting
+               operation.</p>
+            <p> We use the term <term>customised subset</term> for all these kinds of
+               personalisation because they result in something which is not necessarily a further
+               subset of the TEI subset concerned, but a further modification of it. In the general
+               case, their conformance with TEI All can be determined only by inspection, and their
+               validation may require some additional processing.</p>
+            <p>Finally, a user of the TEI is at liberty to define entirely new elements and
+               attributes, and to make such components members of existing TEI classes so that
+               existing TEI elements may refer to them. They may also modify the content models of
+               existing TEI elements to refer explicitly to such new elements. This results in an
+                  <term>extended subset</term>, since it contains elements or attributes additional
+               to those provided by the TEI All schema. Such additional components should always be
+               labelled as belonging to a non-TEI namespace. A processor can then determine that
+               these components may be left out of consideration when determining the validity of a
+               document with respect to TEI All.</p>
+            <p>In additional to these formal considerations, TEI conformance involves attention to
+               some less easily verifiable constraints, specifically the twin requirements of
+                  <term>honesty</term> and <term>explicitness</term>. By honesty we mean that
+               elements in the TEI namespace must respect the semantics which the TEI Guidelines
+               supply as a part of their definition. By explicitness we mean that all modifications
+               (i.e. both customized and extended subsets) should be expressed using an ODD to
+               document exactly how the TEI declarations on which they are based have been derived.
+               (An ODD need not of course be based on the TEI at all, but in that case the question
+               of TEI conformance does not arise)</p>
+            <p>Formally speaking, we can say of a conformant TEI document : <list>
+                  <item>it must be a well formed XML document</item>
+                  <item>if a schema is constructed to validate those elements it contains from the
+                     TEI namespace, the set of documents considered valid by that schema is a
+                     proper subset of the set of documents considered valid by the TEI All
+                     schema.</item>
+               </list></p>
+            <p>The purpose of these rules is to make interchange of documents
+               easier. They do not however guarantee it, and they certainly do not provide any guarantee of interoperability.
+            Unlike many other standards, the goal of the TEI is not enforce consistency of encoding, but to provide a means
+            by which encoding choices and policies may be more readily understood, and hence (to some extent) algorithmically comparable.</p>
+         </div>
+         <!-- <div type="slide" xml:lang="fr">
+            <head>Les limites de la modification</head>
+            <list>
+               <item>Est-ce que l’on peut supprimer n’importe quoi ? par ex. <gi>title</gi> ?</item>
+               <item>A quoi servent les classes vides ?</item>
+               <item>Est-ce qu’on peut ajouter n’importe quoi ? quelles limitations ?</item>
+            </list>
+            <p>L’enjeu c’est de permettre a un utilisateur de comprendre votre encodage, non pas
+               forcement de le contraindre a vous suivre aveuglement !</p>
+         </div>-->
+      </body>
+   </text>
+</TEI>

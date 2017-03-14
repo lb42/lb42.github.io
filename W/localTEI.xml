@@ -3,11 +3,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Rip's poems</title>
-                <author/>
+                <title>Poema sans grenzen</title>
+                <author>Rip Bulkeley</author>
             </titleStmt>
             <editionStmt>
-                <edition><date>2017-01-09</date></edition>
+                <edition><date>2017-03-04</date></edition>
             </editionStmt>
             <publicationStmt>
                 <p>unknown</p>
@@ -18,27 +18,54 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
+                <change when="2017-03-04">Hand edit new versions</change>
                 <change when="2017-01-09T12:54:18Z">Initial conversion</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
-        <body style="text-size:24pt">
-            <lg xml:lang="de" class="ry">
+        <body>
+            <lg xml:lang="ar">
+                <head>أرمل الخرف</head>
+                <l>‘في أي غرفة أنت؟’</l>
+                <l>:كثيرا ما أستيقظ</l>
+                <l>دوب إجابة إلاّ</l>
+                <l>لتثأبما دونها</l>
+                <l>.ودون راحة</l>
+            </lg>
+            <lg xml:lang="de">
+                <head>Witwe vom Demenz</head>
                 <l n="1">'In welchem Zimmer bist du?'</l>
                 <l n="2">So erwache Ich oft;</l>
                 <l n="3">unbeantwortet, außer</l>
                 <l n="4">ihr Gähnen ohne sie,</l>
                 <l n="5">und ohne Trost.</l>
             </lg>
+            <lg xml:lang="dk">
+                <head>Demensens enkemand</head>
+                <l>‘Hvilket værelse sover du i?’ </l>
+                <l>Jeg vågner ofte sådan; </l>
+                <l>ubesvaret, udover </l>
+                <l>hendes gaben uden hende </l>
+                <l>og uden trøst.</l>
+            </lg>
             <lg xml:lang="en">
+                <head>Dementia widower</head>
                 <l n="1">‘Which room are you in?’</l>
                 <l n="2">I often wake so;</l>
                 <l n="3">unanswered, except</l>
                 <l n="4">her yawn without her</l>
                 <l n="5">and without comfort.</l>
             </lg>
-            <lg xml:lang="es" class="bg">
+            <lg xml:lang="eo">
+                <head>Vidvo pro demenco</head>
+                <l>“En kiu ĉambro vi?” </l>
+                <l> Tiel mi ofte vekiĝas; </l>
+                <l>sen respondo, krom </l>
+                <l>ŝia oscedo, sen ŝi </l>
+                <l>kaj sen komforto.</l>
+            </lg>
+            <lg xml:lang="es">
                 <l n="1">'En qué cuarto estaís?'</l>
                 <l n="2">A menudo me despierto</l>
                 <l n="3">sín respuesta, salvo</l>
@@ -46,27 +73,70 @@
                 <l n="5">y sín consuelo.</l>
             </lg>
             <lg xml:lang="fr">
+                <head>Veuf par cause de la démentie </head>
                 <l n="1">'Dans quelle chambre es-tu?'</l>
                 <l n="2">Je me reveille souvent ainsi;</l>
                 <l n="3">sans réponse, sauf</l>
                 <l n="4">son bâillement sans elle</l>
                 <l n="5">et sans réconfort.</l>
             </lg>
-            <lg xml:lang="gr" class="gp">
+            <lg xml:lang="ga">
+                <head>Baintreach fir néaltrú</head>
+                <l> Cé’n seomra ina bhfuil tú? </l>
+                <l> Is minic mar sin a dhúisím, </l>
+                <l> gan freagra ach </l>
+                <l>a méanfach, ina éagmais </l>
+                <l>agus gan compórd.</l>
+            </lg>
+            <lg xml:lang="gr">
                 <l n="1">"Σε ποιο δωμάτιο είσαι;"</l>
                 <l n="2">Ξυπνάω συγνά έτσι·</l>
                 <l n="3">αναπάντητος, εκτός από</l>
                 <l n="4">το χασμουρητό της χωρίς αυτήν</l>
                 <l n="5">και χωρίς παρηγοριά.</l>
             </lg>
+            <lg xml:lang="ha">
+                <head>Zautacciyar maitakaba</head>
+                <l> 'Shin, a wane daki kike?' </l>
+                <l> Na kan farka a kulli yaumin; </l>
+                <l> Ba bu dai amsar ki, </l>
+                <l> Sai ko sautin hammar ki, </l>
+                <l> Amma sam babu dumin ki.</l>
+            </lg>
+            <lg xml:lang="ja">
+                <head>認知症の男やもめ</head>
+                <l> 「どの部屋に君はいるの」 </l>
+                <l> 僕の目覚めはしばしばこんな風、 </l>
+                <l>答えはない、聞こえるのは </l>
+                <l> 妻の欠伸だけ </l>
+                <l> 妻はいない、慰めもない。</l>
+            </lg>
             <lg xml:lang="ru">
+                <head>Вдовец из за слабоумие</head>
                 <l n="1">'В какой комнате ты?'</l>
                 <l n="2">Я часто так просыпаюсь;</l>
-                <l n="2">без ответа, только</l>
-                <l n="2">ее зевота без нее,</l>
-                <l n="2">и без утешения.</l>
+                <l n="3">без ответа, только</l>
+                <l n="4">ее зевота без нее,</l>
+                <l n="5">и без утешения.</l>
             </lg>
-            <lg xml:lang="zh" class="wb">
+            <lg xml:lang="sp">
+                <head>Viudo a raíz de la demencia</head>
+                <l> 'En qué cuarto estaís?' </l>
+                <l>A menudo me despierto </l>
+                <l>sín respuesta, salvo </l>
+                <l>su bostezo sín ella, </l>
+                <l> y sín consuelo.</l>
+            </lg>
+            <lg xml:lang="sw">
+                <head>Demensens änkling</head>
+                <l> 'I vilket rum finns du?' </l>
+                <l>Ofta vaknar jag så; </l>
+                <l>utan svar, förutan </l>
+                <l> hennes gäspning utan henne </l>
+                <l> och utan välbefinnande.</l>
+            </lg>
+            <lg xml:lang="zh">
+                <head>失妻于老痴</head>
                 <l n="1">“你在哪间屋里呀?”</l>
                 <l n="2">我常常这样醒来；</l>
                 <l n="3">没有回答，只有那</l>

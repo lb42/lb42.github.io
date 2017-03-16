@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="../css/tei.css" media="screen" title="no title" />
+    <link rel="stylesheet" href="css/tei.css" media="screen" title="no title" />
     <link type="application/tei+xml" rel="alternative" href="conformance.xml"/>
    
     <title>What is TEI Conformance?</title>
   </head>
   <body>
     <div id="TEI"></div>
-    <script src="../js/CETEI.js" charset="utf-8"></script>
+    <script src="js/CETEI.js" charset="utf-8"></script>
     <script type="text/javascript">
     (new CETEI).getHTML5('conformance.xml', function(data) {
         document.getElementById("TEI")[0].appendChild(data);     

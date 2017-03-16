@@ -116,11 +116,13 @@ tei-ident {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;
 }
-tei-gi {
-    text-before: "<";
+tei-gi::before {
+    content: "<";
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEF;
-  text-after: ">";
+  }
+tei-gi::after {  
+  content: ">";
 }
 tei-att {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
@@ -142,6 +144,11 @@ tei-hi[rend=italic] {
 tei-emph {
   font-weight: bold;
 }
+tei-term {
+    font-weight: bold;
+    font-style: italic;
+}
+
 /* Tables */
 tei-table {
   /* replaced by table */

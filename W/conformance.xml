@@ -12,9 +12,11 @@
          <sourceDesc>
             <p>Made up from thin air</p>
          </sourceDesc>
-        
       </fileDesc>
-   <revisionDesc><change when="2017-03-14">First draft</change></revisionDesc>
+      <revisionDesc>
+         <change when="2017-03-16">Revised following CMSCQ's comments on blog version</change>
+         <change when="2017-03-14">First draft</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -22,7 +24,7 @@
             <head>What is TEI conformance? </head>
             <p>
                <figure>
-                  <graphic url="oddflavours.png"/>
+                  <graphic url="media/oddflavours.png"/>
                </figure></p>
             <p>Each of the blobs here represents three subtly different things: <list>
                   <item>an ODD : that is, a collection of TEI specifications</item>
@@ -76,26 +78,24 @@
                of TEI conformance does not arise)</p>
             <p>Formally speaking, we can say of a conformant TEI document : <list>
                   <item>it must be a well formed XML document</item>
-                  <item>if a schema is constructed to validate those elements it contains from the
-                     TEI namespace, the set of documents considered valid by that schema is a
-                     proper subset of the set of documents considered valid by the TEI All
-                     schema.</item>
+                  <item>it is valid against the TEI All schema :
+                     <list>
+                        <item>without modification (it is a TEI subset), or </item>
+                        <item>after deletion of any elements it contains which are not in the TEI namespace including
+                           their children, irrespective of namespace (it is a TEI extension), or </item>
+                        <item>after application of any canonicalization algorithm specified by its associated
+                           ODD (it is a TEI customized subset)
+                        </item>
+                     </list>.</item>
                </list></p>
-            <p>The purpose of these rules is to make interchange of documents
-               easier. They do not however guarantee it, and they certainly do not provide any guarantee of interoperability.
-            Unlike many other standards, the goal of the TEI is not enforce consistency of encoding, but to provide a means
-            by which encoding choices and policies may be more readily understood, and hence (to some extent) algorithmically comparable.</p>
+            <p>The purpose of these rules is to make interchange of documents easier. They do not
+               however guarantee it, and they certainly do not provide any guarantee of
+               interoperability. Unlike many other standards, the goal of the TEI is not enforce
+               consistency of encoding, but to provide a means by which encoding choices and
+               policies may be more readily understood, and hence (to some extent) algorithmically
+               comparable.</p>
          </div>
-         <!-- <div type="slide" xml:lang="fr">
-            <head>Les limites de la modification</head>
-            <list>
-               <item>Est-ce que l’on peut supprimer n’importe quoi ? par ex. <gi>title</gi> ?</item>
-               <item>A quoi servent les classes vides ?</item>
-               <item>Est-ce qu’on peut ajouter n’importe quoi ? quelles limitations ?</item>
-            </list>
-            <p>L’enjeu c’est de permettre a un utilisateur de comprendre votre encodage, non pas
-               forcement de le contraindre a vous suivre aveuglement !</p>
-         </div>-->
+        
       </body>
    </text>
 </TEI>

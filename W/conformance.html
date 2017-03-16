@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/tei.css" media="screen" title="no title" />
+    <link type="application/tei+xml" rel="alternative" href="https://github.com/lb42/lb42.github.io/blob/master/W/conformance.xml"/>
+   
+    <title>What is TEI Conformance?</title>
+  </head>
+  <body>
+    <div id="TEI"></div>
+    <script src="../js/CETEI.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    (new CETEI).getHTML5('conformance.xml', function(data) {
+        document.getElementsById("TEI")[0].appendChild(data);     
+     });
+    </script>
+  </body>
+</html>
+<!-- So I would try a different strategy: add a <div id="TEI"> to <body> and add <script> after it,
+  as the last child of <body>. Then use document.getElementById("TEI") to stick the TEI in the div 
+  rather than in the body.-->
+
+<!--changed line           document.getElementsByTagName("body")[0].appendChild(data);
+-->

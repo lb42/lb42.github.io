@@ -76,8 +76,8 @@
                document exactly how the TEI declarations on which they are based have been derived.
                (An ODD need not of course be based on the TEI at all, but in that case the question
                of TEI conformance does not arise)</p>
-            <p>Formally speaking, we can say of a conformant TEI document : <list>
-                  <item>it must be a well formed XML document</item>
+            <p>Formally speaking, we can say of a document that it is TEI conformant if : <list>
+                  <item>it is a well formed XML document; and </item>
                   <item>it is valid against the TEI All schema :
                      <list>
                         <item>without modification (it is a TEI subset), or </item>
@@ -86,7 +86,10 @@
                         <item>after application of any canonicalization algorithm specified by its associated
                            ODD (it is a TEI customized subset)
                         </item>
-                     </list>.</item>
+                     </list></item><item>its usage of TEI elements respects the intended function of those
+                        elements as defined by the TEI Guidelines</item><item>its usage of the TEI markup scheme is
+                           documented by a TEI-conformant  ODD or analogous documentation
+                     </item>
                </list></p>
             <p>The purpose of these rules is to make interchange of documents easier. They do not
                however guarantee it, and they certainly do not provide any guarantee of

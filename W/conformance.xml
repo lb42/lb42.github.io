@@ -14,6 +14,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2017-03-17">Expanded a bit more</change>
          <change when="2017-03-16">Revised following CMSCQ's comments on blog version</change>
          <change when="2017-03-14">First draft</change>
       </revisionDesc>
@@ -22,8 +23,16 @@
       <body>
          <div rend="slide">
             <head>What is TEI conformance? </head>
-            <p>
-               <figure>
+            <p>This little document is an attempt to explain as clearly as possible what we mean
+               when we say that a document is <soCalled>TEI conformant</soCalled>. As such, it
+               duplicates to some extent <ref
+                  target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html">an existing
+                  chapter of the TEI Guidelines</ref>. The reason for producing it is to attempt to
+               establish a consensus about the changes which need to be made in the wording of that
+               chapter, following <ref
+                  target="https://github.com/TEIC/TEI/issues/1586 https://github.com/TEIC/TEI/issues/1587"
+                  >a number of issues</ref> raised on the TEI Issue Tracker. </p>
+            <p>It seems helpful to begin with a little picture: <figure>
                   <graphic url="media/oddflavours.png"/>
                </figure></p>
             <p>Each of the blobs here represents three subtly different things: <list>
@@ -32,41 +41,49 @@
                      documentation</item>
                   <item>the set of documents considered valid by that schema</item>
                </list></p>
-            <p>The TEI provides TEI All : a set of over 500 uniquely identifiable elements, classes,
+            <p>The TEI provides tei_all : a set of over 500 uniquely identifiable elements, classes,
                attributes, etc. and a schema in which they are all permitted. For all practical
                purposes a user of the TEI must make a selection from this cornucopia, and we call
                that selection a <term>TEI subset</term>. Of course there are many many possible TEI
                subsets, each making different choices of elements or attributes or classes, but the
                sets of documents which each consequent schema will validate all have in common that
-               they will also be considered valid by the schema TEI All. </p>
+               they will also be considered valid by the schema tei_all. </p>
             <p>A user of the TEI may however do more than simply choose a subset of the provided
                specifications. They may also provide additional constraints for aspects of an
                encoding left underspecified by the TEI, for example by requiring that attribute
                values be taken from a closed list of possible values rather than being any
-               syntactically valid token. They may simply change the datatype of an attribute, for
-               example from a string to an integer or a date. They may also provide an alternative
-               identifier for an element or an attribute, for example to change its canonical
-               English name for one from another language. In some cases, attribute value changes
-               are equivalent to a subsetting operation; in others not. Renaming operations never
-               result in a subset: a document in which the element names have all been changed to
-               their French equivalents cannot be validated by an English language version of TEI
-               All. A user of the TEI can also change the content model or the class membership of
-               existing TEI elements, in ways which may or may not be equivalent to a subsetting
-               operation.</p>
+               syntactically valid token. They may change the datatype of an attribute, for example
+               from a string to an integer or a date. They may provide an alternative identifier for
+               an element or an attribute, for example to change its canonical English name for one
+               from another language. They may change the content model of an element, for example
+               so that child elements may appear in an order different from that specified by the
+               TEI. They may change the class memberships of an existing TEI element, for example so
+               that it gains attributes not expected by the existing element, or so that it may
+               appear in different contexts.</p>
+            <p> In some cases, these modifications result in a schema which continues to regard as
+               valid a subset of the documents considered valid by tei_all. In others this is not
+               the case. Renaming operations, for example, cannot ever result in a subset: a
+               document in which the element names have all been changed to their French equivalents
+               cannot be validated by an English language version of tei_all. A change to the
+               content model or the class memberships of existing TEI elements may or may not be
+               equivalent to a subsetting operation. For example, if the order of child elements
+               within some element is changed from unspecified to specified, the resulting schema
+               will still be a subset of tei_all; the reverse is not the case, as some documents
+               considered valid by the new schema will be considered invalid by tei_all. </p>
             <p> We use the term <term>customised subset</term> for all these kinds of
                personalisation because they result in something which is not necessarily a further
                subset of the TEI subset concerned, but a further modification of it. In the general
-               case, their conformance with TEI All can be determined only by inspection, and their
+               case, their conformance with tei_all can be determined only by inspection, and their
                validation may require some additional processing.</p>
             <p>Finally, a user of the TEI is at liberty to define entirely new elements and
                attributes, and to make such components members of existing TEI classes so that
                existing TEI elements may refer to them. They may also modify the content models of
                existing TEI elements to refer explicitly to such new elements. This results in an
                   <term>extended subset</term>, since it contains elements or attributes additional
-               to those provided by the TEI All schema. Such additional components should always be
+               to those provided by the tei_all schema. Such additional components should always be
                labelled as belonging to a non-TEI namespace. A processor can then determine that
                these components may be left out of consideration when determining the validity of a
-               document with respect to TEI All.</p>
+               document with respect to tei_all.</p>
             <p>In additional to these formal considerations, TEI conformance involves attention to
                some less easily verifiable constraints, specifically the twin requirements of
                   <term>honesty</term> and <term>explicitness</term>. By honesty we mean that
@@ -76,20 +93,21 @@
                document exactly how the TEI declarations on which they are based have been derived.
                (An ODD need not of course be based on the TEI at all, but in that case the question
                of TEI conformance does not arise)</p>
-            <p>Formally speaking, we can say of a document that it is TEI conformant if : <list>
+            <p>Formally speaking, we can say of a document that it is <term>TEI conformant</term> if
+               : <list>
                   <item>it is a well formed XML document; and </item>
-                  <item>it is valid against the TEI All schema :
-                     <list>
+                  <item>it is valid against the tei_all schema : <list>
                         <item>without modification (it is a TEI subset), or </item>
-                        <item>after deletion of any elements it contains which are not in the TEI namespace including
-                           their children, irrespective of namespace (it is a TEI extension), or </item>
-                        <item>after application of any canonicalization algorithm specified by its associated
-                           ODD (it is a TEI customized subset)
-                        </item>
-                     </list></item><item>its usage of TEI elements respects the intended function of those
-                        elements as defined by the TEI Guidelines</item><item>its usage of the TEI markup scheme is
-                           documented by a TEI-conformant  ODD or analogous documentation
-                     </item>
+                        <item>after deletion of any elements it contains which are not in the TEI
+                           namespace, including their children irrespective of namespace (it is a
+                           TEI extension), or </item>
+                        <item>after application of any canonicalization algorithm specified by its
+                           associated documentation (it is a TEI customized subset); and </item>
+                     </list></item>
+                  <item>its usage of TEI elements respects the intended function of those elements
+                     as defined by the TEI Guidelines; and </item>
+                  <item>its usage of the TEI markup scheme is fully described by a TEI-conformant
+                     ODD or analogous documentation. </item>
                </list></p>
             <p>The purpose of these rules is to make interchange of documents easier. They do not
                however guarantee it, and they certainly do not provide any guarantee of
@@ -98,7 +116,6 @@
                policies may be more readily understood, and hence (to some extent) algorithmically
                comparable.</p>
          </div>
-        
       </body>
    </text>
 </TEI>

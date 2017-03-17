@@ -29,9 +29,9 @@
                   target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html">an existing
                   chapter of the TEI Guidelines</ref>. The reason for producing it is to attempt to
                establish a consensus about the changes which need to be made in the wording of that
-               chapter, following <ref
-                  target="https://github.com/TEIC/TEI/issues/1586 https://github.com/TEIC/TEI/issues/1587"
-                  >a number of issues</ref> raised on the TEI Issue Tracker. </p>
+               chapter, following a number of issues raised on the TEI Issue Tracker (see for example <ptr
+                  target="https://github.com/TEIC/TEI/issues/1586 https://github.com/TEIC/TEI/issues/1587"/>)
+                  </p>
             <p>It seems helpful to begin with a little picture: <figure>
                   <graphic url="media/oddflavours.png"/>
                </figure></p>

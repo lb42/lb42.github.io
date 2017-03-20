@@ -1,0 +1,137 @@
+
+body {
+    display: block;
+    font-family:  Droid Sans,  Geneva, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24pt;
+}
+
+
+.head {
+ display: block;
+  font-family: Arvo, sans-serif;
+
+  font-size: 90%;
+  text-align: center;
+  font-style : italic;
+  text-indent: -0.5em;
+}
+
+
+
+
+.brownOnTeal {
+  color: brown;
+  background-color: teal;
+}
+
+.tealOnBrown {
+  color: teal;
+  background-color: brown;
+}
+
+.redOnYellow {
+  color: red;
+  background-color: yellow;
+}
+
+.yellowOnRed {
+  color: yellow;
+  background-color: red;
+}
+
+
+.blueOnGray {
+  color: blue;
+  background-color: gray;
+}
+
+.grayOnBlue {
+  color: gray;
+  background-color: blue;
+}
+
+.greenOnPink {
+  color: green;
+  background-color: pink;
+}
+
+.pinkOnGreen{
+  color: pink;
+  background-color: green;
+}
+
+.whiteOnBlack {
+    color: white;
+    background-color: black;
+}
+
+.brownOnPink {
+    color: brown;
+    background-color: pink;
+}
+.blackOnYellow{
+    color: black;
+    background-color: yellow;
+}
+.yellowOnBlack{
+    color: yellow;
+    background-color: black;
+}
+.greenOnYellow{
+    color: green;
+    background-color: yellow;
+}
+.yellowOnGreen{
+    color: yellow;
+    background-color: green;
+}
+.blackOnYellow{
+    color: black;
+    background-color: yellow;
+}
+
+
+.lg
+{
+  display: block;
+  font-size: 150%;
+  border-left: 1px solid #aaaaaa;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: .75em;
+  margin-bottom: .75em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  text-align: center;
+}
+
+/*  .l {
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 200%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+*/
+
+
+/* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
+html > body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+  margin-left: 2em;
+  margin-right: 4em;
+  padding: 2.5em;
+  font-family: "Lucida Grande", "Cardo", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma";
+  font-size: 12pt;
+  background-color: white;
+  color: #292929;
+}

@@ -1,19 +1,14 @@
 
 body{
-display: block;
+    display: block;
     font-family: "Droid Sans", Geneva, Arial, Helvetica, sans-serif;
     font-size: 24pt;
+    margin-left: 200px;
     text-align: center;
-  color: white;
+    width: 600px;
+   
 }
 
-@keyframes lineAnimate {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:white; left:0px; top:0px; visibility:hidden;}
-}
 
 @keyframes lineDisplay {
    
@@ -23,61 +18,61 @@ display: block;
       100% { transform: scale(1);}
 }
 
-.lines {
+/*  .lines {
     display:flex;
 }
-    
+  */
 
-
-.l{
-    animation-name: lineAnimate;
-    animation-duration: 30s;
+  .l{
+   display:block;
 }
+
 
 .l1{
     order: 1;
     position: fixed;
     top: 100px;
-   animation-name: lineDisplay;
-    animation-delay: 1s;
-   animation-duration: 5s;
+    animation-name: lineDisplay;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 
 .l2{
-    order:2;
+    order: 2;
     position: fixed;
     top: 200px;
     animation-name: lineDisplay;
-    animation-delay: 2s;
-     animation-duration: 5s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 .l3{
-    order:3;
+    order: 3;
     position: fixed;
     top: 300px;
     animation-name: lineDisplay;
-    animation-delay: 3s;
-     animation-duration: 5s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 .l4{
-    order:4;
+    order: 4;
     position: fixed;
     top: 400px;
     animation-name: lineDisplay;
-    animation-delay: 4s;
-     animation-duration: 5s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 .l5{
-    order:5;
+    order: 5;
     position: fixed;
     top: 500px;
     animation-name: lineDisplay;
-    animation-delay: 5s;
-     animation-duration: 5s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
 .head{
     display: block;
     font-family: Arvo, sans-serif;

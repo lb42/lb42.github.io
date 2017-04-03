@@ -69,6 +69,22 @@
                     </div>
                 </xsl:for-each>
             </body>
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("stanza");
+                for (i = 0; i &lt; x.length; i++) {
+                x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 3500); // millisecs
+                }
+            </script>
         </html>
     </xsl:template>
     <xsl:template match="t:lg">
@@ -101,24 +117,17 @@
         <xsl:comment><xsl:value-of select="$scheme"/>is our chosen colour scheme
              </xsl:comment>
         <!-- change background image here -->
-        <div class="{$scheme}" xml:lang="{@xml:lang}">
+        <div class="stanza {$scheme}" xml:lang="{@xml:lang}">
             <xsl:for-each select="t:l">
                 <div class="l"><xsl:apply-templates/></div>
             </xsl:for-each>
             <xsl:apply-templates select="t:head"/>
         </div>
-         <!--<xsl:for-each select="1 to 5">  
-          <xsl:variable name="randLang"> 
-            <xsl:value-of select="floor(seconds-from-time(current-time())) mod 15 + 1"/></xsl:variable>
-        <xsl:variable name="randL"> 
-            <xsl:value-of select="floor(seconds-from-time(current-time())) mod 5 + 1"/></xsl:variable>
-          <xsl:message><xsl:value-of select="$randLang"/> . <xsl:value-of select="$randL"/></xsl:message>
-        <xsl:apply-templates select="$ROOT//t:lg[position()=$randLang]/t:l[position()=$randL]"/>
-       </xsl:for-each>-->
+         
     </xsl:template>
     <xsl:template match="t:l">
         <xsl:variable name="ln">
-            <xsl:value-of select="concat('l',@n)"/>
+            <xsl:value-of select="concat('stanza l',@n)"/>
         </xsl:variable>
         <div class="{$ln}">
             <xsl:attribute name="xml:lang">

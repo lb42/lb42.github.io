@@ -111,7 +111,7 @@
                </list></p>
             <p>The purpose of these rules is to make interchange of documents easier. They do not
                however guarantee it, and they certainly do not provide any guarantee of
-               interoperability. Unlike many other standards, the goal of the TEI is not enforce
+               interoperability. Unlike many other standards, the goal of the TEI is not to enforce
                consistency of encoding, but to provide a means by which encoding choices and
                policies may be more readily understood, and hence (to some extent) algorithmically
                comparable.</p>

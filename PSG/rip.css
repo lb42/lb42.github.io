@@ -1,72 +1,143 @@
 
-body {
-    display: block;
-    font-family:  Droid Sans,  Geneva, Arial, Helvetica, sans-serif;
-    text-align: center;
+body{
+display: block;
+    font-family: "Droid Sans", Geneva, Arial, Helvetica, sans-serif;
     font-size: 24pt;
+    text-align: center;
+  color: white;
+}
+
+@keyframes lineAnimate {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:white; left:0px; top:0px; visibility:hidden;}
+}
+
+@keyframes lineDisplay {
+   
+   0% { color: black;
+      transform: scale(.1);}
+      85% { opacity: 1; transform: scale(1.05);}
+      100% { transform: scale(1);}
+}
+
+.lines {
+    display:flex;
+}
+    
+
+
+.l{
+    animation-name: lineAnimate;
+    animation-duration: 30s;
+}
+
+.l1{
+    order: 1;
+    position: fixed;
+    top: 100px;
+   animation-name: lineDisplay;
+    animation-delay: 1s;
+   animation-duration: 5s;
 }
 
 
-.head {
- display: block;
-  font-family: Arvo, sans-serif;
+.l2{
+    order:2;
+    position: fixed;
+    top: 200px;
+    animation-name: lineDisplay;
+    animation-delay: 2s;
+     animation-duration: 5s;
+}
 
-  font-size: 90%;
-  text-align: center;
-  font-style : italic;
-  text-indent: -0.5em;
+.l3{
+    order:3;
+    position: fixed;
+    top: 300px;
+    animation-name: lineDisplay;
+    animation-delay: 3s;
+     animation-duration: 5s;
+}
+
+.l4{
+    order:4;
+    position: fixed;
+    top: 400px;
+    animation-name: lineDisplay;
+    animation-delay: 4s;
+     animation-duration: 5s;
+}
+.l5{
+    order:5;
+    position: fixed;
+    top: 500px;
+    animation-name: lineDisplay;
+    animation-delay: 5s;
+     animation-duration: 5s;
+}
+.head{
+    display: block;
+    font-family: Arvo, sans-serif;
+
+    font-size: 90%;
+    text-align: center;
+    font-style: italic;
+    text-indent: -0.5em;
 }
 
 
 
 
-.brownOnTeal {
-  color: brown;
-  background-color: teal;
+.brownOnTeal{
+    color: brown;
+    background-color: teal;
 }
 
-.tealOnBrown {
-  color: teal;
-  background-color: brown;
+.tealOnBrown{
+    color: teal;
+    background-color: brown;
 }
 
-.redOnYellow {
-  color: red;
-  background-color: yellow;
+.redOnYellow{
+    color: red;
+    background-color: yellow;
 }
 
-.yellowOnRed {
-  color: yellow;
-  background-color: red;
+.yellowOnRed{
+    color: yellow;
+    background-color: red;
 }
 
 
-.blueOnGray {
-  color: blue;
-  background-color: gray;
+.blueOnGray{
+    color: blue;
+    background-color: gray;
 }
 
-.grayOnBlue {
-  color: gray;
-  background-color: blue;
+.grayOnBlue{
+    color: gray;
+    background-color: blue;
 }
 
-.greenOnPink {
-  color: green;
-  background-color: pink;
+.greenOnPink{
+    color: green;
+    background-color: pink;
 }
 
 .pinkOnGreen{
-  color: pink;
-  background-color: green;
+    color: pink;
+    background-color: green;
 }
 
-.whiteOnBlack {
+.whiteOnBlack{
     color: white;
     background-color: black;
 }
 
-.brownOnPink {
+.brownOnPink{
     color: brown;
     background-color: pink;
 }
@@ -94,16 +165,16 @@ body {
 
 .lg
 {
-  display: block;
-  font-size: 150%;
-  border-left: 1px solid #aaaaaa;
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-top: .75em;
-  margin-bottom: .75em;
-  padding-top: .75em;
-  padding-bottom: .75em;
-  text-align: center;
+    display: block;
+    font-size: 150%;
+    border-left: 1px solid #aaaaaa;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    text-align: center;
 }
 
 /*  .l {
@@ -120,18 +191,18 @@ body {
 
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
-html > body {
-  margin: 0;
-  padding: 0;
+html > body{
+    margin: 0;
+    padding: 0;
 }
-html {
-  margin: 0;
-  padding: 0;
-  margin-left: 2em;
-  margin-right: 4em;
-  padding: 2.5em;
-  font-family: "Lucida Grande", "Cardo", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma";
-  font-size: 12pt;
-  background-color: white;
-  color: #292929;
+html{
+    margin: 0;
+    padding: 0;
+    margin-left: 2em;
+    margin-right: 4em;
+    padding: 2.5em;
+    font-family: "Lucida Grande", "Cardo", "Arial Unicode MS", "Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma";
+    font-size: 12pt;
+    background-color: white;
+    color: #292929;
 }

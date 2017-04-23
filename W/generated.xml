@@ -22,12 +22,6 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body><lg class="de">
-                <l class="de">'In welchem Zimmer bist du?'</l>
-                <l class="de">So erwache Ich oft;</l>
-                <l class="de">unbeantwortet, außer</l>
-                <l class="de">ihr Gähnen ohne sie,</l>
-                <l class="de">und ohne Trost.</l>
-            </lg></body>
+        <body><lg xml:lang=""><l class="en">‘Which room are you in?’</l><l class="fr">Je me reveille souvent ainsi;</l><l class="de">unbeantwortet, außer</l><l class="zh">没有她的呵欠声，</l><l class="ru">и без утешения.</l></lg></body>
     </text>
 </TEI>

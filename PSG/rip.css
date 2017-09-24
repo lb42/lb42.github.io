@@ -1,4 +1,6 @@
-
+/*  CSS styles for PSG
+ *  Note that line colour and background are set here
+*/
 body{
     display: block;
     font-family: "Droid Sans", Geneva, Arial, Helvetica, sans-serif;
@@ -35,6 +37,8 @@ body{
     animation-name: lineDisplay;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    color: brown;
+    background-color: teal;
 }
 
 
@@ -45,6 +49,8 @@ body{
     animation-name: lineDisplay;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+       color: red;
+    background-color: yellow;
 }
 
 .l3{
@@ -54,6 +60,8 @@ body{
     animation-name: lineDisplay;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    color: blue;
+    background-color: gray;
 }
 
 .l4{
@@ -63,6 +71,8 @@ body{
     animation-name: lineDisplay;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+      color: green;
+    background-color: pink;
 }
 .l5{
     order: 5;
@@ -71,6 +81,8 @@ body{
     animation-name: lineDisplay;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+       color: black;
+    background-color: yellow;
 }
 
 .head{

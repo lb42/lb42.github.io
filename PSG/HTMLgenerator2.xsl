@@ -3,14 +3,20 @@
     xmlns:t="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
     <xsl:output method="html" exclude-result-prefixes="#all" encoding="utf-8" indent="yes"/>
     <xsl:variable name="now" select="current-time()"/>
-    <xsl:variable name="nLangs" select="15"/>
     <xsl:variable name="today" select="current-date()"/>
+    
+    <xsl:variable name="nLangs" select="15"/>
+    <xsl:variable name="leadLang" select="3"/>
+    
     <xsl:variable name="randomLines"
         select="tokenize(unparsed-text(
         'https://www.random.org/integers/?num=20&amp;min=1&amp;max=5&amp;col=5&amp;base=10&amp;format=plain&amp;rnd=new'), '\s')"/>
+    
     <xsl:variable name="randomLangs"
         select="tokenize(unparsed-text(
         'https://www.random.org/integers/?num=20&amp;min=1&amp;max=15&amp;col=5&amp;base=10&amp;format=plain&amp;rnd=new'),'\s')"/>
+    
+    
     <xsl:template match="t:teiHeader/t:fileDesc/t:editionStmt/t:edition/t:date">
         <date>
             <xsl:value-of select="$today"/>
@@ -34,7 +40,7 @@
                 <xsl:variable name="message">
                     <xsl:text>The time is </xsl:text>
                     <xsl:value-of select="$now"/>
-                    <xsl:text> and today's random variables are </xsl:text>
+                    <xsl:text> today's random variables are </xsl:text>
                     <xsl:value-of select="$randomLangs"/> and <xsl:value-of select="$randomLines"/>
                     <xsl:text>
                </xsl:text>

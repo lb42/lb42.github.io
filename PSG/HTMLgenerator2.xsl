@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:t="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+    xmlns:t="http://www.tei-c.org/ns/1.0" xmlns:my="http://lb42.github.io"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
     <xsl:output method="html" exclude-result-prefixes="#all" encoding="utf-8" indent="yes"/>
     <xsl:variable name="now" select="current-time()"/>
     <xsl:variable name="today" select="current-date()"/>
-    
     <xsl:variable name="nLangs" select="15"/>
+    <xsl:param name="iterations">10</xsl:param>
     <xsl:variable name="leadLang" select="3"/>
-    
-    <xsl:variable name="randomLines"
+    <!--    <xsl:variable name="randomLines"
         select="tokenize(unparsed-text(
-        'https://www.random.org/integers/?num=20&amp;min=1&amp;max=5&amp;col=5&amp;base=10&amp;format=plain&amp;rnd=new'), '\s')"/>
-    
+        'https://www.random.org/integers/?num=10&amp;min=1&amp;max=5&amp;col=5&amp;base=10&amp;format=plain&amp;rnd=new'), '\s')"/>
+-->
+    <!-- give me $nLangs*$iterations numbers between 1 and $nLangs -->
     <xsl:variable name="randomLangs"
         select="tokenize(unparsed-text(
-        'https://www.random.org/integers/?num=20&amp;min=1&amp;max=15&amp;col=5&amp;base=10&amp;format=plain&amp;rnd=new'),'\s')"/>
-    
-    
+        'https://www.random.org/integers/?num=150&amp;min=1&amp;max=15&amp;col=5&amp;base=10&amp;format=plain&amp;rnd=new'),'\s')"/>
+    <xsl:function name="my:next" as="xs:integer">
+        <xsl:param name="in" as="xs:integer"/>
+        <xsl:sequence select="$in + 5"/>
+    </xsl:function>
     <xsl:template match="t:teiHeader/t:fileDesc/t:editionStmt/t:edition/t:date">
         <date>
             <xsl:value-of select="$today"/>
@@ -37,103 +40,64 @@
                 <link href="rip.css" rel="stylesheet" type="text/css"/>
             </head>
             <body class="simple" id="TOP">
+                
+                <xsl:variable name="offsets" as="xs:integer *">
+                    <xsl:for-each select="0 to $iterations">
+                        <xsl:value-of select=". * 5"/>
+                    </xsl:for-each>
+                </xsl:variable>
+              
                 <xsl:variable name="message">
                     <xsl:text>The time is </xsl:text>
                     <xsl:value-of select="$now"/>
-                    <xsl:text> today's random variables are </xsl:text>
-                    <xsl:value-of select="$randomLangs"/> and <xsl:value-of select="$randomLines"/>
-                    <xsl:text>
+                    <xsl:text>Today's random numbers are  </xsl:text>
+                    <xsl:value-of select="$randomLangs"/><xsl:text>
+               </xsl:text>
+                    <!--        and <xsl:value-of select="$randomLines"/>
+            -->
+                    <xsl:text>Offsets are </xsl:text>
+                    <xsl:value-of select="$offsets"/><xsl:text>
                </xsl:text>
                 </xsl:variable>
                 <xsl:comment><xsl:value-of select="$message"/></xsl:comment>
+              
                 <xsl:variable name="ROOT" select="."/>
-                <xsl:for-each select="$randomLangs">
-                    <xsl:variable name="rLang" select="."/>
-                 
-                    <xsl:comment>Lang is<xsl:value-of select="$rLang"/></xsl:comment>
-         
-                    <xsl:apply-templates select="$ROOT//t:body/t:lg[string(position()) = $rLang]"/>
-                    
-                    <div class="lines">
-                        <xsl:for-each select="$randomLines">
-                        <xsl:variable name="rLine">
-                            <xsl:value-of select="."/>
-                        </xsl:variable>
-                        <xsl:variable name="ix" select="position()"/>
-             <!--           <xsl:comment>ix: <xsl:value-of select="$ix"/></xsl:comment>
-           -->             <xsl:variable name="rLang2">
-                            <xsl:value-of select="$randomLangs[$ix]"/>
-                        </xsl:variable>
-            <!--            <xsl:comment> <xsl:value-of select="$rLang2"/> : <xsl:value-of select="$rLine"/></xsl:comment>
-          -->            
-                       
+                <xsl:for-each select="$offsets">
+                    <xsl:variable name="offset" select="."/>
+                    <div class="stanza">
+                        <xsl:for-each select="1 to 5">
+                            <xsl:variable name="line" select="."/>
+                             <xsl:variable name="rLang" select="$randomLangs[$line + $offset]"/>
+                            <xsl:comment>Stanza <xsl:value-of select="$rLang"/> Line <xsl:value-of select="$line"/></xsl:comment>
                             <xsl:apply-templates
-                                select="$ROOT//t:lg[string(position()) = $rLang2]/t:l[string(position()) = $rLine]"
-                        />
-                            
-                    </xsl:for-each>
+                                select="
+                                    $ROOT//t:body/t:lg[string(position()) =
+                                    $rLang]/t:l[position() = $line]"
+                            />
+                        </xsl:for-each>
+                    </div>
+                    <div class="nextLink">
+                        <a href="simple2.html">
+                            <img src="hand.jpg" height="40"/>
+                        </a>
                     </div>
                 </xsl:for-each>
             </body>
-            <script>
-                var myIndex = 0;
-                carousel();
-                
-                function carousel() {
-                var i;
-                var x = document.getElementsByClassName("stanza");
-                for (i = 0; i &lt; x.length; i++) {
-                x[i].style.display = "none";  
-                }
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}    
-                x[myIndex-1].style.display = "block";  
-                setTimeout(carousel, 3500); // millisecs
-                }
-            </script>
         </html>
     </xsl:template>
     <xsl:template match="t:lg">
-        <xsl:variable name="scheme">
-            <xsl:choose>
-                <xsl:when test="@xml:lang = 'ar'">brownOnTeal</xsl:when>
-                <xsl:when test="@xml:lang = 'de'">tealOnBrown</xsl:when>
-                <xsl:when test="@xml:lang = 'dk'">redOnYellow</xsl:when>
-                <xsl:when test="@xml:lang = 'en'">yellowOnRed</xsl:when>
-                <xsl:when test="@xml:lang = 'eo'">blueOnGray</xsl:when>
-                <xsl:when test="@xml:lang = 'es'">grayOnBlue</xsl:when>
-                <xsl:when test="@xml:lang = 'fr'">greenOnPink</xsl:when>
-                <xsl:when test="@xml:lang = 'ga'">pinkOnGreen</xsl:when>
-                <xsl:when test="@xml:lang = 'gr'">brownOnPink</xsl:when>
-                <xsl:when test="@xml:lang = 'ha'">blackOnYellow</xsl:when>
-                <xsl:when test="@xml:lang = 'ja'">yellowOnBlack</xsl:when>
-                <xsl:when test="@xml:lang = 'ru'">greenOnYellow</xsl:when>
-                <xsl:when test="@xml:lang = 'sp'">yellowOnGreen</xsl:when>
-                <xsl:when test="@xml:lang = 'sw'">blackOnYellow</xsl:when>
-                <xsl:when test="@xml:lang = 'zh'">whiteOnBlack</xsl:when>
-                <xsl:otherwise> blackOnWhite </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <xsl:variable name="direction">
-            <xsl:choose>
-                <xsl:when test="@xml:lang = 'ar'">rtol</xsl:when>
-                <xsl:otherwise>ltor</xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <xsl:comment><xsl:value-of select="$scheme"/>is our chosen colour scheme
-             </xsl:comment>
-        <!-- change background image here -->
-        <div class="stanza {$scheme}" xml:lang="{@xml:lang}">
+        <div class="stanza" xml:lang="{@xml:lang}">
             <xsl:for-each select="t:l">
-                <div class="l"><xsl:apply-templates/></div>
+                <div class="l">
+                    <xsl:apply-templates/>
+                </div>
             </xsl:for-each>
             <xsl:apply-templates select="t:head"/>
         </div>
-         
     </xsl:template>
     <xsl:template match="t:l">
         <xsl:variable name="ln">
-            <xsl:value-of select="concat('stanza l',@n)"/>
+            <xsl:value-of select="concat('l', @n)"/>
         </xsl:variable>
         <div class="{$ln}">
             <xsl:attribute name="xml:lang">

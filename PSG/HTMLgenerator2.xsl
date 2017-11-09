@@ -37,7 +37,11 @@
                 <meta name="DC.Title" content="Poema sans grenzen"/>
                 <meta name="DC.Type" content="Text"/>
                 <meta name="DC.Format" content="text/html"/>
+                <link rel="stylesheet" type="text/css" media="screen, projection"
+                    href="http://www.w3.org/Talks/Tools/Slidy/show.css" />
                 <link href="rip.css" rel="stylesheet" type="text/css"/>
+                <script src="http://www.w3.org/Talks/Tools/Slidy/slidy.js" type="text/javascript"/>
+                
             </head>
             <body class="simple" id="TOP">
                 
@@ -64,11 +68,15 @@
                 <xsl:variable name="ROOT" select="."/>
                 <xsl:for-each select="$offsets">
                     <xsl:variable name="offset" select="."/>
-                    <div class="stanza">
+                    <xsl:variable name="rHead" select="$offset"/>
+                    <div class="slide">
+                        <xsl:apply-templates select="$ROOT//t:lg[$rHead]/t:head"/>
+                        
                         <xsl:for-each select="1 to 5">
                             <xsl:variable name="line" select="."/>
                              <xsl:variable name="rLang" select="$randomLangs[$line + $offset]"/>
                             <xsl:comment>Stanza <xsl:value-of select="$rLang"/> Line <xsl:value-of select="$line"/></xsl:comment>
+                           
                             <xsl:apply-templates
                                 select="
                                     $ROOT//t:body/t:lg[string(position()) =
@@ -76,11 +84,7 @@
                             />
                         </xsl:for-each>
                     </div>
-                    <div class="nextLink">
-                        <a href="simple2.html">
-                            <img src="hand.jpg" height="40"/>
-                        </a>
-                    </div>
+                  
                 </xsl:for-each>
             </body>
         </html>
@@ -95,6 +99,7 @@
             <xsl:apply-templates select="t:head"/>
         </div>
     </xsl:template>
+    
     <xsl:template match="t:l">
         <xsl:variable name="ln">
             <xsl:value-of select="concat('l', @n)"/>
@@ -106,14 +111,16 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    
     <xsl:template match="t:head">
-        <div class="head">
+        <div class="title">
             <xsl:attribute name="xml:lang">
                 <xsl:value-of select="parent::t:lg/@xml:lang"/>
             </xsl:attribute>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    
     <!--<xsl:template match="t:listChange">
         <change when="{$today}">auto derived from xml source </change>
         <xsl:apply-templates/>

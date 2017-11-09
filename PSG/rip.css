@@ -6,20 +6,19 @@ body{
     font-family: "Droid Sans", Geneva, Arial, Helvetica, sans-serif;
     font-size: 24pt;
     margin-left: 200px;
-    text-align: center;
     width: 600px;
    
 }
 
 
-@keyframes lineDisplay {
+/*  @keyframes lineDisplay {
    
    0% { color: black;
       transform: scale(.1);}
       85% { opacity: 1; transform: scale(1.05);}
       100% { transform: scale(1);}
 }
-
+*/
 /*  
   .l{
    display:block;
@@ -27,17 +26,10 @@ body{
 
 
 .l1{
-    order: 1;
-    position: fixed;
-    top: 100px;
-    animation-name: lineDisplay;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    color: brown;
-    background-color: teal;
+  
 }
 
-
+/*  
 .l2{
     order: 2;
     position: fixed;
@@ -80,21 +72,17 @@ body{
        color: black;
     background-color: yellow;
 }
-
-.head{
+*/
+.title{
     display: block;
     font-family: Arvo, sans-serif;
-    font-size: 90%;
+    font-size: 150%;
     text-align: center;
     font-style: italic;
     text-indent: -0.5em;
+    color : red;
 }
 
-.nextLink{
-    display: block;
- 
-    text-align: right;
-}
 
 
 .brownOnTeal{
@@ -169,31 +157,28 @@ body{
 }
 
 
-.lg
+.slide
 {
     display: block;
-    font-size: 150%;
     border-left: 1px solid #aaaaaa;
     margin-left: 2em;
     margin-right: 2em;
     margin-top: .75em;
     margin-bottom: .75em;
     padding-top: .75em;
-    padding-bottom: .75em;
+    padding-bottom: 2em;
     text-align: center;
+    background-color : grey; 
 }
 
-/*  .l {
+  .l1 ,.l2, .l3, .l4, .l5 {
   display: block;
   padding-top: 1em;
-  padding-bottom: 1em;
   text-align: center;
-  font-size: 200%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: center;
+  font-size: 150%;
+  
 }
-*/
+
 
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */

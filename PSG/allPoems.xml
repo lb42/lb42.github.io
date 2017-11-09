@@ -75,6 +75,7 @@
                 <l n="5">kaj sen komforto.</l>
             </lg>
             <lg xml:lang="es">
+                <head>No title</head>
                 <l n="1">'En qué cuarto estaís?'</l>
                 <l n="2">A menudo me despierto</l>
                 <l n="3">sín respuesta, salvo</l>
@@ -98,6 +99,7 @@
                 <l n="5">agus gan compórd.</l>
             </lg>
             <lg xml:lang="gr">
+                <head>No title</head>
                 <l n="1">"Σε ποιο δωμάτιο είσαι;"</l>
                 <l n="2">Ξυπνάω συγνά έτσι·</l>
                 <l n="3">αναπάντητος, εκτός από</l>

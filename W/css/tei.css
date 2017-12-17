@@ -149,6 +149,10 @@ tei-term {
     font-style: italic;
 }
 
+tei-label {
+    font-weight: bold;
+    font-style: italic;
+}
 /* Tables */
 tei-table {
   /* replaced by table */

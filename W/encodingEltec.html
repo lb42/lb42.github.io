@@ -4,12 +4,13 @@
   
     <link rel="stylesheet" href="css/tei.css" media="screen" title="no title" charset="utf-8"/>
     <link type="application/tei+xml" rel="alternative"
-      href="https://raw.githubusercontent.com/lb42/CA16204/master/Discussion/encoding.xml"/>
+      href="https://raw.githubusercontent.com/lb42/CA16204/master/Discussion/encoding_proposal.xml"/>
     <script src="js/CETEI.js" charset="utf-8"></script>
     <script type="text/javascript">
      var ceteicean = new CETEI();
     ceteicean.shadowCSS = "http://teic.github.io/css/tei.css";
-    ceteicean.getHTML5('https://raw.githubusercontent.com/lb42/CA16204/master/Discussion/encoding.xml', function(data) {
+    ceteicean.getHTML5('https://raw.githubusercontent.com/lb42/CA16204/master/Discussion/encoding_proposal.xml',
+    function(data) {
       document.getElementsByTagName("body")[0].appendChild(data);
     });
     </script>

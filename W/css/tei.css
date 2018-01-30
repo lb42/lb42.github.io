@@ -116,18 +116,19 @@ tei-ident {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;
 }
-tei-gi::before {
-    content: "<";
+
+tei-att,tei-gi {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEF;
+}
+
+tei-gi::before {
+    content: "<";
   }
 tei-gi::after {  
   content: ">";
 }
-tei-att {
-  font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
-  background-color: #EEF;
-}
+
 tei-att::before {
   content: '@';
 }
@@ -148,6 +149,29 @@ tei-term {
     font-weight: bold;
     font-style: italic;
 }
+
+tei-label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+tei-label::after {
+    content: ' : ';
+}
+
+tei-title {
+      font-style: italic; 
+}
+
+tei-q::before {
+    content: "“";
+}
+
+tei-q::after {
+    content: "”";
+}
+
+
 
 /* Tables */
 tei-table {

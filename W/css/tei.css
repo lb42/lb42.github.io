@@ -171,7 +171,16 @@ tei-q::after {
     content: "”";
 }
 
-
+tei-note {
+    display: block;
+  margin-left: 100px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-left: 0;
+  text-align: right;
+  background: gray;
+  font-style:italic;
+}
 
 /* Tables */
 tei-table {

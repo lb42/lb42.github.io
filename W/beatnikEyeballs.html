@@ -3,12 +3,13 @@
   <head>
     <link rel="stylesheet" href="css/tei.css" media="screen" title="no title" charset="utf-8"/>
       <link type="application/tei+xml" rel="alternative" 
-        href="https://raw.githubusercontent.com/lb42/beatnikEyeballs/blob/master/complete.tei"/>
+        href="https://raw.githubusercontent.com/lb42/beatnikEyeballs/master/complete.tei"/>
     <script src="js/CETEI.js" charset="utf-8"></script>
     <script type="text/javascript">
     var ceteicean = new CETEI();
     ceteicean.shadowCSS = "http://teic.github.io/css/tei.css";
-    ceteicean.getHTML5('https://raw.githubusercontent.com/lb42/beatnikEyeballs/blob/master/complete.tei', function(data) {
+    ceteicean.getHTML5(
+    'https://raw.githubusercontent.com/lb42/beatnikEyeballs/master/complete.tei', function(data) {
       document.getElementsByTagName("body")[0].appendChild(data);
     });
     </script>

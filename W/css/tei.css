@@ -69,6 +69,7 @@ tei-l {
 }
 
 tei-sp::before {
+display:block;
     margin-bottom: .2em;
     content: attr(who)
 }

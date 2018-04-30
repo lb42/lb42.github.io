@@ -61,6 +61,12 @@ tei-p {
   margin-top: .5em;
   margin-bottom: .5em;
 }
+tei-l {
+  display:block;
+  margin-top: .5em;
+  margin-left: 3cm;
+  margin-bottom: .5em;
+}
 tei-list {
   display: block;
   margin-left: 30px;
@@ -159,6 +165,10 @@ tei-label::after {
     content: ' : ';
 }
 
+tei-stage {
+    font-style:italic;
+    font-size: small; 
+}
 tei-title {
       font-style: italic; 
 }

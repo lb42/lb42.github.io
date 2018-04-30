@@ -63,9 +63,14 @@ tei-p {
 }
 tei-l {
   display:block;
-  margin-top: .5em;
+  margin-top: .2em;
   margin-left: 3cm;
-  margin-bottom: .5em;
+  margin-bottom: .2em;
+}
+
+tei-sp::before {
+    margin-bottom: .2em;
+    content: attr(who)
 }
 tei-list {
   display: block;

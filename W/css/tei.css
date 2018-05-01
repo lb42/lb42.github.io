@@ -173,7 +173,7 @@ tei-label::after {
 
 tei-stage {
     font-style:italic;
-    font-size: small; 
+    font-size: smaller; 
 }
 tei-title {
       font-style: italic; 

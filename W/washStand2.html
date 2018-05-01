@@ -13,7 +13,7 @@
     var ceteicean = new CETEI();
     
      var images = [];
-      CETEIcean.addBehaviors({"handlers":
+      ceteicean.addBehaviors({"handlers":
         {
           "gap": ["[", "]"],
         
@@ -25,6 +25,9 @@
               var facs = elt.getAttribute("facs");
               var img = document.createElement("img");
               images.push(img);
+                img.setAttribute("src",
+                "https://raw.githubusercontent.com/lb42/Works/master/washStand/" + facs);
+                img.setAttribute("height", "50px");
              
               link.appendChild(img);
             }

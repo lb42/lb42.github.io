@@ -20,14 +20,14 @@
           "pb": function(elt) {
             var span = document.createElement("span");
             var link = document.createElement("a");
-            link.setAttribute("style", "float:right;padding-left:1em;text-decoration:none;color:gray;");
+            link.setAttribute("style", "float:left;padding-right:2em;text-decoration:none;color:gray;");
             if (elt.hasAttribute("facs")) {
               var facs = elt.getAttribute("facs");
               var img = document.createElement("img");
               images.push(img);
                 img.setAttribute("src",
                 "https://raw.githubusercontent.com/lb42/Works/master/washStand/" + facs);
-                img.setAttribute("height", "50px");
+                img.setAttribute("height", "400px");
              
               link.appendChild(img);
             }

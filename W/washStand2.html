@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/tei.css" media="screen" title="no title" charset="utf-8"/>
+      <link type="application/tei+xml" rel="alternative" 
+        href="https://raw.githubusercontent.com/lb42/Works/master/washStand/text.tei"/>
+   
+      <title>The Wash Stand : TEI edition</title>
+  </head>
+  <body>
+    <script src="js/CETEI.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    var ceteicean = new CETEI();
+    
+     var images = [];
+      ceteicean.addBehaviors({"handlers":
+        {
+          "gap": ["[", "]"],
+        
+          "pb": function(elt) {
+            var span = document.createElement("span");
+            var link = document.createElement("a");
+            link.setAttribute("style", "float:left;padding-right:4em;text-decoration:none;color:gray;");
+            if (elt.hasAttribute("facs")) {
+              var facs = elt.getAttribute("facs");
+              var img = document.createElement("img");
+              images.push(img);
+                img.setAttribute("src",
+                "https://raw.githubusercontent.com/lb42/Works/master/washStand/" + facs);
+                img.setAttribute("height", "800px");
+             
+              link.appendChild(img);
+            }
+            span.appendChild(document.createElement("br"));
+            span.appendChild(link);
+            span.appendChild(document.createElement("br"));
+              return span;
+          }
+        }});
+    ceteicean.shadowCSS = "https://teic.github.io/css/tei.css";
+    ceteicean.getHTML5(
+    'https://raw.githubusercontent.com/lb42/Works/master/washStand/text.tei', function(data) {
+      document.getElementsByTagName("body")[0].appendChild(data);
+    });
+    </script>
+  </body>
+</html>

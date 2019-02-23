@@ -18,6 +18,9 @@
           "gap": ["[", "]"],
         
           "pb": function(elt) {
+            var div = document.createElement("div");
+            div.setAttribute("class","flex-container");
+            var divL = document.createElement("div");
             var span = document.createElement("span");
             var link = document.createElement("a");
             link.setAttribute("style", "float:left;padding-right:4em;text-decoration:none;color:gray;");
@@ -27,7 +30,7 @@
               images.push(img);
                 img.setAttribute("src",
                 "https://raw.githubusercontent.com/lb42/Works/master/washStand/" + facs);
-                img.setAttribute("height", "800px");
+                img.setAttribute("height", "700px");
              
               link.appendChild(img);
             }

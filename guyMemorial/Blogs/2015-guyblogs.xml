@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Untitled Document</title>
+            <title>Travels with Guy</title>
             <author/>
          </titleStmt>
          <editionStmt>
@@ -15,13 +15,13 @@
             <p>no publication statement available</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Written by OpenOffice</p>
+            <p>Tidied up versions of Guy's facebook postings</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
          <listChange>
             <change>
-               <name/>
+               <name>Lou</name>
                <date>2018-12-06T18:03:09.783319405</date>
             </change>
          </listChange>
@@ -571,7 +571,7 @@
             </div>
 
          </div>
-         <div>
+         <div xml:id="Liserna-LaVergne">
             <head>Destination LaVergne (April 2015)</head>
             <div>
                <head>2015-04-18</head>
@@ -719,7 +719,7 @@
                <p>Aurillac I'm less sure. It's twenty minutes walk along the Rue de la Republique to
                   reach La Square, which is where all the three hotels are. Drizzling as I passed
                   the hospital and the various associated funeral directors, lots of grey frontage
-                  and noone around. La Renaissance is one of those hotels where things tend not to
+                  and no one around. La Renaissance is one of those hotels where things tend not to
                   work, but in compensation provided quite a nice dinner of Tete de veau, Tripoux
                   and Truffade, all of which claimed to be local. An early night is called for
                   however; there's another 7 o'clock train in the morning which provides a Paris
@@ -877,7 +877,7 @@
             <div>
                <head>2015-06-25</head>
                <p>Day 1</p>
-               <p>It's party time in Kufstein. The bridge across the river (inn, i suppose) is
+               <p>It's party time in Kufstein. The bridge across the river (Inn, i suppose) is
                   barred. No room in the inn today, for traffic at any rate. On every street corner
                   is a stage with associated tyrolese band in associated costume, i.e. silly hats,
                   bare knees and lederhosen. But then this is the place where they built a castle

@@ -1,61 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/home/lou/Public/TEIslides/teislides.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-    <fileDesc>
-        <titleStmt>
-            <title>September tour 2019</title>
-            <author>Lou Burnard Consulting</author>
-        </titleStmt>
-        <publicationStmt><p>unpublished draft</p></publicationStmt>
-        <sourceDesc><p>born digital</p></sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-        <change when="2019-10-21">Created file</change>
-    </revisionDesc>
-</teiHeader>
-    <text><body><!--Pending/20190913_102127.jpg-->
-<div type="slide">
-<head>13 September: Bristol </head>
-<figure>
-<graphic url="https://lb42.github.io/W/media/20190913_102330.jpg" width="650px"/>
-</figure>
-<p>Some boxes have been unpacked, and it's possible to live in Clifton Park Road. But I have committments on the continent, in the dying
-    days of free movement to enjoy. So with a nod from Mr Maneki-Neko, I abandoned Lilette to do more box work, and took the bus
-    to Temple Meads, whence by Great Western and too many underground trains (top tip, which I had forgotten, there are two underground
-    stations at Paddington: choosing the wrong one condemns you to an extra tedious interchange at Edgware Road) via Liverpool Street and the 
-    Central Line to far flung Stratford, arriving in time for tea, which I took in the horrible coffee bar at the station exist, taking the
-    opportunity to recharge my phone so that I could let Elizabeth and Daphne know grand-pere was in town.
-</p><p>It's only a short walk from Stratford station to their house, and worth the effort. </p>
-    
-    <figure>
-        <graphic url="https://lb42.github.io/W/media/20190913_154418.jpg" width="650px"/>
-        <head>Daphne helps trundle my suitcase</head>
-    </figure>
-<p>An agreeable evening, during which Daphne prepares a birthday card for her dad. </p></div><div type="slide"><head>14 September: London to Munich</head>
-   <p>An early start next morning, since the plan is to get the 1130 Eurostar departure. Back to Stratford International, 
-   so-called, even though no international trains have ever stopped here; nor are they likely to any time soon, alas. </p> 
-    <figure>
-        <graphic url="https://lb42.github.io/W/media/20190914_081829.jpg" width="650px"/>
-        <head>Major Road Ahead</head>
-    </figure>
-<p>A commuter train deposits me at St Pancras, and I make my way through the usual processing to the Business Lounge, probably for
-the last time for a while, since my carte blanche membership expires next month. Farewell to free coffee and a spot of calm before the journey; I am no longer worthy, and unlikely to 
-become so since the number of agencies willing to shell out for my train trips to France is so much reduced. Ah well, it was nice
-while it lasted. </p>
-    <figure>
-        <graphic url="https://lb42.github.io/W/media/20190914_102351.jpg" width="400px"/>
-        <head>Farewell to all this</head>
-    </figure>
-    <p>And so, as usual, it's time to board ES???, my 1110 departure for Brussells, where I have a reserved seat in the very end of the train. .</p>
-    <figure>
-        <graphic url="https://lb42.github.io/W/media/20190914_104651.jpg" width="400px"/>
-        <head>The tail end of my Eurostar</head>
-    </figure>
-<p>The journey across Kent, under the channel, across Northern France, and into Belgium is, of course, utterly unremarkable, just as we like it, and we
-pull into Brussels Midi on time at . At which point I discover that my promised xxx onward connexion to Munich has already left, half an hour earlier than 
-timetabled. I remonstrate with a patient person in the Belgian ticket office, who passes me on to a patient person in the German ticket office. </p>
-</div>
-<!--
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>September tour 2019</title>
+                <author>Lou Burnard Consulting</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>unpublished draft</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2019-10-21">Created file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--Pending/20190913_102127.jpg-->
+            <div type="slide">
+                <head>13 September: Bristol </head>
+                <figure>
+                    <graphic url="https://lb42.github.io/W/media/20190913_102330.jpg" width="650px"
+                    />
+                </figure>
+                <p>Some boxes have been unpacked, and it's possible to live in Clifton Park Road.
+                    But I have committments on the continent to enjoy, during these dying days of
+                    free movement. So with a nod from Mr Maneki-Neko, I abandoned Lilette to do more
+                    box work, and took the bus to Temple Meads, whence by Great Western and too many
+                    underground trains (top tip, which I had forgotten, there are two underground
+                    stations at Paddington: choosing the wrong one condemns you to an extra tedious
+                    interchange at Edgware Road) via Liverpool Street and the Central Line to far
+                    flung Stratford, arriving in time for tea, which I took in the horrible coffee
+                    bar at the station exist, taking the opportunity to recharge my phone so that I
+                    could let Elizabeth and Daphne know grand-pere was in town. </p>
+                <p>It's only a short walk from Stratford station to their house, and worth the
+                    effort. </p>
+
+                <figure>
+                    <graphic url="https://lb42.github.io/W/media/20190913_154418.jpg" width="650px"/>
+                    <head>Daphne helps trundle my suitcase</head>
+                </figure>
+                <p>An agreeable evening in Maryland ensued, during which Daphne prepared a birthday card for her dad.
+                </p>
+            </div>
+            <!--
 Pending/20190913_145535.jpg
 Pending/20190913_145616.jpg
 Pending/20190913_151210.jpg
@@ -67,25 +59,70 @@ Pending/20190913_163835.jpg
 Pending/20190913_163849.jpg
 Pending/20190913_163853.jpg
 Pending/20190913_163927.jpg
-Pending/20190913_163947.jpg
-Pending/20190914_080150.jpg
-Pending/20190914_080204.jpg
-Pending/20190914_081829.jpg
-Pending/20190914_085308.jpg
-Pending/20190914_085553.jpg
-Pending/20190914_085621.jpg
-Pending/20190914_092902.jpg
-Pending/20190914_095728.jpg
-Pending/20190914_102351.jpg
-Pending/20190914_104146.jpg
-Pending/20190914_104651.jpg
-Pending/20190914_121402.jpg
-Pending/20190914_134256.jpg
-Pending/20190914_152859.jpg
-Pending/20190914_182334.jpg
-Pending/20190914_193446.jpg
-Pending/20190914_212030.jpg
-Pending/20190915_080317.jpg
+Pending/20190913_163947.jpg-->
+
+            <div type="slide">
+                <head>14 September: London to Munich</head>
+                <p>An early start next morning, since the plan is to get the 1100 Eurostar
+                    departure. Armed with my special spar-preise DB ticket von London nach Munchen
+                    (price ??), I head back to Stratford International, so-called, even though no
+                    international train has ever stopped here; nor are they likely to any time
+                    soon, alas. The sun shines none the less, and the streetscape has its moments:</p>
+                <figure>
+                    <graphic url="https://lb42.github.io/W/media/20190914_081829.jpg" width="650px"/>
+                    <head>Major Road Ahead</head>
+                </figure>
+                <p>A commuter train from the wilds of East Anglia deposits me at St Pancras, and I
+                    make my way through the usual processing to the Business Lounge, probably for
+                    the last time for a while, since my carte blanche membership expires next month.
+                    Farewell to free coffee, free nibbles, and (in Paris) free cocktails. Farewell
+                    to a spot of calm before the journey and the sensation of being a member of a
+                    bourgeois elite; I am no longer worthy, and unlikely to become so again any time
+                    soon. The number of agencies willing to shell out for my train trips to France
+                    is much reduced. Ah well, it was nice while it lasted. </p>
+                <figure>
+                    <graphic url="https://lb42.github.io/W/media/20190914_102351.jpg" width="400px"/>
+                    <head>Farewell to all this</head>
+                </figure>
+                <p>But no matter, it's time for me and the hoards to board ES???, the 1110 departure for Brussells.
+                  My reserved seat in the very end of the train. .</p>
+                <figure>
+                    <graphic url="https://lb42.github.io/W/media/20190914_104651.jpg" width="400px"/>
+                    <head>The tail end of my Eurostar</head>
+                </figure>
+                <p>The journey across Kent, under the channel, across Northern France, and into
+                    Belgium is, of course, utterly unremarkable, just as we like it, and we pull
+                    into Brussels Midi on time at . At which point I discover that my promised xxx
+                    onward connexion to Munich has already left, half an hour earlier than
+                    timetabled when I booked it. I remonstrate with a patient person in the Belgian ticket office,
+                    who passes me on to a patient person in the German ticket office. Neither of
+                    them can do anything practical other than propose a revised itinerary which,
+                    with the best will in the world, will get me into Munich two hours later than
+                    planned, precluding a pleasant Bavarian evening dinner. I therefore proceed out of the
+                station into the street and seek some pleasant lunch instead, so as to make
+                better use of the yawning two hour chasm into which the 
+                anticipated modest 25 minute connexion time 
+                has transformed itself.  
+                </p><p>At least the train I am now catching is also retimed for engineering works. Off we go to
+                Frankfurt on board ICE 215, retimed but otherwise as reliable and comfortable as ever. At Frankfurt
+                I change onto another ICE train, heading south to München. And so to the Ibis Munchen City, for
+                a good night's sleep, chosen mainly for its proximity to the station, though the fact that
+                they always give me a free drink on arrival may also have encouraged me.  
+               </p> <!-- My epic journey to #teiconf2019 hit its first bump... Brussels to Frankfurt trains 
+                    retimed for engineering works, so that  what would have been a nice 25 min connexion 
+                    id now a yawning 120 mins chasm. Oh well. Time for lunch.-->
+                <!--                Now on board ice 215 to Frankfurt which also left 30 mins early. 
+                    Engineering works.
+                ust passing through köln a mere 2hourdlater than expected enrpute to
+                #teiconf2019. Nice statue though.
+                Last train of the day is ice759 to München today running in reverse 
+                formation to confuse me en route 
+                to #teiconf2019-->
+                <figure>
+                    <graphic url="https://lb42.github.io/W/media/timeline-09-14.png"/>
+                </figure>
+            </div>
+            <!-- Pending/20190915_080317.jpg
 Pending/20190915_080413.jpg
 Pending/20190915_103053.jpg
 Pending/20190915_111253.jpg
@@ -111,76 +148,115 @@ Pending/20190915_161039.jpg
 Pending/20190915_161111.jpg
 Pending/20190915_161113.jpg
 Pending/20190915_182505.jpg
-Pending/20190915_183311.jpg
-Pending/20190916_092917.jpg
-Pending/20190916_093159.jpg
-Pending/20190916_094027.jpg
-Pending/20190916_104853.jpg
-Pending/20190916_104923.jpg
-Pending/20190916_104945.jpg
-Pending/20190916_125321.jpg
-Pending/20190917_103713.jpg
-Pending/20190917_103733.jpg
-Pending/20190917_142641.jpg
-Pending/20190917_143222.jpg
-Pending/20190917_161620.jpg
-Pending/20190917_161908.jpg
-Pending/20190917_161916.jpg
-Pending/20190917_161933.jpg
-Pending/20190917_164344.jpg
-Pending/20190917_170003.jpg
-Pending/20190917_170821.jpg
-Pending/20190917_171641.jpg
-Pending/20190917_175341.jpg
-Pending/20190917_175543.jpg
-Pending/20190917_175603.jpg
-Pending/20190917_175632.jpg
-Pending/20190918_093610.jpg
-Pending/20190918_093620.jpg
-Pending/20190918_093627.jpg
-Pending/20190918_093943.jpg
-Pending/20190918_093951.jpg
-Pending/20190918_094021.jpg
-Pending/20190919_120918.jpg
-Pending/20190919_165135.jpg
-Pending/20190919_192604.jpg
-Pending/20190920_110726.jpg
-Pending/20190920_110728.jpg
-Pending/20190920_110755.jpg
-Pending/20190920_110804.jpg
-Pending/20190920_110822.jpg
-Pending/20190920_111512.jpg
-Pending/20190920_111520.jpg
-Pending/20190920_124949.jpg
-Pending/20190920_125127.jpg
-Pending/20190920_130322.jpg
-Pending/20190920_131912.jpg
-Pending/20190920_131946.jpg
-Pending/20190920_131956.jpg
-Pending/20190920_132003.jpg
-Pending/20190920_132050.jpg
-Pending/20190920_132126.jpg
-Pending/20190920_132131.jpg
-Pending/20190920_132139.jpg
-Pending/20190920_132244.jpg
-Pending/20190920_132253.jpg
-Pending/20190920_132751.jpg
-Pending/20190920_133505.jpg
-Pending/20190920_133757.jpg
-Pending/20190920_134552.jpg
-Pending/20190920_134600.jpg
-Pending/20190920_134627.jpg
-Pending/20190920_134629.jpg
-Pending/20190920_134723.jpg
-Pending/20190920_134740.jpg
-Pending/20190920_134827.jpg
-Pending/20190920_134854.jpg
-Pending/20190920_135209.jpg
-Pending/20190920_163657.jpg
-Pending/20190920_165543.jpg
-Pending/20190920_165614.jpg
-Pending/20190920_165807.jpg
-Pending/20190921_082849.jpg
+Pending/20190915_183311.jpg-->
+            <div type="slide">
+                <head>15 September : Munich to Graz </head>
+                <p>Next morning, I dilly dally over breakfast, check out, and take a slow walk back to 
+                    the station. Which was a mistake, since my onward train to Graz 
+                    was also retimed to leave 30
+                    minutes earlier than expected, i.e. just as I was strolling into the station. Curses. 
+                    I remonstrate further with a DB person, and get lots of complicated reticketting.  
+                    I re-assert control of my destiny by plotting
+                    a slightly different route than they propose. It won't get me to Graz any sooner, but 
+                    it means less hanging around Munich HBF on a boring morning. I get a 
+                    metro ticket to Munich OstBahnhof, 
+                    where I can catch the 1138 to Salzburg enjoy a 20 minute pause for refreshment, (an abstemious 
+                    glass of mineral water on a sunny terrace) and then proceed on to 
+                    Bischofshofen. From Bischofsen, I am delightfully surprised to learn, my train is a famous one with its own  
+                    entry in Wikipedia, and a mega-scenic route across the alps, which is particularly nice since my re-ticketting
+                    has placed me in the first class carriage with huge observational windows. The sun is shining
+                    and the alpine scenery is indeed exceptionally, well, scenic. EC163: the Transalpin. 
+            </p>
+               <p>I arrive into Graz at 17h45, and take a taxi to my AirBNB, located in a pedestrian
+                    street the other side of the park which separates Karl Franzen's magnificent
+                    University from the rest of the city. Ah Austria: how civilised. My residence
+                    for the next week is a bed-sit five minutes walk from the Uni, next door to a
+                    Chinese restaurant, and handy for the Spar, as well as assorted restaurants. </p>
+                <p>The TEI Conference 2019 duly unfolds, with or without my attention. I confess to feeling somewhat
+                    alienated or excluded, though that is, of course, my own choice. After all this
+                    time the TEI has to be able to get by without me very well, after all. I went to
+                    one side meeting of the TEI Council where the long standing question of how to
+                    introduce Standoff markup without totally screwing up the existing architecture
+                    was thrashed out, or churned about, or generally pondered. I went to some good
+                    sessions and some less good. The weather behaved impeccably and the sandwiches were irreproachable.
+                    The opening plenary was notable because Jan
+                    suggested that TEI might possibly have something to offer statistically minded
+                    distant readers or stylometricians or whatever they are called this week.
+                    However, nobody seemed to take this very seriously, nor did I find anyone who
+                    wanted to go out for dinner with me. I spent many evenings arguing fruitlessly
+                    with the appalling telephone banking service offered by Santander. On the whole,
+                    and in retrospect, it was a rather depressing week.</p>            </div>
+          <!--  Pending/20190916_092917.jpg
+            Pending/20190916_093159.jpg
+            Pending/20190916_094027.jpg
+            Pending/20190916_104853.jpg
+            Pending/20190916_104923.jpg
+            Pending/20190916_104945.jpg
+            Pending/20190916_125321.jpg
+            Pending/20190917_103713.jpg
+            Pending/20190917_103733.jpg
+            Pending/20190917_142641.jpg
+            Pending/20190917_143222.jpg
+            Pending/20190917_161620.jpg
+            Pending/20190917_161908.jpg
+            Pending/20190917_161916.jpg
+            Pending/20190917_161933.jpg
+            Pending/20190917_164344.jpg
+            Pending/20190917_170003.jpg
+            Pending/20190917_170821.jpg
+            Pending/20190917_171641.jpg
+            Pending/20190917_175341.jpg
+            Pending/20190917_175543.jpg
+            Pending/20190917_175603.jpg
+            Pending/20190917_175632.jpg
+            Pending/20190918_093610.jpg
+            Pending/20190918_093620.jpg
+            Pending/20190918_093627.jpg
+            Pending/20190918_093943.jpg
+            Pending/20190918_093951.jpg
+            Pending/20190918_094021.jpg
+            Pending/20190919_120918.jpg
+            Pending/20190919_165135.jpg
+            Pending/20190919_192604.jpg
+            Pending/20190920_110726.jpg
+            Pending/20190920_110728.jpg
+            Pending/20190920_110755.jpg
+            Pending/20190920_110804.jpg
+            Pending/20190920_110822.jpg
+            Pending/20190920_111512.jpg
+            Pending/20190920_111520.jpg
+            Pending/20190920_124949.jpg
+            Pending/20190920_125127.jpg
+            Pending/20190920_130322.jpg
+            Pending/20190920_131912.jpg
+            Pending/20190920_131946.jpg
+            Pending/20190920_131956.jpg
+            Pending/20190920_132003.jpg
+            Pending/20190920_132050.jpg
+            Pending/20190920_132126.jpg
+            Pending/20190920_132131.jpg
+            Pending/20190920_132139.jpg
+            Pending/20190920_132244.jpg
+            Pending/20190920_132253.jpg
+            Pending/20190920_132751.jpg
+            Pending/20190920_133505.jpg
+            Pending/20190920_133757.jpg
+            Pending/20190920_134552.jpg
+            Pending/20190920_134600.jpg
+            Pending/20190920_134627.jpg
+            Pending/20190920_134629.jpg
+            Pending/20190920_134723.jpg
+            Pending/20190920_134740.jpg
+            Pending/20190920_134827.jpg
+            Pending/20190920_134854.jpg
+            Pending/20190920_135209.jpg
+            Pending/20190920_163657.jpg
+            Pending/20190920_165543.jpg
+            Pending/20190920_165614.jpg
+            Pending/20190920_165807.jpg
+            
+            --><div type="slide">
+                <!--Pending/20190921_082849.jpg
 Pending/20190921_090133.jpg
 Pending/20190921_090400.jpg
 Pending/20190921_090424.jpg
@@ -212,7 +288,38 @@ Pending/20190921_145051.jpg
 Pending/20190921_145057.jpg
 Pending/20190921_145141.jpg
 Pending/20190921_145210.jpg
-Pending/20190922_080900.jpg
+-->
+                <head>September 21 : Graz - Szombethaly</head>
+                <p>Casting off the dust of academic conferences, I took the 1108 departure from Graz
+                    down to the Hungarian border, and a station called Szentgotthard, possibly the
+                    same saint as he of the pass, possibly not. In any case, this was a most agreeable
+                    journey, chuntering through the mountains and forests of lower Styria, with
+                    their gingerbread-style cottages, rural farmyards, fields of maize and pumpkins
+                    mostly now harvested for the winter. The train follows the route of a river,
+                    which I am mildly amused to learn is known as the Raab. </p><p>At Saint Gotthard, I transfer to a waiting Hungarian train, which is a restful green colour,
+                    which then continues down the river valley to the nearest town, which rejoices
+                    in the name of Szombethaly, about which I know nothing, except that it was the
+                    birthplace of (a) Saint Martin, according to ancient medieval tradition and  (b)
+                    Leo Bloom's father, according to James Joyce. Arriving at 1915 I have time to
+                    admire a rather fine baroque station, and to wander down a main street clearly
+                    reconstructed quite recently, before checking into my allegedly boutique hotel
+                    at ?. Bags dumped, I  sally forth in search of dinner. But who is this familiar
+                    figure, turning his head to greet me half way down the main drag? How very
+                    conceptual.   Dinner is decidedly Hungarian, being goulash and noodles, to the accompaniment of
+                    loud and very annoying light music. </p><!--
+Sep 21
+Today's train is a little cutie... 1108 from Graz to the Hungarian border. Saint Gothard (a différent one) here we come!
+                Now trundling through forests and mountains with gingerbread cottages to match. 
+                Principal crops round here seem to be maize and pumpkins
+                The last hour or so has been pootling along the valley of the raab .. but googlemaps now tells me we have crossed the Styrian border
+                We're definitely not in Styria any more. The trains are green and people talk funny.
+Image
+-->
+
+            </div>
+    <!-- 
+-->
+            <!--Pending/20190922_080900.jpg
 Pending/20190922_080925.jpg
 Pending/20190922_081052.jpg
 Pending/20190922_081828.jpg
@@ -244,8 +351,14 @@ Pending/20190922_135451.jpg
 Pending/20190922_135709.jpg
 Pending/20190922_135744.jpg
 Pending/20190922_135852.jpg
-Pending/20190922_162347.jpg
-Pending/20190923_104807.jpg
+Pending/20190922_162347.jpg-->
+            
+            <div type="slide">
+                <head>September 22: Szombethaly - Budapest</head>
+<p>I do have a little time to explore Szombethaly next morning, and the sun is shiuning in an attempt to encourage me.</p>
+            </div>
+
+            <!--Pending/20190923_104807.jpg
 Pending/20190923_131021.jpg
 Pending/20190923_140139.jpg
 Pending/20190923_140208.jpg
@@ -254,7 +367,18 @@ Pending/20190923_140304.jpg
 Pending/20190924_062009.jpg
 Pending/20190924_062017.jpg
 Pending/20190924_153535.jpg
-Pending/20190924_173346.jpg
+Pending/20190924_173346.jpg-->
+            
+            <!-- 
+-->          
+            <div type="slide">
+                <head>September 25: Budapest - Paris - Caen</head>
+   <p></p>         </div>
+            <!-- 
+
+
+
+
 Pending/20190925_071433.jpg
 Pending/20190925_073736.jpg
 Pending/20190925_073744.jpg
@@ -277,7 +401,10 @@ Pending/20190925_154624.jpg
 Pending/20190925_160846.jpg
 Pending/20190926_122338.jpg
 Pending/20190926_122706.jpg
-Pending/20190926_201615.jpg
+Pending/20190926_201615.jpg-->
+            <div type="slide">
+
+                <!--
 Pending/20190927_085946.jpg
 Pending/20190927_100922.jpg
 Pending/20190927_130324.jpg
@@ -286,4 +413,32 @@ Pending/20190927_154554.jpg
 Pending/20190927_162627.jpg
 Pending/20190928_162921.jpg
 Pending/20190928_162923.jpg
---></body></text></TEI>
+-->
+                <head>September 27 : Caen - Bristol</head>
+                <!--
+
+Sep 26
+So this rather fine statue actually also called lou just appeared in the château de caen ...
+Image
+Image
+Dominique roux présents the wonderful #metopes ... Publishing system for scholarly editing
+
+ Oh dear. Storms in la manche mean my plans to come home via jersey have had to be cancelled. #noferry
+
+Sep 27
+The good news is I get to catch a proper train instead
+On the downside, I an now headed by back to stinky old airport cdg
+
+One of these is for me, if I can only find it #airportsAreHell #flugscham
+ImagePlane from paris to Bristol took 55 mins . Bus a2 from airport to centre took 45. 20 min wait for no 8 bus at college green. Something wrong there.
+
+
+                -->
+
+            </div>
+
+
+
+        </body>
+    </text>
+</TEI>

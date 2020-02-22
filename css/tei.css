@@ -773,6 +773,12 @@ span.upLink{
     font-style:italic;
 }
 /* bibl */
+
+div.bibl::before {
+    content: "[]";
+}
+
+
 span.titlem{
     font-style:italic;
 }

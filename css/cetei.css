@@ -108,6 +108,8 @@ tei-listbibl>tei-bibl {
   display: list-item;
   list-style-type: none;
 }
+
+
 tei-figure {
   display: block;
   text-align: center;
@@ -166,6 +168,11 @@ tei-label::after {
 tei-title {
       font-style: italic; 
 }
+
+tei-bibl::before {
+    content: "[]";
+}
+
 
 tei-q::before {
     content: "“";

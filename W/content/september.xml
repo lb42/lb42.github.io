@@ -107,7 +107,7 @@ Pending/20190913_163947.jpg-->
                     to refresh oneself. </p>
                 <figure>
                     <graphic url="https://lb42.github.io/W/media/20190914_153008.jpg" width="400px"/>
-                    <head>The tail end of my Eurostar</head>
+                    <head>Bruxelles Midi: just the spot for a snooze</head>
                 </figure>
                 <p>At least the train I am now catching is also retimed 20 minutes earlier for
                     engineering works. Off we go to Frankfurt on board ICE 215, retimed but
@@ -127,7 +127,7 @@ Pending/20190913_163947.jpg-->
                 formation to confuse me en route 
                 to #teiconf2019-->
                 <figure>
-                    <graphic url="https://lb42.github.io/W/media/timeline-09-14.png"/>
+                    <graphic url="https://lb42.github.io/W/media/timeline-09-14.png" width="600px"/>
                 </figure>
             </div>
             <!-- Pending/20190915_080317.jpg
@@ -160,9 +160,15 @@ Pending/20190915_183311.jpg-->
             <div type="slide">
                 <head>15 September : Munich to Graz </head>
                 <p>Next morning, I dilly-dally over a German breakfast, check out, and walk back to
-                    the station in a leisurely manner. Which was a mistake, since my onward train to
+                    the station in a leisurely manner. Hmm, maybe one should stock up on baked goods for the journey?
+                    <figure>
+                        <graphic url="https://lb42.github.io/W/media/20190915_080413.jpg" width="600px"/>
+                        <head>A wide choice of tasty bakery, since this Germany</head>
+                    </figure>
+                    
+                    Which was all a mistake, since my onward train to
                     Graz (the 1017 departure) has been retimed to leave 30 minutes earlier than
-                    expected, i.e. just as I was strolling into the station. Curses. I remonstrate
+                    expected, i.e. just as I was strolling into the station and assessing the baked goods. Curses. I remonstrate
                     further with a DB person, who seems strangely unmoved. My ticket is endorsed
                     with the splendid phrase "zugbindung aufgehoben" and I am advised to proceed via
                     the 1203 to Bischofshofen, where I can get a connexion to Graz. However, the
@@ -172,7 +178,11 @@ Pending/20190915_183311.jpg-->
                     won't get me to Graz any sooner. I get a metro ticket to Munich OstBahnhof,
                     where I catch the 1138 to Salzburg and enjoy a 20 minute pause for refreshment,
                     (an abstemious glass of mineral water on a sunny terrace). <figure>
-                        <graphic url="https://lb42.github.io/W/media/20190914_132714.jpg"/>
+                        <graphic url="https://lb42.github.io/W/media/20190915_132714.jpg" height="300px"/>
+                    </figure> 
+                    <figure>
+                        <graphic url="https://lb42.github.io/W/media/20190915_150555.jpg" width="600px"/>
+                        <head>Changing trains at Bischofshofen</head>
                     </figure> From Salzburg, I proceed on to Bischofshofen, at which place, hard
                     though it it is to spell, I transfer to EC163, the famous Transalpin express, a
                     train so famous indeed that it has <ref
@@ -182,7 +192,7 @@ Pending/20190915_183311.jpg-->
                     huge observational windows. The sun is shining and the alpine scenery is indeed
                     exceptionally, well, scenic. </p>
                 <figure>
-                    <graphic url="https://lb42.github.io/W/media/20190914_152057.jpg"/>
+                    <graphic url="https://lb42.github.io/W/media/20190915_152057.jpg" width="600px"/>
                     <head>Panoramic window on an alp</head>
                 </figure>
                 <p>I arrive into Graz at 18h22, precisely two hours later than expected, and take a
@@ -214,7 +224,11 @@ Pending/20190915_183311.jpg-->
                     take this very seriously, nor did I ever find anyone who wanted to go out for
                     dinner with me. I spent many evenings arguing fruitlessly with the appalling
                     telephone banking service offered by Santander. On the whole, and in retrospect,
-                    it was a rather depressing week.</p>
+                    it was a rather depressing week.
+                <figure>
+                    <graphic url="https://lb42.github.io/W/media/20190917_103713.jpg" width="600px"/>
+                    <head>But the architecture was nice</head>
+                </figure></p>
             </div>
             <!--  Pending/20190916_092917.jpg
             Pending/20190916_093159.jpg
@@ -518,14 +532,21 @@ Pending/20190924_173346.jpg-->
                         <graphic url="https://lb42.github.io/W/media/20190926_201615.jpg"
                             width="650px"/>
                     </figure>
-                </p>
-                <p>I was also planning to enjoy the journey back to Bristol, which I had planned to
+                </p></div>
+                <div type="slide">
+                    
+                    
+                    <head>September 27 : Caen - Bristol</head>
+                    <p>I was also planning to enjoy the journey back to Bristol, which I had planned to
                     make by means of TER to Granville, a boat to Jersey, and a hedge-hopping flight
                     from there. But stormy seas in the Manche meant that my ferry wasn't going to
                     sail, which in turn meant I had to reorganize my return entirely, cutting short
                     my time in Caen. On the plus side, I got to ride back to Paris on a proper
                     train; on the minus side I had to return to stinky old Paris CDG for an Easyjet
-                    to Bristol. Oh well. </p>
+                    to Bristol. Oh well. </p><p>The actual flight from Paris to Bristol took 55 minutes, only 10 minutes more than the bus ride from Bristol 
+                        Airport into town. I then had a twenty minute wait at College Green for the number 8 bus back to Clifton Down. Something 
+                        not quite right there.
+                    </p></div>
                 <!-- 
 
 
@@ -565,12 +586,8 @@ Dominique roux présents the wonderful #metopes ... Publishing system for schola
 
  Oh dear. Storms in la manche mean my plans to come home via jersey have had to be cancelled. #noferry-->
 
-            </div>
-            <div type="slide">
-
-
-                <head>September 27 : Caen - Bristol</head>
-
+          
+           
                 <!--
 Sep 27
 The good news is I get to catch a proper train instead
@@ -592,7 +609,6 @@ Pending/20190927_162627.jpg
 Pending/20190928_162921.jpg
 Pending/20190928_162923.jpg
 -->
-            </div>
 
 
 

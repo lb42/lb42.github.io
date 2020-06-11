@@ -23,13 +23,13 @@ Older talks are listed [here]
  - [Solipsism and me](https://louburnard.wordpress.com/) : last updated July 2014
  
 ## Notes towards an autobiography
- You don't want to believe everything you read [about me on Wikipedia](). But there are some 
+ You don't want to believe everything you read [about me on Wikipedia](https://en.wikipedia.org/wiki/Lou_Burnard). But there are some 
 mostly true autobiographical notes on [this page]
 
 
 ## Reports from the Vault
 [This page](W/collectedReports.html) collects reports on various events I attended between 1977 and 2002, 
-  mostly written because I had to submit a report to get my expenses reiumbursed. Some of them are probably libellous.
+  mostly written because I had to submit a report to get my expenses reimbursed. Some of them are probably libellous.
   
   
 ## Bibliography

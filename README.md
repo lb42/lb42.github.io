@@ -23,7 +23,7 @@ Older talks are listed [here]
  - [Solipsism and me](https://louburnard.wordpress.com/) : last updated July 2014
  
 ## Notes towards an autobiography
- You don't want to believe everything you read [about me on Wikipedia](https://en.wikipedia.org/wiki/Lou_Burnard). But there are some 
+ You don't want to believe everything you read about me [on Wikipedia](https://en.wikipedia.org/wiki/Lou_Burnard). But there are some 
 mostly true autobiographical notes on [this page]
 
 

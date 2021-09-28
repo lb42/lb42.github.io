@@ -2,6 +2,7 @@
 Assorted web pages from Lou Burnard 
 
 ## Recent Talks...
+ - [An introduction to ODD and ODD Chaining](Talks/2021-09-28-odd.pdf) Invited talk at [CLS Infra Workshop: Introduction and Discussion of Core Technologies and Projects](https://clsinfra.io/events/upcomingevents/) 28 September 2021, via Zoom
  - [Modelling meaning: the role of data in the humanities](Talks/2020-02-darmstadt.html) Invited keynote at ["Data in Discourse
 Analysis"](https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/marcusmueller/tagungen_und_workshops/index~1.de.jsp)
  18 - 20 February 2020 in Darmstadt.

@@ -1,10 +1,10 @@
 var CETEI = (function () {
   'use strict';
 
-  /* 
+  /*
     Performs a deep copy operation of the input node while stripping
     out child elements introduced by CETEIcean.
-  */ 
+  */
   function copyAndReset(node) {
     let clone = (n) => {
       let result = n.nodeType === Node.ELEMENT_NODE?document.createElement(n.nodeName):n.cloneNode(true);
@@ -41,7 +41,7 @@ var CETEI = (function () {
     return clone(node);
   }
 
-  /* 
+  /*
     Given a space-separated list of URLs (e.g. in a ref with multiple
     targets), returns just the first one.
   */
@@ -49,7 +49,7 @@ var CETEI = (function () {
     return urls.replace(/ .*$/, "");
   }
 
-  /* 
+  /*
     Wraps the content of the element parameter in a <span data-original>
     with display set to "none".
   */
@@ -79,7 +79,7 @@ var CETEI = (function () {
     return this.rw(this.first(urls))
   }
 
-  /* 
+  /*
     Takes a string and a number and returns the original string
     printed that number of times.
   */
@@ -91,7 +91,7 @@ var CETEI = (function () {
     return result;
   }
 
-  /* 
+  /*
     Takes a relative URL and rewrites it based on the base URL of the
     HTML document
   */
@@ -103,7 +103,7 @@ var CETEI = (function () {
     }
   }
 
-  /* 
+  /*
     Takes an element and serializes it to an XML string or, if the stripElt
     parameter is set, serializes the element's content.
   */
@@ -169,7 +169,7 @@ var CETEI = (function () {
     "namespaces": {
       "tei": "http://www.tei-c.org/ns/1.0",
       "teieg": "http://www.tei-c.org/ns/Examples",
-      "rng": "http://relaxng.org/ns/structure/1.0"  
+      "rng": "http://relaxng.org/ns/structure/1.0"
     },
     "tei": {
       "eg": ["<pre>","</pre>"],
@@ -239,7 +239,7 @@ var CETEI = (function () {
           notes.appendChild(note);
           return content;
         }],
-        ["_", ["(",")"]]
+        ["_", ["[","]"]]
       ],
       "table": function(elt) {
         let table = document.createElement("table");
@@ -292,7 +292,7 @@ var CETEI = (function () {
     }
   };
 
-  /* 
+  /*
     Appends any element returned by the function passed in the first
     parameter to the element in the second parameter. If the function
     returns nothing, this is a no-op aside from any side effects caused
@@ -328,7 +328,7 @@ var CETEI = (function () {
     return e.tagName.substring(0,e.tagName.indexOf("-")).toLowerCase() + ":" + e.getAttribute("data-origname");
   }
 
-  /* 
+  /*
     Private method called by append(). Takes a child element and a name, and recurses through the
     child's siblings until an element with that name is found, returning true if it is and false if not.
   */
@@ -340,11 +340,11 @@ var CETEI = (function () {
     }
   }
 
-  /* 
-    Takes a template in the form of either an array of 1 or 2 
+  /*
+    Takes a template in the form of either an array of 1 or 2
     strings or an object with CSS selector keys and either functions
-    or arrays as described above. Returns a closure around a function 
-    that can be called in the element constructor or applied to an 
+    or arrays as described above. Returns a closure around a function
+    that can be called in the element constructor or applied to an
     individual element.
 
     Called by the getHandler() and getFallback() methods
@@ -352,7 +352,7 @@ var CETEI = (function () {
   function decorator(template) {
     if (Array.isArray(template) && !Array.isArray(template[0])) {
       return applyDecorator(template)
-    } 
+    }
     return (elt) => {
       for (let rule of template) {
         if (elt.matches(rule[0]) || rule[0] === "_") {
@@ -376,7 +376,7 @@ var CETEI = (function () {
     }
   }
 
-  /* 
+  /*
     Returns the fallback function for the given element name.
     Called by fallback().
   */
@@ -390,7 +390,7 @@ var CETEI = (function () {
     }
   }
 
-  /* 
+  /*
     Returns the handler function for the given element name
     Called by define().
   */
@@ -410,10 +410,10 @@ var CETEI = (function () {
       if (node.nodeType === Node.ELEMENT_NODE && !node.hasAttribute("data-processed")) {
         processElement(node);
       }
-    } 
+    }
     // If we have before and after tags have them parsed by
     // .innerHTML and then add the content to the resulting child
-    if (strings[0].match("<[^>]+>") && strings[1] && strings[1].match("<[^>]+>")) { 
+    if (strings[0].match("<[^>]+>") && strings[1] && strings[1].match("<[^>]+>")) {
       span.innerHTML = strings[0] + (strings[1]?strings[1]:"");
       for (let node of Array.from(elt.childNodes)) {
         span.firstElementChild.appendChild(node.cloneNode(true));
@@ -427,7 +427,7 @@ var CETEI = (function () {
       if (strings.length > 1) {
         span.innerHTML += strings[1];
         span.setAttribute("data-after", strings[1].replace(/<[^>]+>/g,"").length);
-      } 
+      }
     }
     return span;
   }
@@ -472,7 +472,7 @@ var CETEI = (function () {
     return result;
   }
 
-  /* 
+  /*
     Registers the list of elements provided with the browser.
     Called by makeHTML5(), but can be called independently if, for example,
     you've created Custom Elements via an XSLT transformation instead.
@@ -483,7 +483,7 @@ var CETEI = (function () {
         let fn = getHandler(this.behaviors, name);
         window.customElements.define(tagName(name), class extends HTMLElement {
           constructor() {
-            super(); 
+            super();
             if (!this.matches(":defined")) { // "Upgraded" undefined elements can have attributes & children; new elements can't
               if (fn) {
                 fn.call(this);
@@ -503,7 +503,7 @@ var CETEI = (function () {
           };
         });
       } catch (error) {
-        // When using the same CETEIcean instance for multiple TEI files, this error becomes very common. 
+        // When using the same CETEIcean instance for multiple TEI files, this error becomes very common.
         // It's muted by default unless the debug option is set.
         if (this.debug) {
             console.log(tagName(name) + " couldn't be registered or is already registered.");
@@ -514,7 +514,7 @@ var CETEI = (function () {
     }
   }
 
-  /* 
+  /*
     Provides fallback functionality for browsers where Custom Elements
     are not supported.
 
@@ -526,7 +526,7 @@ var CETEI = (function () {
       let fn = getFallback(this.behaviors, name);
       if (fn) {
         for (let elt of Array.from((
-            this.dom && !this.done 
+            this.dom && !this.done
             ? this.dom
             : document
           ).getElementsByTagName(tagName(name)))) {
@@ -538,7 +538,7 @@ var CETEI = (function () {
     }
   }
 
-  /* 
+  /*
     Add a user-defined set of behaviors to CETEIcean's processing
     workflow. Added behaviors will override predefined behaviors with the
     same name.
@@ -566,7 +566,7 @@ var CETEI = (function () {
     }
   }
 
-  /* 
+  /*
     Adds or replaces an individual behavior. Takes a namespace prefix or namespace definition,
     the element name, and the behavior. E.g.
     addBehavior("tei", "add", ["`","`"]) for an already-declared namespace or
@@ -653,7 +653,7 @@ var CETEI = (function () {
       }
     }
 
-    /* 
+    /*
       Returns a Promise that fetches an XML source document from the URL
       provided in the first parameter and then calls the makeHTML5 method
       on the returned document.
@@ -690,7 +690,7 @@ var CETEI = (function () {
       });
     }
 
-    /* 
+    /*
       Converts the supplied XML string into HTML5 Custom Elements. If a callback
       function is supplied, calls it on the result.
     */
@@ -700,7 +700,7 @@ var CETEI = (function () {
       return this.domToHTML5(XML_dom, callback, perElementFn);
     }
 
-    /* 
+    /*
       Converts the supplied XML DOM into HTML5 Custom Elements. If a callback
       function is supplied, calls it on the result.
     */
@@ -801,7 +801,7 @@ var CETEI = (function () {
       }
     }
 
-    /* 
+    /*
       If the TEI document defines CSS styles in its tagsDecl, this method
       copies them into the wrapper HTML document's head.
     */
@@ -811,8 +811,8 @@ var CETEI = (function () {
       }
     }
 
-    /* 
-      To change a namespace -> prefix mapping, the namespace must first be 
+    /*
+      To change a namespace -> prefix mapping, the namespace must first be
       unset. Takes a namespace URI. In order to process a TEI P4 document, e.g.,
       the TEI namespace must be unset before it can be set to the empty string.
     */
@@ -820,7 +820,7 @@ var CETEI = (function () {
       this.namespaces.delete(ns);
     }
 
-    /* 
+    /*
       Sets the base URL for the document. Used to rewrite relative links in the
       XML source (which may be in a completely different location from the HTML
       wrapper).
@@ -836,7 +836,7 @@ var CETEI = (function () {
     static savePosition() {
       window.localStorage.setItem("scroll", window.scrollY);
     }
-    
+
     static restorePosition() {
       if (!window.location.hash) {
         if (window.localStorage.getItem("scroll")) {

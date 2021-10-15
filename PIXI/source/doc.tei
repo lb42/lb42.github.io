@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The PIXI Corpora: TEI edition</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Information about publication or distribution</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+ <div>
+  <head>THE PIXI CORPORA: Bookshop encounters in English and Italian</head>
+  <p>Printed version: edited by Laura Gavioli &amp; Gillian Mansfield published by Cooperativa
+   Libraria Universitaria Editrice, Via Marsala 24, 40126 Bologna, Italy </p>
+  <p>copyright Cooperativa Libraria Universitaria Editrice 1990 </p>
+  <p>Computer-readable version: edited by Guy Aston, CISeL, Via Pizzecolli 68, 60121 Ancona, Italy.
+   Converted to TEI-XML by Lou Burnard. </p>
+ </div>
+ <div>
+  <head>CONTENTS</head>
+  <list>
+   <!--  <item>Editors' acknowledgements</item>
+-->
+   <item>Transcription conventions<!-- L. Gavioli &amp; G. Mansfield:--> </item>
+   <item>Introductory remarks </item>
+   <item>The corpora <list> <item>Lod </item> <item>Bof </item> <item>Paf</item> <item>Pif </item>
+    <item>Rok </item></list></item>
+   <item>Appendices<list> <item>Encounters with non-native customers</item> <item>Earlier numbering
+    of encounters</item></list></item>
+  </list>
+ </div>
+ <div>
+
+  <head>TRANSCRIPTION CONVENTIONS </head>
+  <p>In the TEI XML version of these transcriptions, some of the features marked typographically in
+   the printed versions have been replaced by more explicit XML encodings conformant with the TEI
+   Guidelines. These conventions are described in a new section below. The conventions described in
+   this section have however been retained in the online version. </p>
+  <table>
+   <row>
+    <cell>AL </cell>
+    <cell>speaker = assistant, where L is the first letter of the assistant's name </cell>
+    <cell>
+     <tag>u who="AL"</tag>
+    </cell>
+   </row>
+   <row>
+    <cell> C(n)w </cell>
+    <cell>speaker = customer, where n is a consecutive number</cell>
+    <cell>
+     <tag>u who="C(n)w"</tag>
+    </cell>
+   </row>
+   <row>
+    <cell> C(n)m </cell>
+    <cell> when more than one customer speaks in the sequence, </cell>
+   </row>
+   <row>
+    <cell> C(n)i </cell>
+    <cell> w = woman, m = man, i = child</cell>
+    <cell> C(n)wn speaker = non-native customer C(n)mn <!-- all these are <u who="xxx"> --> </cell>
+   </row>
+   <row>
+    <cell>[note]</cell>
+    <cell> comments (paralinguistic and extralinguistic features) <!--<note></note>--> </cell>
+   </row>
+   <row>
+    <cell>(text) </cell>
+    <cell>tape unclear: tentative transcription <!--<unclear></unclear>--></cell>
+   </row>
+   <row>
+    <cell> (<hi>nsyll</hi>) </cell>
+    <cell>tape untranscribable: n = approximate number of syllables spoken
+     <!--          <unclear extent="nsyll"/>--> </cell>
+   </row>
+   <row>
+    <cell> (??)</cell>
+    <cell> tape untranscribable <!--<gap/></gap.>--> </cell>
+   </row>
+   <row>
+    <cell> + </cell>
+    <cell>short pause (less than one second) <!--<pause/>--> </cell>
+   </row>
+   <row>
+    <cell> ++ </cell>
+    <cell>longer pause (less than one second) <!-- pause type="long"/>--> </cell>
+   </row>
+   <row>
+    <cell> (n)</cell>
+    <cell> long pause (n = length in seconds) <!-- pause dur="PTnS"/>--> </cell>
+   </row>
+   <row>
+    <cell> = </cell>
+    <cell>latched to the preceding turn in the transcript <!-- u trans="latching"--> </cell>
+   </row>
+   <row>
+    <cell> == </cell>
+    <cell>latched to previous-but-one turn in the transcript <!-- u trans="latching"--> </cell>
+   </row>
+   <row>
+    <cell> ▼text◀ </cell>
+    <cell>spoken in overlap with next ▲text◀ </cell>
+   </row>
+   <row>
+    <cell> ▼▼text◀◀ </cell>
+    <cell>spoken in overlap with next ▲▲text◀◀ </cell>
+   </row>
+   <row>
+    <cell> "Text" </cell>
+    <cell>title of book or series <!--<title></title>  ?
+--></cell>
+   </row>
+   <row>
+    <cell>
+     <hi rend="ul">text</hi>
+    </cell>
+    <cell>stressed syllable or in loud voice <!-- emph --></cell>
+   </row>
+   <row>
+    <cell> text:</cell>
+    <cell> lengthening of previous sound or syllable (number of colons indicates extent of
+     lengthening) </cell>
+   </row>
+   <row>
+    <cell> text- </cell>
+    <cell>syllable cut short </cell>
+   </row>
+   <row>
+    <cell> text - </cell>
+    <cell>tone group interrupted </cell>
+   </row>
+   <row>
+    <cell> . </cell>
+    <cell>low fall intonation </cell>
+   </row>
+   <row>
+    <cell> , </cell>
+    <cell>fall-rise intonation </cell>
+   </row>
+   <row>
+    <cell> ? </cell>
+    <cell>low rise intonation </cell>
+   </row>
+   <row>
+    <cell> !</cell>
+    <cell> rise-fall intonation </cell>
+   </row>
+  </table>
+ </div>
+
+ <div>
+
+  <head>INTRODUCTORY REMARKS by Laura Gavioli, Gillian Mansfield &amp; Guy Aston </head>
+
+  <p>These corpora provide a transcription of the data collected and analysed in the course of the
+   PIXI project on the pragmatics of public service encounters in English and Italian. The data
+   consist of 379 naturally-occurring conversations recorded in bookshops in England and in Italy
+   some years ago. While the English data (Lod: 150 encounters) were all recorded in one
+   multi-departmental bookshop in a large university town, the Italian data consist of a main corpus
+   (Bof: 180 encounters) recorded in a similar context to that of the English data, and three minor
+   ones from bookshops of other kinds and in other parts of the country (Paf: 21 encounters; Pif: 19
+   encounters; Rok: 9 encounters). The transcribed corpora are available in a printed version
+   published by the Cooperativa Libraria Universitaria Editrice, Bologna, and in a computer-readable
+   version deposited in the Oxford Text Archive. </p>
+  <p>We have decided to edit these corpora for publication for three main reasons. First, there is
+   still relatively little naturally-occurring conversational data published in the form of complete
+   encounters: for instance Crystal &amp; Davy (1975) and Svartvik &amp; Quirk (1980) provide mainly
+   extracts from longer episodes. While the importance of examining naturally-occurring data for an
+   understanding of conversation has been widely maintained in the literature, such data are not
+   easily obtainable. Long and/or surreptitious recordings are needed in order to overcome the
+   observer's paradox and elicit maximally spontaneous speech (see Labov 1972, Svartvik &amp; Quirk
+   1980), while the poor recording quality which is virtually inevitable in real-life settings makes
+   accurate transcription difficult. </p>
+  <p>Second, to the best of our knowledge, there are no published corpora which allow comparison of
+   naturally-occurring conversations in different cultures. Conversational data for contrastive
+   analysis have typically been recorded in experimental settings using role-play techniques (e.g.
+   Edmondson 1981, House 1986), and in those cases where naturally-occurring data have been used,
+   the full corpora are not available; for instance Ventola (1987) includes only the English data
+   from her comparison of service encounters in English and Finnish, and Lindenfeld (1990) provides
+   only French data in her hints at French-American contrasts. We would argue that our two main
+   corpora particularly lend themselves for purposes of cross-cultural comparison since they come
+   from contexts which have similar situational characteristics, and show similar features of basic
+   discourse organisation. </p>
+  <p>Lastly, publication seemed desirable from a methodological perspective. Work from the project
+   which has discussed quantitative tendencies and qualitative characteristics of the data has
+   necessarily cited only sample extracts in illustration. By making available the complete corpora
+   we hope to allow others to better confirm or contest the empirical foundedness of these analyses.
+  </p>
+ </div>
+ <div>
+
+  <head>The corpora as instrument: aims of the project </head>
+  <div>
+   <head>1.1 The choice of bookshops </head>
+   <p>Our study of the pragmatics of service encounters has primarily pedagogic objectives. It hopes
+    to contribute to an understanding of the dynamics of a type of conversation which is typically
+    proposed to language learners as a model: encounters between clerks and customers in shops,
+    public offices, banks, stations, hotels and the like have played a central role in second
+    language teaching from Renaissance phrasebooks to the Council of Europe Threshold Level (van Ek
+    1975). A data-based description and critique of the regularities of such encounters may not only
+    offer more accurate models, but provide insights into the relationship between stereotypical
+    patterns and actual occurrences. In its turn, contrastive analysis may cast light on
+    cross-cultural differences both in terms of stereotypes and of these procedures of
+    instantiation. Insofar as they represent routine institutionalised situations in both cultures,
+    service encounters lend themselves to contrast along these lines. Bookshop encounters seemed
+    particularly suitable objects of study for a number of methodological reasons. </p>
+   <p>In the first place, bookshop encounters are relatively accessible. Most of the shared
+    background which participants draw on is also available to the outsider. Such encounters
+    typically take place between strangers, who do not have a specific shared history to tailor
+    their talk to (Goffman 1983), merely their current context in the shop and their common
+    knowledge of the subject area. This context can be largely known to the analyst. We became
+    familiar with the organisation of the shops while collecting the data, and the main subject
+    areas of the departments concerned (foreign languages and linguistics) were ones where our own
+    backgrounds facilitated understanding. We were also able to turn to catalogues, bibliographical
+    reference works, and indeed the assistants themselves to check names of authors, titles and the
+    like. </p>
+   <p>Secondly, bookshop encounters are fairly homogeneous, and this facilitates the task of
+    observing regularities. While generally going beyond the minimal exchanges typical of booking
+    offices, newsagents or supermarkets (Merritt 1976), they are clearly based on a recurrent
+    sequence: the customer's request and the assistant's response. Requests are furthermore
+    homogeneous as to topic; they usually concern either specific books (e.g. Burchfield's "The
+    English language") or classes of books (architecture, stylistics, etc.). During a pilot stage of
+    our research we also collected data at hotel reception desks and in travel agencies, but we
+    rejected these for the main project for the reason that the wide range of topics and discourse
+    structures made it difficult to compare encounters within each single setting, let alone from
+    two different cultures. </p>
+   <p>Thirdly, bookshops in England and Italy are essentially similar, in the sense of being
+    comparable in ethnographic terms (e.g. those of Hymes' factors in the speech event: 1972) -
+    unlike, say, banks, bars and restaurants where the organisation of the setting, the goods and
+    services available, and/or the roles of participants show clear cross-cultural differences. </p>
+   <p>Finally, it should be stressed that, again for pedagogic reasons, we were interested in
+    examining data where interpersonal conflict was the exception rather than the norm. We aimed to
+    identify regularities of socially `unmarked' collaborative talk in the two cultures, analysing
+    eventual occurrences of conflict in terms of deviation from these regularities. While there are
+    clearly some settings in which encounters regularly assume a conflictual tone, such as service
+    points dealing with customer complaints (George 1990), service encounters are usually
+    collaborative: <quote> By a service encounter I mean an instance of face-to-face interaction
+    between a server who is officially posted in some service area and a customer who is present in
+    that service area, that interaction being oriented to the satisfaction of the customer's
+    presumed desire for some service and the server's obligation to provide that service. (Merritt
+    1976: 321) </quote> Our reactions as native speakers to the encounters we recorded in bookshops
+    confirmed that these were generally non-conflictual. </p>
+  </div>
+  <div>
+   <head>1.2 Analytical approaches</head>
+   <p>It needs to be stressed that while aiming to provide a record of naturally-occurring
+    conversation, the transcripts reproduced here are a far cry from the `real world' which
+    underlies them. The mediating procedures of data collection, selection and transcription are
+    inevitably linked to the transcriber-analyst's interpretations and purposes, and play an
+    unavoidable filtering role (Ochs 1979). A brief account of our analytic approach may therefore
+    help explain some of the procedures we have adopted in creating this written record of the real
+    world of speech in bookshops. </p>
+   <p>Our concern as analysts has been to identify recurrent patterns of strategic action and
+    interaction in the achievement of the prime goals of service encounters, which we see both in
+    the `transactional' terms of getting and providing relevant goods and information, and in the
+    `interactional' ones of establishing and maintaining face and interpersonal rapport (Brown &amp;
+    Yule 1983): following Giddens, we take it that "through recurrent and recursive properties of
+    interaction [...] actors both produce and reproduce social relationships across time and space"
+    (Boden 1990: 246). Our concern with these pragmatic aspects of negotiation has entailed a focus
+    on the text as produced jointly and progressively by participants, stressing the temporal nature
+    of its realisation. </p>
+   <p>In a first phase (see particularly the papers in Aston 1988a), analysis concentrated on
+    identifying the underlying `scripts' (Schank &amp; Abelson 1975) to which service encounters
+    appeared to be oriented in the two cultures: from this perspective we examined the
+    lexicogrammatical and intonational forms and sequential organisation of requests and responses,
+    and of encounter openings and closings (Tucker 1987, 1988a, b; Mansfield 1988; Anderson et al.
+    1988; Merlini Barbaresi 1988; Anderson 1988a). In looking at deviation from apparently routine
+    patterns, we examined participants' strategies of dominance and control, and interactive
+    procedures of negotiation, stressing the ways in which identities and statuses were established
+    and maintained through such strategies and procedures (Ciliberti 1988; Aston 1987, 1988c;
+    Vincent Marrelli 1988; Anderson 1987, 1988b). In contrast to data which is role-played or where
+    one or more speakers has been instructed how to elicit the conversation (e.g. Scotton Myers
+    &amp; Bernstein 1988), and where in consequence goals and outcomes may fail to reflect real-life
+    concerns, we argued that such analysis of naturally-occurring discourse offered a more reliable
+    basis for the development of teaching materials, in designing both learner activities of
+    discourse production and ones involving metalinguistic observation of verbal behaviour (Aston
+    1988d, e, f; Anderson 1988c; George 1988). <note place="foot">We do not mean to suggest that the data themselves
+    constitute appropriate materials for direct teaching use, merely that they offer indications for
+    the design of such materials, a process in which pedagogic concerns will be paramount over
+    demands for authenticity tout court. It should also be noted that the tapes cannot directly
+    provide classroom listening material, since background interference and audio quality make
+    comprehension arduous even for advanced students.</note> </p>
+   <p>In our more recent work, analysis has shifted to comparison of the English and Italian
+    corpora, contrasting basic structural patterns (openings and closings, request and response
+    forms: Zorzi Cal&#x00e1; et al. 1990; Brodine 1990; Zorzi Cal&#x00e1; 1990a, c; Ciliberti 1991c)
+    and the realisation and placement of certain recurrent actions (interruption, laughter, personal
+    disclosure, accounts: Zorzi Cal&#x00e1; 1990a, b; Gavioli 1987, 1990a; Anderson 1990), with an
+    attempt to relate cross-cultural differences in discourse procedure to differences in wider
+    terms of cultural `style'. <note place="foot">The minor corpora, which come from a variety of geographical and
+    organisational settings, have been used to validate generalisations concerning cross-cultural
+    differences derived from the major corpora.</note> In facing this question we have taken two main
+    approaches, which we see as complementary in their pedagogic implications (Ciliberti &amp;
+    Aston, forthcoming). The first derives from conversational analysis, and sees sociocultural
+    phenomena and personal identities as creatively constituted through the use of
+    culturally-preferred and locally-adhocced discourse procedures (Schegloff 1987; Aston 1989). The
+    second, derived from critical discourse analysis (Fairclough 1989), seeks evidence of
+    predetermined sociocultural norms in discursive conventions, and of individual personality in
+    distinctive patterns of use of these conventions (Ciliberti 1989a, b, 1991a, b). In sensitising
+    learners to culture-specific regularities and their individual use, and in developing their
+    capacity to negotiate discourse goals with reference to such regularities, both approaches would
+    appear pedagogically productive. By describing discourse procedures and relating these, in terms
+    of cause or effect, to features of social structure (personal self-image and positional status,
+    interpersonal rapport and institutional requirement), both approaches provide accounts of
+    interaction which can be employed to design contexts for classroom activities involving analysis
+    or construction of foreign language discourse (Aston 1988d, 1990; Ciliberti 1991a, b; Gavioli
+    1990b). </p>
+  </div>
+ </div>
+ <div>
+  <head>The corpora as record</head>
+  <div>
+
+   <head>2.1 Contexts of situation: the main corpora</head>
+   <p>The main corpora were each collected in large bookshops in the centre of large university
+    towns, in the South of England (Lod) and in the North of Italy (Bof) respectively. Both shops
+    were of a self-service, multi-departmental kind, which while mainly serving university students
+    and staff, also catered for other kinds of readers and tastes. In the departments where we
+    recorded, which each dealt with language and linguistics, a significant number of customers were
+    non-native speakers; 37 encounters where customers are recognisably non-native were collected in
+    the English shop (25%), and 19 in the Italian one (11%). </p>
+   <p>In both shops assistance to customers was provided from service points which were located
+    separately from the cashiers' tills, with two or three assistants (of both sexes) generally
+    assigned to each point. However the vast majority of the encounters involve one assistant and
+    one customer. Two assistants occasionally take part in an encounter, but there is always one
+    primarily responsible for dealing with the customer, while the other only intervenes to provide
+    additional information or comment. Similarly there is almost always one primary customer. While
+    s/he may occasionally be accompanied by a friend or friends, the latter are rarely also
+    potential purchasers. </p>
+   <egXML xmlns="http://www.tei-c.org/ns/Examples"></egXML>
+   <p>Being self-service bookshops, contact with the service-giver usually occurs when the customer
+    needs help with a problem of some kind. Most of the encounters concern either a specific book
+    which the customer cannot locate, or the whereabouts of a category of books (e.g. dictionaries).
+    A few encounters involve requests for information of other kinds, such as shop rules (where one
+    pays, the possibility of paying by credit card or on account, opening hours) or `outside
+    information' concerning the book trade (e.g. directions to another shop). In all these cases,
+    the customer produces one or more utterances hearable as requests, and, by the adjacency pair
+    rule (Schegloff &amp; Sacks 1973), makes relevant the assistant's reply as the next action. A
+    request-reply sequence is central to both English and Italian encounters. Even when customers
+    produce lists which they show to the assistant, they still generally produce a request, using a
+    deictic this/questo to refer to some item on the list. The main exception to the `customer
+    request - assistant reply' pattern is where the assistant forestalls an eventual request of
+    purchase: "Are you paying cash?" (Lod D-06); "Er: if you want to pay, it's on the + desk in the
+    centre there" (Lod B-31). </p>
+   <p>Some recurrent features of requests and replies in the data relate to the general
+    characteristics of the shops where recordings were made. In particular: <list> <item>a) Their
+    organisation in departments entails that we find frequent redirection of customers to other
+    floors and/or departments. 
+     <quote n="Lod B-30">
+     <u who="Cm">Do you keep <unclear>only this copy? Opus:</unclear> ‑ mh. <pause/> ▾<unclear extent="2syll"/>.◀</u>
+     <u who="AP">▲Well◀ they <emph>might</emph> have upstairs: in mythology: <pause/> ▾section, on the second floor.◀</u>
+     <u who="Cm">▲Mm: mythology section,◀ <unclear>pardon</unclear>?</u>
+     <u who="AP" trans="latching">=Yeah. <pause/> Or:, failing that the ‑ <emph>Pen</emph>guin  department on the ground floor.</u>
+     </quote> </item>
+     <!--<quote> Cm Do you keep (only this copy? Opus:) - mh. + ▼(2syll).◀ AP
+    ▲Well◀ they might have upstairs: in mythology: + ^section, on the second floor.^ Cm ▲Mm:
+    mythology section,◀ (pardon)? AP =Yeah. + Or:, failing that the - <emph>Pen</emph>guin
+    department on the ground floor. <ref>(Lod B-30)</ref> </quote>-->
+     <item>b) Their self-service
+    structure implies that customers usually only ask for help when they cannot find what they are
+    looking for themselves. It is probably for this reason that our data contain a large number of
+    negative replies to requests - saying, for instance that a wanted book is not available - far
+    more than would seem likely for shops where goods can only be obtained through an assistant.
+    </item><item> c) The uncertain nature of the supply chain in the international book trade
+    arguably explains the vagueness of many such replies: <quote> AJ Can I help you. C2w Yeah, can you
+    give me a: - a- a prediction on when: Jacques Lacan's "Écrits" is likely to come back in? AJ +
+    Frankly no. I can give you a + er + educated guess, of: ^(4syll).^ C2w ^Well.^ That's hh -
+    better than ^I can^ do hh, so: - AJ ^Hh.^ (07) AJ [in the distance] About two maybe three weeks.
+    (Lod C-30 /b1) </quote> Customers are encouraged to put in an order with a contact address or phone
+    number; in Bof they are often told to try coming back on Wednesday or Thursday, as deliveries
+    normally occur on Tuesdays.</item><item> d) The assistants are not generally responsible for
+    effecting sales (except, in the case of Lod, for purchases on account: cf. Lod B-07 /a; Lod C-23
+    /c). This entails that there are no `payment closings' to encounters in either set of data; as
+    the assistants explicitly say, "The cash desk is just behind you" (Lod E-06) or "Si paga sotto
+    alla cassa grazie" (Bof C-04). </item></list></p>
+   <p> Following these observations on the general similarities of the contexts of the major
+    corpora, we now outline their settings in more detail. </p>
+   <div>
+    <head>2.1.1 Lod</head>
+    <p>Lovatts is one of the main bookshops in the town of Nonesuch. [Italics indicate names which
+     have been altered to preserve anonymity: cf. 2.5.6 below.] It has about fifteen departments
+     spread over five floors: basement, ground, mezzanine, first and second floor, with a further
+     floor for offices. The department where recordings were made is on the first floor and deals
+     with philosophy, linguistics and religion. It consists of a rectangular room with open
+     entrances and shelves on each of three walls, and windows on the fourth. The service desk is in
+     front of the window, facing into the room, and is thus immediately visible and identifiable as
+     such from the entrances. The assistants generally stand or sit behind the desk where they also
+     have shelves and drawers for catalogues, a table with a microfiche reader, and a card index of
+     books stocked and on order in the department. Various cash points are provided on the same
+     floor, one of which is visible about ten metres away facing the service desk. </p>
+    <p>There are two main assistants, Jane, who heads the department, and Paul. Both are in their
+     mid-thirties and have worked there for several years. Assistants from other departments - one
+     of whom, Zoe, appears in the corpus - occasionally come to help in peak periods, or to
+     substitute during breaks. In slack periods (for reasons of recording quality, much of our data
+     was collected in these) there is often only one assistant on duty. As well as by customers and
+     other assistants, the desk is occasionally visited by publishers' representatives. No customers
+     in the corpus appear to have been previously known to the assistants (there is a contrast here
+     with Bof, where several customers are known by name and a few are clearly friends of an
+     assistant). </p>
+    <p> A public address system, giving announcements throughout the shop, sometimes renders the
+     recording of the encounters inaudible. </p>
+   </div>
+   <div>
+    <head>2.1.2 Bof</head>
+    <p>Bosinelli is one of the main bookshops in the town of Menzogna. As an assistant explains (Bof
+     A-01), it belongs to a chain which has branches all over Italy, and references are occasionally
+     made to the Menzogna shop to distinguish it from others. The shop occupies two separate
+     adjacent buildings; in the building in question it occupies two floors, each containing a
+     single department. The data were recorded in the foreign language and literature department, on
+     the upper floor, which is a sort of rectangular balcony overlooking the ground floor, reached
+     by stairs leading up to one end. Shelves cover the side and far walls; other lower shelves are
+     ranked in the centre of the room and along the side of the balcony over the ground floor. The
+     service desk is set at the far end of the balcony, facing the entrance, while the single cash
+     desk is downstairs by the street entrance, visible (and audible) from the balcony when standing
+     up. The rest of the shop (another dozen or so departments) is located next door but one, and is
+     sometimes referred to as the `other' shop ("l'altra libreria": Bof G-07 /b). </p>
+    <p>There are two main assistants: one man, Alberto, and one woman, Franca, who heads the
+     department. Like the assistants in Lod, both are in their mid-thirties and have worked in the
+     department for several years. They do not always sit or stand at the service desk; they are
+     often busy elsewhere tidying the shelves, putting price labels on books or personally finding
+     them for customers. Franca also uses a further desk in a backstage area on the balcony to which
+     customers do not have access; usually only one assistant is near the service desk itself.
+     Assistants from other departments occasionally intervene, often in shouted exchanges with the
+     ground floor: there is a buzzer system which the assistants on one floor can use to attract the
+     attention of those on the other (cf. Bof A-19 /b2). Some of the shelves are sliding ones, which
+     hide further shelves behind them with further books. Their movement accounts for the background
+     noises noted in some encounters (e.g. Bof B-06). </p>
+    <p>With respect to Lod, the atmosphere in Bof is a somewhat closer, more local one. Many of the
+     customers visiting the department are students or teachers from the town's language schools and
+     university, and the assistants are familiar with the books used in the main courses there. Some
+     customers are known by name and in a few cases are friends of an assistant (e.g. Bof F-18 /b). </p>
+    <p>While most of the recordings were made on normal working days, one afternoon (day F in the
+     corpus) a lecture by the poet Yevtushenko had been organised on the ground floor, so that the
+     shop was particularly crowded, a fact to which assistants and customers repeatedly allude: <quote>
+     C4w "Madame Bovary" di Flaubert? No:n - c'á in francese solo? AA =L'ho finito + qua sopra, +
+     forse ce l'ho sotto, + per&#x00e1; non ci vado. ++ Nel senso che non si riesce a entrare nella
+     sala ^bassa.^ C5m ^Com'á che á cosá?^ Sempre ^cosá?^ AA ^C'á: -^ no, c'á: E- Evtuscenko. C5m +
+     Ah: - AA + á quello. ^Faccia^mo la presentazione di: di un suo libro - C5m ^Sá?^ C4w Ah:, (ho
+     capito). (Bof F-04 /b) </quote> </p>
+   </div>
+  </div>
+  <div>
+   <head>2.2 Contexts of situation: the minor corpora</head>
+   <p>The minor corpora consist of selected data from smaller shops in other parts of Italy. Unlike
+    Lod and Bof, which are largely analogous in terms of their organisation, clientele and the roles
+    of the assistants, these corpora derive from contexts which differ markedly in one or more of
+    these respects. </p>
+   <div>
+    <head>2.2.1 Paf</head>
+    <p>The Paladini bookshop is situated in a small town in Northern Italy. It is, like Bof, one of
+     a national chain, self-service, multi-departmental and multi-storey. The shop is spread over
+     two floors connected by stairs, with a single cash point near the entrance. The ground floor,
+     where most recordings took place (Paf-01 was recorded upstairs), has two main sections: Italian
+     language and literature, and history. As well as the main desk at the cash point, there is a
+     smaller desk at the back of the shop, half hidden by the stairs. The upper floor has sections
+     of foreign language and literature, psychology, arts and cinema, computing, children's and
+     leisure books. There is one service point near the top of the stairs, close to the foreign
+     language and literature section. </p>
+    <p>There are normally two assistants on each floor: two women, Graziella and Fabiola, upstairs,
+     and two men, Paolo and Dario, on the ground floor. All move around the shop, however, and most
+     encounters with customers take place away from the service desks. Paolo, the manager, is older
+     than the others, to whom he often redirects customers: consequently many encounters involve
+     exchanges between assistants. As in Bof, customers are mainly students and teachers, but the
+     shop also caters for general readers. </p>
+   </div>
+   <div>
+    <head>2.2.2 Pif</head>
+    <p> The Piranesi bookshop, located in a small town in Central Italy, is again one of a chain,
+     and is again self-service. The shop is however much smaller than Bof or Paf, being set on a
+     single floor and run as a single department. There is only one desk, with a cash till, placed
+     near the entrance. There are two assistants: one man, Christian, and one woman, Flavia.
+     Christian typically moves around the shop tidying the shelves, putting price labels on books
+     and occasionally getting books for customers, while Flavia sits at the cash desk ringing up and
+     wrapping up purchases. Like the other shops described so far, Pif serves both students and a
+     more general public. </p>
+    <p>The chain to which Piranesi belongs rewards loyalty by offering a discount after a certain
+     number of purchases have been made. Customers are given a card on which the assistant registers
+     each purchase by punching holes in it: when this tessera is complete, it entitles the customer
+     to a small discount on any book published by the company owning the chain. This mechanism is
+     discussed at some length in the data (cf. Pif-07, Pif-11). </p>
+   </div>
+   <div>
+    <head>2.2.3 Rok</head>
+    <p>The Rocca bookshop, located in a large town in Central Italy, differs from the others in not
+     catering for a general public, not belonging to a national chain, and not being self-service.
+     It is specialised in one field, serving the needs of students and staff in the nearby
+     psychology faculty of the local university: a sister shop in the same town offers a similar
+     service for another faculty (cf. Rok-06). It is on one floor, with a long central desk behind
+     which all the books are kept, and where both service and payment take place. A further
+     distinctive feature is that the assistants share the social status of their customers, being
+     psychology students who work there on a part-time basis. There are two of them in our data, one
+     female, Francesca, and one male, Daniele: they stand at the desk to take requests and then go
+     behind to fetch books before moving to the till to take payments. Rok carries secondhand as
+     well as new psychology books, and additionally distributes university programmes and calendars
+     (cf. Rok-04). </p>
+   </div>
+  </div>
+  <div>
+   <head>2.3 The spoken record</head>
+   <p>While audio recording excludes the kinesic aspects that are retrievable from a video, it is
+    easier to manage. A microphone can be hidden on a desk, in the lapel of an assistant's jacket,
+    or in the handbag of a passing researcher, and there is no need for further personnel to operate
+    clearly visible equipment. Editing and transcription time are considerably reduced: the
+    difficulty of transcribing and analysing non-verbal behaviours is avoided. Not least, the
+    ethical problems of data collection are lessened. All the data in the corpora were collected
+    using audio-cassette recorders: a professional Sony with a Levalier button microphone was used
+    for the main corpora, while the minor corpora were gathered using normal portable machines with
+    built-in microphones. </p>
+   <p>Recording of the main corpora was in each case carried out over a fortnight: the tape recorder
+    was left on continuously for an hour or two on as many days in this period as possible. In this
+    way we hoped to get a typical sample of `ordinary' data, and lessen, through familiarity, the
+    influence of recording on the assistants' behaviour. We believe that this strategy was
+    reasonably effective: the tapes captured a range of business and relaxed styles of interaction,
+    including some slightly risquá banter between assistants to which one of them later referred in
+    talk with the researcher, observing that he would have been more discreet had he remembered
+    there was a tape recorder on. Only in one case would it appear that an assistant addresses a
+    remark directly to the tape (Bof F-17). Assistants were told that the purpose of the research
+    was to study different customers' pronunciation patterns: when recording was complete, we
+    obtained assistants' permission to study their own patterns of interaction. </p>
+   <p>While assistants knew they were being recorded, customers were, we believe, in all cases
+    unaware of the tape recorder, and the ethics of recording and publishing these encounters may
+    thus be questioned. We would however stress that: a) the encounters occurred in public places
+    (other customers were almost always present in the department and in a position to eavesdrop);
+    b) customers cannot be identified from the transcripts, in which names, addresses, telephone and
+    account numbers have been altered (the tapes themselves are not being made available); c) talk
+    did not involve disclosure of other private information, or sensitive aspects of behaviour
+    (illegal conduct, drug use, sexual matters: cf. Lamoreaux 1989, note 2; Shuy 1986).
+    Identification of the shops and hence of the assistants is also unlikely: we have altered all
+    names, and both Lod and Bof have changed their layout and organisation since the recordings were
+    made. </p>
+   <p>In Lod, the recorder was placed under the assistants' desk, and the microphone hidden in a
+    typewriter resting on it. Tapes were changed by a researcher who would pass by the department
+    periodically. The first part of the Bof corpus (Bof A-01 to A-20) was collected in a similar
+    manner, but as the assistants tended to move around the department more, accompanying customers
+    to search for books or to communicate with colleagues, the result was that many recordings were
+    incomplete. It was thus decided to transfer the recorder to the jacket pocket of the main
+    assistant on duty, with the button microphone in the lapel. While this inevitably increased the
+    assistant's awareness of recording, we were by this stage convinced (not least by assistants'
+    own accounts) that their behaviour should be little influenced: however, as a precaution, data
+    from the first day of this modality of recording were not included in the corpus. The Bof
+    assistants also kindly offered to carry out tape changing themselves; the fact that they
+    regularly forgot to do this punctually is a further testimony to their limited awareness of the
+    microphone's presence. Overall, the Lod and Bof corpora derive from a total of 9 and 12 hours
+    recording made on 5 and 7 days respectively. </p>
+   <p>The minor corpora were instead collected over shorter periods, with 2-6 hours of recording
+    over one or two days. Again the assistants were aware that recording was or might be taking
+    place. In Pif and Rok, the tape recorder was situated at the service point, being visible on the
+    desk. The Paf data were instead collected by a member of the research group who browsed in the
+    shop with a tape recorder in her bag. This method, unfortunately, gave rise to many incomplete
+    recordings, as whole encounters often could not be taped without obvious eavesdropping. </p>
+  </div>
+  <div>
+   <head> 2.4 The written record: structure </head>
+   <p>While the fact of continuous recording contributed, we hope, to the naturalness of the data,
+    our original tapes clearly included all kinds of material which was irrelevant for our purposes:
+    long silences between different encounters, one side of telephone conversations, chat between
+    assistants during lulls in business, visits from publishers' representatives, or from friends
+    who had just happened to stop by. In selecting encounters for inclusion in the transcribed
+    corpora from the many hours of recording, we have tried to limit ourselves to what we consider
+    service encounters (Aston 1988b): those taking place between assistants and customers
+    face-to-face, normally incorporating a central request-reply sequence, even where not strictly
+    connected to bookshop business. In the main corpora we also excluded all the recordings made on
+    the first day of collection or after a change in mode of collection, hoping to thereby minimise
+    the eventual influence of recording on the assistants' behaviour. </p>
+   <p>The transcripts have been `cleaned' in the sense that noise or talk in the background is not
+    transcribed unless it seems relevant to the encounter in question. Telephone calls and other
+    types of conversations have been included only where they seem necessary to the interpretation
+    of a service encounter which they precede or interrupt: in such cases either some transcription
+    or a brief summary of their gist has been provided (such talk is not always understandable where
+    topics are not explicit, however). We have also discarded those encounters that were largely
+    inaudible or intractably incomprehensible, whether owing to background noise (a loudspeaker
+    announcement or a telephone ringing), to the distance of speakers from the microphone, or to
+    continual overlapping of different speakers. </p>
+   <p>While these selection procedures mean that much of the material recorded has been omitted, the
+    transcriptions of the remaining chunks, and of the encounters within those chunks, are
+    reproduced in chronological order, on a day-by-day basis. These aspects of sequencing are
+    relevant in that: <list><item>(a) Assistants' replies may be influenced by the recurrence of
+    similar requests over a relatively short period. For instance in the Lod bookshop, Burchfield's
+    "The English language" had sold out, and the assistants appeared to have developed a fixed spiel
+    in responding to requests for it (cf. Lod A-04 /a; Lod B-02; Lod B-23; Lod C-26): <quote>Cm
+    (5syll), recently published by - Bur:chfield, "The English language", ^have you got that?^ AP
+    ^Yes, it's:^ um: sold out, it's re^printing^ already, and it's due to come back again: they're
+    hoping about the eighteenth of: this month. Cm ^Oh!^ Cm ==Okay. Thank you. (Lod B-23)
+    </quote></item><item> b) Encounters are on occasion suspended, as a customer leaves the desk and
+    then returns seconds or minutes later; a further encounter or encounters may be `embedded' in
+    the intervening break.</item><item> c) Strings of encounters may occur one after the other in
+    quick succession or with partial overlaps. Here the presence of a next customer may affect the
+    closing of the previous encounter and the presence of the previous customer the opening of the
+    next.</item></list></p>
+   <p> In the main corpora, a different upper-case letter has been used for each day of recording (A
+    to E in Lod, A to G in Bof). Within each day the various chunks of recording transcribed are
+    numbered consecutively (A-01, A-02, etc.). When more than one encounter occurs in a single
+    chunk, the beginning of each encounter is indicated by a lower-case letter (/a, /b, etc.): where
+    such an encounter is suspended while another `embedded' encounter or encounters takes place, its
+    parts are numbered (/a1, /a2, etc.). When a pause occurs between one encounter and another, its
+    duration is indicated in seconds at the end of the first: <quote> Bof G-15 /a1 ... C1m E: - piá o
+    meno + la cifra? Pensavo, non so - AA Andiamo a vedere. C1m + Perchá: (02) dipendeva anche dalla
+    - AA (01) Adesso (se me lo ridá) un attimo il ^biglietto.^ (01) Sampson. C1m ^Certo.^ (01) /b
+    C2w Lo pago alla cassa, questo? AA Sá, alla cass- si paga giá. Grazie. C2w =Grazie. Buongiorno.
+    AA Buongiorno. (14) /a2 AA [fra sá] Sampson. (01) [normale] Sulle:: cinquantamila lire. C1m ++
+    Mm. (01) Mm. + D'accordo. Allora ripasso per: + eh: abbiamo detto, per il Bromhead. AA Sá.
+    Dovrebbe giá esserci per giovedá. ...</quote> </p>
+   <p> Notice however that if an assistant addresses another customer in an aside or another
+    customer interrupts the current encounter only momentarily (often just to say hello or goodbye),
+    while the main axis remains that between the assistant and the current customer, the
+    interruption is not labelled as a separate encounter or part. Examples are C3's intervention in
+    the next extract, and AA's response to it: <quote> C2w E: mm: ce l'avete "L'uomo di Pietroburgo" di
+    Ken Follett in inglese? AA =Credo di averlo finito, un attimo che controllo. C3w Eh - senta per
+    pagare, vado giá? AA [a C2] á finito "Pietroburgo" + infatti. C2w Non c'á? AA No. á finito. +
+    Tor:na fra dieci quindici giorni. [a C3] Sá, lo paga sotto alla cassa, ^grazie.^ C3w ^Sá.^ C2w
+    Grazie. Buonasera. (Bof F-11 /b) </quote></p>
+   <p> To locate all talk by a particular customer, therefore, it may be necessary to scan the whole
+    of the chunk in which they appear, not merely the labelled part(s) of that chunk in which an
+    assistant is dealing with them directly. </p>
+   <p>Most previously published work from the project made reference to a different numbering scheme
+    from that employed here.</p>
+   <p>In the TEI XML version, each encounter is marked as a <gi>div</gi> and the identifying code
+    defined above is provided as the value of its <att>n</att> attribute. For processing reasons, a
+    simplified version of the code is also provided as the value of its <att>xml:id</att> attribute.
+   </p>
+  </div>
+  <div>
+   <head>2.5 The written record: transcription procedure </head>
+   <p>Initial transcriptions of the data were made by various members of the PIXI group, and these
+    transcripts were then independently checked by other members. Further checking and revision were
+    carried out by the editors with the aid of computer-controlled Tandberg tape recorders operated
+    via keyboard macros from within the word processor, permitting synchronised playing of specified
+    portions of the tape with video display of the relevant transcript. Finally the revised
+    transcripts were rechecked against the original tapes by other members of the group. All the
+    transcripts have been checked by at least two native speakers of the language used. Our
+    transcription technique follows the modified `playscript' model developed by Jefferson (1978,
+    1985, 1988; see also Atkinson &amp; Heritage 1984) - a technique we believe substantially meets
+    the criteria of adequate category definition, accessibility, robustness, economy and
+    adaptability (Du Bois 1991). We have adapted Jefferson's norms in minor respects (generally
+    simplifying them somewhat) in order to deal more readily with data in two different languages
+    and to facilitate computerised elaboration. </p>
+   <p>Our aims required a transcription that would be easily readable but which would provide a
+    reasonably faithful representation of sequencing and timing. We thus excluded both simple
+    playscript transcription (Drew 1982) and the musical score type (Makosh &amp; Spencer 1982),
+    since the former does not provide information on pauses and overlaps, and the latter does not
+    clearly distinguish turns, and makes computer editing difficult. [Ehlich's recently-developed
+    HIAT system (Ehlich, forthcoming) overcomes most of the difficulties of computerised
+    transcription using musical score technique.] For the sake of readability, we also excluded
+    phonetic transcription, which would have involved a complex of signs and symbols over and above
+    the numerous features of a basic transcription, not to mention greater difficulty in obtaining
+    agreement between transcribers (Halliday 1970, Brown et al. 1980, Brazil 1985, Erickson &amp;
+    Shultz 1982, Owen 1978, Crystal &amp; Davy 1975). We have followed Jefferson in using
+    punctuation as a rough indication of stress and intonation, and indicated marked segmental
+    pronunciation features only where these appear relevant for an understanding of the discourse
+    (Sornicola 1982: see 2.5.2 below). A summary of the transcription conventions used is provided
+    prior to these remarks. </p>
+   <div>
+    <head>2.5.1 Turns and speakers</head>
+    <p>The use of a playscript transcription, where speakers are shown as taking alternate turns,
+     entails deciding when a turn is `complete' - in particular, in what cases further talk by a
+     given speaker following a silence or a `backchannel' contribution from another should be
+     considered a continuation of the current turn. To avoid the subjectivity entailed by pragmatic
+     criteria of turn-completeness, we have arbitrarily transcribed as a single turn any stretch of
+     speech by one speaker in which there are no pauses longer than 2 seconds, and during which any
+     other speakers' talk is fully overlapped. Thus if any speaker pauses for more than two seconds,
+     subsequent talk by them is transcribed as a new turn. Similarly, if a speaker stops talking
+     even briefly, and during that interval talk is produced by another speaker, any subsequent talk
+     by the first is transcribed as a new turn. </p>
+    <p>The speaker of each turn is indicated in bold in the left hand margin by a code showing role
+     (A = assistant, C = customer). Individual assistants are further identified by their initial.
+     Thus in the code AJ, A stands for assistant and J is the initial of the assistant's name. A
+     list of the various assistants is provided at the beginning of each corpus. </p>
+    <p>Customers are coded by their sex/age (m = man, w = woman, i = child). Where two or more
+     customers speak during one recorded chunk, they are also numbered in order of appearance. Thus
+     the code C1w indicates that the speaker is the first customer to appear in the chunk, and is a
+     woman. Where customers are clearly non-native speakers, the code ends with an n. Thus C2mn
+     indicates that the speaker is the second customer to appear in this chunk, and is a male
+     non-native speaker of the language of the corpus. </p>
+    <p>Other speaker codes occasionally used are F (a friend of the assistant's who is not a
+     colleague or customer) and R (a publisher's representative): a following m or w indicates their
+     sex. Where speaker identity is uncertain, an italicised question mark precedes the code. </p>
+    <p>In the TEI XML version, each utterance is tagged using the <gi>u</gi> element. The speaker
+     identifier, as defined above, is provided as the value of its <att>who</att> attribute. </p>
+   </div>
+   <div>
+    <head>2.5.2 Pronunciation and pseudo-verbal sounds </head>
+    <p>The orthography we have adopted is closer to conventional written forms than that in
+     Jefferson's transcriptions, which attempt to capture actual pronunciation through the use of
+     `creative' spelling. As phonetic analysis was not one of our objectives, it did not generally
+     seem worthwhile attempting to reproduce pronunciation more precisely. Not only would `creative'
+     orthography have decreased readability (particularly for non-native readers of a foreign
+     language), but it would have also posed particular difficulties given our data. Insofar as the
+     informal conventions for the orthographic representation of pronunciation characteristics are
+     language-specific, we would logically have had to adopt different `creative' transcription
+     principles for different languages, or for different corpora. Either way this would have caused
+     considerable confusion where code-switching takes place: in the Italian corpora, for instance,
+     participants frequently use English (as well as French, German and Spanish) to mention titles,
+     authors and publishers, while in the English corpus we find Italian and French. We have
+     therefore generally limited creative spellings to pseudo-verbal sounds, such as mhm, uhuh and
+     the like. Even these, it should be noted, in some cases entail different transcriptions of the
+     same sounds in the two languages (e.g. erm in English and ehm in Italian). To limit the
+     quantity of such `balloon language', we have also made quite extensive use of comments (e.g.
+     [coughs], [laughs]). Partial phonetic transcriptions have however been provided in comment
+     format (italicised within square brackets) in cases of non-standard or variant pronunciation
+     which are targets of self- or other-repair: <quote> C5w ... E poi, e- un libro di Borges [/djz/].
+     In spagnolo. AA =Di Borges [/ghez/] cosa? (Bof F-10 /d) </quote></p>
+    <p> Here the customer pronounces the author's name as a single syllable with a soft g; the
+     assistant `corrects' her pronunciation, using a two-syllable form with a hard g. </p>
+    <p>Foreign words, which occur frequently in the discussion of foreign-language books, are
+     transcribed using their conventional spellings and without specific markings. </p>
+    <p>Transcription of laughter poses particular problems in Jefferson's format (1985, Jefferson et
+     al. 1976, 1987). In our data, while laughter is present in many encounters, participants do not
+     laugh extensively and they seldom laugh together. We have therefore only made a broad
+     distinction between intensive laughter ([laughs / ride]) and less intensive laughter
+     (transcribed as "hh" in both languages). </p>
+   </div>
+   <div>
+    <head>2.5.3 Use of capitals, question marks and hyphens </head>
+    <p>Capital letters are used according to the orthographic conventions of the language of the
+     corpus: for the first word of a turn and for the first word following a full stop, question or
+     exclamation mark within a turn; for the first letter of proper names (including publishing
+     houses and authors' initials); and, in English, for proper adjectives, days and months. Titles
+     of books and of series (placed in quotation marks, see below) have their first letter
+     capitalised: <quote> AJ There's: a book called "Essays in modern linguistics", by D C Freeman,
+     (Lod B-07 /c2)</quote> </p>
+    <p> Capital letters are also used for acronyms ("EFL", "livello A"), and in English, spaced
+     capitals are used to transcribe spelling aloud: <quote> AJ + Don't know it. How do you spell the
+     name ^(or something)?^ Cm ^D Y,^ C H, T W A L D. It's er Wildwood: House. AJ D Y, C H? Cm +
+     Yeah. (Lod C-08) </quote></p>
+    <p> For spellings aloud in the Italian data we have instead followed the Italian convention of
+     reproducing the pronunciation, i.e. "enne" for the letter n, "esse" for s, etc.: <quote> AA E: a
+     nome, signore? Scusi che ^non mi ricordo mai i nomi hh.^ (01) Ha detto? Cmn ^E:hm Birley.^ Cmn
+     Birley. ^Bi^ i erre, AA ^Ah.^ AA (Ah sá). Cmn Elle e ipsilon. Birley. (Bof G-03) </quote> </p>
+    <p>Quotation marks are used to indicate titles of books and series. In some cases, particularly
+     ones of widely-used foreign language courses, titles are abbreviated by participants: in Bof,
+     The Cambridge English course is regularly referred to as "Cambridge", Life styles as "Elle
+     esse". Such courses are generally divided into a series of levels
+     (primary/intermediate/advanced or one/two etc.), with a number of components at each level
+     (coursebook, workbook, practice book, tests etc.): where the level is stated along with the
+     name of the course we have treated it as part of the title, placing it within quotation marks
+     (e.g. "Meaning into words intermediate", "Cambridge uno"). References to the various
+     components, which are made in a wide range of manners, have instead been treated as normal
+     text. </p>
+    <p>
+     <quote> AA "English today tre" con il workbook - ^vediamo.^ (Bof C-06) Cmn E: - e poi del
+      "Cambridge due", ehm + due practice. (Bof G-03) </quote>
+    </p>
+    <p>Hyphens (en dashes) are not used in compound words, but instead indicate features of timing
+     and intonation (see 2.5.7 below). In a few cases this has entailed the printing as two words of
+     compound names (e.g. "Selby Bigge": Lod C-23 /b), and also of English numbers (e.g. "twenty
+     five": Lod C-21). Words are never broken at line ends. </p>
+    <p>None of the typographic conventions defined here has been encoded in any particular way in
+     the TEI XML version, which remains entirely unchanged. </p>
+   </div>
+   <div>
+    <head>2.5.4 Comments and notes</head>
+    <p>Comments (italicised within square brackets) and notes (in the computer-readable version,
+     references to notes are italicised within square brackets, and listed in the notes file) are
+     provided in the language of the corpus. Comments are used to provide information about
+     characteristics of the following portion of talk and about `noises' heard on the tape, based on
+     our understanding of the ongoing conversation and of the context. They principally describe:
+     <list><item> - paralinguistic features: [laughs / ride], [clears throat / si schiarisce la
+     voce], [sighs / sospira], [hums / canticchia], [whistles / fischietta], etc.</item><item> -
+     speech rhythm and loudness: [slowly / lentamente], [sottovoce / fra sá], [voice raised / ad
+     alta voce], [normal / normale], [in the distance / in lontananza], etc.</item><item> - changes
+     in speech direction, leaving or returning to the main customer-assistant axis: [to another C /
+     ad altro C], [to C4 / a C4], [al telefono], etc. </item><item> - background noises: [scaffale
+     scorrevole], [passi], [sound of paper / rumore di carta], [PA announcement], [cicalino
+     interno], etc.</item><item> - participant actions inferred from background noises: [they move
+     away / si allontanano], [scende al piano inferiore], [mostra una lista]</item><item> -
+     characteristics of untranscribed talk: [unclear / confuso], [talk between As / conversazione
+     tra commessi], [talk between C1 and C2 in background / conversazione tra C1 e C2 in
+     sottofondo], etc.</item><item> - role-relationships of participants: [C1 and C2 are together /
+     C1 e C2 sono insieme], [C is a friend of A / C á amico di A], [same C as in / stesso C di
+     encounter ná], etc.</item><item> - incomplete recordings: [in medias res], [interrupted /
+     interrotta], etc. </item></list></p>
+    <p> An initial question mark indicates uncertainty as to speech direction or as to a non-verbal
+     action, e.g. [?to another C], [?consults catalogue]. When the length of a noise or action is
+     significant, its duration is indicated in seconds, prior to the comment, but within the square
+     brackets, e.g.: <quote> [(10) conversazione in sottofondo] </quote> </p>
+    <p>Footnotes explain speaker references to local facts and institutions which are shared
+     knowledge for participants, or provide translations of slang or dialect expressions.</p>
+    <p>In the TEI XML version, most comments or notes are represented using the <gi>note</gi>
+     element. Where however the length of the noise or action is significant, it will be represented
+     using the <gi>incident</gi> element, with its <att>dur</att> attribute indicating the timing,
+     and containing a <gi>desc</gi> element. </p>
+   </div>
+   <div>
+    <head> 2.5.5 Dubious transcriptions</head>
+    <p>Like Jefferson, we have placed dubious or tentative transcriptions within round brackets. In
+     the face of uncertainty, the transcriber is torn between the alternative of providing some
+     hypothesis, however unintelligible the tape is, so as to give the reader the benefit of her/his
+     closehand knowledge, and that of avoiding interpretation where unsure, so as not to influence
+     the reader unjustifiably. We have transcribed our guesses where they seem acoustically
+     congruous and they improve the readability of the data; when no plausible and meaningful
+     transcription could be arrived at, we have indicated the approximate length of the speech
+     segment in syllables, italicised within round brackets: e.g. (3syll). Where not even the rough
+     number of syllables could be established, two question marks have been used, again italicised
+     within round brackets: (??). Following punctuation indicates the intonation pattern where this
+     is clear (cf. 2.5.7 below). Doubts in identifying names of authors, titles and publishers have
+     been resolved, as far as possible, by consulting catalogues and the assistants themselves. </p>
+    <p>In the TEI XML version, all cases of uncertainty are marked using the <gi>unclear</gi>
+     element, with its <att>extent</att> attribute indicating the number of syllables if
+     available.</p>
+   </div>
+   <div>
+    <head>2.5.6 Altered transcriptions </head>
+    <p>All names of assistants and customers, their addresses, telephone and account numbers, the
+     names of specific shops and of local institutions, towns, streets and districts have been
+     altered. The number of syllables and stress pattern of the original forms have been maintained
+     as far as possible in their replacements, which are italicised in the text. Names of authors,
+     books and publishers have not been changed.</p>
+    <p>In the TEI XML version, all such names have been marked using the <gi>rs</gi> (referring
+     string) element.</p>
+   </div>
+   <div>
+    <head>2.5.7 Timing, stress and intonation </head>
+    <p>Pauses of one second or more were measured on a seconds tape counter, and their length in
+     seconds is indicated between round brackets: (02), (15), (120), etc. Pauses less than one
+     second long have instead been subjectively classified as shorter (+) or longer (++). Measured
+     pauses three or more seconds long, or separating different encounters, are placed on a separate
+     line in the transcript and followed by a new turn, irrespective of whether there is a change of
+     speaker. All other pauses are indicated within the turn of the current speaker.</p>
+    <p> Jefferson's conventions for transcribing overlaps and latching have been modified to
+     facilitate computer search for recurrent patterns and to avoid the need to vertically align
+     overlapping sections of different turns. Overlaps and simultaneous start-ups are marked by
+     &#x25BC; at the beginning of the first overlapping portion and by &#x25B2; at the beginning of
+     the portion of the subsequent turn in the transcript which is simultaneously produced. The end
+     of the overlapping portion is indicated by &#x25C0; in both cases. Where more than one part of
+     a turn overlaps with subsequent ones in the transcription, the various overlaps are
+     distinguished by doubling or tripling these symbols. [In early papers from the project we used
+     the symbols $ and % (and multiples of these) to mark overlap beginning and overlap end
+     respectively, in both the affected turns.] An equals sign (=) at the beginning of a turn
+     indicates that it is latched to the end of the previous turn in the transcript, beginning
+     immediately upon its completion; a multiple symbol (==, === or ====) indicates that the turn in
+     question is latched to the end of a turn that respectively appears two, three or four turns
+     above in the transcript. </p>
+    <p>In the TEI-XML version, these typographic conventions are retained unchanged, but
+     complemented by the use of the <att>trans</att> on the <gi>u</gi> element, which takes the
+     value <code>latching</code> for any overlapping utterance. </p>
+    <p>The following example may clarify these conventions: <quote n="Lod A-10">  <u who="AP">Ah. Right. <pause/> Ah, perhaps you're looking for the: poetry ▾thing.◀ Yes hh,
+     ▾▾I've thought◀◀ about that too.</u>
+     <u who="Cw">▲I am.◀</u>
+     <u who="Cw">▲▲Yes.◀◀</u>
+     <u who="Cw" trans="latching">===Should I go hh?</u><!-- AP Ah. Right. + Ah, perhaps you're
+     looking for the: poetry ^thing.^ Yes hh, ^^I've thought^^ about that too. Cw ^I am.^ Cw
+     ^^Yes.^^ Cw ===Should I go hh? ()--> </quote> Here A's "thing" is overlapped by C's "I am",
+     his "I've thought" by C's "Yes", while C's "Should I go hh?" follows immediately on completion
+     of A's "about that too". </p>
+    <p>On the few occasions where three speakers' talk overlaps, this is noted in a comment prior to
+     the first overlapping section, and the `overlapped' symbols ^ and ^ are repeated in both the
+     subsequent turns affected: <quote n="Bof F-01/b"> AA Dica? C3m + [parzialmente sovrapposto ai due turni
+     successivi] No ^no si-^ AA ^Ah, sie^^^te insieme?^^ C2w ^(Noi si^^^amo con:)^^ (2syll). (Bof
+     F-01 /b) </quote></p>
+    <p> Here, C3's "no si-" overlaps with both A's "Ah sie-" and C2's "Noi si-", while the
+     continuations of A's and C2's turns overlap each other. </p>
+    <p>As in Jefferson, sound or syllable lengthening is indicated by a colon (:) placed immediately
+     after the letter(s) representing the lengthened sound(s). Double and triple colons are used for
+     particularly extensive lengthening. In the case of occlusives, it should be noted, the colon
+     actually represents lengthening of an indefinite following vowel. When a syllable is instead
+     cut short an en dash (-) is attached to the letter representing the final sound heard.
+     Emphasis, either through relatively loud speech and/or marked stress (other than that
+     predictable for the word in the context of the tone group), is indicated by underlining of the
+     stressed syllable(s). [In earlier papers from the project stressed syllables were printed in
+     capitals.] E.g.: <quote> C1m Thank you. I'm looking for a book that- that is: either just been
+     published or about to be published, called I think "The secret cult". (Lod B-01) </quote></p>
+    <p>Intonation is roughly shown by punctuation, as follows: <table><row><cell> low fall
+     </cell><cell>.</cell></row><row> <cell>low rise </cell><cell>?</cell></row><row><cell>
+     fall-rise </cell><cell>,</cell></row><row><cell> rise-fall </cell><cell>!
+     </cell></row></table></p>
+    <p> When a tone group is incomplete, the point of interruption is marked by an en dash (-)
+     preceded by a space. </p>
+    <p>No attempt has been made to convert these typographic conventions into a more explicit
+     encoded form in the TEI XML version.</p>
+   </div>
+  </div>
+ </div>
+ <div>
+  <head>References</head>
+
+  <bibl>Anderson, L. 1987. "Intonation, turn-taking and dysfluency: non-natives conversing". In
+   Morley &amp; Partington. 93-102. Revised version in M. Hewings (ed.) 1990, Studies in discourse
+   intonation. Birmingham: University of Birmingham English Language Research. 102-113. </bibl>
+  <bibl> Anderson, L. 1988a. "Access routines in service encounters". In Aston 1988a. 99-134. </bibl>
+  <bibl>Anderson, L. 1988b. "Issues in native-nonnative interaction". In Aston 1988a. 267-285. </bibl>
+  <bibl> Anderson, L. 1988c. "Learning to serve: developing oral skills for ESP". In S. Holden
+   (ed.), Language and literature. Oxford: Modern English. 95-99, 133. </bibl>
+  <bibl> Anderson, L. 1990. "Epistemic qualification in conversational accounts". In De Stasio et
+   al. 331-340. </bibl>
+  <bibl> Anderson, L., G. Aston &amp; G. Tucker 1988. "The joint production of requests in service
+   encounters". In Aston 1988a. 135-151. </bibl>
+  <bibl> Aston, G. 1987. "Ah: a corpus-based exercise in conversational analysis". In Morley &amp;
+   Partington. 123-137. </bibl>
+  <bibl> Aston, G. (ed.) 1988a. Negotiating service: studies in the discourse of bookshop
+   encounters. Bologna: Cooperativa Libraria Universitaria Editrice. </bibl>
+  <bibl> Aston, G. 1988b. "What's a public service encounter anyway?" In Aston 1988a. 25-42. </bibl>
+  <bibl>Aston, G. 1988c. "Interactional speech in service encounters". In Aston 1988a. 73-97. </bibl>
+  <bibl> Aston, G. 1988d. "From discourse to pedagogy: some implications". In Aston 1988a. 287-301. </bibl>
+  <bibl> Aston, G. 1988e. "An applied linguistic approach to the analysis of naturally-occurring
+   conversation". In E. Rigotti &amp; C. Cipolli (eds.) Dal senso al testo. Brescia: La Scuola.
+   237-260. </bibl>
+  <bibl> Aston, G. 1988f. Learning comity: an approach to the description and pedagogy of
+   interactional speech. Bologna: CLUEB. </bibl>
+  <bibl> Aston, G. 1989. "Solidarity and conflict as metaphors of the discourse process". In L.
+   Curti, L. Di Michele, T. Frank &amp; M. Vitale (eds.), Il muro del linguaggio: conflitto e
+   tragedia. Naples: Istituto Universitario Orientale. 413-426. </bibl>
+  <bibl> Aston, G. 1990. "Cultural norms of conversational procedure in a pedagogic perspective".
+   Paper presented at the 3rd international congress on dialogue, Bologna. (Forthcoming in the
+   proceedings, Tábingen: Niemeyer) </bibl>
+  <bibl> Atkinson, J.M. &amp; J. Heritage 1984. "Transcript notation". In J.M. Atkinson &amp; J.
+   Heritage (eds.), Structures of social action. Cambridge: Cambridge University Press. ix-xvi. </bibl>
+  <bibl> Boden, D. 1990. "People are talking: conversation analysis and symbolic interaction". In
+   H.S. Becker &amp; M.M. McCall (eds.), Symbolic interaction and cultural studies. Chicago:
+   University of Chicago Press. 244-274. </bibl>
+  <bibl> Brazil, D. 1985. The communicative value of intonation in English. Birmingham: Bleak
+   House/English Language Research. </bibl>
+  <bibl> Brodine, R. 1990. "Requesting and responding in Italian and English service encounters".
+   Paper presented at the 3rd international congress on dialogue, Bologna. (Forthcoming in the
+   proceedings, Tábingen: Niemeyer) </bibl>
+  <bibl> Brown, G., K. Currie &amp; J. Kenworthy 1980. Questions of intonation. London: Croom Helm. </bibl>
+  <bibl> Brown, G. &amp; G. Yule 1983. Teaching the spoken language. Cambridge: Cambridge University
+   Press. </bibl>
+  <bibl> Ciliberti, A. 1988. "Strategies in service encounters in Italian bookshops". In Aston
+   1988a. 43-71. </bibl>
+  <bibl> Ciliberti, A. 1989a. "Lo studio dell'uso linguistico". Lingua e nuova didattica, 3. 32-43. </bibl>
+  <bibl> Ciliberti, A. 1989b. "I luoghi del discorso deputati ad esprimere realtá sociale". Paper
+   given at Convegno nazionale LEND, Rapporto lingua/cultura, Urbino. (Forthcoming in the
+   proceedings) </bibl>
+  <bibl> Ciliberti, A. 1991a. Grammatica, pedagogia, discorso. Firenze: La Nuova Italia. </bibl>
+  <bibl> Ciliberti, A. 1991b. "The relevance of contrastive studies for the description and the
+   teaching of English". In M.T. Zagrebelsky (ed.), The study of English in Italian universities.
+   Alessandria: Dell'Orso. In press. </bibl>
+  <bibl> Ciliberti, A. 1991c. "Request compliance/non-compliance in English and Italian public
+   service encounters". Issues and developments in English and applied linguistics, 6. In press. </bibl>
+  <bibl> Ciliberti, A. &amp; G. Aston (forthcoming). "Research methodology and affect". Atti del
+   XIII convegno nazionale dell'AIA. Pisa. </bibl>
+  <bibl> Crystal, D. &amp; D. Davy 1975. Advanced conversational English. London: Longman. </bibl>
+  <bibl> De Stasio, C., M. Gotti &amp; R. Bonadei (eds.) 1990. La rappresentazione verbale e
+   iconica: valori estetici e funzionali. Milano: Guerini. </bibl>
+  <bibl> Drew, P. 1982. "Defence sequences in cross examination". University of York. Unpublished
+   paper. </bibl>
+  <bibl> Du Bois, J.W. 1991. "Transcription design principles for spoken discourse research".
+   Pragmatics, 1. 71-106. </bibl>
+  <bibl> Edmondson, W. 1981. Spoken discourse: a model for analysis. London: Longman. </bibl>
+  <bibl> Ehlich, K. (forthcoming). "HIAT - a transcription system for discourse data". In J.A.
+   Edwards &amp; M.D. Lampert (eds.), Talking data. Hillsdale NJ: Erlbaum. </bibl>
+  <bibl> Erickson, F. &amp; J. Shultz 1982. The counselor as gatekeeper. New York: Academic Press. </bibl>
+  <bibl> Fairclough, N. 1989. Language and power. London: Longman. </bibl>
+  <bibl> Gavioli, L. 1987. "Ridere e deridere con simpatia: analisi delle risate nei PSE". Paper
+   presented at 2nd international colloquium of contrastive pragmatics, Bagni di Lucca. </bibl>
+  <bibl> Gavioli, L. 1990a. "The role of personal and impersonal information in service encounters:
+   a contrastive study". Paper presented at 7th AILA conference, Thessaloniki. </bibl>
+  <bibl> Gavioli, L. 1990b. "Il testo parlato: spunti di analisi e osservazione". Laboratorio degli
+   studi linguistici, 1990. 13-26. </bibl>
+  <bibl> George, S.E. 1988. "Postscript: discourse descriptions and pedagogic proposals". In Aston
+   1988a. 303-331. </bibl>
+  <bibl> George, S.E. 1990. Getting things done in Naples: action, language and context in discourse
+   description. Bologna: CLUEB. </bibl>
+  <bibl> Goffman, E. 1983. "Felicity's condition". American journal of sociology, 89. 1-53. </bibl>
+  <bibl> Halliday, M.A.K. 1970. A course in spoken English: intonation. London: Oxford University
+   Press. </bibl>
+  <bibl> House, J. 1986. "Learning to talk: talking to learn. An investigation of learner
+   performance in two types of discourse". In G. Kasper (ed.), Learning, teaching and communication
+   in the foreign language classroom. Aarhus: Aarhus University Press. 43-58. </bibl>
+  <bibl> Hymes, D. 1972. "Models of the interaction of language and social life". In J.J. Gumperz
+   &amp; D. Hymes (eds.), Directions in sociolinguistics. New York: Holt Rinehart. 35-71. </bibl>
+  <bibl> Jefferson, G. 1978. "Explanation of transcript notation". In J. Schenkein (ed.), Studies in
+   the organization of conversational interaction. New York: Academic Press. xii-xvi. </bibl>
+  <bibl> Jefferson, G. 1985. "An exercise in the transcription and analysis of laughter". In T. van
+   Dijk (ed.), Handbook of discourse analysis: discourse and dialogue. New York: Academic Press. </bibl>
+  <bibl> Jefferson, G. 1988. "Preliminary notes on a possible metric which provides for a `standard
+   maximum' silence of approximately one second in conversation". In D. Roger &amp; P. Bull (eds.),
+   Conversation. Clevedon: Multilingual Matters. 166-196. </bibl>
+  <bibl> Jefferson, G., H. Sacks &amp; E. Schegloff 1976. "Some notes on laughing together".
+   Pragmatics microfiche, 1, 8. A3-D9. </bibl>
+  <bibl> Jefferson, G., H. Sacks &amp; E. Schegloff 1987. "Notes on laughter in the pursuit of
+   intimacy". In G. Button &amp; J.R.E. Lee (eds.), Talk and social organisation. Clevedon:
+   Multilingual matters. 152-205. </bibl>
+  <bibl> Labov, W. 1972. Sociolinguistic patterns. Philadelphia: University of Pennsylvania Press. </bibl>
+  <bibl> Lamoreaux, E.L. 1989. "Rhetoric and conversation in service encounters". Research on
+   language and social interaction, 22. 93-114. </bibl>
+  <bibl> Lindenfeld, J. 1990. Speech and sociability at French urban marketplaces. Amsterdam:
+   Benjamins. </bibl>
+  <bibl> Makosh, M. &amp; S. Spencer 1982. "Working transcript of BBC `Skinhead' data". University
+   of Lancaster. Unpublished paper. </bibl>
+  <bibl> Mansfield, G. 1988. "The supportive role of intonation in service encounters". In Aston
+   1988a. 205-231. </bibl>
+  <bibl> Merlini Barbaresi, L. 1988. "Parameters of discourse markedness in public service
+   encounters". In Aston 1988a. 167-204. </bibl>
+  <bibl> Merritt, M. 1976. "On questions following questions in service encounters". Language in
+   society, 5. 315-357. </bibl>
+  <bibl> Morley, J. &amp; A. Partington (eds.) 1988. Spoken discourse. Camerino: Universitá di
+   Camerino. </bibl>
+  <bibl> Ochs, E. 1979. "Transcription as theory". In E. Ochs &amp; B. Schieffelin (eds.),
+   Developmental pragmatics. New York: Academic Press. 43-72. </bibl>
+  <bibl> Owen, M. 1978. "Units of natural conversation". Cambridge University. Unpublished paper. </bibl>
+  <bibl> Schank, R. &amp; P. Abelson 1975. "Scripts, plans and knowledge". In P. Johnson-Laird &amp;
+   P. Wason (eds.) 1977, Thinking: readings in cognitive science. Cambridge: Cambridge University
+   Press. 421-432. </bibl>
+  <bibl> Schegloff, E. 1987. "Between micro and macro: contexts and other connections". In J.C.
+   Alexander, B. Giesen, R. Mánch &amp; N.J. Smeiser (eds.), The micro-macro link. Berkeley:
+   University of California Press. 207-236. </bibl>
+  <bibl> Schegloff, E. &amp; H. Sacks 1973. "Opening up closings". Semiotica, 7. 289-327.</bibl>
+  <bibl> Scotton Myers, C. &amp; J. Bernstein 1988. "Natural conversations as a model for textbook
+   dialogue". Applied linguistics, 9. 372-384. </bibl>
+  <bibl> Shuy, R. 1986. "Ethical issues in analysing surreptitious tapes". International journal of
+   the sociology of language, 62. 119-128. </bibl>
+  <bibl> Sornicola, R. 1982. Sul parlato. Bologna: Il Mulino. </bibl>
+  <bibl> Svartvik, J. &amp; Quirk, R. 1980. A corpus of English conversation. Lund: Gleerup. </bibl>
+  <bibl> Tucker, G. 1987. "Syntactic and prosodic mapping in service encounter requests". In Morley
+   &amp; Partington. 139-150. </bibl>
+  <bibl> Tucker, G. 1988a. "The role of lexicogrammar in the realisation of requests". In Aston
+   1988a. 153-165. </bibl>
+  <bibl> Tucker, G. 1988b. "From illocution to syntactic and prosodic realisation in making
+   requests". In E. Steiner &amp; R. Veltman (eds.), Pragmatics and discourse: some systemically
+   inspired approaches. London: Pinter. 120-131. </bibl>
+  <bibl> van Ek, J. 1975. "The threshold level in a European unit/credit system for modern language
+   learning by adults". Strasbourg: Council of Europe. </bibl>
+  <bibl> Ventola, E. 1987. The structure of social interaction. London: Pinter. </bibl>
+  <bibl> Vincent Marrelli, J. 1988. "Notes on power and solidarity in bookshops: goals, roles and
+   the functions of laughing". In Aston 1988a. 233-265. </bibl>
+  <bibl> Zorzi Cal&#x00f2;, D. 1990a. Parlare insieme: la co-produzione dell'ordine conversazionale
+   in italiano e in inglese. Bologna: CLUEB. </bibl>
+  <bibl> Zorzi Cal&#x00f2;, D. 1990b. "Non-conflictual interruption in English and Italian". Paper
+   presented at 7th AILA congress, Thessaloniki. </bibl>
+  <bibl> Zorzi Cal&#x00f2;, D. 1990c. "Le procedure per l'accessibilitá e per l'accettabilitá: in
+   confronto fra l'italiano e l'inglese". Paper presented at the 3rd international congress on
+   dialogue, Bologna. (Forthcoming in the proceedings, T&#x00fc;bingen: Niemeyer) </bibl>
+  <bibl> Zorzi Cal&#x00f2;, D., R. Brodine, L. Gavioli &amp; G. Aston 1990. "Opening and closing
+   service encounters: some differences between English and Italian". In De Stasio et al.
+   303-313.</bibl>
+ </div>
+</body>
+
+  </text>
+</TEI>

@@ -4,14 +4,14 @@
   <div type="speakers">
    <list>
     <item><label>AD</label>Dario</item>
-    <item><label>AF</label>Fabiola</item> 
-    <item><label>AG</label>Graziella</item> 
+    <item><label>AF</label>Fabiola</item>
+    <item><label>AG</label>Graziella</item>
     <item><label>AP</label>Paulo</item>
-   </list>
+  </list>
   </div>
  </front>
  <body xmlns="http://www.tei-c.org/ns/1.0">
-  <div type="encounter" n="Paf-01">
+  <div type="encounter" n="Paf-01" corresp="https://lb42.github.io/PIXI/audio/Paf/Paf_01.mp3">
    <note type="stage">al piano superiore. C1 e C2 sono insieme. In medias res</note>
    <u who="C1W"> Chissà mai se poi ci fosse: -</u>
    <u who="C2W" trans="latching"> =<unclear>Possiamo-</unclear> ci può essere:. ▼Possiamo

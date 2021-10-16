@@ -180,6 +180,7 @@ var CETEI = (function () {
       "ref": [
         ["[target]", ["<a href=\"$rw@target\">","</a>"]]
       ],
+    
       "graphic": function(elt) {
         let content = new Image();
         content.src = this.rw(elt.getAttribute("url"));

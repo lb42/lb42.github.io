@@ -112,7 +112,7 @@ tei-pause[dur]::after {
   content: "(" attr(dur) ")";
 }
 tei-unclear::before {
-    font-style: italic;
+  font-style: italic;
   content: " (" attr(extent);
 }
 tei-unclear::after {

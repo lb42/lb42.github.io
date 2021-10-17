@@ -9,6 +9,14 @@
       ceteicean.getHTML5('source/paf.tei', function(data) {
       document.getElementsByTagName("body")[0].appendChild(data);
     });
+    let behaviors = {
+  "tei": {
+    "div": [
+      ["[corresp]",["<audio controls><source src=\"$rw@corresp\"/></audio>"]]
+    ],
+  }
+};
+ceteicean.addBehaviors(behaviors);
     </script>
     </head>
   <body>

@@ -1,0 +1,6 @@
+docxtotei $1.docx
+perl ../Scripts/fixUp.prl $1.xml | saxon - ../Scripts/fixUp.xsl -o:$1.tmp 
+saxon $1.tmp ../Scripts/divUp.xsl -o:$1.tei
+# for PAF there is no docx version, so we have to do
+perl ../Scripts/paf.prl ../CLUEB/PAF.txt > paf.xml
+saxon paf.xml ../Scripts/divUp.xsl -o:paf.tei

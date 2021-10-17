@@ -1,0 +1,43 @@
+print "<body xmlns=\"http://www.tei-c.org/ns/1.0\">\n";
+while (<>) {
+chop;
+
+if (/<B (Paf)><I ([^>]+)/) {
+ print "<milestone unit='tape' n=\"$1\-$2\"\/>\n";
+} elsif (/<P ([^>]+)/) {
+  print "<milestone unit='encounter' n=\"\/$1\"\/>\n";
+} else {
+s/<[ASCNXZ] (.)>/$1/g;
+s/\$/\&#x25BC\;/g;
+s/\%/\&#x25C0\;/g;
+s/Â£/\&#x25B2\;/g;
+s/£/\&#x25B2\;/g;
+s///g;
+s/à/\&#xe0\;/g;
+s/ò/\&#xf2\;/g;
+s/ì/\&#xec\;/g;
+s/è/\&#xe8\;/g;
+s/ù/\&#xf9\;/g;
+s/é/\&#xe9\;/g;
+s/È/\&#xc9\;/g;
+s/ö/\&#xf6\;/g;
+s/<Z H>//;
+s/\+/<pause\/>/g;
+s/\((\d+)\)/\<pause dur=\"PT$1S\"\/>/g;
+s/\[([^\]]+)\]/<note>$1<\/note>/g;
+s/\(([^\)]+)\)/<unclear>$1<\/unclear>/g;
+s/unclear>(\d+syll)<\/unclear>/unclear extent=\"$1\"\/>/g;
+s/<S C\?>/\?C/;
+
+if (s/^([\?CA][^ ]+)//) {
+$who = $1;
+$who =~ s/H//;
+print "<u who='$who'";
+if (/^\s*=/) { print " trans='latching'";}
+print ">$_<\/u>\n";
+} else {
+print;
+}
+}
+}
+print "<\/body>\n";

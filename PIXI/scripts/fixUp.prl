@@ -1,0 +1,7 @@
+while(<>){
+s/\+/<pause\/>/g;
+s/\((\d+)\)/\<pause dur=\"PT$1S\"\/>/g;
+s/\[([^\]]+)\]/<note>$1<\/note>/g;
+s/\(([^\)]+)\)/<unclear>$1<\/unclear>/g;
+print;
+}

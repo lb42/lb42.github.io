@@ -172,7 +172,7 @@ var CETEI = (function () {
       "rng": "http://relaxng.org/ns/structure/1.0"
     },
     "tei": {
-      "eg": ["<pre>","</pre>"],
+    //  "eg": ["<pre>","</pre>"],
       // inserts a link inside <ptr> using the @target; the link in the
       // @href is piped through the rw (rewrite) function before insertion
       "ptr": ["<a href=\"$rw@target\">$@target</a>"],
@@ -180,7 +180,7 @@ var CETEI = (function () {
       "ref": [
         ["[target]", ["<a href=\"$rw@target\">","</a>"]]
       ],
-    
+
       "graphic": function(elt) {
         let content = new Image();
         content.src = this.rw(elt.getAttribute("url"));

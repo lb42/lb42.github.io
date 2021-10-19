@@ -24,6 +24,15 @@ tei-quote::after {
   line-height: 0.6em;
   margin-bottom: 0.9em;
 }
+
+tei-eg {
+  display: inline;
+font-family: monospace;
+line-height: 0.6em;
+
+
+}
+
 tei-teiheader {
   display: block;
 }

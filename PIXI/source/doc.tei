@@ -41,8 +41,7 @@
   <head>TRANSCRIPTION CONVENTIONS </head>
   <p>In the TEI XML version of these transcriptions, some of the features marked typographically in
    the printed versions have been replaced by more explicit XML encodings conformant with the TEI
-   Guidelines. These conventions are described in a new section below. The conventions described in
-   this section have however been retained in the online version. </p>
+   Guidelines. These encodings use a TEI-XML schema which is defined by a TEI ODD, provided by a new section below. The rendering conventions described below have been retained in the present online version. </p>
   <table>
    <row>
     <cell>AL </cell>
@@ -789,25 +788,27 @@ C1m E: - piá o
      provided in the language of the corpus. Comments are used to provide information about
      characteristics of the following portion of talk and about `noises' heard on the tape, based on
      our understanding of the ongoing conversation and of the context. They principally describe:
-     <list><item> - paralinguistic features: [laughs / ride], [clears throat / si schiarisce la
-     voce], [sighs / sospira], [hums / canticchia], [whistles / fischietta], etc.</item><item> -
-     speech rhythm and loudness: [slowly / lentamente], [sottovoce / fra sá], [voice raised / ad
-     alta voce], [normal / normale], [in the distance / in lontananza], etc.</item><item> - changes
-     in speech direction, leaving or returning to the main customer-assistant axis: [to another C /
-     ad altro C], [to C4 / a C4], [al telefono], etc. </item><item> - background noises: [scaffale
+     <list><item>paralinguistic features: <eg>[laughs / ride], [clears throat / si schiarisce la
+     voce], [sighs / sospira], [hums / canticchia], [whistles / fischietta],</eg> etc.</item>
+      <item>speech rhythm and loudness: <eg>[slowly / lentamente], [sottovoce / fra sá], [voice raised / ad
+     alta voce], [normal / normale], [in the distance / in lontananza],</eg> etc.</item><item>changes
+     in speech direction, leaving or returning to the main customer-assistant axis: <eg>[to another C /
+     ad altro C], [to C4 / a C4], [al telefono], </eg>etc. </item>
+      <item>background noises: <eg>[scaffale
      scorrevole], [passi], [sound of paper / rumore di carta], [PA announcement], [cicalino
-     interno], etc.</item><item> - participant actions inferred from background noises: [they move
-     away / si allontanano], [scende al piano inferiore], [mostra una lista]</item><item> -
-     characteristics of untranscribed talk: [unclear / confuso], [talk between As / conversazione
+     interno],</eg> etc.</item>
+      <item>participant actions inferred from background noises: <eg>[they move
+     away / si allontanano], [scende al piano inferiore], [mostra una lista]</eg></item>
+      <item>characteristics of untranscribed talk: <eg>[unclear / confuso], [talk between As / conversazione
      tra commessi], [talk between C1 and C2 in background / conversazione tra C1 e C2 in
-     sottofondo], etc.</item><item> - role-relationships of participants: [C1 and C2 are together /
+     sottofondo],</eg> etc.</item><item>role-relationships of participants: <eg>[C1 and C2 are together /
      C1 e C2 sono insieme], [C is a friend of A / C á amico di A], [same C as in / stesso C di
-     encounter ná], etc.</item><item> - incomplete recordings: [in medias res], [interrupted /
-     interrotta], etc. </item></list></p>
+     encounter ná],</eg> etc.</item><item>incomplete recordings:<eg> [in medias res], [interrupted /
+     interrotta],</eg> etc. </item></list></p>
     <p> An initial question mark indicates uncertainty as to speech direction or as to a non-verbal
-     action, e.g. [?to another C], [?consults catalogue]. When the length of a noise or action is
+     action, e.g.<eg> [?to another C], [?consults catalogue]</eg>. When the length of a noise or action is
      significant, its duration is indicated in seconds, prior to the comment, but within the square
-     brackets, e.g.: <quote n=""> [(10) conversazione in sottofondo] </quote> </p>
+     brackets, e.g.: <eg> [(10) conversazione in sottofondo] </eg> </p>
     <p>Footnotes explain speaker references to local facts and institutions which are shared
      knowledge for participants, or provide translations of slang or dialect expressions.</p>
     <p>In the TEI XML version, most comments or notes are represented using the <gi>note</gi>

@@ -368,11 +368,22 @@
     negative replies to requests - saying, for instance that a wanted book is not available - far
     more than would seem likely for shops where goods can only be obtained through an assistant.
     </item><item> c) The uncertain nature of the supply chain in the international book trade
-    arguably explains the vagueness of many such replies: <quote> AJ Can I help you. C2w Yeah, can you
+    arguably explains the vagueness of many such replies: <quote n="Lod C-30 /b1">    <u who="AJ">Can I help you.</u>
+    <u who="C2w">Yeah, can you <emph>give</emph> me a: - a- a prediction on when: Jacques Lacan's
+     "Écrits" is likely to come back in?</u>
+    <u who="AJ"><pause/> Frankly no. I can give you a <pause/> er <pause/> educated guess, of:
+     ▾<unclear extent="4syll"/>.◀</u>
+    <u who="C2w">▲Well.◀ That's hh - better than ▾I can◀ do hh, so: -</u>
+    <u who="AJ">▲Hh.◀</u>
+    <incident dur="PT07S">
+     <desc> AJ looks in files</desc>
+    </incident>
+    <u who="AJ"><note>in the distance</note> A<emph>bout</emph> two maybe three weeks.</u>
+<!-- AJ Can I help you. C2w Yeah, can you
     give me a: - a- a prediction on when: Jacques Lacan's "Écrits" is likely to come back in? AJ +
     Frankly no. I can give you a + er + educated guess, of: ^(4syll).^ C2w ^Well.^ That's hh -
     better than ^I can^ do hh, so: - AJ ^Hh.^ (07) AJ [in the distance] About two maybe three weeks.
-    (Lod C-30 /b1) </quote> Customers are encouraged to put in an order with a contact address or phone
+    () --></quote> Customers are encouraged to put in an order with a contact address or phone
     number; in Bof they are often told to try coming back on Wednesday or Thursday, as deliveries
     normally occur on Tuesdays.</item><item> d) The assistants are not generally responsible for
     effecting sales (except, in the case of Lod, for purchases on account: cf. Lod B-07 /a; Lod C-23
@@ -437,12 +448,12 @@
      customers are known by name and in a few cases are friends of an assistant (e.g. Bof F-18 /b). </p>
     <p>While most of the recordings were made on normal working days, one afternoon (day F in the
      corpus) a lecture by the poet Yevtushenko had been organised on the ground floor, so that the
-     shop was particularly crowded, a fact to which assistants and customers repeatedly allude: <quote>
-     C4w "Madame Bovary" di Flaubert? No:n - c'á in francese solo? AA =L'ho finito + qua sopra, +
+     shop was particularly crowded, a fact to which assistants and customers repeatedly allude: <quote n="Bof F-04 /b">
+<u who="C4w">"Madame Bovary" di Flaubert? No:n ‑ c'è in francese solo?</u><u who="AA" trans="latching">=L'ho finito <pause/> qua sopra, <pause/> forse ce l'ho sotto, <pause/> però non ci vado. <pause/><pause/> Nel senso che non si riesce a entrare nella sala ▾bassa.◀</u><u who="C5m">▲Com'è che è così?◀ Sempre ▾così?◀</u><u who="AA">▲C'è: ‑◀ no, c'è: E‑ Evtuscenko.</u><u who="C5m"><pause/> Ah: ‑</u><u who="AA"><pause/> È quello. ▾Faccia◀mo la presentazione di: di un suo libro ‑</u><u who="C5m">▲Sì?◀</u><u who="C4w">Ah:, <unclear>ho capito</unclear>.</u><!--     C4w "Madame Bovary" di Flaubert? No:n - c'á in francese solo? AA =L'ho finito + qua sopra, +
      forse ce l'ho sotto, + per&#x00e1; non ci vado. ++ Nel senso che non si riesce a entrare nella
      sala ^bassa.^ C5m ^Com'á che á cosá?^ Sempre ^cosá?^ AA ^C'á: -^ no, c'á: E- Evtuscenko. C5m +
      Ah: - AA + á quello. ^Faccia^mo la presentazione di: di un suo libro - C5m ^Sá?^ C4w Ah:, (ho
-     capito). (Bof F-04 /b) </quote> </p>
+     capito). ()--> </quote> </p>
    </div>
   </div>
   <div>
@@ -583,10 +594,18 @@
     relevant in that: <list><item>(a) Assistants' replies may be influenced by the recurrence of
     similar requests over a relatively short period. For instance in the Lod bookshop, Burchfield's
     "The English language" had sold out, and the assistants appeared to have developed a fixed spiel
-    in responding to requests for it (cf. Lod A-04 /a; Lod B-02; Lod B-23; Lod C-26): <quote>Cm
+    in responding to requests for it (cf. Lod A-04 /a; Lod B-02; Lod B-23; Lod C-26): <quote n="Lod B-23">
+    <u who="Cm"><unclear extent="5syll"/>, recently published by ‑ Bur:chfield, "The English
+     language", ▾have you got that?◀</u>
+    <u who="AP">▲<emph>Yes</emph>, it's:◀ um: sold out, it's re▾printing◀ al<emph>read</emph>y, and
+     it's due to come back again: they're <emph>hop</emph>ing about the eighteenth of:
+     <emph>this</emph> month.</u>
+    <u who="Cm">▲Oh!◀</u>
+    <u who="Cm" trans="latching">==Okay. Thank you.</u>
+<!--Cm
     (5syll), recently published by - Bur:chfield, "The English language", ^have you got that?^ AP
     ^Yes, it's:^ um: sold out, it's re^printing^ already, and it's due to come back again: they're
-    hoping about the eighteenth of: this month. Cm ^Oh!^ Cm ==Okay. Thank you. (Lod B-23)
+    hoping about the eighteenth of: this month. Cm ^Oh!^ Cm ==Okay. Thank you. ()-->
     </quote></item><item> b) Encounters are on occasion suspended, as a customer leaves the desk and
     then returns seconds or minutes later; a further encounter or encounters may be `embedded' in
     the intervening break.</item><item> c) Strings of encounters may occur one after the other in
@@ -599,22 +618,23 @@
     chunk, the beginning of each encounter is indicated by a lower-case letter (/a, /b, etc.): where
     such an encounter is suspended while another `embedded' encounter or encounters takes place, its
     parts are numbered (/a1, /a2, etc.). When a pause occurs between one encounter and another, its
-    duration is indicated in seconds at the end of the first: <quote> Bof G-15 /a1 ... C1m E: - piá o
+    duration is indicated in seconds at the end of the first: <quote n="Bof G-15 /a1"> ... <u who="C1m">E: ‑ più o meno <pause/> la cifra? Pensavo, non so ‑</u><u who="AA">Andiamo a vedere.</u><u who="C1m"><pause/> Perché: <pause dur="PT02S"/> dipendeva anche dalla ‑</u><u who="AA"><pause dur="PT01S"/> Adesso <unclear>se me lo ridà</unclear> un attimo il ▾biglietto.◀ <pause dur="PT01S"/> Sampson.</u><u who="C1m">▲Certo.◀</u><pause dur="PT01S"/><milestone unit="encounter" n="/b"/><u who="C2w">Lo pago alla cassa, questo?</u><u who="AA">Sì, alla cass‑ si paga giù. Grazie.</u><u who="C2w" trans="latching">=Grazie. Buongiorno.</u><u who="AA">Buongiorno.</u><pause dur="PT14S"/><milestone unit="encounter" n="/a2"/><u who="AA"><note>fra sé</note> Sampson. <pause dur="PT01S"/> <note>normale</note> Sulle:: cinquantamila lire.</u><u who="C1m"><pause/><pause/> Mm. <pause dur="PT01S"/> Mm. <pause/> D'accordo. Allora ripasso per: <pause/> eh: abbiamo detto, per il Bromhead.</u><u who="AA">Sì. Dovrebbe già esserci per giovedì.</u><!--
+C1m E: - piá o
     meno + la cifra? Pensavo, non so - AA Andiamo a vedere. C1m + Perchá: (02) dipendeva anche dalla
     - AA (01) Adesso (se me lo ridá) un attimo il ^biglietto.^ (01) Sampson. C1m ^Certo.^ (01) /b
     C2w Lo pago alla cassa, questo? AA Sá, alla cass- si paga giá. Grazie. C2w =Grazie. Buongiorno.
     AA Buongiorno. (14) /a2 AA [fra sá] Sampson. (01) [normale] Sulle:: cinquantamila lire. C1m ++
     Mm. (01) Mm. + D'accordo. Allora ripasso per: + eh: abbiamo detto, per il Bromhead. AA Sá.
-    Dovrebbe giá esserci per giovedá. ...</quote> </p>
+    Dovrebbe giá esserci per giovedá. -->...</quote> </p>
    <p> Notice however that if an assistant addresses another customer in an aside or another
     customer interrupts the current encounter only momentarily (often just to say hello or goodbye),
     while the main axis remains that between the assistant and the current customer, the
     interruption is not labelled as a separate encounter or part. Examples are C3's intervention in
-    the next extract, and AA's response to it: <quote> C2w E: mm: ce l'avete "L'uomo di Pietroburgo" di
+    the next extract, and AA's response to it: <quote n="Bof F-11 /b"> <u who="C2w">E: mm: ce l'avete "L'uomo di Pietroburgo" di Ken Follett in inglese?</u><u who="AA" trans="latching">=Credo di averlo finito, un attimo che controllo.</u><u who="C3w">Eh ‑ senta per pagare, vado giù?</u><u who="AA"><note>a C2</note> È finito "Pietroburgo" <pause/> infatti.</u><u who="C2w">Non c'è?</u><u who="AA">No. È finito. <pause/> Tor:na fra dieci quindici giorni. <note>a C3</note> Sì, lo paga sotto alla cassa, ▾grazie.◀</u><u who="C3w">▲Sì.◀</u><u who="C2w">Grazie. Buonasera.</u><!--C2w E: mm: ce l'avete "L'uomo di Pietroburgo" di
     Ken Follett in inglese? AA =Credo di averlo finito, un attimo che controllo. C3w Eh - senta per
     pagare, vado giá? AA [a C2] á finito "Pietroburgo" + infatti. C2w Non c'á? AA No. á finito. +
     Tor:na fra dieci quindici giorni. [a C3] Sá, lo paga sotto alla cassa, ^grazie.^ C3w ^Sá.^ C2w
-    Grazie. Buonasera. (Bof F-11 /b) </quote></p>
+    Grazie. Buonasera. () --></quote></p>
    <p> To locate all talk by a particular customer, therefore, it may be necessary to scan the whole
     of the chunk in which they appear, not merely the labelled part(s) of that chunk in which an
     assistant is dealing with them directly. </p>
@@ -703,8 +723,8 @@
      quantity of such `balloon language', we have also made quite extensive use of comments (e.g.
      [coughs], [laughs]). Partial phonetic transcriptions have however been provided in comment
      format (italicised within square brackets) in cases of non-standard or variant pronunciation
-     which are targets of self- or other-repair: <quote> C5w ... E poi, e- un libro di Borges [/djz/].
-     In spagnolo. AA =Di Borges [/ghez/] cosa? (Bof F-10 /d) </quote></p>
+     which are targets of self- or other-repair: <quote n="Bof F-10 /d"><u who="C5w">▲▲E:cco.◀◀ E poi, e‑ un libro di Borges <note>/djz/</note>. In spagnolo.</u><u who="AA" trans="latching">=Di Borges <note>/ghez/</note> cosa?</u> <!--C5w ... E poi, e- un libro di Borges [/djz/].
+     In spagnolo. AA =Di Borges [/ghez/] cosa? () --></quote></p>
     <p> Here the customer pronounces the author's name as a single syllable with a soft g; the
      assistant `corrects' her pronunciation, using a two-syllable form with a hard g. </p>
     <p>Foreign words, which occur frequently in the discussion of foreign-language books, are
@@ -722,16 +742,23 @@
      exclamation mark within a turn; for the first letter of proper names (including publishing
      houses and authors' initials); and, in English, for proper adjectives, days and months. Titles
      of books and of series (placed in quotation marks, see below) have their first letter
-     capitalised: <quote> AJ There's: a book called "Essays in modern linguistics", by D C Freeman,
-     (Lod B-07 /c2)</quote> </p>
+     capitalised: <quote n="Lod B-07 /c2">    <u who="AJ">There's: a book called "Essays in modern linguistics", by D C Freeman,</u>
+<!-- AJ There's: a book called "Essays in modern linguistics", by D C Freeman,
+     ()--></quote> </p>
     <p> Capital letters are also used for acronyms ("EFL", "livello A"), and in English, spaced
-     capitals are used to transcribe spelling aloud: <quote> AJ + Don't know it. How do you spell the
+     capitals are used to transcribe spelling aloud: <quote n="Lod C-08">    <u who="AJ"><pause/> Don't know it. How do you spell the name ▾<unclear>or
+     something</unclear>?◀</u>
+    <u who="Cm">▲D Y,◀ C H, T W A L D. It's er Wildwood: House.</u>
+    <u who="AJ">D Y, C H?</u>
+    <u who="Cm"><pause/> Yeah.</u>
+<!-- AJ + Don't know it. How do you spell the
      name ^(or something)?^ Cm ^D Y,^ C H, T W A L D. It's er Wildwood: House. AJ D Y, C H? Cm +
-     Yeah. (Lod C-08) </quote></p>
+     Yeah. () --></quote></p>
     <p> For spellings aloud in the Italian data we have instead followed the Italian convention of
-     reproducing the pronunciation, i.e. "enne" for the letter n, "esse" for s, etc.: <quote> AA E: a
+     reproducing the pronunciation, i.e. "enne" for the letter n, "esse" for s, etc.: <quote n="Bof G-03"> 
+<u who="AA">E: a nome, signore? Scusi che ▾non mi ricordo mai i nomi hh.◀ <pause dur="PT01S"/> Ha detto?</u><u who="Cmn">▲E:hm <rs>Birley</rs>.◀</u><u who="Cmn"><rs>Birley</rs>. ▾<rs>Bi</rs>◀ <rs>i erre</rs>,</u><u who="AA">▲Ah.◀</u><u who="AA"><unclear>Ah sì</unclear>.</u><u who="Cmn"><rs>Elle e ipsilon</rs>. <rs>Birley.</rs></u><!--AA E: a
      nome, signore? Scusi che ^non mi ricordo mai i nomi hh.^ (01) Ha detto? Cmn ^E:hm Birley.^ Cmn
-     Birley. ^Bi^ i erre, AA ^Ah.^ AA (Ah sá). Cmn Elle e ipsilon. Birley. (Bof G-03) </quote> </p>
+     Birley. ^Bi^ i erre, AA ^Ah.^ AA (Ah sá). Cmn Elle e ipsilon. Birley. (--> </quote> </p>
     <p>Quotation marks are used to indicate titles of books and series. In some cases, particularly
      ones of widely-used foreign language courses, titles are abbreviated by participants: in Bof,
      The Cambridge English course is regularly referred to as "Cambridge", Life styles as "Elle
@@ -743,8 +770,10 @@
      components, which are made in a wide range of manners, have instead been treated as normal
      text. </p>
     <p>
-     <quote> AA "English today tre" con il workbook - ^vediamo.^ (Bof C-06) Cmn E: - e poi del
-      "Cambridge due", ehm + due practice. (Bof G-03) </quote>
+     <quote n="Bof G-03"><u who="AA">"English today tre" con il workbook ‑ ▾vediamo.◀</u><!-- AA "English today tre" con il workbook - ^vediamo.^ -->
+     </quote>
+<quote n="Bof C-06"><u who="Cmn">E: ‑ e poi del "Cambridge due", ehm <pause/> due practice.</u> <!--Cmn E: - e poi del
+      "Cambridge due", ehm + due practice.--></quote>
     </p>
     <p>Hyphens (en dashes) are not used in compound words, but instead indicate features of timing
      and intonation (see 2.5.7 below). In a few cases this has entailed the printing as two words of
@@ -778,7 +807,7 @@
     <p> An initial question mark indicates uncertainty as to speech direction or as to a non-verbal
      action, e.g. [?to another C], [?consults catalogue]. When the length of a noise or action is
      significant, its duration is indicated in seconds, prior to the comment, but within the square
-     brackets, e.g.: <quote> [(10) conversazione in sottofondo] </quote> </p>
+     brackets, e.g.: <quote n=""> [(10) conversazione in sottofondo] </quote> </p>
     <p>Footnotes explain speaker references to local facts and institutions which are shared
      knowledge for participants, or provide translations of slang or dialect expressions.</p>
     <p>In the TEI XML version, most comments or notes are represented using the <gi>note</gi>
@@ -850,9 +879,9 @@
      of A's "about that too". </p>
     <p>On the few occasions where three speakers' talk overlaps, this is noted in a comment prior to
      the first overlapping section, and the `overlapped' symbols ^ and ^ are repeated in both the
-     subsequent turns affected: <quote n="Bof F-01/b"> AA Dica? C3m + [parzialmente sovrapposto ai due turni
+     subsequent turns affected: <quote n="Bof F-01/b"><u who="AA">Dica?</u><u who="C3m"><pause/> <note>parzialmente sovrapposto ai due turni successivi</note> No ▾no si‑◀</u><u who="AA">▲Ah, sie◀▾▾te insieme?◀◀</u><u who="C2w">▲<unclear>Noi si◀▲▲amo con:</unclear>◀◀ <unclear extent="2syll"/>.</u><!-- AA Dica? C3m + [parzialmente sovrapposto ai due turni
      successivi] No ^no si-^ AA ^Ah, sie^^^te insieme?^^ C2w ^(Noi si^^^amo con:)^^ (2syll). (Bof
-     F-01 /b) </quote></p>
+     F-01 /b) --></quote></p>
     <p> Here, C3's "no si-" overlaps with both A's "Ah sie-" and C2's "Noi si-", while the
      continuations of A's and C2's turns overlap each other. </p>
     <p>As in Jefferson, sound or syllable lengthening is indicated by a colon (:) placed immediately
@@ -863,8 +892,9 @@
      Emphasis, either through relatively loud speech and/or marked stress (other than that
      predictable for the word in the context of the tone group), is indicated by underlining of the
      stressed syllable(s). [In earlier papers from the project stressed syllables were printed in
-     capitals.] E.g.: <quote> C1m Thank you. I'm looking for a book that- that is: either just been
-     published or about to be published, called I think "The secret cult". (Lod B-01) </quote></p>
+     capitals.] E.g.: <quote n="Lod B-01"><u who="C1m">Thank you. I'm looking for a book that‑ that is: either <emph>just</emph> been
+     published or about to be published, called I <emph>think</emph> "The secret cult"...</u><!-- C1m Thank you. I'm looking for a book that- that is: either just been
+     published or about to be published, called I think "The secret cult". ()--> </quote></p>
     <p>Intonation is roughly shown by punctuation, as follows: <table><row><cell> low fall
      </cell><cell>.</cell></row><row> <cell>low rise </cell><cell>?</cell></row><row><cell>
      fall-rise </cell><cell>,</cell></row><row><cell> rise-fall </cell><cell>!

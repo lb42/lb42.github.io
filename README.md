@@ -17,6 +17,11 @@ Indexer les corpus numeriques](media/SaintEtienne.pdf) Universite Jean Monnet, S
 
 Older talks are listed [here]
 
+## Recent Projects
+
+ - [Seven steps to Ossian](https://github.com/lb42/Ossian-1773)A TEI-XML edition of the 1773 edition of the collected works of Ossian
+
+
 ## Blogs
  
  - [foxglove](https://foxglove.hypotheses.org/) : mostly work-related jottings 

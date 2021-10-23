@@ -9,10 +9,11 @@ margin:1em;
 }
 
 tei-quote {
+  display: inline-block
   font-size: 0.8em;
   line-height: 1.0em;
   margin-bottom: 0.1em;
-  margin-left: 2em;
+  margin-left: 3em;
 }
 
 tei-quote::after {
@@ -26,11 +27,9 @@ tei-quote::after {
 }
 
 tei-eg {
-  display: inline;
+display: inline;
 font-family: monospace;
 line-height: 0.6em;
-
-
 }
 
 tei-teiheader {
@@ -141,6 +140,11 @@ tei-desc::after {
 tei-rs {font-style: italic;}
 tei-incident {font-style: italic;}
 tei-desc {font-style: italic;}
+
+tei-gi::after {content: ">  "; }
+tei-att::before {content: "@" ;}
+tei-gi::before {content: " <" ;}
+
 tei-list {
   display: block;
   margin-left: 30px;
@@ -208,15 +212,23 @@ tei-q::after {
 tei-note {
  display: inline-block;
  font-style:italic;
-
+}
+tei-note[type="popUp"]::before {
+  content: "[ NOTE: ";
+  display: inline-block;
+  font-style:italic;
+}
+tei-note[type="popUp"]::after {
+  content: "] ";
 }
 
-//tei-note::before{ content:" ["; }
-//tei-note::after{ content:"] "; }
-// previous not needed since there is strong magic in ceteijs to do it
-tei-gi::before {content: "<"}
-tei-gi::after {content: ">"}
-tei-att::before {content: "@"}
+
+/*tei-note::before{ content:" ["; }
+  tei-note::after{ content:"] "; }
+ not needed since there is strong magic in ceteijs to do it
+*/
+
+
 
 /* Tables */
 tei-table {

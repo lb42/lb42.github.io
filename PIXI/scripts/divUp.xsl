@@ -4,11 +4,11 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:e="http://distantreading.net/eltec/ns" exclude-result-prefixes="xs t e" version="2.0">
 
- <xsl:param name="corpus">Paf</xsl:param>
+ <xsl:param name="corpus">xxx</xsl:param>
     <xsl:variable name="prefix">
      <xsl:value-of select="concat('https://lb42.github.io/PIXI/audio/',$corpus,'/')"/>
     </xsl:variable>
-    <xsl:template match="/ | @* | node()">
+    <xsl:template match="@* | node()">
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
@@ -16,7 +16,11 @@
 
     <xsl:template match="t:body/t:note[1]"/>
     <xsl:template match="//t:milestone[@unit = 'tape']"/>
-    <xsl:template match="t:body">
+    <xsl:template match="/">
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <xsl:copy-of select="$hdrFile/teiHeader"/>
+   <text>
+    <xsl:apply-templates select="//t:body">
       <!--  <xsl:if test="t:note">
             <front xmlns="http://www.tei-c.org/ns/1.0">
                 <div type="speakers">
@@ -43,7 +47,7 @@
                             </xsl:if>
                         </xsl:variable>
                      <xsl:variable name="mediaFile">
-                      <xsl:value-of select="replace(concat($tapeId,$encId),'[\-/]','_')"/>
+                      <xsl:value-of select="replace(concat($tapeId,$encId),'[\-/\s]','_')"/>
                      </xsl:variable>
                         <xsl:if test="count(current-group()) gt 1">
  <!--                           <xsl:message>Group has <xsl:value-of select="count(current-group())"/></xsl:message>
@@ -54,9 +58,7 @@
                           <xsl:attribute name="corresp">
                            <xsl:value-of select="concat($prefix,$mediaFile,'.mp3')"/>
                           </xsl:attribute>
- <!--                               <xsl:message>Process <xsl:value-of select="concat($tapeId, $encId)"
-                                    /></xsl:message>
--->                                <xsl:for-each select="current-group()">
+                                <xsl:for-each select="current-group()">
                                     <xsl:if test="not(name(.) eq 'milestone')">
                                         <xsl:copy>
                                             <xsl:apply-templates select="@*"/>

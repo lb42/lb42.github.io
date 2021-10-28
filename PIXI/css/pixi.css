@@ -112,6 +112,7 @@ tei-u::before {
     content: attr(who) ;
 }
 
+
 tei-pause:not([dur])::after{
   content: " + ";
 }

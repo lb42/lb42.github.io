@@ -19,9 +19,10 @@ Older talks are listed [here]
 
 ## Recent Projects
 
+ - [Pixi-Redux](https://lb42.github.io/PIXI/) A TEI-XML version of the venerable PIXI Corpus, now with added audio
  - [Seven steps to Ossian](https://github.com/lb42/Ossian-1773)A TEI-XML edition of the 1773 edition of the collected works of Ossian
-
-
+ - [ELTeC-eng](https://distantreading.github.io/ELTeC/eng/) A carefully balanced selection of 100 English novels published between 1840 and 1920: my contribution to [CA 16204](https://distant-reading.net) 
+ 
 ## Blogs
  
  - [foxglove](https://foxglove.hypotheses.org/) : mostly work-related jottings 

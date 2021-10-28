@@ -7,9 +7,17 @@
     <script type="text/javascript">
     var ceteicean = new CETEI();
     ceteicean.shadowCSS = "css/pixi.css";
-    ceteicean.getHTML5('source/lod.tei', function(data) {
+    ceteicean.getHTML5('source/pif.tei', function(data) {
       document.getElementsByTagName("body")[0].appendChild(data);
     });
+    let behaviors = {
+  "tei": {
+    "div": [
+      ["[corresp]",["<p><audio controls><source src=\"$rw@corresp\"/></audio></p>"]]
+    ],
+  }
+};
+ceteicean.addBehaviors(behaviors);
     </script>
     </head>
   <body>

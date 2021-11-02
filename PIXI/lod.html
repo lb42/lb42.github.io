@@ -10,6 +10,14 @@
     ceteicean.getHTML5('source/lod.tei', function(data) {
       document.getElementsByTagName("body")[0].appendChild(data);
     });
+    let behaviors = {
+  "tei": {
+    "div": [
+      ["[corresp]",["<p><audio controls><source src=\"$rw@corresp\"/></audio></p>"]]
+    ],
+  }
+};
+ceteicean.addBehaviors(behaviors);
     </script>
     </head>
   <body>

@@ -13,7 +13,8 @@ Analysis"](https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/mar
  -[Wissensmodellierung durch Markup](https://kw.uni-paderborn.de/angebote-initiativen/ringvorlesungen-soso-2019/wissensmodellierung-durch-markup/) Paderborn, 9 April 2019
  - [Propositions de la TEI pour l'indexation](Talks/2019-03-stEtienne.html) Conference d'ouverture [atelier #2
 Indexer les corpus numeriques](media/SaintEtienne.pdf) Universite Jean Monnet, Saint-Etienne 29 March 2019
- - [What is TEI Conformance and why should you care?](Talks/2017-11-victoria.pdf) TEI Members Meeting, 2017
+ - [Comment maîtriser le tigre TEI : An ODD Initiation](Talks/2018-06-montpellier.pdf) Talk and workshop for CAHIER, Montpellier, June 2018
+ - [What is TEI Conformance and why should you   care?](Talks/2017-11-victoria.pdf) TEI Members Meeting, 2017
  - [Ceci n’est pas une pipe: La modélisation : clef des ”humanités numériques”](Talks/2014-12-grenoble.pdf)Conférence invité, "Avenue Centrale", MSH Grenoble-Alpes, Dec 2014. [Video](https://www.youtube.com/watch?v=Qo_iQy7Ihcg)
 
 Older talks are listed [here]

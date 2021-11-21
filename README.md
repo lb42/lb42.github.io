@@ -22,7 +22,7 @@ Older talks are listed [here]
 ## Recent Projects
 
  - [Pixi-Redux](https://lb42.github.io/PIXI/) A TEI-XML version of the venerable PIXI Corpus, now with added audio
- - [Seven steps to Ossian](https://github.com/lb42/Ossian-1773)A TEI-XML edition of the 1773 edition of the collected works of Ossian
+ - [Seven steps to Ossian](https://github.com/lb42/Ossian-1773) A TEI-XML edition of the 1773 edition of the collected works of Ossian
  - [ELTeC-eng](https://distantreading.github.io/ELTeC/eng/) A carefully balanced selection of 100 English novels published between 1840 and 1920: my contribution to [CA 16204](https://distant-reading.net) 
  
 ## Blogs
@@ -33,7 +33,7 @@ Older talks are listed [here]
  
 ## Notes towards an autobiography
  You don't want to believe everything you read about me [on Wikipedia](https://en.wikipedia.org/wiki/Lou_Burnard). But there are some 
-mostly true autobiographical notes on [this page]
+mostly true autobiographical notes on [this page]. And my most recently tidied CV is [readable here](W/cv6.html)
 
 ## Bibliography
  [This page](W/operaOmnia.html) lists everything written by me which has appeared 

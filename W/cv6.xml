@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Curriculum Vitæ: Lou Burnard</title>
+    <author>Lou Burnard</author>
+   </titleStmt>
+
+   <publicationStmt>
+    <authority/>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Written by OpenOffice</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change><name>Lou</name> <date>2020-01-20</date> </change>
+   <change> <name>Lou</name> <date>2008-06-09T11:50:49</date> </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+
+   <div>
+    <head>Personal information</head>
+    <p rend="large">Louis Deryck Burnard</p>
+    <p><label>Born </label>1946, Birmingham UK.</p>
+    <p><label>Address </label> 38 Clifton Park Road, Bristol BS8 3HN</p>
+    <p><label>eMail </label>lou.burnard@gmail.com</p>
+   </div>
+   <div type="div2">
+    <head>Current position</head>
+
+    <p>I am an independent consultant specialising in research applications of text encoding in
+     literature and linguistics, working mostly but not exclusively in France. </p>
+    <p>Before taking early retirement in 2010, I was Assistant Director of Oxford University
+     Computing Services. Reporting to the Director of OUCS, my responsibilities included policy
+     development, budgetary control, and strategic planning for the department, which was
+     responsible for provision of key IT services across the University. I managed over 25 staff in
+     the largest of the four groups into which OUCS was divided, comprising the Research
+     Technologies Service, the Integrated Help Centre, and Information Services section. I
+     represented the department on several University and college committees. I was responsible for
+     several international research projects, notably the Text Encoding Initiative (TEI), and the
+     continued management of the British National Corpus project. </p>
+   </div>
+
+   <div type="div2">
+    <head>Research experience</head>
+    <p>TEI (Text Encoding Initiative) P5 Release. Principal Editor and designer of the most recent
+     major revision of the TEI <emph>Guidelines</emph>. See <ptr target="http://www.tei-c.org"/>. I
+     have twice been elected to the TEI Board, and was charged with providing editorial support to
+     the TEI Council 2007-2010. After that date I was regularly elected to the Technical Council,
+     until 2016 when I decided to stand down. </p>
+    <list type="unordered">
+     <head>Funded research projects</head>
+
+
+     <item>I am one of two UK representatives on the COST Action CA 16204, "Distant Reading for
+      European Literary History", with particular responsibility for Work Group 1 (Scholarly
+      Resources) activities, notably the design and implementation of the "European Literary Text
+      Collection" (ELTeC) corpus: see further <ptr target="https://www.distant-reading.net/"/> </item>
+
+     <item>
+      <p>I was responsible for OUCS deliverables for the ENRICH project, which developed a TEI
+      P5-conformant metadata standard for major European manuscript cataloguing project, funded
+      2007-9 under the EU Contentplus Programme. See <ptr target="http://enrich.org.eu"/></p></item>
+
+
+     <item>
+      <p>XAIRA (XML Aware Indexing and Retrieval Architecture) : an advanced text-searching software
+      system for XML resources, funded by the Mellon Foundation between 2005-6 and subsequently an
+      open source project (see <ptr target="http://www.xaira.org"/>) . </p> </item>
+
+     <item>
+      <p>Textometrie: I was the sole British member of this ANR-funded project at the ENS-LSH in
+      Lyon when it was initiated. (see <ptr target="http://www.textometrie.org"/>).</p> </item>
+
+     <item>
+      <p>MASTER (Manuscript access through standards for electronic records): Funded 1998-2001 under
+      the EU Libraries Programme, this project devised and tested an XML standard for the detailed
+      description of manuscripts. I was responsible for development and maintenance of the standard,
+      and associated software. </p> </item>
+     <item>
+      <p>Memoria: I was a partner in this EU funded digital library, producing several working
+      papers on delivery mechanisms for textual material in collaboration with the Bibliotheque
+      Nationale de France (1994-5) </p> </item>
+     <item>
+      <p>AHDS Feasibility Study: Together with Harold Short (Kings College London) I carried out the
+      detailed feasibility study which led to the establishment by the JISC of the Arts and
+      Humanities Data Service (1994-5) </p> </item>
+     <!--<item>
+<p>SARA (SGML Aware Retrieval Application): With the aid of a British
+Library Research Award (1993-4) I designed a powerful SGML-aware text
+indexing and concordancing system, appropriate to the needs of
+largescale language corpus projects. </p>
+</item>-->
+     <item>
+      <p>BNC (British National Corpus): This 100 million word corpus of British English, both spoken
+      and written, was created by an academic/industrial consortium with joint DTI/SERC funding
+      between 1990-1994. I was responsible for Oxford University's participation in the project, in
+      particular the design of its encoding scheme and management of the local development team, and
+      remain responsible for maintenance and worldwide distribution of the corpus. A second edition
+      was published in 2001; and a third, with major revisions, appeared in March 2007. </p> </item>
+     <item>
+      <p>TEI (Text Encoding Initiative): The TEI was set up as an international project to develop
+      methods for the encoding and interchange of machine-readable texts intended for literary,
+      linguistic, historical, or other textual research in 1988 with funding from the US National
+      Endowment for the Humanities, the Canadian Social Science Research Council, the Mellon
+      Foundation, and the EU Language Engineering Programme. I was appointed TEI European Editor in
+      1989, and have been a key figure in the establishment and development of the standard ever
+      since, participating in a very wide range of teaching and advisory activities, working with
+      many scholars and experts worldwide.
+      <!--, and most recently active in the re-establishment of the TEI Consortium, a
+              not for profit membership body charged with continued maintenance of the standard, and
+              in the production of the new TEI P5 revision.--> </p> </item>
+    </list>
+   </div>
+
+   <div type="div2">
+    <head>Teaching and training experience</head>
+
+    <list>
+     <item>
+      <p>I have designed and taught many TEI training courses, ranging in length from a day to a
+      week, for both beginning and advanced students. Examples include introductory courses
+      sponsored annually since 2007 by the CESR, University of Tours, and a two-level course first
+      organised for the Ecole Nationale des Chartes in 2011 and 2012. I have also taught shorter
+      more specialised training workshop sessions on such topics as corpus design and construction,
+      linguistic annotation, transcription of speech, and TEI customization, as well as generic
+      introductions to the TEI tailored to the interest of a particular institution or research
+      group. </p>
+      <!--
+              ANGD Gestion numérique des sources de la recherche en SHS (11-15
+              oct. 2010); Seminaire on Digital Humanities for EHESS (Paris, Dec 2009); Workshop on
+              TEI for Colloque sur Le patrimoine a l'ere du numerique (Caen, Dec 2009); Workshop on
+              TEI for CLEO Universite d'ete (Marseilles, Sept 2009); MISAT Ecole thematique,
+              (Besancon, June 2009); TEI Training Event, Ecole de Chartes (Paris, June 2009);
+              Workshop on TEI for Metadata (Dublin Core conference, Berlin, September 2008);
+              Workshop on using XAIRA (Teaching and Language Corpora, Lisbon, July 2008); Workshop
+              on Preservation of Linguistic Resources (LREC, Marrakech, May 2008); Introduction to
+              BNC XML (ULIP Paris, April 2007; ICAME conference May 2007, CL2007 Birmingham July
+              2007) Introduction to TEI for CCFM (Lyon, March 2007); Methods Network funded Workshop
+              on Advanced Methods in Text Encoding (Oxford, Sept 2006); ATONet Summer school (UQAM,
+              August 2006 and 2007); TALC Workshop (Paris, June 2006); ELPUB (Bansko, June 2006);
+              Lecture at JADT (Besancon, April 2006); Dial-a-Corpus Seminar (Univ. Siena, June
+              2005); Lecture at ENSSIB (Lyon, June 2005); CIDOC pre-conference workshop (Zagreb, May
+              2005); Vilem Mathesius Lecture Series (Charles Univ. Prague, March 2005); Workshop at
+              CARI (Tunisia, Nov 2004); DRH 2004 (Newcastle, Sept 2004); University of Lisbon (Oct
+              2004); University of Wuerzburg (Oct 2004); Extreme Markup Languages conference
+              (Montreal, Aug 2004); University of Munich Textual Editing Seminar (March 2003);
+              Journees de Linguistiques de Corpus (Lorient, Sept 2003); Bulgarian Academy of
+              Sciences (Sofia, Sept 2002); Tex User Group (Trivandrum, August 2002); ENS-LSH (Lyon,
+              2001); Digital Cultural Heritage (Maastricht, July 2001); ELSNET Summer School
+              (Prague, July 2001); EPSRC-LESAL workshop on minority languages (Mumbai, April 2001);
+              Cervantes Digital Library at the University of Alicante in November 2000; for the
+              Ontario Library Association in Canada, August 2000. A series of two-day workshops on
+              the encoding and cataloguing of Medieval Manuscripts held as part of the MASTER
+              Project in Milan, Paris, Vilnius, Prague, Sofia, and London during 2001. --> </item>
+
+    </list>
+    <list>
+     <head>Recent (since 2013) presentations, invited talks, etc.</head>
+
+     <item><!--/Talks/2021-09-28-odd.pdf"--><title>An introduction to ODD and ODD
+      Chaining</title><!--/a--> (Invited talk at
+      <!--a href="https://clsinfra.io/events/upcomingevents/"-->Computational Literary Studies Infra
+      Workshop : Introduction and Discussion of Core Technologies and Projects. Berlin, 28 September
+      2021, via Zoom)</item>
+     <item><title><!-- /Talks/2020-02-darmstadt.html"-->Modelling meaning: the role of data in the
+      humanities</title> Invited keynote at
+      <!--https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/marcusmueller/tagungen_und_workshops/index~1.de.jsp"-->“Data
+      in Discourse Analysis” 18 - 20 February 2020 in Darmstadt.</item>
+     <item><title><!--https://zenodo.org/record/3552489"-->In search of comity: TEI for distant
+      reading</title> Presentation at <!--"https://gams.uni-graz.at/context"-->What is Text Really?
+      TEI 2019. September 2019 in Graz.</item>
+
+     <item><title>“Corpus design and text contribution for ELTeC”</title> (Workshop at Eötvös Loránd
+      University, Budapest, 23-25 September 2019)</item>
+
+
+     <item><title><!--"/Talks/2019-04-forli-talk.html"-->Achieving comity: disciplinary border
+      crossings with Guy Aston</title> Invited lecture at <!--../media/guyPoster.pdf"-->A life in
+      the service of learning: SSLMIT, Forli, 12 April 2019</item>
+
+     <item>
+      <p> <title>Modelling meaning: a short history of text markup</title> (invited talk at
+      Digital-Humanities-Ringvorlesung “Wissensmodellierung durch Markup”, Paderborn, April 2019)
+      </p></item>
+
+     <item><title>Propositions de la TEI pour l'indexation: encodage de texte ou encodage de donnée
+      ?</title> (Invited plenary at atelier "Indexer les corpus numériques", at Université Jean
+      Monnet-Saint-Étienne, March 2019) </item>
+
+     <item>
+      <p>[with David Birnbaum] <title>XML and TEI for Slavic philology</title> (four day workshop at
+      El Manuscript 2018, Vienna and Krems, September 2018)</p></item>
+
+     <item><title>Comment maîtriser le tigre TEI : an ODD initiation</title> (invited workshop at
+      CAHIER Annual Conference, Montpellier, 2018) </item>
+
+     <item><title>„Optical Character Recognition and Text Encoding for the production of ELTeC“
+      </title> (COST-ELTeC Training workshop, University of Würzburg, 16-17 April, 2018)</item>
+
+
+     <item><title>The TEI : (where did it come from and) why is it still here?</title> (responding
+      to the Zampolli Award at DH 2017, Montreal, August 2017). <!--<ptr
+              target="./2017-08-montreal/louSez.xml"/>--></item>
+
+     <item><title>Beyond the Page : enriching the digital library</title> (invited plenary at
+      Bibliotheca Digitalis, Le Mans, July 2017)<!--<ptr target="/2017-07-lemans/slides.xml"
+            />--></item>
+
+     <item><title>The TEI : evolution of a standard</title> (at "Culture &amp; Technology" - 8th
+      European Summer University in Digital Humanities 18th to 28th July 2017
+      Leipzig)<!--<ptr
+              target="./2017-07-leipzig/talk.xml"/>--></item>
+
+     <item><title>What is TEI conformance, and why should you care?</title><!--<ptr
+              target="./2017-05-heidelberg/talk.xml"/> --> (at Digital Classics III –
+      Re-thinking Text Analysis Concluding conference of the project Der digital turn in den
+      Altertumswissenschaften: Wahrnehmung – Dokumentation – Reflexion Heidelberger Akademie der
+      Wissenschaften, May 2017) </item>
+
+     <item><title>La Text Encoding Initiative: un standard qui se renouvelle</title> (at
+      Transcription collaborative et édition numérique de manuscrits : enjeux, outils et
+      perspectives. Journée d’étude aux Archives nationales, Pierrefitte-sur-seine 16 mars
+      2016)<!--<ptr target="./2016-03-paris/talk-archives.xml"/><ptr
+              target="./2016-06-poitiers/talkwritten.xml"/>--></item>
+
+     <item><title>TEI en France : une perspective personnelle</title><!--<ptr
+              target="./2015-10-lyon/talk.xml"/> --> (Introductory remarks at TEI Annual
+      Members Meeting, Lyon, October 2015)</item>
+
+     <item><title>Ceci n'est pas une pipe: l'importance de la modélisation pour les humanités
+      numériques</title><!--<ptr target="./2014-12-grenoble/talk.xml"/>--> (Conférence « Avenue
+      centrale – rendez-vous en sciences humaines », Universite Grenoble Alpes, le 16 décembre 2014) </item>
+
+     <item><title>Using the Text Encoding Initiative for Digital Scholarly Editions</title><!--<ptr
+              target="./2014-07-oxford/programme.xml"/> --> (Lecture at the Digital Humanities
+      at Oxford Summer School, July 2014)</item>
+     <item><title> What does the textual scholar require of computer science? </title><!--<ptr
+              target="./2014-03-potsdam/slides.xml"/>--> (Keynote at Digital Humanities meets
+      Information Science, Conference at Univ. Potsdam. Am 19. März 2014) </item>
+     <item><title>Numérisation du fonds oulipien: démarches, défis, désirs ... </title><!--<ptr
+              target="./2013-11-oulipo/algoritm-1.xml"/>--> (Presentation au seminaire
+      ALGORITM, Univ Paris 3, Nov 2013) </item>
+     <item><title>Usage TEI-XML dans les corpus Cahier: état de l'art</title><!--<ptr
+              target="./2013-12-paris/cahier.xml"/>--> (Intervention à la réunion annuelle du
+      projet Cahier, Paris, dec 2013)</item>
+     <item> <title>Structuration des données numérisées</title><!--<ptr
+              target="./2013-10-aussois/structurer.xml"/>--> (Intervention à « Gestion des
+      projets des sources numérique de la recherche en sciences humaines et sociales » Centre Paul
+      Langevin du CAES-CNRS, Aussois; 14-18 octobre 2013)</item>
+     <item> <title>Interoperability of TEI projects : apotheosis or chimera?</title>
+      <!--  <ptr target="./2013-05-barcelona/report.xml"/>--> (Closing keynote at XML-TEI for
+      Ancient and Medieval Lexicographical Works Barcelona, Institució Milà i Fontanals: 15 - 17 May
+      2013 )</item>
+     <!-- <item>
+            <title>De <q>Literary and Linguistic Computing</q> jusqu'aux <q>Humanités
+              numériques</q>: quelle importance pour la science des langues?</title> (conférence
+            invité au colloque La linguistique de corpus à l’heure de la confrontation entre
+            concepts, techniques et applications, université de Bordeaux, 7-8 dec 2012) </item>
+          <item>
+            <title>A TEI prolegomena to EPIDOC (workshop at University of Regio Calabria, 4-8 June
+              2012)</title>
+          </item>
+          <item>
+            <title>Exploration et exploitation des sources encodées en TEI</title> (Séminaire du
+            pôle Document numérique de la MRSH de Caen, 27 jan 2012)</item>
+          <item>
+            <title>Histoire de la TEI : un cas d'étude dans l'évolution des méthodes et pratiques
+              scientifiques dans les SHS</title> (Séminaire sur l'édition électronique dans tous ses
+            états : évolution des pratiques, évolution des besoins, Lyon, 23 jan 2012)
+            <!-\- <ptr target="./2012-01-lyon/tei-history.xml"/>-\->
+          </item>-->
+     <!-- <item>
+            <p>Invited keynote lectures since 1998: Sejong Corpora Launch event, Seoul, December
+              2007; JDLC, Lorient, September 2007; JADT, Besancon, April 2006; ELPUB, Leuven, June
+              2005; DRH, Lancaster, Aug 2005; Royal Statistical Society, Jan 2004; Workshop on
+              digital editing, Ljubljana, June 2004; Mumbai, April 2001; Lyon, March 2001; Graz,
+              July 2000; Duisburg, 29 June, 2000; USC, Feb 1998; University of Georgia, March 1998;
+            </p>
+          </item>
+          <item>
+            <p>Less recent training events include: <list type="unordered">
+                <item>
+                  <p>One day TEI workshops: Cambridge, September 2000; Oxford, July 2000; LDV
+                    Conference, Frankfurt, July 1999; Academica Sinica, Taipei, Jan 1999;
+                    Arnamaegnean Inst., Reyjavik, Sept 1998; Electronic Publishing 1998, Nantes,
+                    February 1998; EBTI Conference, Kyoto, October 1997; PELCRA Workshop, Lancaster,
+                    Dec 1997; </p>
+                </item>
+                <item>
+                  <p>BNC Introductory seminars: Paris, July 2000; Trondheim, February 1999; Warwick,
+                    January 1998; Chemnitz, February 1998; Lodz, April 1997; Soria, July 1997; </p>
+                </item>
+              </list></p></item>
+       
+     
+-->
+    </list>
+   </div>
+   <div type="div2">
+    <head>Academic qualifications and appointments </head>
+
+    <list type="unordered">
+     <item>2014 to date: Membre Conseil Scientifique, LABEX Les Passées dans le Présent, Univ
+      Nanterre.</item>
+     <item>2013 - 2015 : Membre Conseil Scientifique International de la MSH-Alpes</item>
+     <item>2012 to date Membre Conseil Scientifique, MRSH de Caen</item>
+     <item>2009 - 2012 Membre Conseil Scientifique, MSH, Besancon.</item>
+     <item>2007 - 2009 Membre Conseil Scientifique, TGE Adonis </item>
+     <!--         <item> 2002-2008 Member of AHDS Consultative Committe </item>
+          <item> 2000-2007 Ex-officio member of TEI Consortium Board; elected member 2008-2010. </item>
+ -->
+     <item> 1999-2010 Standing Committee, Digital Resources and the Humanities conference </item>
+     <item> 1996-2000 Editorial board, <emph>Text Technology</emph> </item>
+     <item> 1998-2001 CEDARS Project Advisory Board </item>
+     <item> 1996-2001 ALLC Committee member </item>
+     <item> 1996-2000 Consultant for Evaluation of Corpora to ELRA </item>
+     <item> 1992-94 Management Committee, UK SGML Project </item>
+     <item> 1990-92 Member Editorial Board, Chadwyck-Healey's <title>English Poetry</title> database </item>
+     <item> 1988-92 Management Committee, CTI Languages and Literature Project </item>
+     <item> 1987 Visiting fellowship Max-Planck Inst. fur Geschichte, Goettingen </item>
+     <item> 1987-8 External Examiner, University of Southampton </item>
+     <item> 1987 Elected member Wolfson College Common Room </item>
+     <item> MA (1979), M Phil.(1973), BA 1st class (1968) in English Language and Literature,
+      Balliol College Oxford. </item>
+    </list>
+    <p>I have reviewed research applications for the EPSRC, for the AHRB, and several other funding
+     bodies, notably in France.</p>
+   </div>
+
+   <div type="div2">
+    <head>Previous Positions Held</head>
+    <p> <hi>2001-2010</hi> </p>
+    <p>Oxford University Computing Services: Assistant Director, until taking early retirement in
+     October 2010.</p>
+
+    <p><hi>1995-2001</hi> </p>
+    <p>Oxford University Computing Services: Manager Humanities Computing Unit (the HCU was
+     disbanded as part of a reorganization of OUCS in 2001)</p>
+    <p> <hi>1974-1995</hi> </p>
+    <p>Oxford University Computing Services: Applications Programmer </p>
+    <list type="unordered">
+     <item>
+      <p>Set up and managed Oxford Text Archive </p> </item>
+     <item>
+      <p>Developed a range of software, consultancy, and training services </p> </item>
+     <item>
+      <p>Obtained major national and international funding for research projects (e.g. British
+      National Corpus, Text Encoding Initiative) </p> </item>
+    </list>
+    <p> <hi>1972-1974</hi> </p>
+    <p>University of Malawi: Lecturer in English</p>
+    <list type="unordered">
+     <item>
+      <p>Taught introductory courses on English and African literature </p> </item>
+     <item>
+      <p>Developed creative writing and publishing courses </p> </item>
+    </list>
+    <p> <hi>1970-1972</hi> </p>
+    <p>Research Student, MPhil 19th century English Studies, Oxford University</p>
+    <p> <hi>1965-1968</hi> </p>
+    <p>Undergraduate Student, English Language and Literature, Balliol College, Oxford</p>
+   </div>
+
+   <div type="div2">
+    <head>Publications (since 2000)</head>
+     <div type="div3">
+     <head>Books and monographs</head>
+     <list type="unordered">
+      <item>
+       <p>2015 <title>Qu'est-ce que la Text Encoding Initiative ?</title> (translated by Marjorie
+       Burghart) Open Edition books. <ref target="http://books.openedition.org/oep/1237">Online
+       version</ref></p></item>
+
+      <item>
+       <p>2013 <title>What is the TEI?</title> Open Edition books. <ref
+       target="http://books.openedition.org/oep/426">Online version</ref></p></item>
+
+      <item>
+       <p>2006 [ed. with Katherine O'Brien O'Keefe and John Unsworth] <title>Electronic Textual
+       Editing</title>. New York: Modern Languages Association. </p> </item>
+      <item>
+       <p>2000 [ed. with Tony McEnery] <title>Rethinking language pedagogy from a corpus
+       perspective</title> Peter Lang <title>Lodz Studies in Language</title> </p> </item>
+      <!--   <item>
+              <p>1998 [with Guy Aston] <title>The BNC Handbook: exploring the British National
+                  Corpus with SARA</title> Edinburgh: Edinburgh University Press. </p>
+            </item>
+            <item>
+              <p>1998 [ed. with Marilyn Deegan and Harold Short] <title>The Digital Demotic</title>
+                London: Office for Humanities Communication. </p>
+            </item>-->
+      <!--
+<item>
+<p>1994 [with Harold Short] <title>An Arts and Humanities Data Service</title> (Report of a feasibility study commissioned by the Information Services sub-committee of the JISC). Oxford: Office for Humanities Communication </p>
+</item>
+<item>
+<p>1990 [with C.M. Sperberg-McQueen] <title>Guidelines for the Encoding and Interchange of machine-readable texts</title>: draft P1. Chicago and Oxford, ACH-ACL-ALLC Text Encoding Initiative </p>
+</item>
+<item>
+<p>1989 [with Malcolm Bain et al] <title>Free Text Retrieval Systems: a review and evaluation </title>. Taylor Graham. </p>
+</item>-->
+     </list>
+    </div>
+
+    <div type="div3">
+     <head>Articles, reports, book chapters etc. </head>
+     <list type="unordered">
+
+      <item>
+       <p>2019 `La TEI pour les corpus linguistiques: un standard qui se renouvelle’ in
+       <title>L'enjeu des metadonnées dans les corpus textuels: un défi pour les sciences
+       humaines.</title> Sous la direction de Philippe Caron, Rodolophe Defiolle et Marie-Hélène
+       Lay. Presses universitaires de Rennes: isbn 9782753576407 <!--<ref
+                target="Papers/2016-poitiers.xml">XML source</ref>--></p> </item>
+
+
+      <item>
+       <p>2019 ‘How modeling standards evolve: the case of the TEI’ in Flanders, Julia and Fotis
+       Jannidis (eds) <title>The shape of data in digital humanities</title> Routledge. pp 99-116.
+       <!--<ref
+                  target="metaMuddling/2018-metamuddling.xml">XML source</ref>--> </p></item>
+      <item>
+       <p>2013 ‘Resolving the Durand Conundrum’ in <title> Journal of the Text Encoding Initiative
+       </title>[Online], Issue 6 | December 2013, URL : http://jtei.revues.org/842 ; DOI :
+       10.4000/jtei.842<!-- <ref
+      target="2013-resolvingDurand.pdf">PDF version from JTEI site</ref>--></p> </item>
+      <item>
+       <p>2013 ‘The Evolution of the Text Encoding Initiative: From Research Project to Research
+       Infrastructure’ in <title>Journal of the Text Encoding Initiative </title>[Online], Issue 5 |
+       2013, http://jtei.revues.org/811 ; DOI : 10.4000/jtei.811
+       <!--<ref target="2013-evolutionTEI.pdf">PDF version from JTEI
+      site</ref>--></p> </item>
+      <item>
+       <p>2012 ‘Du literary and linguistic computing aux digital humanities : retour sur 40 ans de
+       relations entre sciences humaines et informatique’ [with Pierre Mounier] in <title>Read/Write
+       Book 2 : Une introduction aux humanités numériques</title> Open Edition Press <!--<ref
+        target="http://books.openedition.org/oep/242"/>
+    <ref target="2012-LLCtoDH.xml">XML Source</ref>--></p> </item>
+      <item>
+       <p> 2008 ‘Une introduction au British National Corpus dans son édition XML’ revue
+       electronique <title>Text et Corpus</title>, no 3 aout 2008. Actes des Journées de la
+       linguistique de Corpus, ed. Geoffrey Williams and Nathalie Dugales, 2007, p 17-34.
+       <!--<ref target="http://web.univ-ubs.fr/corpus/jlc5/ACTES/ACTES_JLC07_burnard.pdf"/>
+    <ref target="2008-introBNC-FR.xml">XML source</ref>--></p> </item>
+      <item>
+       <p>2007 ‘TEI+XSL : un mariage fait aux cieux. Comment utiliser aujourdhui la Text Encoding
+       Initiative pour numériser les documents en lettres et en sciences humaines’ <title>Revue
+       LINX</title>, numéro spécial: corpora et questionnements du littéraire. sous la direction de
+       Denise Malrieu.<idno type="issn">0246-8743</idno> pp 57-69</p> </item>
+      <item>
+       <p>2006 ‘New tricks from an old dog: An overview of TEI P5’ in Lou Burnard, Milena Dobreva,
+       Norbert Fuhr, Anke Lüdeling (eds) <title>Digital Historical Corpora - Architecture,
+       Annotation, and Retrieval, 03.12. - 08.12.2006 Internationales Begegnungs- und
+       Forschungszentrum fuer Informatik (IBFI), Schloss Dagstuhl</title>.</p> </item>
+      <item>
+       <p>2005 ‘Metadata for corpus work’ in <title>Developing Linguistic Corpora: A guide to good
+       practice</title> ed. Martin Wynne. Oxford: Oxbow Books, pp 30-46. </p> </item>
+      <item>
+       <p>2005 ‘La TEI Lite dalla P4 alla P5: continuità e cambiamento’ in <title>Il Manuale TEI
+       Lite: introduzione alla codifica elettronica dei testi letterari</title>. A cura di Fabio
+       Ciotti. Milano: ed Sylvestre Bonnard. </p> </item>
+      <item>
+       <p>2005 ‘Encoding standards for the electronic edition’ in <title>Znanstvene izdaje in
+       elektronski medij</title> (<title>Scholarly editions and the digital medium</title>) ed.
+       Matija Ogrin. Ljubljana: Studia Litteraria ZRC ZAZU, pp 12-67. </p> </item>
+      <item>
+       <p>2002 ‘The BNC: where did we go wrong?’ (in <title>Teaching and learning by doing corpus
+       analysis</title>, ed. B. Kettemann and G. Markus. Amsterdam: Rodopi, pp 51-71.) </p> </item>
+      <item>
+       <p>2001 ‘On the hermeneutic implications of text encoding’ (in <title>New media and the
+       humanities: research and applications</title>, ed. D. Fiormonte and J. Usher. Oxford:
+       Humanities Computing Unit, pp 31-38. </p> </item>
+      <item>
+       <p>2001 <title>From two cultures to digital culture: the rise of the digital demotic</title>.
+       Presented at CLIP, Alicante. Published in translation as ‘Dalle “due culture” alla cultura
+       digitale: la nascita del demotico digitale’ trad. di Federico Pellizi. <title>il verri 16:
+       "nella rete"</title>, Milano: Edizioni Monogramma. pp 9-22. </p> </item>
+      <item>
+       <p>2000 [with Claudia Claridge, Rainer Siemund, and Josef Schmidt] ‘Encoding the Lampeter
+       Corpus’ in <title>DRH98: selected papers from Digital Resources for the Humanities</title>
+       London: Office for Humanities Communication. </p> </item>
+      <!--
+            <item>
+              <p>1999 ‘Is Humanities Computing an Academic Discipline? or, Why Humanities Computing
+                Matters’. Presented at <ref target="http://www.iath.virginia.edu/hcs/">an
+                  interdisciplinary seminar</ref> at Institute for Advanced Technology in the
+                Humanities, University of Virginia, November 1999. </p>
+            </item>
+            <item>
+              <p>1999 ‘Using SGML for linguistic analysis: the case of the BNC’ in <title>Markup </title>
+                <title>languages theory and practice</title>. I.2 pp. 31-51. Cambridge, Mass: MIT
+                Press. </p>
+            </item>
+            <item>
+              <p>1999 [with Michael Popham] ‘Putting our headers together: a report on the TEI
+                Header meeting 12 September 1997.’ <title>Computers and the Humanities</title>. 33
+                pp. 39-47. Dordrecht, Boston: Kluwer Academic Publishers. </p>
+            </item>
+            <item>
+              <p>1999 [with Peter Robinson and Elizabeth Lalou] ‘Vers un standard européen de
+                description des manuscrits: le projet Master’ <title>Les documents anciens</title>:
+                  <title>Documents numeriques</title> 3.1-2. Paris: Hermes science publications </p>
+            </item>
+            <item>
+              <p>1999‘XML: the dream and the reality’ [closing plenary address at the XML Europe
+                Conference, Granada, May 1999] </p>
+            </item>
+        
+            <item>
+              <p>1998[with Tony McEnery, Andrew Wilson, and Paul Baker] <title>Validation of
+                  Linguistic Corpora</title> [Report commissioned by ELRA]. </p>
+            </item>-->
+      <!--
+<item>
+<p>1997 <title>The Text Encoding Initiative's Recommendations for the Encoding of Language Corpora: Theory and Practice</title> Prepared for a seminar on Etiquetación y extracción de información de grandes corpus textuales within the Curso Industrias de la Lengua (14-18 de Julio de 1997). Sponsored by the Fundacion Duques de Soria. </p>
+</item>
+<item>
+<p>1996<title>Introducing SARA: exploring the BNC with SARA</title>(Paper presented at TALC 96) </p>
+</item>
+<item>
+<p>1996 [with David T. Barnard and C.M. Sperberg-McQueen] ‘Lessons learned from using SGML in the Text Encoding Initiative’ <title>Computer Standards &amp; Interfaces</title> 18 3-10. </p>
+</item>
+<item>
+<p>1995 ‘SGML on the web: too little too soon or too much too late?’ <title>Computers &amp; Texts</title> 15: 12-15 </p>
+</item>
+<item>
+<p>1995[guest editor] <title>Electronic Texts and the Text Encoding Initiative</title> <title>Text Technology</title>5, 3. </p>
+</item>
+<item>
+<p>1995 [ed] <title>Users' Reference Guide for the British National Corpus, version 1.0</title>. Oxford: Oxford University Computing Services. </p>
+</item>
+<item>
+<p>1995 [with C.M. Sperberg-McQueen] ‘The design of the TEI encoding scheme’ . <title>Computers and the Humanities</title> 29.1 17-39. Rpt. in <title>The Text Encoding Initiative: Background and Contexts</title>, ed. Nancy Ide and Jean Veronis. Dordrecht, Boston: Kluwer Academic Publishers </p>
+</item>
+<item>
+<p>1995 ‘What is SGML and how does it help?’ <title>Computers and the Humanities</title> 29: 41-50. Rpt. in <title>The Text Encoding Initiative: Background and Contexts</title>, ed. Nancy Ide and Jean Veronis. Dordrecht, Boston: Kluwer Academic Publishers, 1995. </p>
+</item>
+<item>
+<p>1995‘The Text Encoding Initiative: an overview’ in Leech G., Myers, G. Thomas, J. <title>Spoken English on computer: transcription, mark-up and application</title>. London: Longman </p>
+</item>
+<item>
+<p>1994 ‘The TEI: towards an Extensible Standard for the Encoding of Texts’ in <title>Electronic Information Resources and Historians</title> ed S. Ross. London: British Academy. </p>
+</item>
+<item>
+<p>1993‘Rolling your own with the TEI’ <title>Information Services and Use</title> vol 13 no 2. pp 141-154 Amsterdam: IOS Press </p>
+</item>
+<item>
+<p>1992 ‘The Text Encoding Initiative: a progress report’ <title>New Directions in Corpus Linguistics</title> ed G. Leitner. Berlin: de Gruyter </p>
+</item>
+<item>
+<p>1992 ‘Tools and techniques for computer-assisted text processing’ in C.S. Butler <title>Computers and Written Texts,</title> Oxford: Blackwell </p>
+</item>
+<item>
+<p>1991 ‘Analysing information for database design: an introduction for archaeologists’ <title>Computing for Archaeologists</title> eds. J. Moffett and S.Ross. (Oxford Committee for Archaeology, Monograph no 18) </p>
+</item>
+<item>
+<p>1991 ‘Information Management’ in <title>The Humanities Computing Yearbook 1989-90</title> ed I. Lancashire. Oxford: Clarendon Press </p>
+</item>
+<item>
+<p>1991 ‘What is SGML and how does it help?’ in <title>Modelling Historical Data: towards a standard for encoding and exchanging machine-readable texts</title> ed D. Greenstein. St Katherinen: Scripta Mercaturae Verlag. <title>Halbgraue Reihe zur Historischen Fachinformatik</title> herausg. von Manfred Thaller, serie A, band 11. pp 81-91 3-928134-45-0. </p>
+</item>
+<item>
+<p>‘An introduction to the Text Encoding Initiative’ in ib. </p>
+</item>
+<item>
+<p>1990 ‘The Historian and the Database’ <title>Historians, Computers and Data: applications in research and training</title> ed E.Mawdsley, N. Morgan et al. Manchester: Manchester University Press </p>
+</item>
+<item>
+<p>1990 ‘On the intelligent handling of text retrieval’ <title>Prospects for Intelligent Retrieval (Informatics 10)</title> ed K.P. Jones. Assoc. for Information Management </p>
+</item>
+<item>
+<p>1990 ‘Publishing Presenting and Archiving the Results of Research’ , <title>Information Technology and the Research Process</title> eds M. Feeney and K. Merry. British Library Research. Bowker-Saur. 0 86291 476 0 </p>
+</item>
+<item>
+<p>1989 ‘Relational Theory and Historical Practice: the Case for SQL’ in <title>History and Computing II</title> eds. P. Denley, S. Fogelvik and C. Harvey. Manchester: Manchester University Press </p>
+</item>
+<item>
+<p>1989 [with Malcolm Bain et al] <title>Free Text Retrieval Systems: a review and evaluation </title>. Taylor Graham. </p>
+</item>
+<item>
+<p>1988 ‘Report of Workshop on Text Encoding Guidelines’ in <title>Literary &amp; Linguistic Computing</title>, 3 (1988) </p>
+</item>
+<item>
+<p>1988 ‘HUMANIST so far’ <title>ACH Newsletter</title>, 10.1 </p>
+</item>
+<item>
+<p>1989 ‘IZE: Software Review’ <title>Computers and the Humanities</title> vol 23 no 6 </p>
+</item>
+<item>
+<p>1988 ‘The Oxford Text Archive: Principles and Prospects’ <title>Standardisation et Échange des bases de données historiques</title> ed. Genet. Paris: CNRS. </p>
+</item>
+<item>
+<p>1987 ‘CAFS: A new solution to an old problem’ in <title>Literary &amp; Linguistic Computing,</title> 2 (1987) </p>
+</item>
+<item>
+<p>1987 ‘Knowledge Base or Database?’ <title>Towards a Computer Ethnology</title>, eds. Raben, Sugita and Kubo, Osaka: Senri Ethnological Studies 20 </p>
+</item>
+<item>
+<p>1987 ‘Principles of Database Design’ in <title>Information Technology in the Humanities</title> ed. Rahtz. </p>
+</item>
+<item>
+<p>1987 ‘Primary to Secondary’ <title>History and Computing</title>, eds. Denley and Hopkin </p>
+</item>
+<item>
+<p>1987 ‘Famulus Redivivus: a case history in software development’ <title>University Computing</title> </p>
+</item>
+<item>
+<p>1987 ‘Report on the Computers and Teaching in the Humanities Conference’ <title>Literary &amp; Linguistic Computing</title>2 </p>
+</item>
+<item>
+<p>1986 ‘From archive to database’ <title>Méthodes quantitatives et informatiques dans l'étude des textes,</title> ed. Brunet </p>
+</item>
+<item>
+<p>1986 ‘CAFS and text: the view from Academia’ <title>ICL Technical Journal</title> 4, </p>
+</item>
+<item>
+<p>1985 [ed] <title>CAFS in action: Report of the ICL CUA CAFS SIG</title> London: ICL Computer Users Association. </p>
+</item>
+<item>
+<p>1980 ‘An application of CODASYL techniques to research in the humanities’ <title>Databases in the humanities and social sciences</title>, eds. Raben and Marks. North Holland. </p>
+</item>
+<item>
+<p>1979 <title>SNOBOL: The language for literary computing</title> <title>ALLC Journal</title>, 6 (1978), 7 (1979) </p>
+</item>
+<item>
+<p>1975 <title>Oxeye: a text-processing package for the 1906A</title> OUCS User Guide. Oxford: University Computing Services. </p>
+</item>
+-->
+     </list>
+    </div>
+
+    <div type="div3">
+     <head>Book reviews</head>
+
+     <p>I have published numerous book reviews in such journals as <title>Computers and
+      Texts</title>, — <title>Journal of Documentation</title>, — <title>History and
+      Computing</title>, — <title>Computers and the Humanities</title>, — <title>University
+      Computing</title>, — <title>Literary and Linguistic Computing</title>, — <title>Times Literary
+      Supplement</title> etc. </p>
+
+     <!--
+<list type="unordered">
+<item>
+<p>
+<title>Review: Research in Humanities Computing 4 and 5Computers and Texts</title>no 14,April 1997 </p>
+</item>
+<item>
+<p>[Review of Richard Ennals, Jean-Claude Gardin (ed). <title>Interpretation in the humanities: perspectives from artificial intelligence</title>London: ( British Library,). 1990. xv, 367pp. 0-7123-3186-7.(<title>(Library and information research report 71)</title>]. <title>Journal of Documentation</title>vol 47 no 2, pp 197-90022 04181991 </p>
+</item>
+<item>
+<p>[Review of David Gelernter and Suresh Jagannathan<title>Programming Linguistics</title>.] <title>History and Computing</title>III.2 (1991) pp 129-301991 </p>
+</item>
+<item>
+<p>[Review of I. Lancashire, W. McCarty (ed). <title>The Humanities Computing Yearbook</title>. 1988.] <title>History and Computing</title> 1991 </p>
+</item>
+<item>
+<p>
+<title>Software Review: IZE version 1, March 1988. By Persoft IncComputers and the Humanities</title>23 (1989) pp 501-5C. 1989 </p>
+</item>
+<item>
+<p>[Review of C.J. Date<title>Relational database: selected writings</title>, C.J. Date <title>A Guide to INGRES</title>, C.J. Date<title>A Guide the SQL Standard</title>] <title>Computers and the Humanities</title>22 (1988) pp 161-3 </p>
+</item>
+<item>
+<p>[Review of Friedmann, Daniel P. and Matthias Felleisen<title>The Little Lisper</title>] <title>University Computing</title>10, p. 1000265-43851988 </p>
+</item>
+<item>
+<p>[Review of John J. Simon Jnr :<title>From sand to circuits and other inquiries</title>. ] <title>University Computing</title>10, p. 2050265-43851988 </p>
+</item>
+<item>
+<p>[Review of Chris Naylor <title>The PC Compendium, vol 1</title>]. <title>University Computing</title>10, p. 990265-43851988 </p>
+</item>
+<item>
+<p>[Review of B.H. Rudall and T.N. Corns<title>Computers and literature: a practical guide</title>] <title>Computers and the Humanities</title>22 (1988) pp 163-4 </p>
+</item>
+<item>
+<p>[Review of A.F. Grundy (ed). <title>Proceedings of the fourth British National Conference on Databases</title>]. <title>University Computing</title>9, p. 330265-43851987 </p>
+</item>
+<item>
+<p>
+<title>ICEBOL 85</title> [Review of Eric Johnson (ed). <title>Proceedings of the 1985 International Conference on English Language and Literature Applications of SNOBOL and SPITBOL</title>] <title>Literary and Linguistic Computing</title>I.1 (1986) p. 52 </p>
+</item>
+<item>
+<p>
+<title>Byt and myth</title> [review of Robert Pinsky<title>Mindwheeel</title>] <title>TLS,</title>7 Feb 1986p 150 </p>
+</item>
+<item>
+<p>
+<title>A passion for control</title> [review of Dorothy Stein<title>Ada: a life and a legacy</title>] <title>TLS,</title>7 March 1986p 242 </p>
+</item>
+<item>
+<p>
+<title>More and more addressable</title> [review of Duncan Campbell and Steve Connor<title>On the record</title>] <title>TLS, </title>25 July 1986p 813 </p>
+</item>
+<item>
+<p>[Review of Simmons, R.F. <title>Computations from the English</title>] <title>University Computing</title>7, p. 1540265-4385 </p>
+</item>
+<item>
+<p>[Review of Sherry Turkle<title>The second self: Computers and the human spirit</title>] <title>Computers and the Social Sciences</title>vol 1 no 2, p107-9 0748 9269Osprey, Florida: (Paradigm Press, Inc). April 1985 </p>
+</item>
+<item>
+<p>
+<title>The devil's circuitry</title> [review of Peter Large <title>The micro revolution revisited</title> and Michael Shallis <title>The silicon idol</title>] <title>TLS, </title>14 Dec 1984,p 1444 </p>
+</item>
+<item>
+<p>[Review of Stig Johansson (ed). <title>Computer corpora in English language research</title>(Bergen 1982)] <title>ALLC Bulletin</title>X 3 (1983) p 109 </p>
+</item>
+<item>
+<p>
+<title>Into the dreaded database</title> [review of David Burnham <title>Rise of the computer state</title>] <title>TLS, </title>25 Nov 1983p 1328 </p>
+</item>
+<item>
+<p>[review of Jürgen Schäfer<title>Documentation in the OED: Shakespeare and Nashe as test cases</title> (Oxford, Clarendon Pr, 1980)] <title>ALLC Bulletin</title>IX 2 (1981) p 30 </p>
+</item>
+<item>
+<p>[review of Zvi Malachi (ed). <title>Proceedings of the international conference on literary and linguistic computing, Israel</title>] <title>Computers and the Humanities</title>15.2 pp 118-20August 1981 </p>
+</item>
+<item>
+<p>[review of Richard Conway and James Archer <title>Programming for poets: a gentle introduction using FORTRAN with WATFIV</title>] <title>ALLC Bulletin</title> viii 1 (1980) 92-3 </p>
+</item>
+<item>
+<p>[review of Allen B Tucker Jr <title>Text processing: algorithms, languages and applications</title>] <title>ALLC Bulletin</title> viii 2 (1980) 206-8 </p>
+</item>
+<item>
+<p>
+<title>At home with the hardware</title> [review of Robert L Oakman <title>Computer methods for literary research</title> and Susan Hockey <title>A guide to computer applications in the humanities</title>] <title>TLS</title> 9 May 1980 p 533 </p>
+</item>
+<item>
+<p>
+<title>Camp Conflicts</title> [review of T. Coraghessan Boyle <title>Descent of Man</title>] <title>TLS, </title>20 Jun 1980 p 714 </p>
+</item>
+<item>
+<p>
+<title>Growing up in Ulster</title> [review of Ian Cochrane <title>F for Ferg</title>] <title>TLS,</title>22 Aug 1980 p 943 </p>
+</item>
+<item>
+<p>
+<title>Set authors</title> [review of Fred Urquhart<title>A diver in China seas</title>] <title>TLS,</title>19 Sept 1980,p 1044 </p>
+</item>
+<item>
+<p>[Review of J. F. Gimpel <title>Algorithms in SNOBOL4</title>(Wiley, 1976)] <title>ALLC Bulletin</title>V 2 (1977) p 211-2 </p>
+</item>
+</list>
+-->
+    </div>
+
+    <div type="div3">
+     <head>Online</head>
+     <p>Links to most of the items listed here are available from my personal repository on  gitHub (<ptr target="https://lb42.github.io"/>)</p>
+     <p>In addition to the usual personal websites, Facebook, Twitter etc, I maintain an occasional
+      work-related blog at <ref target="http://foxglove.hypotheses.org"
+      >http://foxglove.hypotheses.org</ref></p>
+    </div>
+
+   </div>
+  </body>
+ </text>
+</TEI>

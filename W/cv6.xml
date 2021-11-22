@@ -32,8 +32,10 @@
    <div type="div2">
     <head>Current position</head>
 
-    <p>I am an independent consultant specialising in research applications of text encoding in
-     literature and linguistics, working mostly but not exclusively in France. </p>
+    <p>Lou Burnard Consulting specialises in research applications of text encoding in literature
+     and linguistics, working mostly but not exclusively in France. Between 2011 and 2015 I provided
+     TEI consultancy services to the TGE Adonis (precursor of Huma-Num) and worked with many digital
+     projects in France, before setting up as an independent consultant. </p>
     <p>Before taking early retirement in 2010, I was Assistant Director of Oxford University
      Computing Services. Reporting to the Director of OUCS, my responsibilities included policy
      development, budgetary control, and strategic planning for the department, which was
@@ -305,7 +307,8 @@ largescale language corpus projects. </p>
     <head>Academic qualifications and appointments </head>
 
     <list type="unordered">
-     <item>2014 to date: Membre Conseil Scientifique, LABEX Les Passées dans le Présent, Univ
+     <item>2017 to date : Membre Conseil Scientifique du Consortium CAHIER</item>
+     <item>2014 to date : Membre Conseil Scientifique, LABEX Les Passées dans le Présent, Univ
       Nanterre.</item>
      <item>2013 - 2015 : Membre Conseil Scientifique International de la MSH-Alpes</item>
      <item>2012 to date Membre Conseil Scientifique, MRSH de Caen</item>
@@ -368,7 +371,7 @@ largescale language corpus projects. </p>
 
    <div type="div2">
     <head>Publications (since 2000)</head>
-     <div type="div3">
+    <div type="div3">
      <head>Books and monographs</head>
      <list type="unordered">
       <item>
@@ -750,7 +753,8 @@ largescale language corpus projects. </p>
 
     <div type="div3">
      <head>Online</head>
-     <p>Links to most of the items listed here are available from my personal repository on  gitHub (<ptr target="https://lb42.github.io"/>)</p>
+     <p>Links to most of the items listed here are available from my personal repository on gitHub
+      (<ptr target="https://lb42.github.io"/>)</p>
      <p>In addition to the usual personal websites, Facebook, Twitter etc, I maintain an occasional
       work-related blog at <ref target="http://foxglove.hypotheses.org"
       >http://foxglove.hypotheses.org</ref></p>

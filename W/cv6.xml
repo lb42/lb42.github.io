@@ -15,6 +15,7 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
+   <change><name>Lou</name> <date>2021-11-20</date> </change>
    <change><name>Lou</name> <date>2020-01-20</date> </change>
    <change> <name>Lou</name> <date>2008-06-09T11:50:49</date> </change>
   </revisionDesc>
@@ -413,6 +414,13 @@ largescale language corpus projects. </p>
     <div type="div3">
      <head>Articles, reports, book chapters etc. </head>
      <list type="unordered">
+
+             <item> <p>2020  `In search of comity: TEI for distant reading’ 
+       <title >Journal of the Text Encoding
+        Initiative </title>[Online], Issue 14 | 2021, URL : <ptr
+         target="https://journals.openedition.org/jtei/3500"/> ; DOI : 
+        <ref target="https://doi.org/10.4000/jtei.3500">
+          https://doi.org/10.4000/jtei.3500</ref></p></item>
 
       <item>
        <p>2019 `La TEI pour les corpus linguistiques: un standard qui se renouvelle’ in

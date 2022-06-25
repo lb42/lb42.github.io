@@ -44,6 +44,12 @@ are probably infringing copyright.
 [This page](W/collectedReports.html) collects reports on various events I attended between 1977 and 2002, 
   mostly written because I had to submit a report to get my expenses reimbursed. Some of them are probably libellous.
   
+## And finally
+ - [The Wash Stand](W/washStand.html)  A curiosity from the Balliol Dramsoc Archive, circa 1968
+ - [Through Beatnik Eyeballs](W/beatnikEyeballs.html) TEI edition of a strange pulp novel from the early 1960s.
+
+ 
+  
   
 
  

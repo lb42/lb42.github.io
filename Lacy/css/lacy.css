@@ -1,0 +1,138 @@
+/* general styles */
+
+body {
+color: #000000;
+font-family: "Noto Sans", Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+font-size: 0.8em;
+line-height: 1.6em;
+margin:1em;
+}
+tei-teiheader {
+  display: block;
+}
+tei-teiheader tei-titlestmt>tei-title {
+  display: block;
+  font-size: 16pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+  margin-bottom: .5em;
+}
+tei-filedesc>tei-titlestmt {
+  font-size: 11pt;
+}
+tei-filedesc>tei-titlestmt>tei-author:after {
+  content: ', ';
+}
+tei-filedesc>tei-titlestmt>tei-author:last-child:after {
+  content: '.';
+}
+tei-filedesc>tei-publicationstmt {
+  display: block;
+  font-size: 11pt;
+}
+tei-teiheader tei-sourcedesc {
+  display: block;
+}
+tei-teiheader>tei-revisiondesc {
+  display: none;
+}
+tei-body {
+  display: block;
+  margin: 1em;
+}
+tei-div {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+tei-div::before {
+content:"Volume " attr(n);
+font-size: 11pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+}
+
+tei-head {
+  display: block;
+}
+
+tei-listbibl {
+  display: block;
+  margin-left: 30px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-left: 0;
+}
+tei-listbibl>tei-bibl {
+  display: list-item;
+  list-style-type: none;
+}
+
+tei-div>tei-bibl {
+  display: list-item;
+  list-style-type: none;
+}
+
+tei-lb::before {
+  content: '\a';
+  white-space: pre;
+}
+tei-hi[rend=bold] {
+  font-weight: bold;
+}
+tei-hi[rend=italic] {
+  font-style: italic;
+}
+tei-emph {
+  font-weight: bold;
+}
+tei-term {
+    font-style: italic;
+}
+
+tei-label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+tei-label::after {
+    content: ' : ';
+}
+
+tei-title {
+      font-style: italic; 
+}
+
+tei-bibl::before {
+    content: "[" attr(xml\:id) "]";
+}
+
+tei-author {
+    font-weight: bold;
+    }
+
+tei-title[type=sub] {
+    font-style: normal;    
+}
+
+tei-note[type=firstPerf]::before{
+content: ". First performed ";
+}
+
+tei-note[type=firstPerf]>tei-date::before{
+content: ", ";
+}
+tei-note[type=digitizations]::before {
+    content: ". Digitizations: ";
+}
+tei-q::before {
+    content: "“";
+}
+
+tei-q::after {
+    content: "”";
+}
+

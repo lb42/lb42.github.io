@@ -31,7 +31,7 @@ tei-filedesc>tei-publicationstmt {
   display: block;
   font-size: 11pt;
 }
-tei-teiheader tei-sourcedesc {
+tei-teiheader tei-sourcedesc tei-p {
   display: block;
 }
 
@@ -131,6 +131,21 @@ content: ", ";
 }
 tei-note[type=digitizations]::before {
     content: ". Digitizations: ";
+}
+
+tei-note[type=LCPkeywords] {
+    display: none;
+}
+
+tei-note[type=authorInfo] {
+    font-style:italic;
+    font-size:8pt;}
+tei-note[type=authorInfo]::before {
+content: " (";
+}
+
+tei-note[type=authorInfo]::after {
+content: ") ";
 }
 tei-q::before {
     content: "“";

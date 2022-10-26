@@ -1,0 +1,320 @@
+
+<?xml-model href="file:/home/lou/Public/TEIslides/teislides.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Welcome to the Jubilee </title>
+    <author>Part Three : The Nineties</author>
+   </titleStmt>
+   <publicationStmt>
+    <p>unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>born digital</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2022-09-24">Created file</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="slide">
+    <head>The 1990s: Things could only get better </head>
+    <list rend="incremental">
+     <item>Widespread discontent over the poll tax, mad cow disease, economic recession, and the
+      resignation of several ministers finally brought down Mrs Thatcher. She was replaced by John
+      Major, who did at least sign the Maastricht agreement which created the EU ... </item>
+     <item> For years Belinda had in her window a sign saying “Stop the Poll Tax” and another saying
+      “Free Nelson Mandela”, The first happened in 1992, the second in 1994. The sign saying “This
+      is not here” didnt seem to have any effect. </item>
+     <item> In academia, everyone was talking about something cool called the World Wide Web: I went
+      to a conference in Warsaw in 1992 at which a French man assured a room full of skeptical
+      hackers from across Europe that the Web would very soon be commercialised. The number of
+      organisations with a Web presence went from a few hundred in 1990 to many thousands in 1999. </item>
+     <item> On Mayday 1997, after 18 years of Tory misrule, the Labour party (well, Tony Blair) won
+      a General Election with the biggest majority held by any government since 1935. </item>
+     <item> In November 1994 Eurostar began services through the Channel Tunnel. </item>
+     <item> The Good Friday Agreement was signed on 10th April 1998, bringing power sharing and at
+      least the semblance of an end to Northern Ireland’s ‘Troubles’. </item>
+     <item>This was the age of Brit Pop (Radiohead, Oasis, Blur, Pulp, Massive Attack, The Spice
+      Girls ect ect ) </item>
+    </list>
+    <p>On the other hand: <list rend="incremental">
+     <item>At the beginning of the year, we were suckered into joining the first Gulf War.</item>
+     <item>In July 1998, a little bit of the British Empire called Hong Kong was handed back to the
+      Chinese. </item>
+     <item>Princess Diana died in a car crash at the end of august 1997, leading to widespread
+      public lamentation and media frenzy. </item>
+     </list></p>
+   </div>
+
+   <div type="slide">
+    <head>1990: back to the future</head>
+    <p>We started the new decade dancing the Lambada at Villa Caroline (those of us who can dance),
+     but within a few days normal service was being resumed in chilly Walton Manor. </p>
+    <figure>
+     <graphic url="../media/19900300_120007.jpg" width="600px"/>
+    </figure>
+    <p>In February, there were floods in the University Parks and TEI geeks convened on Oxford for
+     assorted meetings. And Elizabeth got some cool roller skates for her birthday</p>
+    <figure>
+     <graphic url="../media/19900200_119018.jpg" width="600px"/>
+    </figure>
+   </div>
+   <div type="slide">
+    <head>Travelling shoes</head>
+    <p>In March, I started to build up my carbon foot print. The year began with TEI meetings across
+     the USA, and conferences across Europe. ... </p>
+    <table rend="table">
+     <row>
+      <cell>8-10 March</cell>
+      <cell>Chicago, IL</cell>
+      <cell>Metalanguage Committee</cell>
+     </row>
+     <row>
+      <cell>12-14 March</cell>
+      <cell>Tucson, AZ</cell>
+      <cell>Analysis and Interpretation Committee</cell>
+     </row>
+     <row>
+      <cell>15-16 March</cell>
+      <cell>Princeton, NJ</cell>
+      <cell>Conference to launch Rutgers-Princeton Database project (later to become CETH)</cell>
+     </row>
+     <row>
+      <cell>17-18 March</cell>
+      <cell>Bernardsville, NJ</cell>
+      <cell>TEI Steering Committee</cell>
+     </row>
+     <row>
+      <cell>20 March</cell>
+      <cell>Manhattan, NY</cell>
+      <cell>Tourism with Antonio Zampolli</cell>
+     </row>
+     <row>
+      <cell>22-24 March</cell>
+      <cell>Oxford (mirabile dictu)</cell>
+      <cell>Text Documentation committee</cell>
+     </row>
+     <row>
+      <cell>2-5 April</cell>
+      <cell>St Andrews</cell>
+      <cell>Conference on Computers in Teaching</cell>
+     </row>
+     <row>
+      <cell>7 April</cell>
+      <cell>Wolverhampton</cell>
+      <cell>History and Computing Conferencec</cell>
+     </row>
+     <row>
+      <cell>25 April</cell>
+      <cell>Sheffield</cell>
+      <cell>IUSC Database Working Group</cell>
+     </row>
+     <row>
+      <cell>15-24 May</cell>
+      <cell>Chicago, IL</cell>
+      <cell>TEI editorial meeting</cell>
+     </row>
+     <row>
+      <cell>3-5 June</cell>
+      <cell>Siegen, Germany</cell>
+      <cell>ACH/ALLC Conference featuring first ever TEI Workshop</cell>
+     </row>
+     <row>
+      <cell>9-13 June</cell>
+      <cell>Berlin</cell>
+      <cell>ICAME corpus conference</cell>
+     </row>
+    </table>
+
+    <p> Some say that the true meaning of "TEI" was "Travel Expenses Indefinitely". Certainly this
+     sort of travelling became commonplace over the next few years; during the 90s, there were very,
+     very, few months during which I was not attending a meeting, conference, or workshop somewhere
+     in the US or Europe.  But these were not family occasions, so I won't detail them
+     further.</p>
+    <figure>
+     <graphic url="../media/19920305_000000.jpg" width="600px"/>
+     <head>Rare action shot of me giving a talk about the TEI, some time in March 1992. Note suit
+      and tie and OHP.</head>
+    </figure>
+
+   </div>
+   <div type="slide">
+    <head>Tradition! Tradition! </head>
+    <p>Girls' birthdays were increasingly endowed with elaborate Tata-produced cakes: another fine
+     tradition. </p>
+    <table rend="table">
+     <row>
+      <cell><figure>
+       <graphic url="../media/19900300_120022.jpg" width="500px"/>
+       <head>April 1990: a burger for Sarah</head>
+       </figure></cell>
+      <cell><figure>
+       <graphic url="../media/19910402_000002.png" width="500px"/>
+       <head>April 1991: a tropical island for Sarah</head>
+       </figure></cell>
+     </row>
+     <row>
+      <cell><figure>
+       <graphic url="../media/19940217_000001.png" width="500px"/>
+       <head>February 1994: a blank cheque for Elizabeth</head>
+       </figure></cell>
+      <cell><figure>
+       <graphic url="../media/19940402_000002.png" width="500px"/>
+       <head>April 1994: more naked ladies for Sarah</head>
+       </figure></cell>
+     </row>
+     <row>
+      <cell><figure>
+       <graphic url="../media/19960217_000001.png" width="500px"/>
+       <head>February 1996: a teddy bears picnic for Elizabeth</head>
+       </figure></cell>
+      <cell><figure>
+       <graphic url="../media/19981100_000001.jpg" width="500px"/>
+       <head>November 1998: a reprised chocolate house for Belinda</head>
+       </figure></cell>
+     </row>
+    </table>
+   </div>
+   <div type="slide">
+    <head>Graduations</head>
+    <p>This was also the decade in which (nearly) everyone got certificated at some sort of
+     graduation ceremony... </p>
+    <table>
+     <row>
+      <cell>In June 1992, Lilette graduated from her OU course at Brighton</cell>
+      <cell><graphic url="../media/19920600_000002.jpg" width="500px"/></cell>
+     </row>
+     <row>
+      <cell><graphic url="../media/19960600_000005.jpg" width="500px"/></cell>
+      <cell>In June 1996, Belinda graduated from Nottingham</cell>
+     </row>
+     <row>
+      <cell>In July 1997, Sarah graduated from De Montfort</cell>
+      <cell>><graphic url="../media/19990700_142009.jpg" width="500px"/></cell>
+     </row>
+    </table>
+   </div>
+   <div type="slide">
+    <head>Lodgers</head>
+    <p>The top floor of no 110 had two bedrooms, one of which we split in two. For most of the year
+     there was a steady flow of student lodgers sleeping there, usually eating dinner with us, and
+     always helping to keep the mortgage under some degree of control.
+     <!--(Though borrowing money to do
+     more repair work on the house was never a problem: this being the start of a time in which
+     property values in Oxford progressed from absurd to beyond ridiculous.)--></p>
+    <p>The lodgers were not university students, but a mixture of A-level re-takers, lost souls
+     striving to scrape through entrance exams, abandoned children of expat poshos from across the
+     world. A few became family friends, but only a few. The Japanese were the most polite and they
+     always came bearing gifts. </p>
+    <table>
+     <row>
+      <cell><figure>
+       <graphic url="../media/19941031_000000.jpg" width="400px"/>
+       <head>Halloween 1994</head>
+       </figure> </cell>
+      <cell><figure>
+       <graphic url="../media/20110300_000001_visitor.jpg" width="600px"/>
+       </figure></cell>
+     </row>
+    </table>
+   </div>
+
+   <div type="slide">
+    <head>Performances </head>
+    <figure>
+     <graphic url="../media/19901012_000003.jpg" width="600px"/>
+     <head>Belinda and Rob shared a pineapple in Cherwell School's fine production of <hi>Cabaret</hi>
+      (September 1990)</head>
+    </figure>
+
+    <figure>
+     <graphic url="../media/19910000_000001.png" width="600px"/>
+     <head>Sarah sang jazz numbers in trendy Oxford cafes whenever she could find a pianist (here,
+      the Dome in October 1991)</head>
+    </figure>
+
+    <figure>
+     <graphic url="../media/19920700_000003.png" width="600px"/>
+     <head>As a change from endless tours of <hi>Dido</hi>, the Oxford Girls Choir also gave us Roddy Williams'
+      take on <hi>Alice in Wonderland</hi> in July 1992</head>
+    </figure>
+    
+    <figure>
+     <graphic url="../media/19940400_000001.png" height="600px"/>
+     <head>In April 1994, one of Sarah's admirers gave her this remarkable music stand as a birthday present</head>
+    </figure>
+    
+</div><div type="slide"><head>West End performances</head>
+    <p>In June 1993, everyone had a role with the Mushy Pea Theatre Company, culminating in
+     performances of <hi>Babes</hi> and <hi>Mr Majeika</hi> at the Shaw Theatre in London</p>
+    <table>
+     <row>
+      <cell> <figure>
+       <graphic url="../media/19930600_000002.png" height="600px"/>
+       <head>Semi-pro musicians going to (or maybe returning from) London baby, London.</head>
+       </figure></cell>
+      <cell> <figure>
+       <graphic url="../media/19930605_000001.png" width="600px"/>
+       <head>Sarah starred as Wilhelmina Worlock in <title>Mr Majeika</title></head>
+       </figure> </cell>
+     </row>
+    </table>
+   </div>
+
+   <div type="slide">
+    <head>Teenager in the house</head>
+    <table>
+     <row>
+      <cell><figure>
+       <graphic url="../media/19960200_000001.png" width="600px"/>
+       <head>Elizabeth and her posse on the street, 1996</head>
+       </figure></cell>
+      <cell><graphic url="../media/erb-friends.png" width="500px"/></cell>
+     </row>
+    </table>
+   </div>
+
+   <div type="slide">
+    <head>Holidays</head>
+    <p>I wasn't the only person travelling in the nineties. There were also holiday expeditions
+     involving current boyfriends, separate expeditions not involving parents, or not involving me,
+     as well as grand community escapades. For example: 
+    </p><p>In August 1994, we rented a holiday villa in Crete and did summer holiday things like this</p>
+    <table>
+     <row>
+     
+      <cell><figure><graphic url="../media/19940800_000030.jpg" width="500px"/><head>Here
+       we are with Sir Arthur Evans in Knossos</head></figure></cell><cell>
+       <figure><graphic url="../media/19940500_000001.png" width="500px"/><head>Synchronized swimming in the hotel pool, sort of</head></figure></cell>
+     </row></table>
+    <p>In March 1997, we organized a mass expedition to the Trattorio da Olga in Cereglio, just over the hill from Guy's house in Liserna. This was to celebrate Guy's 50th (and
+     mine and Lilette's too), though we returned frequently thereafter, on any excuse. </p>
+    <table> <row>
+      <cell><graphic url="../media/19970323_000000.jpg" width="650px"/></cell>
+     <cell><graphic url="../media/19970323_000003.jpg" width="600px"/></cell>
+     </row></table>
+    <p>In July 1998, everyone went to Mauritius, without me (I stayed in Oxford to run the
+     first ever Text Encoding Summer School, closely followed by TALC conference)</p>
+     <figure>
+      <graphic url="../media/19980700_146023.png" width="700px"/>
+     </figure>
+    <p>And in August 1999, at Allen Renear's invitation, we took Elizabeth on her first transatlantic adventure, via Iceland. We  explored Boston, Providence, and Newport RI. We also had a few days cat-sitting in Greenwich Village  and visited MOMA. </p>
+    <table> <row>
+     <cell><graphic url="../media/19990817_141001.jpg" height="500px"/></cell>
+      <cell><graphic url="../media/19990800_136012.jpg" width="500px"/></cell>
+     </row>
+    </table>
+   </div><div type="slide"><head>Moving on</head>
+   <p>In September 1999, Belinda moved out of student accomodation in Forest Fields and into somewhere just a bit posher, with Bob.
+   <figure><graphic url="../media/19990900_141026.jpg" width="600px"/></figure>
+   </p></div>
+   
+   
+  </body>
+ </text>
+
+</TEI>

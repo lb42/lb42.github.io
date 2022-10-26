@@ -1,0 +1,435 @@
+
+<?xml-model href="file:/home/lou/Public/TEIslides/teislides.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Welcome to the Jubilee </title>
+    <author>Part Four : The Noughties</author>
+   </titleStmt>
+   <publicationStmt>
+    <p>unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>born digital</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2022-10-09">Created file</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="slide">
+    <head>The 2000s: Ho hum </head>
+    <list rend="incremental">
+     <item>The decade started well, in that the millenium bug never happened, whether because it was
+      all a myth or because of the hard work of thousands of conscientious software engineers we'll
+      never know </item>
+     <item>However, the headlines did not suggest this was a fun time for all <list>
+      <item>The 9/11 attacks on the World Trade Center were followed by the US invasion of
+       Afghanistan, in which Tony Blair made us complicit</item>
+      <item>We were even more involved in the Gulf War that followed in 2003, ostensibly to remove
+       "weapons of mass destruction" which were never found</item>
+      <item>Boxing Day 2004 was spoiled for millions by a veritable Tsunami in South East
+       Asia</item>
+      <item>In July 2005, suicide bombers targetted London Transport, for the first time since the
+       1890s </item>
+      <item>An American bank called Lehman Brothers crashed in 2008: the world's financial systems
+       were now so intertwined that this had disastrous effects on the UK economy too </item>
+      <item>And not just that Boris Johnson replaced Ken Livingstone as Lord Mayor Of London </item>
+      </list></item>
+     <item>On the slightly less gloomy side <list>
+      <item>In February 2004, Facebook was founded. It'll never catch on, we said.</item>
+      <item>In February 2005, Youtube was launched. What's the point of that, we said. </item>
+      </list> </item>
+    </list>
+   </div>
+
+   <div type="slide">
+    <head>No more trips to Hereford</head>
+    <p>In 2000, Grandma died unexpectedly at her house in Leominster. </p>
+    <figure>
+     <graphic url="../media/20000523_000000.png" width="750px"/>
+     <head>23 May 2000 : here we all are in Hereford, on our way to the funeral</head>
+    </figure>
+    <figure>
+     <graphic url="../media/20010526_110100.jpg" width="500px"/>
+     <head>Here is her headstone, dedicated a year later, with George and Pam. </head>
+    </figure>
+    <figure>
+     <graphic url="../media/1940s-ma-Colorized.jpg" height="600px"/>
+     <head>and here is a colorized photo of her, probably taken about 1940</head>
+    </figure>
+   </div>
+
+   <!--<div type="slide">
+    <head>Travelling shoes</head>
+    <p>I continued to do a <emph>lot</emph> of travelling. For example:</p>
+   </div>
+
+-->
+   <div type="slide">
+    <head>Tradition! Tradition! Tradition! </head>
+    <p>During the nineties and noughties, we had enough space to host the full family Christmas
+     special, all the way from champagne breakfast beneath an over-decorated tree and endless
+     unwrapping of presents, to massive lunch (usually involving a goose from Mr Feller, creamy
+     Potatoes Tata-stylee, and flaming pud), <foreign>le trou normand</foreign>, and a little snooze
+     before tea and cake. </p>
+    <p>It also usually involved additional boy friends and occasionally bemused hangers on. Up till
+     2005, there was room in the kitchen for everyone; in 2006, when Cousin Dave and Meili joined
+     us, we moved it to the front basement. </p>
+    <table>
+     <row>
+      <cell><figure>
+       <graphic url="../media/19971224_000000.jpg" height="500px"/>
+       <head>1997: Tree ready to rock</head>
+       </figure></cell>
+      <cell><figure>
+       <graphic url="../media/20011225_121100.jpg" width="600px"/>
+       <head>2001: Girls lined up</head>
+       </figure></cell>
+     </row>
+
+     <row>
+      <cell><figure>
+       <graphic url="../media/20061225_121835.jpg" width="500px"/>
+       <head>2006: preparation fatigue</head>
+       </figure></cell>
+      <cell><figure>
+       <graphic url="../media/20081225_135358.jpg" width="500px"/>
+       <head>2008: trying on of gifts obligatory</head>
+       </figure></cell>
+     </row>
+
+     <row>
+      <cell><figure>
+       <graphic url="../media/20041225_160000.jpg" width="500px"/>
+       <head>2004 : a table! </head>
+       </figure></cell>
+      <cell><figure>
+       <graphic url="../media/20071225_154026.jpg" width="500px"/>
+       <head>2007 : everyone is served</head>
+       </figure></cell>
+     </row>
+     <row>
+      <cell><figure>
+       <graphic url="../media/20001225_000003.png" width="500px"/>
+       <head>2000: after dinner silliness</head>
+       </figure></cell>
+      <cell><figure>
+       <graphic url="../media/20021225_140600.jpg" width="500px"/>
+       <head>2002: more after dinner silliness</head>
+       </figure></cell>
+     </row>
+     <row>
+      <cell><figure>
+       <graphic url="../media/20051225_165827.jpg" width="500px"/>
+       <head>2005: yes, we have full tummies</head>
+       </figure></cell>
+      <!-- <cell><figure>
+      <graphic url="../media/20091226_185419.jpg" width="500px"/>
+      <head>2009: lunch is served before three pm</head>
+     </figure></cell>-->
+      <cell><figure>
+       <graphic url="../media/20081225_163810.jpg" width="500px"/>
+       <head>2008 : the effects of the trou normand</head>
+       </figure></cell>
+     </row>
+     <!-- <row>
+     <cell><figure>
+      <graphic url="../media/20061225_163332.jpg" width="500px"/>
+      <head>2006: Lilette made a movie (which is still around somewhere)</head>
+     </figure></cell>
+    
+    </row>-->
+    </table>
+   </div>
+   <div type="slide">
+    <head>Mauritian holidays</head>
+    <p>We spent most of December 2003 in or near the Indian Ocean.</p>
+    <figure>
+     <graphic url="../media/20031212_000227.jpg" width="700px"/>
+     <head>Flic en Flac, 12 December 2003</head>
+    </figure>
+    <table>
+     <row>
+      <cell> <figure>
+       <graphic url="../media/20031217_000214.jpg" width="500px"/>
+       <head>Nice gardens </head>
+       </figure></cell>
+      <cell> <figure>
+       <graphic url="../media/20031217_001255.jpg" width="500px"/>
+       <head>Nice pizza (and the boyfriends came too) </head>
+       </figure></cell>
+     </row>
+    </table>
+    <p>We visited Grandmere's house in Forest Side...</p>
+    <table>
+     <row>
+      <cell> <figure>
+       <graphic url="../media/20031200_00L019.jpg" width="500px"/>
+       <head>Grandmere objects (but only mildly) to being photographed</head>
+       </figure></cell>
+      <cell> <figure>
+       <graphic url="../media/20031214_000725.jpg" width="500px"/>
+       <head>Alain and scratch orchestra perform</head>
+       </figure></cell>
+     </row>
+    </table>
+
+
+    <p> We went to a rural wedding chez Fredouille in Reunion, where we also did some tourism with
+     Jef and Nicole. </p>
+    <table>
+     <row>
+      <cell> <figure>
+       <graphic url="../media/20031222_000212.jpg" width="500px"/>
+       <head>We saw lots of scenery in la Reunion; Jef's hat was also impressive. </head>
+       </figure></cell>
+      <cell> <figure>
+       <graphic url="../media/20031225_000725.jpg" width="500px"/>
+       <head>Francois and co enjoying photos</head>
+       </figure></cell>
+     </row>
+    </table>
+
+
+
+    <p>We had Christmas with everyone in our posh villa in Flic en Flac, and then resumed work on
+     getting seriously sun-tanned.</p>
+    <table>
+     <row>
+      <cell> <figure>
+       <graphic url="../media/20031226_000339.jpg" width="500px"/>
+       <head>Getting the back of one's legs tanned is not so easy</head>
+       </figure></cell>
+      <cell> <figure>
+       <graphic url="../media/20031226_000353.jpg" height="500px"/>
+       <head>Too hot for navel rings</head>
+       </figure></cell>
+     </row>
+    </table>
+
+   </div>
+
+
+   <div type="slide">
+    <head>Another graduation!</head>
+    <figure>
+     <graphic url="../media/20061100_elizabeth.png" width="600px"/>
+     <head>In the autumn of 2006, Elizabeth got her official seal of approval and became an
+      adult</head>
+    </figure>
+
+    <p>She then did a variety of jobs, raising enough money for her to be able to disappear for a
+     month's expedition to Thailand, as millenials do. </p>
+    <figure>
+     <graphic url="../media/20071017_170651.jpg" width="600px"/>
+     <head>October 2017 : Setting off from Heathrow</head>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>Reason not the knees</head>
+    <p>While Christmas Shopping in 2007, I fell over in the High Street and broke something: a
+     ligament in my left knee to be precise. Which in turn meant I spent New Years Eve in the JR
+     labelled "nil by mouth" waiting to be operated on. </p>
+    <p> I spent most of January with one leg enclosed in a purple coffin, and the next six weeks
+     learning how to bend my knee again. </p>
+    <figure>
+     <graphic url="../media/20080110_211721.jpg" width="600px"/>
+     <head>10 Jan 2008. The bottles contain balsamic vinegar di Modena, brought by Guy as presents
+      for girls</head>
+    </figure>
+
+   </div>
+   <div type="slide">
+    <head>Another wonderful wedding</head>
+    <p>A wonky knee did not prevent me and my wheelchair from delighting in Pam's next wedding,
+     where I made a rather fine speech, the girls sang like angels, and everyone was delighted to
+     have a new uncle in the family. </p>
+
+    <figure>
+     <graphic url="../media/20080112_123406.jpg" width="700px"/>
+     <head>12 Jan 2008: All on duty at the Registry Office</head>
+    </figure>
+
+    <figure>
+     <graphic url="../media/20080112_223504.jpg" width="600px"/>
+     <head> Hello Uncle Phil</head>
+    </figure>
+   </div>
+
+   <div type="gloss">
+    <head>Property owner</head>
+    <p>Belinda started climbing the property ladder, with this house at 48 Ford Street, handy for
+     the Mansfield Road if noisy. </p>
+    <figure>
+     <graphic url="../media/20091129_123658.jpg" width="600px"/>
+     <head>29 Nov 2009: she's got the keys</head>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>A variety of gigs</head>
+
+    <p>The Nottingham musical experience was rich and varied... </p>
+    <figure>
+     <graphic url="../media/20050714_195913.jpg" width="600px"/>
+     <head>July 2005: jamming with the COMA ensemble</head>
+    </figure>
+
+    <!-- <figure>
+     <graphic url="../media/20060226_223951.jpg" width="600px"/><head>February 2006 : Deep Sound Channel </head>
+    </figure>
+ -->
+    <figure>
+     <graphic url="../media/20061109_213415.jpg" width="600px"/>
+     <head>November 2006: Gamelan ensemble</head>
+    </figure>
+
+    <figure>
+     <graphic url="../media/20081109_020353.jpg" width="600px"/>
+     <head>November 2008 : Deep Sound Channel </head>
+    </figure>
+
+    <figure>
+     <graphic url="../media/20091127_221947.jpg" width="600px"/>
+     <head>The Wendys played Bar Deux Nottingham, 27 November 2009 (in a double act with <ref
+      target="https://photos.app.goo.gl/VjEkp7RabHZkkiA59"> Soggy Bottom Girls</ref>)</head>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>This was a decade of inebriated excess, aka splendid parties</head>
+    <list>
+     <item>In 2005, we hired a tent to accomodate Elizabeth's birthday party (grown ups migrated
+      upstairs) </item>
+     <figure>
+      <graphic url="../media/20050219_233159.jpg" width="500px"/>
+     </figure>
+
+     <item>In 2007, we celebrated Lilette's special birthday with a hat party in the basement and
+      the girls sang </item>
+     <figure>
+      <graphic url="../media/20070722_071044.JPG" width="500px"/>
+     </figure>
+
+     <item>In 2009, we celebrated Pam's equally special birthday with an event in the St Margarets
+      Hall; the girls sang and also got very drunk (but not Sarah)</item>
+     <figure>
+      <graphic url="../media/20090718_230207.jpg" width="500px"/>
+     </figure>
+
+    </list>
+    <cb/>
+    <figure>
+     <graphic url="../media/20050218_120300.jpg" width="500px"/>
+     <head>18 February 2005</head>
+    </figure>
+    <figure>
+     <graphic url="../media/20070721_213341.JPG" width="500px"/>
+     <head>21 July 2007</head>
+    </figure>
+    <figure>
+     <graphic url="../media/20090718_230619.jpg" height="500px"/>
+     <head>18 July 2009</head>
+    </figure>
+
+   </div>
+   <div type="slide">
+    <head>Harbingers</head>
+    <p>The last winter of the decade, or the first one of the next was noteworthy for two things: <figure>
+     <graphic url="../media/20100106_101002.jpg" width="600px"/>
+     <head>Serious snowfall in January 2010</head>
+     </figure></p>
+    <figure>
+     <graphic url="../media/20091129_155052.jpg" width="600px"/>
+     <head>Signs of imminent grandparenthood in November 2009</head>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <figure>
+     <graphic url="../media/thatsall.jpg" width="90%"/>
+    </figure>
+
+    <!--  <head rend="incremental">P.S.</head>
+-->
+    <p rend="incremental">That's all very well, but what of the tens and twenties? </p>
+    <!-- I was planning to stop there, since weve come to the end of a decade, but I suppose you'll feel cheated if I don't mention a few things that happend in the last few years -->
+   </div>
+   <div type="slide">
+    <head>Grandchildren started arriving</head>
+
+
+    <table>
+     <row>
+      <cell><figure>
+       <graphic url="../media/20100106_141259.jpg" width="250px"/>
+       <head>Lila May Io started the whole thing off on 1 January 2010</head>
+       </figure></cell>
+      <cell> <figure>
+       <graphic url="../media/20110701_194116.jpg" width="400px"/>
+       <head>Louis James showed up 23 June 2011 </head>
+       </figure> </cell>
+     </row>
+     <row>
+      <cell><figure>
+       <graphic url="../media/20161123-harvey.jpg" width="250px"/>
+       <head>Harvey Guy Mario joined the family on 5 August 2016</head>
+       </figure></cell>
+
+      <cell><figure>
+
+       <graphic url="../media/20161128-daphne.jpg" width="300px"/>
+       <head>Closely followed by Daphne Josephine Marie on 9 August 2016 </head>
+       </figure></cell>
+     </row>
+     <row>
+      <cell><figure>
+       <graphic url="../media/20200710_122812.jpg" width="400px"/>
+       <head>And then came Leon Guy Daoud on 13 April 2020</head>
+       </figure> </cell>
+      <cell> <figure>
+       <graphic url="../media/20210126-WA0000.jpg" width="250px"/>
+       <head>and of course Coco Sarah Beattie on 13 July 2020.</head>
+
+       </figure> </cell>
+     </row>
+    </table>
+
+   </div>
+   <div type="slide">
+    <head>Everyone got married (eventually)</head>
+
+    <figure>
+     <graphic url="../media/20140614_143336.jpg" width="700px"/>
+     <head>In June 2014, Elizabeth and Alex went big time traditional in Hackney</head>
+    </figure>
+    <figure>
+     <graphic url="../media/20170805_173400.jpg" height="600px"/>
+     <head>In August 2017, Sarah and Kevin went off piste with a pagan witchy mass expedition thing
+      in a field near Standlake</head>
+    </figure>
+    <figure>
+     <graphic url="../media/20191019_074814.jpg" width="700px"/>
+     <head>In October 2019, Belinda and James went tropical surprise on a beach in Mauritius</head>
+    </figure>
+
+    <!--  <p>And may they all live happily ever after ... we are looking forward to many more happy
+     anniversaries!</p>-->
+   </div>
+   <div type="slide">
+    <head>And they all lived happy ever after...</head>
+    <figure>
+     <head>We are looking forward to many more happy anniversaries</head>
+     <graphic url="../media/20121223_215616.jpg" width="85%"/>
+    </figure>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

@@ -1,0 +1,340 @@
+
+<?xml-model href="file:/home/lou/Public/TEIslides/teislides.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Welcome to the Jubilee </title>
+    <author>Part One : The Seventies</author>
+   </titleStmt>
+   <publicationStmt>
+    <p>unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>born digital</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2022-09-24">Created file</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="slide">
+    <head>1972 </head>
+    <list rend="incremental">
+     <item>Not a <emph>great</emph> time to be in England...<list rend="incremental">
+      <item>Drastic energy shortages led to the "three day week" in the winter of 1973 and a state of
+       emergency; miners and dockers went on strike.</item>
+      <item>A Tory Chancellor cut taxes: inflation soared; the pound was devalued; unemployment
+       soared... sound familiar?</item>
+      <item>In Ireland, following Bloody Sunday, IRA bombing campaigns began; the "Troubles"
+       ...</item>
+      <item>Idi Amin, president of Uganda, expelled thousands of Asians to the UK, many of whom
+       opened corner shops and thus revived the British economy</item>
+      <item>Second "Cod war" with Iceland (we lost)</item>
+      <item>Watergate scandal in the U.S. leading eventually to President Nixon's resignation</item>
+      </list></item>
+     <item>It wasn't all bad <list rend="incremental">
+      <item>We joined the Common Market in January 1972 (no-one noticed)</item>
+      <item>General discontent eventually brought down Heath's Tory government</item>
+      <item>Jesus Christ Superstar opened in the West End; Emmerdale Farm started on ITV</item>
+      <item>The New Seekers nearly won Eurovision (they came second, after Luxembourg's Vicky
+       Leandros) </item>
+      <item>Your flexible friend the Access credit card first appeared</item>
+      </list></item>
+     <item>Fortunately, we were in Africa</item>
+    </list>
+   </div>
+   <div type="slide">
+    <head>... Malawi! where it all started ... </head>
+    <figure>
+     <graphic url="../media/19721200.jpg" height="70%"/>
+    </figure>
+    <list>
+     <item>December 1972 : a serendipitous double exposure</item>
+    </list>
+   </div>
+   <div type="slide">
+    <head>It was just a simple Mauritian wedding</head>
+    <figure>
+     <graphic url="../media/19721223_invite.png" width="650px"/>
+    </figure>
+    
+    <cb/>
+
+    <figure>
+     <graphic url="../media/19721223_mothers.png" width="600px"/>
+     <head>23 December 1972 : Limbe Cathedral</head> </figure>
+   
+   </div>
+   <div type="slide">
+    <head>I don't remember much about the party</head>
+    <figure>
+     <graphic url="../media/19721223_marbella.png" width="700px"/>
+    </figure>
+    <list>
+     <item>There was an appropriate amount of dancing and eating</item>
+     <item>And Guy made a speech</item>
+     <item>But sadly, most photos of the event are lost (there were goat balls)</item>
+    </list>
+   </div>
+   <!--<div type="slide">
+    <head>And before long...</head>
+    <figure>
+     <graphic url="../media/19730527.jpg" width="60%" height="60%"/>
+    </figure>
+    <cb/>
+    <p> We lived in this
+     block of expat flats, next to the Kamuzu Stadium in Limbe, until the university moved to a new
+     site in Zomba.</p>
+    <p><graphic url="../media/19720500_ferrograph.jpg" height="10%" width="20%"/> I spent some time
+     teaching, and some time doing a late night radio show on MBC. And writing letters and making
+     audio tapes. </p>
+    <p>Lilette had secretarial work at Blantyre Print and Publishing until her Condition made this
+     infeasible. </p>
+   </div>-->
+
+   <div type="slide">
+    <head>Jan 1972 - Dec 1973 </head>
+    <p>My first real academic job was as Lecturer in English, at a newly-established University in
+     the equally newly-established country of Malawi. To be honest, I didn't apply for a job here; I
+     applied for one in Fiji, but whatever remnant of empire was responsible for recruiting to
+     commonwealth universities offered me this one instead. It was tropical, it was a job. I took
+     it. </p>
+    <p>With the job came my first proper flat and my first car, and indeed my first personal servant
+     unless you count Oxford scouts. His name was Jim Kandiado and he looked after me, and (in due
+     course) Lilette very well. </p>
+    <p>The flat was on the ground floor of a modern block, just over the road from the Kamuzu
+     Stadium, on the Makata road. and it looked like this: <figure>
+     <graphic url="../media/19720000_chichiri.png" width="600px"/>
+     </figure></p>
+    <p>I lived here for an eventful year, coming to terms with the strangeness of being a
+     <foreign>mzungu</foreign>, and an academic to boot. The beautiful Mauritian girl who moved in
+     with me helped a lot. After a year the University moved to Zomba, and so therefore did we. This
+     photo shows the huge University lorry which came to move us:</p>
+    <figure>
+     <graphic url="../media/1973-chichiri-movingout-03019.jpg" width="600px"/>
+    </figure>
+    <p>Our new home was much more traditional. In fact, I dont even think it had an address. It was
+     one of a small number of European Bungalows built along the Old Naisi Road in the days when the
+     Colonial Government occupied Zomba. With independence, the government had moved to somewhere
+     else, leaving behind some rather fine antique housing stock for expats like me and my fellow
+     academics to snap up. </p>
+    <figure>
+     <graphic url="../media/1973-chilwa-04021.jpg" width="600px"/>
+    </figure>
+    <p>From the garden of our bungalow (which had all sorts of fruit trees) you could see Lake
+     Chirwa on a clear day. There was a village built of mud huts within walking distance and wild
+     pigs in the surrounding gardens. I learned how to to drive around the Zomba plateau at
+     dangerous speeds so as to get to the Zomba Gymkhana Club in time for the ham sandwich which
+     Lilette was inexplicably craving. Belinda was born here. </p>
+   </div>
+   <div type="slide">
+    <head>Hello Belinda!</head>
+    <figure>
+     <graphic url="../media/19731111_belinda.jpg" width="700px"/>
+    </figure>
+    <list>
+     <item>Zomba, 11 Nov 1973</item>
+    </list>
+   </div>
+   <div type="slide">
+    <head>1974: Back to Europe</head>
+    <p>We delayed as long as possible the business of finding a post-Malawian residence by visiting
+     friends and families on an extended European tour, courtesy of the flexible air ticket which I
+     got as a returning expat. Belinda was not entirely enthusiastic but she had no choice. </p>
+
+    <p>From Malawi, we went via Lusaka in Zambia to Rome and then to Bologna where we saw the New
+     Year in with Guy's commie chums (in those days the Italian communist party was very middle
+     class)</p>
+    <figure>
+     <graphic url="../media/19740101.jpg" width="600px"/>
+     <head>Bologna, 1 Jan 1974</head>
+    </figure>
+    <p>Then we proceeded to Paris and to Caen to introduce Tata Nicole and Tonton Jef to Belinda
+     (and vice versa) </p>
+    <figure>
+     <graphic url="../media/19740100_caen.jpg" width="600px"/>
+    </figure>
+    <p>And finally, I drove a hire car through the darkness to Hamilton Road, Oxford (thanks for the
+     floor, Pam) and thence to my mum's flat in Bristol, where we crashed for a bit </p>
+    <figure>
+     <graphic url="../media/19740200_bristol.png" width="650px"/>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>12 Harefields</head>
+    <p>Eventually we settled down in a rented modern house in Harefields, in the unfashionably far
+     North of Oxford. It looked like this:</p>
+    <figure>
+     <graphic url="../media/19740300_harefields.jpg" height="600px"/>
+     <head>This was our first family home. Belinda learned to walk first up and then down the stairs
+      (of which there were many) and we joined baby-sitting circles and started doing things like
+      Sunday outings. </head>
+    </figure>
+
+    <cb/>
+    <figure>
+     <graphic url="../media/19740300_park.jpg" height="600px"/>
+     
+     <head>Healthy walk in Cutteslowe Park, March 1974. Belinda snoozes.</head>
+    </figure>
+    
+    <p> Lilette did a lot of pram pushing and home building, and some shopping.</p>
+    <p>In April I got a job at the University's computing service: not a very demanding one, but it
+     paid the rent, and left me ample time to think about other things. </p>
+
+   </div>
+   
+   
+   <div type="slide">
+    <head>Cutteslowe life</head>
+
+    <figure>
+     <graphic url="../media/19740400_afro.jpg" width="600px"/>
+     
+     <head>Waiting for the bus in Cornmarket, April 1974. Belinda continues to snooze</head>
+    </figure>
+   </div>
+   <!-- june 1975 we went to Cherbourg via Air Aurigny -->
+   <div type="slide">
+    <head>Some traditions started...</head>
+    <p></p>
+    <figure>
+     <graphic url="../media/19741200_000000.jpg" width="600px"/>
+     <head>December 1974 and Grandma visits to honour our first traditional Christmas tree</head>
+    </figure>
+    
+    <figure>
+     <graphic url="../media/19751110_000004.jpg" width="600px"/>
+     <head>Belinda's lifelong fascination with chocolate cake probably dates back to her second
+      birthday in 1975</head>
+    </figure>
+    </div>
+   
+   <div type="slide">
+    <head>Hello Sarah Daisy!</head>
+    <p>New baby in the house (much more interesting than Present, the cat)</p>
+    <figure>
+     <graphic url="../media/19760406.jpg"/>
+     <!-- 494 x 674 -->
+     <head>Sarah Daisy arrived (just in time to make a difference to my tax return) 2 April
+      1976</head>
+    </figure>
+ 
+   </div>
+
+   <div type="slide">
+    <head>18 Plantation Rd</head>
+    <list rend="incremental">
+     <!--<item>In those distant days, if you wanted to get a loan to buy your own home, you needed to
+      earn enough to be able to pay a hefty cash deposit, plus all manner of additional conditions
+      and restrictions. But we still wanted to stop paying the landlord's mortgage, and start paying
+      our own, and so I invested a lot of effort in calculations and arguments with banks, which
+      eventually paid off</item>-->
+     <item>In the spring of 1977 we became property owners, courtesy of the Halifax Building
+      Society. We paid £7000 for 18 Plantation Rd, a little house in North Oxford which St Johns
+      College had decided it wasn't worth their while keeping since one of its exterior walls was
+      bowed, and it needed modernisation, and it had squatters. </item>
+     <item>We hired a local builder called Mr Wastie to set about rectifying the most pressing
+      defects (a huge bolt was fixed into the bowed wall, the nice wooden partitions upstairs were
+      covered by boring but comparatively fireproof plaster board, we installed a bathroom with a
+      real bath in it, and so on: total cost about £5000 I think). </item>
+     <item>The squatters were not a problem: indeed they left us a nice welcome message scrawled in
+      charcoal on the wall.</item>
+     <item> And thus we moved up the property ladder, and into Central North Oxford, on the fringes
+      of Jericho. Its front looked much the same then as it does now...</item>
+    </list>
+    <cb/>
+    <figure>
+     <graphic url="../media/18-plantation-rd_streetview.png" width="600px"/>
+    </figure>
+    
+    
+   </div>
+
+   <div type="slide">
+    <head>Jericho life in the 70s</head>
+    <p>To cope with the winter. Lilette made some theatrical velvet curtains to keep
+     out the draughts. </p>
+    <figure><graphic url="../media/19760000_curtains.png" width="600px"/>
+    </figure>
+    <p>Belinda and Sarah went to St Barnabas and made lots of friends.</p>
+    <figure><graphic url="../media/19781000_000000.png" width="600px"/>
+    <head>Joanna, Belinda, Charlotte, Martha, and Sarah. Definitely not posing on our foamy sofa.</head></figure>
+    <p> We drank in the Victoria occasionally, and the Gardeners more frequently, especially at Sunday lunch time. And there were plenty of festivities and street fairs marking the passage of time.</p>
+  
+     
+   </div>
+   
+   
+
+   <div type="slide">
+    <head>1977 : Travelling</head>
+    <p>In August, I got funding to attend an International Summer School on Computational
+     Linguistics in Pisa. </p>
+    <figure><graphic url="../media/19770800_pisa.jpg" height="600px"/><head>A rare early sighting of me in a conference suit and tie</head></figure>
+    
+    <p>This gave us an excuse to swop houses with a friend of Guy's who had a villa in Florence, and
+     also to introduce the girls to Vergato. </p>
+    <figure><graphic url="../media/19770800_vergato.jpg" width="600px"/></figure>
+    <p>Aloysius liked it so much he stayed there and had to be returned by post. </p>
+    <figure><graphic url="../media/19770900_teddy.png" width="600px"/></figure>
+   </div>
+
+   <div type="slide"><head>Visitors</head>
+    <p>February 1978: Despite the snow, Pam baby-sat so that we could run away to Paris for a few days child-free.
+     <figure><graphic url="../media/19780200-pam.png" width="600px"/></figure>
+    </p>
+    
+    <p>August 1978: Grandmère Toussaint visited </p>
+    <figure>
+     <graphic url="../media/19780800_000000.png" width="600px"/>
+    </figure>
+    
+    
+   </div>
+
+   <div type="slide">
+    <head>1979 : Hols, and how</head>
+    <p>By the end of the decade, we were a much travelled lot. In  1979 we took three family holidays: </p>
+    <list>
+     <item>In April, we stayed at Viv's house on the Isle of Wight </item>
+     <item>In May, we went to see Jef, Nicole and all the Lebranchus <emph>en masse</emph> in France </item>
+     <item>In September we went to the Italian seaside for a change, end-of-season Rimini</item>
+    </list>
+    <p>Sarah's chin had a dramatic accident in Bologna: </p>
+    <cb/>
+    <figure><graphic url="../media/1980-sarahChin.png" width="500px"/></figure>
+   </div>
+   <div type="slide">
+    <head>Ready for a new decade</head>
+    <p>Our policy of continuous home improvement resulted in some new kitchen cupboards, to celebrate which I suggested moustaches all round.</p>
+    <figure><graphic url="../media/19791000_000002.jpg" width="600px"/>
+    <head>(Sarah's chin had recovered by October)</head></figure>
+    
+   </div>
+  </body>
+ </text>
+ <!-- 1980 
+  06 building extension
+  08: to cherbourg (eventually) via Belgium
+  1982-09 B starts violin
+  1982 -3 : to Malawi
+  1983-03-25 move to southmoor rd
+  1984-02-17 : elizabeth born
+  1986-06-22: Smoor rd centenary partry
+  1987-11-12 Poughkeepsie
+  1988-10-01 : pam got married again
+  1989-04 : dido and aeneas
+  1989-03-23 : the non centenary at liserna; also gordon at colognole
+	returning to b*b
+	1989-12 : to mauritius. Curepipe; villa caroline; flicenfklac
+	-->
+ <!-- 1990
+  dancing the lambada
+  
+	-->
+</TEI>

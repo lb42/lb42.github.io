@@ -1,0 +1,327 @@
+
+<?xml-model href="file:/home/lou/Public/TEIslides/teislides.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Welcome to the Jubilee </title>
+    <author>Part Two : The Eighties</author>
+   </titleStmt>
+   <publicationStmt>
+    <p>unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>born digital</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2022-10-02">Created file</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="slide">
+    <head>1980s : a mixed decade</head>
+    <list rend="incremental">
+     <item>Mrs Thatcher, the Iron Lady, was in charge most of the time. So, still not a
+      <emph>great</emph> time to be in England...<list rend="incremental">
+      <item>In 1982, we went to war with Argentina, over the Falklands. We won, for a change. </item>
+      <item>The Miners' strike of 1984 turned into a confrontation between government and unions;
+       the government won. </item>
+      <item>In Ireland, the "Troubles" continued, with bombings, assassinations, and hunger strikes
+       ...</item>
+      <item>The Thatcher government continued to shrink the state and privatise everything in
+       sight</item>
+      </list></item>
+     <item>It wasn't all bad <list rend="incremental">
+      <item>The Rubik's Cube first appeared, as did Pac-Man, Super Mario, and Donkey Kong</item>
+      <item>IT spread out of the workplace into the home with a rash of "personal computers" : the
+       IBM PC (1981); the Macintosh (1984); the Commodore 64 ; the BBC micro; the Amiga... </item>
+      <item>MTV was launched in the UK; also The Simpsons.</item>
+      <item>In 1981, Prince Charles and Lady Diana were married and everyone had a day off to
+       watch</item>
+      <item>The World Wide Web was (allegedly) invented in 1989</item>
+      <item>The Berlin Wall fell and the Cold War started to thaw, kind of</item>
+      </list></item>
+     <item>We were property owners and I had a good job with proper pension rights!</item>
+    </list>
+   </div>
+
+   <div type="slide">
+    <head>Saturday morning shopping</head>
+
+    <figure>
+     <graphic url="../media/19800300_094007.jpg" width="600px"/>
+     <head>Woolworth's pick n' mix</head>
+    </figure>
+
+    <cb/>
+    <figure>
+     <graphic url="../media/19800300_000001.jpg" width="500px"/>
+    </figure>
+   </div>
+   <div type="slide">
+    <head>Tradition!</head>
+
+    <figure>
+     <graphic url="../media/19800400_078027.jpg" width="600px"/>
+     <head>2 April 1980 : chocolate cake remains popular</head>
+    </figure>
+   
+    <figure>
+     <graphic url="../media/19801225_000002.jpg" width="600px"/>
+     <head>25 Dec 1980 : Christmas Dinner </head>
+    </figure>
+    
+    <figure>
+     <graphic url="../media/19810900_091004.jpg" width="600px"/>
+     <head>September 1981 : we went blackberrying </head>
+    </figure>
+  <!--  <p>I had half of an over-grown allotment, which was also surrounded with brambles, accessible by disused railway line. </p>
+  -->  
+   </div>
+
+   <div type="slide">
+    <head>Home Improvements</head>
+    <figure>
+     <graphic url="../media/19800600_000000.jpg" height="700px"/>
+    </figure>
+
+    <cb/>
+    <list rend="incremental">
+     <item>At this date, mortgage debt was also popular. </item>
+     <item>We lived in Plantation Road long enough, and my credit was good enough, for us to
+      undertake various home improvements, like installing central heating (on George's
+      recommendation), enlarging the kitchen, and adding a balcony at the back. </item>
+     <item>This is the back of the house at the start of the update process in June 1980 </item>
+     <item>When works were completed, we gave a very good party for the builders, a local outfit led
+      by Andy Wrigley. </item>
+    </list>
+   </div>
+
+   <div type="slide">
+    <head>French Holiday adventures</head>
+    <figure>
+     <graphic url="../media/19800800_000001.jpg" height="700px"/>
+     <head>Pam is the only one still cheerful by the time we got to the Gare du Nord</head>
+    </figure>
+    <cb/>
+    <list rend="incremental">
+     <item>In August 1980, we took Pam with us on what should have been a simple expedition to
+      Cherbourg by boat and train. </item>
+     <item>Striking French fishermen complicated things by blockading the channel ports, so we
+      travelled via Dover and Zeebrugge, Calais, and Paris instead, taking two days and nights, and
+      making considerable use of my Flexible Friend. </item>
+     <item>(Remember that this was all in a distant age before the channel tunnel, before Eurostar,
+      before cashpoints, before the euro) </item>
+     <item>But when we eventually got to our seaside bungalow near Barneville, the beaches,
+      sunshine, sand dunes, French food were all just wonderful. </item>
+    </list>
+   </div>
+<div type="slide"><head>A veddink</head>
+<p>Also wonderful, in its own way, was Grandma's wedding for which the girls got new pink dresses and lots of elderly relatives appeared. It was catered by a rather nice hotel in Windsor, and was my first encounter with beef wellington. </p>
+ <figure>
+  <graphic url="../media/19810105_000003.jpg" width="750px"/>
+  <head>5 Jan 1981</head>
+ </figure>
+
+
+</div>
+   <div type="slide">
+    <head>1982</head>
+    <p>After a few years, we decided we had outgrown the house and were ready to move on. In April,
+     Belinda and Sarah were given the opportunity to redecorate our bedroom wall : </p>
+    <figure>
+     <graphic url="../media/19820400_000002.jpg" width="600px"/>
+    </figure>
+    <p>In unrelated news, not content with innumerable swimming certificates and such like, Belinda
+     started learning to play the violin. <figure>
+     <graphic url="../media/19820900_000000.jpg" width="500px"/>
+     <head>Sounding quite good, by September</head>
+     </figure></p>
+   </div>
+
+   <div type="slide">
+    <head>Swanage</head>
+    <p>The same year, in August, we went on a proper family seaside holiday</p>
+    <figure>
+     <graphic url="../media/19820700_000002.jpg" width="450px"/>
+    </figure>
+    <cb/>
+    <figure>
+     <graphic url="../media/19820700_000001.jpg" width="400px"/>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>Financial wizardry</head>
+    <p>In 1982, we sold Plantation Road for £24,000. But moving on still required a new mortgage: I
+     made it big enough to finance a holiday trip to Malawi as well. So we spent Christmas 1982
+     visiting friends and family in Limbe, Blantyre, and Zomba again. </p>
+    <figure>
+     <graphic url="../media/19821219_36X225.jpg" width="700px"/>
+     <head>Chez Alain, 10 Dec 1982</head>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>Onward to Walton Manor, March 1983 </head>
+    <list>
+     <item> Fresh new mortgage in hand we moved decisively up the property ladder and into proper
+      North Oxford, or Walton Manor at least. </item>
+     <item>Our new address, 110 Southmoor Rd, was a magnificent four storey victorian mansion, a
+      snip at £53,000. It had been minimally improved by the vendors, but was in need of constant
+      repair, which (in due course) we gave it.</item>
+     <item>We moved in on 25 March 1983, and stayed there (eventually) for the next 30 years.</item>
+    </list>
+    <cb/>
+    <figure>
+     <graphic url="../media/110-southmoor.png" width="500px"/>
+     <head>110 is the slightly grubbier one on the left. </head>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>Hello Elizabeth!</head>
+
+   <table><row><cell> <figure>
+     <graphic url="../media/erbAuto-1.png" width="500px"/>
+     <head>(From ERB's 1990 autobiography) </head>
+    </figure>
+</cell><cell>
+    <figure>
+     <graphic url="../media/19840200_103021.jpg" width="600px"/>
+    </figure>
+  </cell></row></table>
+   </div>
+   <div type="slide">
+    <head>Life in the 80s</head>
+    <figure>
+     <graphic url="../media/19831022_000001.jpg" height="600px"/>
+     <head>In October 1983, the Woodcraft Folk (West Oxford Branch) went to London to do their bit for CND.</head>
+    </figure>
+    
+    
+    <figure>
+     <graphic url="../media/19840700_159022.jpg" height="600px"/>
+     <head>Grandma gave us this hand-made depiction of Burnard Towers to celebrate our fifth year
+      there/</head>
+    </figure>
+    <figure>
+     <graphic url="../media/19850700_153023.jpg" width="600px"/>
+     <head>In July 1985, we went for a bracing Cornish holiday, taking in St Michael's Mount. It
+      didn't rain ALL the time, but Lilette vowed she would never visit the English seaside
+      again.</head>
+    </figure>
+
+   </div>
+   <div type="slide">
+    <head>Celebrations</head>
+    <list>
+     <item>Inter alia, there were school fetes and the Little Clarendon St Fair and the Jericho
+      Festival.. </item>
+     <item>In June 1986, there was a special street party to celebrate our street's hundredth
+      birthday (or thereabouts).</item>
+     <item>I concocted and distributed a register of the inhabitants from old street directories.
+      Belinda played in a scratch orchestra. There was tea and cake, and face painting, and
+      bagpipes. Very North Oxford.</item>
+    </list>
+    <cb/>
+    <figure>
+     <graphic url="../media/19860622_000000.png" width="600px"/>
+     <head> Colin Matthew piped in the event</head>
+    </figure>
+   </div>
+
+
+   <div type="slide">
+    <head>1987</head>
+    <list>
+     <item>Belinda starred as Tevye in Cherwell School's 1987 production of <title>Fiddler on the
+      Roof</title> (little knowing ...) <figure>
+      <graphic url="../media/19870400_000001.jpg" width="650px"/>
+      </figure></item>
+     <item>Sarah and the rest of the Oxford Girls Choir took Dido on tour in France in August</item>
+     <item>Lilette celebrated her birthday at an OU summer school in Scotland </item>
+     <item>In September I took up a month-long fellowship in Gottingen at the Max Planck Institute
+      for Historical Research (sounds better in German)</item>
+
+     <item>And then... </item>
+    </list>
+   </div>
+
+
+   <div type="slide">
+    <head>Birth of the Text Encoding Initiative (TEI) </head>
+    <p>(I'll give my lecture on the global significance of the TEI another day) </p>
+    <figure>
+     <graphic url="../media/19871111_000000.jpg" width="700px"/>
+     <head>Encoding weirdos convene: Vassar College, Poughkeepsie, 12 Nov 1987 </head>
+    </figure>
+    <p>Possibly the first time I'd been unavoidably absent for Belinda's birthday. But not the last. </p>
+
+   </div>
+
+
+
+
+   <div type="slide">
+    <head>April 1988</head>
+  <table><row> <cell> <figure>
+     <graphic url="../media/19880400_000001.jpg" width="500px"/>
+     <head>Saturday morning in Selfridges</head>
+    </figure></cell><cell>
+    <figure>
+     <graphic url="../media/19880000_queensmc.png" width="500px"/>
+     <head>I somehow blagged a job at BP and this is the computer the queen lent me to do it
+      on.</head>
+    </figure></cell></row></table>
+   </div>
+
+   <div type="slide">
+    <head>In 1988, Pam and Mike got married at Wolfson College</head>
+   <table><row><cell> <figure>
+     <graphic url="../media/19881001_000001.jpg" width="600px"/>
+     <head> Smart dressing obligatory</head>
+    </figure>
+    </cell><cell>
+    <figure>
+     <graphic url="../media/19881001_000002.png" width="500px"/>
+     <head>1 October 1988</head>
+    </figure></cell></row></table>
+   </div>
+
+   <div type="slide">
+    <head>April 1989</head>
+   <table><row><cell> <figure>
+     <graphic url="../media/19890400-poster.png" height="600px"/>
+    </figure>
+    </cell><cell>
+    <figure>
+     <graphic url="../media/19890400_092009.jpg" width="700px"/>
+     <head>The 80s were also famous for costume drama</head>
+    </figure></cell></row></table>
+   </div>
+
+   <div type="slide">
+    <head>But we finished the decade by taking another tropical Xmas holiday</head>
+    <figure>
+     <graphic url="../media/19891200_000002.jpg" width="600px"/>
+     <head>Grandmère made us a cake</head>
+    </figure>
+    <p>This time, we all went to Mauritius to visit grandmère in Curepipe, with side trips to Villa
+     Caroline to see in new year, to Port Louis and its Grapefruit Gardens, to various Mauritian parties
+     ... </p>
+    <p> <figure>
+     <graphic url="../media/19891200_173017.jpg" width="700px"/>
+     <head>Curepipe Botanical Gardens</head>
+     </figure></p>
+   </div>
+  </body>
+ </text>
+
+ <!-- 1990
+  dancing the lambada
+  
+	-->
+</TEI>

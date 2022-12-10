@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/lacy.css" media="screen" title="wot no title" charset="utf-8"/>
-      <link type="application/tei+xml" rel="alternative"        href="https://raw.githubusercontent.com/lb42/Lacy/main/newCatalog.xml"/>
+      <link type="application/tei+xml" rel="alternative"        href="https://raw.githubusercontent.com/lb42/Lacy/main/lacyCatalog.xml"/>
     <script src="js/CETEI.js" charset="utf-8"></script>
     <script type="text/javascript">
     var ceteicean = new CETEI();
@@ -10,7 +10,7 @@
     /* "http://teic.github.io/css/tei.css";*/
     "css/lacy.css"
     ceteicean.getHTML5(
-    'https://raw.githubusercontent.com/lb42/Lacy/main/newCatalog.xml', function(data) {
+    'https://raw.githubusercontent.com/lb42/Lacy/main/lacyCatalog.xml', function(data) {
       document.getElementsByTagName("body")[0].appendChild(data);
     });
     </script>

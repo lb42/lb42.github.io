@@ -51,17 +51,17 @@ tei-div {
   margin-bottom: 1em;
 }
 
-tei-div::before {
+tei-div[type='volume']::before {
 content:"Volume " attr(n);
-font-size: 11pt;
+font-size: 12pt;
   font-weight: bold;
   color: #00487D;
   background-color: #FFFFFF;
 }
 
-tei-head {
+/*   tei-head {
   display: block;
-}
+} */
 
 tei-listbibl {
   display: block;
@@ -130,7 +130,18 @@ tei-note[type=firstPerf]>tei-date::before{
 content: ", ";
 }
 tei-note[type=digitizations]::before {
+    content: ". Digitalizations: ";
+}
+
+tei-listRef::before {
     content: ". Digitizations: ";
+}
+
+tei-listRef>tei-ref:after {
+  content: ';  ';
+}
+tei-listRef>tei-ref:last-child:after {
+  content: '.';
 }
 
 tei-note[type=LCPkeywords] {

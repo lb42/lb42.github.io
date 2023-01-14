@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/diary.css" media="screen" title="no title"/>
+    <link type="application/tei+xml" rel="alternative" href='https://raw.githubusercontent.com/lb42/Works/master/Diary/2022/2022-summary.xml' />
+
+    <script src="../js/CETEI.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      (new CETEI).getHTML5('https://raw.githubusercontent.com/lb42/Works/master/Diary/2022/2022-summary.xml', function(data) {
+        document.getElementsByTagName("body")[0].appendChild(data);
+      });
+    </script>
+    <title>The 2022 Summary</title>
+  </head>
+  <body>
+
+  </body>
+</html>

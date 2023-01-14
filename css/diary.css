@@ -125,6 +125,13 @@ tei-figure {
   display: block;
   text-align: center;
 }
+tei-figure>tei-head{
+  font-style: italic;
+  background-color: gray;
+}
+
+td>tei-figure>tei-head{  font-style: italic;
+  background-color: gray;}
 tei-code {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;
@@ -211,7 +218,7 @@ tei-row {
   /* replaced by tr */
 }
 tei-cell {
-  /* replaced by td */
+vertical-align: top;  /* replaced by td */
 }
 /* HTML */
 dt {
@@ -224,6 +231,8 @@ table {
 td {
   padding: 1em 1.5em 1em 1em;
   border: thin solid gray;
+  margin: 1em;
+  vertical-align: top;
 }
 tr[role="label"] {
   font-weight: bold;

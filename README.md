@@ -34,7 +34,7 @@ Older talks are listed [here]
  
 ## Notes towards an autobiography
  You don't want to believe everything you read about me [on Wikipedia](https://en.wikipedia.org/wiki/Lou_Burnard). But there are some 
-mostly true autobiographical notes on [this page]. And my most recently tidied CV is [readable here](W/cv6.html)
+mostly truthful autobiographical notes [here](https://lb42.github.com/Diary/index.html). And my most recently tidied CV is [readable here](W/cv6.html)
 
 ## Bibliography
  [This page](W/operaOmnia.html) lists everything written by me which has appeared 

@@ -61,11 +61,7 @@ tei-p {
   margin-top: .5em;
   margin-bottom: .5em;
 }
-tei-u {
-  display:block;
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
+
 tei-l {
   display:block;
   margin-top: .2em;
@@ -127,11 +123,10 @@ tei-figure {
 }
 tei-figure>tei-head{
   font-style: italic;
-  background-color: gray;
+ 
 }
 
-td>tei-figure>tei-head{  font-style: italic;
-  background-color: gray;}
+
 tei-code {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;
@@ -233,6 +228,10 @@ td {
   border: thin solid gray;
   margin: 1em;
   vertical-align: top;
+}
+
+tr {
+ vertical-align: top;
 }
 tr[role="label"] {
   font-weight: bold;

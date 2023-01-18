@@ -61,7 +61,11 @@ tei-p {
   margin-top: .5em;
   margin-bottom: .5em;
 }
-
+tei-u {
+  display:block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
 tei-l {
   display:block;
   margin-top: .2em;
@@ -123,10 +127,14 @@ tei-figure {
 }
 tei-figure>tei-head{
   font-style: italic;
- 
+  background-color: #CCCCCC;
 }
 
 
+td>tei-head{
+  font-style: italic;
+  background-color: #CCCCCC;
+}
 tei-code {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;
@@ -221,17 +229,15 @@ dt {
 }
 table {
   border-collapse: collapse;
-  margin: 1em;
+  border: solid gray;
+  margin: 2em;
 }
 td {
   padding: 1em 1.5em 1em 1em;
-  border: thin solid gray;
+    font-style: italic;
+    background-color: #CCCCCC;
   margin: 1em;
-  vertical-align: top;
-}
-
-tr {
- vertical-align: top;
+  vertical-align: bottom;
 }
 tr[role="label"] {
   font-weight: bold;

@@ -17,7 +17,7 @@ Indexer les corpus numeriques](media/SaintEtienne.pdf) Universite Jean Monnet, S
  - [What is TEI Conformance and why should you   care?](Talks/2017-11-victoria.pdf) TEI Members Meeting, 2017
  - [Ceci n’est pas une pipe: La modélisation : clef des ”humanités numériques”](Talks/2014-12-grenoble.pdf) Conférence invité, "Avenue Centrale", MSH Grenoble-Alpes, Dec 2014. [Video](https://www.youtube.com/watch?v=Qo_iQy7Ihcg)
 
-Older talks are listed [here]
+Older talks are not yet listed [here]
 
 ## Recent Projects
 
@@ -33,8 +33,8 @@ Older talks are listed [here]
  - [Solipsism and me](https://louburnard.wordpress.com/) : last updated July 2014
  
 ## Notes towards an autobiography
- You don't want to believe everything you read about me [on Wikipedia](https://en.wikipedia.org/wiki/Lou_Burnard). But there are some 
-mostly truthful autobiographical remarks [in my online diary](Diary/index.html). And my most recently tidied CV is [readable here](W/cv6.html)
+There are some 
+mostly truthful autobiographical remarks [in my online diary](Diary/index.html). And my most recently tidied CV is [readable here](W/cv6.html). You probably don't want to believe everything you read about me [on Wikipedia](https://en.wikipedia.org/wiki/Lou_Burnard).
 
 ## Bibliography
  [This page](W/operaOmnia.html) lists everything written by me which has appeared 

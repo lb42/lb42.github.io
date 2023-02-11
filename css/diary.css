@@ -135,6 +135,12 @@ td>tei-head{
   font-style: italic;
   background-color: #CCCCCC;
 }
+
+
+tei-foreign {
+ font-style: italic;
+ }
+
 tei-code {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;

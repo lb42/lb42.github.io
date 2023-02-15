@@ -7,6 +7,9 @@ font-size: 1.0em;
 line-height: 1.6em;
 margin:1em;
 }
+
+
+/*  tei header styles  */
 tei-teiheader {
   display: block;
 }
@@ -37,6 +40,9 @@ tei-teiheader tei-sourcedesc {
 tei-teiheader>tei-revisiondesc {
   display: none;
 }
+
+/* text body styles */
+
 tei-body {
   display: block;
   margin: 1em;
@@ -49,7 +55,7 @@ tei-div {
 tei-head {
   display: block;
 }
-/* h1 */
+
 tei-div>tei-head {
   font-size: 11pt;
   font-weight: bold;
@@ -61,11 +67,7 @@ tei-p {
   margin-top: .5em;
   margin-bottom: .5em;
 }
-tei-u {
-  display:block;
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
+
 tei-l {
   display:block;
   margin-top: .2em;
@@ -78,6 +80,8 @@ tei-sp::before {
     margin-bottom: .2em;
     content: attr(who)
 }
+
+/*  lists  */
 tei-list {
   display: block;
   margin-left: 30px;
@@ -121,6 +125,8 @@ tei-listbibl>tei-bibl {
   display: list-item;
   list-style-type: none;
 }
+
+/*  graphics  */
 tei-figure {
   display: block;
   text-align: center;
@@ -130,12 +136,7 @@ tei-figure>tei-head{
   background-color: #CCCCCC;
 }
 
-
-td>tei-head{
-  font-style: italic;
-  background-color: #CCCCCC;
-}
-
+/*  phrase level stuff */
 
 tei-foreign {
  font-style: italic;
@@ -220,6 +221,7 @@ tei-note {
 }
 
 /* Tables */
+
 tei-table {
   /* replaced by table */
 }
@@ -244,10 +246,4 @@ td {
     background-color: #CCCCCC;
   margin: 1em;
   vertical-align: bottom;
-}
-tr[role="label"] {
-  font-weight: bold;
-}
-td[role="label"] {
-  font-weight: bold;
 }

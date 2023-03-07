@@ -210,7 +210,7 @@ tei-q::after {
 }
 
 tei-note {
-    display: block;
+  display: block;
   margin-left: 100px;
   margin-top: .5em;
   margin-bottom: .5em;

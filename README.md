@@ -20,7 +20,7 @@ Indexer les corpus numeriques](media/SaintEtienne.pdf) Universite Jean Monnet, S
 Older talks are not yet listed [here]
 
 ## Recent Projects
-
+ - [the TEI Cellar](https://lb42.github.io/theCellar/tcMins/index.html) An integrated archive of the TEI Technical Council's minutes from 2002 to 2023. 
  -  [Lacy's Acting Edition](https://lb42.github.io/Lacy/lacyCatalogue.html) A revised and expanded bibliography of T H Lacy's Acting Edition of Victorian Plays (1848-1873). Work in progress.
  - [Pixi-Redux](https://lb42.github.io/PIXI/) A TEI-XML version of the venerable PIXI Corpus, now with added audio
  - [Seven steps to Ossian](https://github.com/lb42/Ossian-1773) A TEI-XML edition of the 1773 edition of the collected works of Ossian

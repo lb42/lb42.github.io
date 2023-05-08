@@ -133,6 +133,10 @@ tei-listbibl>tei-bibl {
   display: list-item;
   list-style-type: none;
 }
+
+tei-listRef>tei-ref::after {
+content: ";  ";
+} 
 tei-figure {
   display: block;
   text-align: center;

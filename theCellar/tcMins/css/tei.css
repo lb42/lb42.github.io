@@ -122,14 +122,20 @@ tei-list[type=ordered]>tei-item:before {
 tei-item {
   display: list-item;
 }
-tei-listbibl {
+tei-listBibl {
   display: block;
   margin-left: 30px;
   margin-top: .5em;
   margin-bottom: .5em;
   padding-left: 0;
 }
-tei-listbibl>tei-bibl {
+
+tei-listBibl > tei-head {
+ margin-left : -10px;
+ font-weight: bold;
+}
+
+tei-listBibl>tei-bibl {
   display: list-item;
   list-style-type: none;
 }

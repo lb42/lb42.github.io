@@ -110,11 +110,11 @@ tei-title {
       font-style: italic; 
 }
 
-tei-bibl::before {
+tei-div>tei-bibl::before {
     content: "[" attr(xml\:id) "]";
 }
 
-tei-author {
+tei-div>tei-bibl>tei-author {
     font-weight: bold;
     }
 
@@ -128,6 +128,15 @@ content: ". First performed ";
 
 tei-note[type=firstPerf]>tei-date::before{
 content: ", ";
+}
+
+tei-relatedItem::before {
+    font-style:italic;
+    font-size:small;
+    content: " [ Derived from ";
+}
+tei-relatedItem::after {
+    content: "]";
 }
 tei-note[type=digitizations]::before {
     content: ". Digitalizations: ";

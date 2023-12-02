@@ -181,6 +181,11 @@ margin-top: 1em;
 margin-left:auto;
 }
 
+tei-l {
+display: block;
+margin-left:auto;
+}
+
 tei-speaker {
     font-variant:small-caps;
     font-weight:bold;
@@ -253,8 +258,12 @@ tei-docImprint {
 
 
 tei-role {
-     font-variant:small-caps;
+    font-variant:small-caps;
+    display: inline-block;
+    margin-right:2em;
 }
+
+
 tei-roleDesc {
 font-variant:unset;
     font-style:italic;

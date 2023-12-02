@@ -175,3 +175,90 @@ tei-q::after {
     content: "”";
 }
 
+tei-sp {
+display: block;
+margin-top: 1em;
+margin-left:auto;
+}
+
+tei-speaker {
+    font-variant:small-caps;
+    font-weight:bold;
+}
+
+tei-stage {
+    font-style:italic;
+    padding-right:5px;
+    padding-left:5px;
+    }
+    
+    tei-div[type='act'] {
+        margin-top:1em;
+        }
+        
+        tei-div[type='scene'] {
+        margin-top:1em;
+        }
+    
+    tei-head {
+        display:block;
+        text-align:center;
+        font-weight:bold;
+  }
+  
+ tei-hi {
+     font-style:italic;    
+ } 
+ tei-emph {
+     font-style:italic;  
+     color:green;
+ } 
+ 
+ tei-titlePage{
+     text-align:center; display: block;
+  font-size: 16pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+  margin-bottom: .5em;
+     
+ }
+ 
+ tei-titlePart {
+     display:block;
+     margin-bottom: 24pt;
+ }
+ 
+ tei-byline {
+     padding-top:24pt;
+     }
+     
+tei-docAuthor {
+    color:purple;
+    font-weight:bold;
+}
+
+tei-docImprint {
+    display:block;
+    font-weight:normal;
+    padding-top: 48pt;
+    
+}
+ 
+  tei-castItem {
+      display:block;
+      text-align:center;
+      margin: 15px ;
+  }
+
+
+tei-role {
+     font-variant:small-caps;
+}
+tei-roleDesc {
+font-variant:unset;
+    font-style:italic;
+}
+tei-actor {
+    font-weight:bold;
+}

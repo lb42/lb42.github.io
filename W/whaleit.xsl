@@ -6,10 +6,11 @@
     version="2.0">
     <xsl:output encoding="UTF-8" method="html"/>
     
-    <xsl:variable name="source">
+
+ <xsl:variable name="source">
         <xsl:value-of select="tokenize(document-uri(), '/')[last()]"/>
     </xsl:variable>
-    <xsl:param name="CSSfile">css/tei.css</xsl:param>
+   <xsl:param name="CSSfile">css/tei.css</xsl:param>
     <xsl:param name="CETEIfile">js/CETEI.js</xsl:param>
     
     <xsl:template match="/">

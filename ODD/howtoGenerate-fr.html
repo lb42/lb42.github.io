@@ -2,15 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/tei.css" media="screen" title="no title" charset="utf-8">
-    <link type="application/tei+xml" rel="alternative" href="https://raw.githubusercontent.com/TEIC/TEI/dev/Documents/pureODD/howtoGenerate-fr.xml">
-    <script src="../js/CETEI.js" charset="utf-8"></script>
+   <link rel="stylesheet" href="../css/tei-print.css" media="print" title="no title" >  
+    <link rel="stylesheet" href="../css/tei.css" media="screen" title="no title" >
+    <link type="application/tei+xml" rel="" href="https://raw.githubusercontent.com/TEIC/TEI/dev/Documents/pureODD/howtoGenerate-fr.xml">
+    <script src="../js/CETEI.js" ></script>
     <script type="text/javascript">
       (new CETEI).getHTML5('https://raw.githubusercontent.com/TEIC/TEI/dev/Documents/pureODD/howtoGenerate-fr.xml', function(data) {
         document.getElementsByTagName("body")[0].appendChild(data);
       });
     </script>
-    <title>Comment générer automatiquement un ODD</title>
+    <title>Comment générer automagiquement un ODD</title>
   </head>
   <body>
 

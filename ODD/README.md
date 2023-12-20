@@ -23,3 +23,12 @@ This repo provides web access to some whiskery old tutorials about the TEI's won
  - [«Personnaliser la TEI» in 'Qu’est-ce que la Text Encoding Initiative ?'](http://books.openedition.org/oep/1304)
  - [One Document Does-it-all (ODD) in 'Balisage Symposium on Markup Vocabulary Customization'](http://www.balisage.net/Proceedings/vol24/html/Viglianti01/BalisageVol24-Viglianti01.html")
  - [TEI Customization Primer: Women Writers Project](https://www.wwp.neu.edu/outreach/resources/customization.html)
+ 
+ 
+## Licence!
+
+Unless otherwise stated, all the material on this website is made available under the terms of Creative Commons Licence CC-BY-NC-ND 4.0 DEED 
+
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="../ccbyncnd.png"/></a>
+
+

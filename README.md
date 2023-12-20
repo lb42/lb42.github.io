@@ -49,6 +49,17 @@ are probably infringing copyright.
  - [The Wash Stand](W/washStand.html)  A curiosity from the Balliol Dramsoc Archive, circa 1968
  - [Through Beatnik Eyeballs](W/beatnikEyeballs.html) TEI edition of a strange pulp novel from the early 1960s.
 
+## Licence!
+
+Unless otherwise stated, all the material on this website is made available under the terms of Creative Commons Licence CC-BY-NC-ND 4.0 DEED 
+
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="ccbyncnd.png"/></a>
+
+
+
+
+
+
  
   
   

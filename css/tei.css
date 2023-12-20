@@ -51,7 +51,8 @@ tei-head {
 }
 /* h1 */
 tei-div>tei-head {
-  font-size: 11pt;
+ /*  font-size: 11pt; */
+ font-size: large;
   font-weight: bold;
   color: #00487D;
   background-color: #FFFFFF;
@@ -116,12 +117,15 @@ tei-ident {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEE;
 }
-tei-gi {
-    text-before: "<";
+tei-gi::before {
+    content: "<";
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEF;
-  text-after: ">";
 }
+
+tei-gi::after {
+    content: ">";
+    }
 tei-att {
   font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
   background-color: #EEF;

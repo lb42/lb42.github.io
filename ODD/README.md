@@ -15,13 +15,13 @@ This repo provides web access to some whiskery old tutorials about the TEI's won
 ## background reading
 
 - [«RELAX NG with son of ODD» : presentation at eXtreme Programming Languages, 2004](https://ora.ox.ac.uk/objects/uuid:b337cb6d-9e7b-4bbc-aa71-f0b9d12bb8de)
- - [«Reviewing the TEI ODD System» : presentation at ACM DocEng, 2013](http://dx.doi.org/10.1145/2494266.2494321")
+ - [«Reviewing the TEI ODD System» : presentation at ACM DocEng, 2013](http://dx.doi.org/10.1145/2494266.2494321)
 
 ## more tutorials
 
- - [Module 8: Customizing TEI in TEI By Example](https://teibyexample.org/tutorials/TBED08v00.htm)
+ - [Module 8: Customizing TEI in TEI By Example](https://teibyexample.org/exist/tutorials/TBED08v00.htm)
  - [«Personnaliser la TEI» in 'Qu’est-ce que la Text Encoding Initiative ?'](http://books.openedition.org/oep/1304)
- - [One Document Does-it-all (ODD) in 'Balisage Symposium on Markup Vocabulary Customization'](http://www.balisage.net/Proceedings/vol24/html/Viglianti01/BalisageVol24-Viglianti01.html")
+ - [One Document Does-it-all (ODD) in 'Balisage Symposium on Markup Vocabulary Customization'](http://www.balisage.net/Proceedings/vol24/html/Viglianti01/BalisageVol24-Viglianti01.html)
  - [TEI Customization Primer: Women Writers Project](https://www.wwp.neu.edu/outreach/resources/customization.html)
  
  

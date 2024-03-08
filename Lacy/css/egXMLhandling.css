@@ -5,20 +5,19 @@ body {
     margin: 0;
 }
 
+
 /* Create two unequal columns that floats next to each other */
 .col {
     float: left;
-    padding: 15px;
-    width: 50%;  
+    padding: 10px;
+    width: 50%;
 }
 
-.col2 {
-    float: left;
-    padding-top: 3cm;
-    padding-left: 1cm;
-    width: 50%;  
+div.col2 {
+    margin-top: 2cm;
+    
 }
-
+ 
 /* Clear floats after the columns */
 .frame:after {
     content: "";
@@ -26,8 +25,38 @@ body {
     clear: both;
 }
          
+/*  div.table  {
+margin-left: 10%;
+ font-style:italic;
+    font-size:12pt;
+    text-align:center
+}
+*/
 
-div.egXML {
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+td {
+
+  margin-top:1em;
+    margin-bottom:1em;
+  
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    margin-left: 0;
+ 
+}
+
+ img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ }
+
+
+ 
+div.egXML_valid {
     clear:both;
     margin-top:1em;
     margin-bottom:1em;
@@ -44,7 +73,30 @@ div.egXML {
     color:#000000;
     line-height:1.1em;
     font-family:monospace;
-    font-size:24pt;
+    font-size:14pt;
+    white-space:pre;
+    background-color:#f7f9f6;
+    border-color:#c5d8bb;
+}
+
+div.pre {
+    clear:both;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-top-width:4px;
+    border-bottom-width:4px;
+    border-left-width:2px;
+    border-right-width:2px;
+    border-style:solid;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    margin-left: 0;
+    color:#000000;
+    line-height:1.1em;
+    font-family:monospace;
+    font-size:14pt;
     white-space:pre;
      background-color:#f7f9f6;
     border-color:#c5d8bb;
@@ -72,9 +124,9 @@ div.egXML {
     border-color:#c5d8bb;
 }
 
-div.figure h2 {
+figure h2 {
     font-size:14pt;
     font-style:italic;
-    text-align:right;
+    text-align:center;
 }
 

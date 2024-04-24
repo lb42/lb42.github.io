@@ -59,7 +59,7 @@ font-size: 12pt;
   background-color: #FFFFFF;
 }
 
-  tei-div>tei-head {
+ /*  tei-div>tei-head {
   display: block;
   font-size: 14pt;
   font-weight: bold;
@@ -78,6 +78,7 @@ tei-listbibl>tei-bibl {
   display: list-item;
   list-style-type: none;
 }
+*/
 
 tei-div>tei-bibl {
   display: list-item;
@@ -115,12 +116,20 @@ tei-title {
 }
 
 tei-div>tei-bibl::before {
-    content: "[" attr(xml\:id) "]";
+    content: "[" attr(xml\:id) "] ";
 }
 
 tei-div>tei-bibl>tei-author {
     font-weight: bold;
     }
+    
+    
+tei-div>tei-bibl>tei-author:after {
+  content: ' ';
+}
+tei-div>tei-bibl>tei-author:last-child:after {
+  content: ' : ';
+}
 
 tei-title[type=sub] {
     font-style: normal;    

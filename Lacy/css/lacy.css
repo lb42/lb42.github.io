@@ -134,6 +134,15 @@ tei-div>tei-bibl>tei-author:last-child:after {
 tei-title[type=sub] {
     font-style: normal;  
 }
+tei-title[type=btao] {
+    font-style: normal;  
+}
+tei-title[type=music] {
+    font-style: normal;  
+}
+tei-title[type=source] {
+    font-style: normal;  
+}
 
 tei-div>tei-bibl>tei-title:after {
   content: '. ';
@@ -148,15 +157,11 @@ content: ", ";
 }
 
 tei-relatedItem::before {
-    font-style:italic;
-    font-size:small;
+     font-size:small;
     content: " [ Derived from ";
 }
 tei-relatedItem::after {
     content: "]";
-}
-tei-note[type=digitizations]::before {
-    content: ". Digitalizations: ";
 }
 
 tei-listRef::before {
@@ -174,11 +179,9 @@ tei-note[type=LCPkeywords] {
     display: none;
 }
 
-tei-note[type=authorInfo] {
-    font-style:italic;
-    font-size:8pt;}
 tei-note[type=authorInfo]::before {
 content: " (";
+font-size:smaller;
 }
 
 tei-note[type=authorInfo]::after {

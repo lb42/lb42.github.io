@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
    <link rel="stylesheet" href="../css/tei-print.css" media="print" title="no title" >  
-    <link rel="stylesheet" href="../css/tei.css" media="screen" title="no title" >
+    <link rel="stylesheet" href="../css/cetei.css" media="screen" title="no title" >
     <link type="application/tei+xml" rel="" href="https://raw.githubusercontent.com/TEIC/TEI/dev/Documents/pureODD/howtoGenerate-fr.xml">
     <script src="../js/CETEI.js" ></script>
-    <script type="text/javascript">
+    <script>
       (new CETEI).getHTML5('https://raw.githubusercontent.com/TEIC/TEI/dev/Documents/pureODD/howtoGenerate-fr.xml', function(data) {
         document.getElementsByTagName("body")[0].appendChild(data);
       });

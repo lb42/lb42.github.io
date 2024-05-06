@@ -115,6 +115,10 @@ tei-title {
       font-style: italic; 
 }
 
+tei-title::before {
+      content: " ";
+}
+
 tei-div>tei-bibl::before {
     content: "[" attr(xml\:id) "] ";
 }

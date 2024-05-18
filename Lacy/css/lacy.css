@@ -179,6 +179,17 @@ tei-listRef>tei-ref:last-child:after {
   content: '.';
 }
 
+tei-note[type=localCopies]::before {
+    content: "   Local copies: ";
+}
+
+tei-note>tei-ident:after {
+  content: ';  ';
+}
+tei-note>tei-ident:last-child:after {
+  content: '.';
+}
+
 tei-note[type=LCPkeywords] {
     display: none;
 }

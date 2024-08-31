@@ -160,6 +160,10 @@ tei-note[type=firstPerf]>tei-date::before{
 content: ", ";
 }
 
+tei-eventName[type=firstPerf]::before{
+content: ". First performance ";
+}
+
 tei-relatedItem::before {
      font-size:small;
     content: " [ Derived from ";

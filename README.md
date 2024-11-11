@@ -2,7 +2,8 @@
 Assorted web pages from Lou Burnard 
 
 ## Recent Talks...
- - [«&nbsp;L'édition de pièces de théâtre la plus parfaite jamais publiée&nbsp;»](Lacy/2024-03-15_caen.html) Conférence invité, présenté le 15 mars 2024 à la MRSH de l'Université de Caen Normandie
+- [Digital Lacy and the Victorian sense of humour](Lacy/2024-11-07_caen.pdf) Presentation at ["We are amused": Victorian Humour in the Digital Age](https://we-are-amused.sciencesconf.org/) 7-8 November 2024 in Caen.
+- [«&nbsp;L'édition de pièces de théâtre la plus parfaite jamais publiée&nbsp;»](Lacy/2024-03-15_caen.html) Conférence invité, présenté le 15 mars 2024 à la MRSH de l'Université de Caen Normandie
  - [An introduction to ODD and ODD Chaining](Talks/2021-09-28-odd.pdf) Invited talk at [CLS Infra Workshop: Introduction and Discussion of Core Technologies and Projects](https://clsinfra.io/events/upcomingevents/) 28 September 2021, via Zoom
  - [Modelling meaning: the role of data in the humanities](Talks/2020-02-darmstadt.html) Invited keynote at ["Data in Discourse
 Analysis"](https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/marcusmueller/tagungen_und_workshops/index~1.de.jsp)

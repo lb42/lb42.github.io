@@ -206,6 +206,16 @@ font-size:smaller;
 tei-note[type=authorInfo]::after {
 content: ") ";
 }
+
+tei-person {
+ display:block;
+ margin-top: 1em;
+ }
+
+tei-person::before {
+    content: "[" attr(xml\:id) "] ";
+}
+
 tei-q::before {
     content: "“";
 }

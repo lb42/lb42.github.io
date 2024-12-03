@@ -79,6 +79,10 @@ tei-listbibl>tei-bibl {
   list-style-type: none;
 }
 */
+tei-figure {
+ display:block;
+ 
+}
 
 tei-div>tei-bibl {
   display: list-item;

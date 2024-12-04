@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/lacy.css" media="screen" title="wot no title" />
+    <script src="https://github.com/TEIC/CETEIcean/releases/download/v1.9.0/CETEI.js" ></script>
+    <script>
+    var ceteicean = new CETEI();
+    ceteicean.shadowCSS = "css/lacy.css"
+    
+    ceteicean.addBehaviors({ "tei": {
+    
+     "graphic": function(elt) {
+      let content = new Image();
+      content.src = this.rw(elt.getAttribute("url")); // "this" is the CETEI object.
+      if (elt.hasAttribute("width")) {
+        content.setAttribute("width",elt.getAttribute("width"));
+      }
+      if (elt.hasAttribute("height")) {
+        content.setAttribute("height",elt.getAttribute("height"));
+      }
+      return content;
+    },
+    "idno" : [
+        ["[type=VIAF]", function(el) {
+          const prefix = 'http://viaf.org/'
+          const a = document.createElement("a") 
+          a.setAttribute("href", prefix + el.innerHTML)
+          a.innerHTML = ' VIAF  ';
+          return a ;   
+          } 
+        ],
+        ["[type=wikidata]", function(el) {
+            const prefix = 'http://wikidata.org/wiki/'
+            const a = document.createElement("a") 
+            a.setAttribute("href", prefix + el.innerHTML)
+            a.innerHTML = ' Wikidata ';
+            return a ; 
+          } 
+        ]
+      ]
+    }});
+
+    ceteicean.getHTML5(
+    'https://raw.githubusercontent.com/lb42/Lacy/main/authorList.xml', function(data) {
+      document.getElementsByTagName("body")[0].appendChild(data);
+    });
+    </script>
+      <title>Lacy's People</title>
+  </head>
+  <body>
+
+  </body>
+</html>

@@ -79,9 +79,32 @@ tei-listbibl>tei-bibl {
   list-style-type: none;
 }
 */
-tei-figure {
- display:block;
+tei-listPerson {
+ display:table;
  
+}
+
+tei-person {
+ display:table-row;
+ width:100%;
+ margin-top:1em; 
+}
+
+tei-listBibl {
+ display:table-cell;
+ border-style:solid;
+ border-color:gray;
+ border-collapse:collapse;
+ width:30%;
+vertical-align:top;
+ 
+}
+
+tei-figure {
+ display:table-cell;
+ border-style:solid;
+ border-color:gray;
+ border-collapse:collapse;
 }
 
 tei-div>tei-bibl {
@@ -212,14 +235,20 @@ content: ") ";
 }
 
 tei-person {
- display:block;
- margin-top: 1em;
+ display:table;
+ margin-top: 2em;
  }
 
 tei-person::before {
     content: "[" attr(xml\:id) "] ";
 }
 
+tei-persName {
+text-align: center;
+font-size: 16pt;
+display:table-caption;
+background-color: silver;
+}
 tei-q::before {
     content: "“";
 }

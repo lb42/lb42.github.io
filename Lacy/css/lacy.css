@@ -107,6 +107,10 @@ tei-figure {
  border-collapse:collapse;
 }
 
+tei-note {
+ display: none;
+}
+
 tei-div>tei-bibl {
   display: list-item;
   list-style-type: none;

@@ -135,7 +135,8 @@ tei-figure {
 }
 tei-figure>tei-head{
   font-style: italic;
-  background-color: #CCCCCC;
+  background-color: #CCCCCD;
+   text-align: center;
 }
 
 /*  phrase level stuff */

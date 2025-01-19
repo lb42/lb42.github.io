@@ -107,9 +107,10 @@ tei-figure {
  border-collapse:collapse;
 }
 
-tei-note {
+/*  tei-note {
  display: none;
 }
+*/
 
 tei-div>tei-bibl {
   display: list-item;
@@ -183,16 +184,24 @@ tei-div>tei-bibl>tei-title:after {
   content: '. ';
 }
 
-tei-note[type=firstPerf]::before{
+tei-date[type=firstPerf]::before{
 content: ". First performed ";
 }
 
-tei-note[type=firstPerf]>tei-date::before{
+tei-date[type=firstPerf]>tei-name::after{
 content: ", ";
 }
 
-tei-eventName[type=firstPerf]::before{
-content: ". First performance ";
+tei-idno[type=nicoll]::before{
+ content:". Nicoll ";
+}
+
+tei-note[type=otherPerfs]::before {
+ content:". Other performances: "
+}
+
+tei-note[type=otherPerfs] {
+ font-size: small;
 }
 
 tei-relatedItem::before {
@@ -203,25 +212,27 @@ tei-relatedItem::after {
     content: "]";
 }
 
-tei-listRef::before {
-    content: ". Online copies: ";
+tei-linkGrp::before {
+    content: ". ";
 }
 
-tei-listRef>tei-ref:after {
-  content: ';  ';
+tei-linkGrp::after {
+    content: ". Local copies: ";
 }
-tei-listRef>tei-ref:last-child:after {
-  content: '.';
+tei-linkGrp>tei-desc:after {
+  content: '  ';
 }
+
+
 
 tei-note[type=localCopies]::before {
     content: "   Local copies: ";
 }
 
-tei-note>tei-ident:after {
+tei-idno:after {
   content: ';  ';
 }
-tei-note>tei-ident:last-child:after {
+tei-bibl>tei-idno:last-child:after {
   content: '.';
 }
 

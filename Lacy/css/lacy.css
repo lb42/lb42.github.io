@@ -1,5 +1,9 @@
 /* general styles */
 
+front {
+ background-color:aqua;
+}
+
 body {
 color: #000000;
 font-family: "Noto Sans", Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
@@ -7,9 +11,14 @@ font-size: 1em;
 line-height: 1.7em;
 margin:1em;
 }
+
+
+
 tei-teiheader {
-  display: block;
+  display: none;
 }
+
+/*  
 tei-teiheader tei-titlestmt>tei-title {
   display: block;
   font-size: 16pt;
@@ -41,14 +50,23 @@ tei-teiheader tei-encodingdesc {
 tei-teiheader>tei-revisiondesc {
   display: none;
 }
+*/
+
+
 tei-body {
   display: block;
   margin: 1em;
 }
+
+
 tei-div {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+tei-front >tei-div> tei-p {
+ display: block;
 }
 
 tei-div[type='volume']::before {
@@ -107,10 +125,35 @@ tei-figure {
  border-collapse:collapse;
 }
 
-/*  tei-note {
- display: none;
+tei-note[type=ed] {
+ display:none;
 }
-*/
+ tei-note[place=foot]::before {
+ content: "[";
+}
+
+tei-note[place=foot]::after {
+ content: "]";
+}
+
+tei-note[place=foot] {
+ display:block;
+ text-align:right;
+ font-size:smaller;
+}
+
+ tei-note[type=source]::before {
+ content: "[";
+}
+
+tei-note[type=source]::after {
+ content: "]";
+}
+tei-note[type=source] {
+ display:block;
+ text-align:right;
+ font-size:smaller;
+}
 
 tei-div>tei-bibl {
   display: list-item;
@@ -155,7 +198,7 @@ tei-div>tei-bibl::before {
     content: "[" attr(xml\:id) "] ";
 }
 
-tei-div>tei-bibl>tei-author {
+tei-bibl>tei-author {
     font-weight: bold;
     }
       
@@ -213,7 +256,7 @@ tei-relatedItem::after {
 }
 
 tei-linkGrp::before {
-    content: ". ";
+    content: " ";
 }
 
 tei-linkGrp::after {
@@ -221,12 +264,6 @@ tei-linkGrp::after {
 }
 tei-linkGrp>tei-desc:after {
   content: '  ';
-}
-
-
-
-tei-note[type=localCopies]::before {
-    content: "   Local copies: ";
 }
 
 tei-idno:after {
@@ -274,8 +311,17 @@ tei-q::after {
 
 tei-sp {
 display: block;
-margin-top: 1em;
-margin-left:auto;
+margin-left:auto; 
+}
+
+tei-spGrp>tei-head {
+ background-color:silver;
+ text-align:left;
+ font-style:italic;
+}
+tei-spGrp {
+display:block;
+ margin-left: 2cm;
 }
 
 tei-l {
@@ -283,9 +329,16 @@ display: block;
 margin-left:auto;
 }
 
+
+tei-l:first-of-type {
+display: inline;
+margin-left:auto;
+}
+
 tei-speaker {
     font-variant:small-caps;
     font-weight:bold;
+    display:inline;
 }
 
 tei-stage {
@@ -293,7 +346,12 @@ tei-stage {
     padding-right:5px;
     padding-left:5px;
     }
-    
+  
+tei-stage[rend=alignRight] {
+  font-style:italic;
+  text-align:right;
+  display:block;
+}  
     tei-div[type='act'] {
         margin-top:1em;
         }
@@ -317,15 +375,22 @@ tei-stage {
  } 
  
  tei-titlePage{
-     text-align:center; display: block;
+     text-align:center; 
+     display: block;
   font-size: 16pt;
   font-weight: bold;
   color: #00487D;
-  background-color: #FFFFFF;
+  border:1px solid blue;
+  background-color: silver;
+  padding:10px;
   margin-bottom: .5em;
      
  }
  
+ tei-titlePage>tei-titlePart:first-of-type {
+    font-size:26pt;   
+}
+
  tei-titlePart {
      display:block;
      margin-bottom: 24pt;
@@ -336,16 +401,19 @@ tei-stage {
      }
      
 tei-docAuthor {
-    color:purple;
+display:block;
     font-weight:bold;
+    padding-bottom:12pt;
+    font-size:22pt;
 }
 
 tei-docImprint {
     display:block;
     font-weight:normal;
-    padding-top: 48pt;
-    
+    padding-top: 36pt;  
 }
+
+
  
   tei-castItem {
       display:block;
@@ -357,17 +425,34 @@ tei-docImprint {
 tei-role {
     font-variant:small-caps;
     display: inline-block;
-    margin-right:2em;
+   
 }
 
 
 tei-roleDesc {
 font-variant:unset;
     font-style:italic;
+    padding-left:12px;
 }
 tei-actor {
     font-weight:bold;
+    padding-left:12px;
 }
+
+tei-set > tei-p {
+display:block;
+ text-align:center;
+ font-style: italic;
+ padding: 20px;
+}
+
+tei-performance > tei-p {
+display:block;
+ text-align:center;
+ font-style: italic;
+ padding: 20px;
+}
+
 
 /*  POPUP STUFF */
 .box {

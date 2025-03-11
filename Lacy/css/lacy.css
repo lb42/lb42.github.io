@@ -68,7 +68,7 @@ tei-div {
 tei-front >tei-div> tei-p {
  display: block;
 }
-
+/*  
 tei-div[type='volume']::before {
 content:"Volume " attr(n);
 font-size: 12pt;
@@ -76,7 +76,7 @@ font-size: 12pt;
   color: #00487D;
   background-color: #FFFFFF;
 }
-
+*/
  /*  tei-div>tei-head {
   display: block;
   font-size: 14pt;
@@ -193,7 +193,7 @@ tei-title {
 tei-title::before {
       content: " ";
 }
-
+/* 
 tei-div>tei-bibl::before {
     content: "[" attr(xml\:id) "] ";
 }
@@ -301,6 +301,8 @@ font-size: 16pt;
 display:table-caption;
 background-color: silver;
 }
+*/
+ 
 tei-q::before {
     content: "“";
 }

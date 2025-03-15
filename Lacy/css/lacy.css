@@ -302,6 +302,12 @@ display:table-caption;
 background-color: silver;
 }
 */
+
+tei-pb:before {
+ content:" - " attr(n) " - ";
+ color:gray;
+}
+
  
 tei-q::before {
     content: "“";
@@ -311,6 +317,9 @@ tei-q::after {
     content: "”";
 }
 
+tei-quote {
+ display: block;
+}
 tei-sp {
 display: block;
 margin-left:auto; 

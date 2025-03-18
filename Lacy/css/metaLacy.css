@@ -1,0 +1,405 @@
+/* general styles */
+
+front {
+ background-color:aqua;
+}
+
+body {
+color: #000000;
+font-family: "Noto Sans", Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+font-size: 1em;
+line-height: 1.7em;
+margin:1em;
+}
+
+  
+tei-teiheader tei-titlestmt>tei-title {
+  display: block;
+  font-size: 16pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+  margin-bottom: .5em;
+}
+tei-filedesc>tei-titlestmt {
+  font-size: 11pt;
+}
+tei-filedesc>tei-titlestmt>tei-author:after {
+  content: ', ';
+}
+tei-filedesc>tei-titlestmt>tei-author:last-child:after {
+  content: '.';
+}
+tei-filedesc>tei-publicationstmt {
+  display: block;
+  font-size: 11pt;
+}
+tei-teiheader tei-sourcedesc tei-p {
+  display: block;
+}
+
+tei-teiheader tei-encodingdesc {
+  display: none;
+}
+tei-teiheader>tei-revisiondesc {
+  display: none;
+}
+
+
+
+tei-body {
+  display: block;
+  margin: 1em;
+}
+
+
+tei-div {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+tei-front >tei-div> tei-p {
+ display: block;
+}
+
+tei-div[type='volume']::before {
+content:"Volume " attr(n);
+font-size: 12pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+}
+
+  tei-div>tei-head {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+} 
+
+tei-listbibl {
+  display: block;
+  margin-left: 30px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-left: 0;
+}
+tei-listbibl>tei-bibl {
+  display: list-item;
+  list-style-type: none;
+}
+
+tei-listPerson {
+ display:table;
+ 
+}
+
+tei-person {
+ display:table-row;
+ width:100%;
+ margin-top:1em; 
+}
+
+tei-listBibl {
+ display:table-cell;
+ border-style:solid;
+ border-color:gray;
+ border-collapse:collapse;
+ width:30%;
+vertical-align:top;
+ 
+}
+
+tei-figure {
+ display:table-cell;
+ border-style:solid;
+ border-color:gray;
+ border-collapse:collapse;
+}
+
+tei-note[type=ed] {
+ display:none;
+}
+ tei-note[place=foot]::before {
+ content: "[";
+}
+
+tei-note[place=foot]::after {
+ content: "]";
+}
+
+tei-note[place=foot] {
+ display:block;
+ text-align:right;
+ font-size:smaller;
+}
+
+ tei-note[type=source]::before {
+ content: "[";
+}
+
+tei-note[type=source]::after {
+ content: "]";
+}
+tei-note[type=source] {
+ display:block;
+ text-align:right;
+ font-size:smaller;
+}
+
+tei-div>tei-bibl {
+  display: list-item;
+  list-style-type: none;
+}
+
+tei-lb::before {
+  content: '\a';
+  white-space: pre;
+}
+tei-hi[rend=bold] {
+  font-weight: bold;
+}
+tei-hi[rend=italic] {
+  font-style: italic;
+}
+tei-emph {
+  font-weight: bold;
+}
+tei-term {
+    font-style: italic;
+}
+
+tei-label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+tei-label::after {
+    content: ' : ';
+}
+
+tei-title {
+      font-style: italic; 
+}
+
+tei-title::before {
+      content: " ";
+}
+
+tei-div>tei-bibl::before {
+    content: "[" attr(xml\:id) "] ";
+}
+
+tei-bibl>tei-author {
+    font-weight: bold;
+    }
+      
+tei-div>tei-bibl>tei-author:after {
+  content: ' ';
+}
+tei-div>tei-bibl>tei-author:last-child:after {
+  content: ' : ';
+}
+
+
+tei-title[type=sub] {
+    font-style: normal;  
+}
+tei-title[type=btao] {
+    font-style: normal;  
+}
+tei-title[type=music] {
+    font-style: normal;  
+}
+tei-title[type=source] {
+    font-style: normal;  
+}
+
+tei-div>tei-bibl>tei-title:after {
+  content: '. ';
+}
+
+tei-date[type=firstPerf]::before{
+content: ". First performed ";
+}
+
+tei-date[type=firstPerf]>tei-name::after{
+content: ", ";
+}
+
+tei-idno[type=nicoll]::before{
+ content:". Nicoll ";
+}
+
+tei-note[type=otherPerfs]::before {
+ content:". Other performances: "
+}
+
+tei-note[type=otherPerfs] {
+ font-size: small;
+}
+
+tei-relatedItem::before {
+     font-size:small;
+    content: " [ Derived from ";
+}
+tei-relatedItem::after {
+    content: "]";
+}
+
+tei-linkGrp::before {
+    content: " ";
+}
+
+tei-linkGrp::after {
+    content: ". Local copies: ";
+}
+tei-linkGrp>tei-desc:after {
+  content: '  ';
+}
+
+tei-idno:after {
+  content: ';  ';
+}
+tei-bibl>tei-idno:last-child:after {
+  content: '.';
+}
+
+tei-note[type=LCPkeywords] {
+    display: none;
+}
+
+tei-note[type=authorInfo]::before {
+content: " (";
+font-size:smaller;
+}
+
+tei-note[type=authorInfo]::after {
+content: ") ";
+}
+
+tei-person {
+ display:table;
+ margin-top: 2em;
+ }
+
+tei-person::before {
+    content: "[" attr(xml\:id) "] ";
+}
+
+tei-persName {
+text-align: center;
+font-size: 16pt;
+display:table-caption;
+background-color: silver;
+}
+
+ 
+tei-q::before {
+    content: "“";
+}
+
+tei-q::after {
+    content: "”";
+}
+
+tei-quote {
+ display: block;
+}
+
+  
+ tei-hi {
+     font-style:italic;    
+ } 
+ tei-emph {
+     font-style:italic;  
+     color:green;
+ } 
+ 
+ 
+
+/*  POPUP STUFF */
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}

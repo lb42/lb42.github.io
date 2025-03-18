@@ -1,0 +1,184 @@
+/* general styles */
+
+body {
+color: #000000;
+font-family: "Noto Sans", Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+font-size: 0.8em;
+line-height: 1.6em;
+margin:1em;
+}
+tei-teiheader {
+  display: block;
+}
+tei-teiheader tei-titlestmt>tei-title {
+  display: block;
+  font-size: 16pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+  margin-bottom: .5em;
+}
+tei-filedesc>tei-titlestmt {
+  font-size: 11pt;
+}
+tei-filedesc>tei-titlestmt>tei-author:after {
+  content: ', ';
+}
+tei-filedesc>tei-titlestmt>tei-author:last-child:after {
+  content: '.';
+}
+tei-filedesc>tei-publicationstmt {
+  display: block;
+  font-size: 11pt;
+}
+tei-teiheader tei-sourcedesc tei-p {
+  display: block;
+}
+
+tei-teiheader tei-encodingdesc {
+  display: none;
+}
+tei-teiheader>tei-revisiondesc {
+  display: none;
+}
+tei-body {
+  display: block;
+  margin: 1em;
+}
+tei-div {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+tei-p {
+  display: block;
+  margin-top: 1em;
+  }
+tei-div[type='volume']::before {
+content:"Volume " attr(n);
+font-size: 12pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+}
+
+  tei-div>tei-head {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+} 
+
+tei-listbibl {
+  display: block;
+  margin-left: 30px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-left: 0;
+}
+tei-listbibl>tei-bibl {
+  display: list-item;
+  list-style-type: none;
+}
+
+tei-div>tei-bibl {
+  display: list-item;
+  list-style-type: none;
+}
+
+tei-lb::before {
+  content: '\a';
+  white-space: pre;
+}
+tei-hi[rend=bold] {
+  font-weight: bold;
+}
+tei-hi[rend=italic] {
+  font-style: italic;
+}
+tei-emph {
+  font-weight: bold;
+}
+tei-term {
+    font-style: italic;
+}
+
+tei-label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+tei-label::after {
+    content: ' : ';
+}
+
+tei-title {
+      font-style: italic; 
+}
+
+tei-div>tei-bibl::before {
+    content: "[" attr(xml\:id) "]";
+}
+
+tei-div>tei-bibl>tei-author {
+    font-weight: bold;
+    }
+
+tei-title[type=sub] {
+    font-style: normal;    
+}
+
+tei-note[type=firstPerf]::before{
+content: ". First performed ";
+}
+
+tei-note[type=firstPerf]>tei-date::before{
+content: ", ";
+}
+
+tei-relatedItem::before {
+    font-style:italic;
+    font-size:small;
+    content: " [ Derived from ";
+}
+tei-relatedItem::after {
+    content: "]";
+}
+tei-note[type=digitizations]::before {
+    content: ". Digitalizations: ";
+}
+
+tei-listRef::before {
+    content: ". Digitizations: ";
+}
+
+tei-listRef>tei-ref:after {
+  content: ';  ';
+}
+tei-listRef>tei-ref:last-child:after {
+  content: '.';
+}
+
+tei-note[type=LCPkeywords] {
+    display: none;
+}
+
+tei-note[type=authorInfo] {
+    font-style:italic;
+    font-size:8pt;}
+tei-note[type=authorInfo]::before {
+content: " (";
+}
+
+tei-note[type=authorInfo]::after {
+content: ") ";
+}
+tei-q::before {
+    content: "“";
+}
+
+tei-q::after {
+    content: "”";
+}
+

@@ -1,46 +1,1137 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
- <head>
-  <title>Digital Lacy Project</title>
- </head>
- <body> <article class="index" xmlns="http://www.w3.org/1999/xhtml">
-  <div title="Index" style="display: inline-block;width:45%;height:400px;float:left;">
-   <h3>Digital Lacy</h3>
-   <img src="media/THLacy.jpg" height="300"/> 
-   <h4>A PlaceHolder</h4>
-   <p> One day this will be a fancy website. Meanwhile, here are some links. </p>
- 
-  <h4>Public pronouncements</h4>
-   <ul>
-    <li><a href="2024-11-07_caen.html">Digital Lacy and the Victorian Sense of Humour</a> Short talk
-     on <i>Lacy's Acting Edition</i> prepared for <a href="https://we-are-amused.sciencesconf.org/">
-     Punch Pocket Book colloquium</a>, November 2024.</li>
-    <li><a href="2024-03-15_caen.html">« L'édition de pièces de théâtre la plus parfaite jamais
-     publiée » : vers une numérisation de <i>Lacy's Acting Edition.</i></a> Introductory talk
-     presented at the Universite de Caen Normandie, 15 march 2024 </li>
-    <li><a href="https://foxglove.hypotheses.org/category/tei-xml-praxis/victorian-theatre">Related
-     blog entries</a></li>
-    <li><a href="2022-07-TNA_Activity_Report.pdf">TNA Activity Report</a> Results of scoping study
-     carried out in Galway, July 2022</li>
-   </ul>
-   </div>
-  
-  <div id="right" style="display:inline-block; width:45%; height:400px;float:right;"> 
-    
-   
-     
-   
-   
-   <h4>Resources under construction</h4>
-   <ul>
-    <li><a href="https://lb42.github.io/Lacy/lacyCatalogue.html">T.H. Lacy's Acting Edition of
-     Victorian Plays (1848-1873) : a bibliography</a> (<a href="https://github.com/lb42/Lacy/blob/main/catalogue.xml">repo</a>)</li>
-    <li>Nicoll's Handlists: <a href="https://github.com/lb42/Lacy/blob/main/Nicoll/allEntries.xml">repo</a></li>
-    <li><a href="https://lb42.github.io/Lacy/lacyAuthors.html">Lacy's Authors: a collective biography</a> (<a href="https://github.com/lb42/Lacy/blob/main/authorList.xml">repo</a>) </li>
-    <li><a href="https://lb42.github.io/Lacy/ledger.html">Biographical Memoranda of Living Dramatic Authors</a> As published in the Era Almanac for 1868 (<a href="https://github.com/lb42/Lacy/blob/main/BMLDA/listPers.xml">repo</a>)</li><li><a href="https://lb42.github.io/Lacy/boase.html">Lacy authors cited in Boase's Modern English Biography</a> </li>
-    <li>Buried Treasures List (repo at Lacy/LCP) </li>
-    <li>WAU list </li>
-   </ul>
-  </div>
-  </article></body>
+<!DOCTYPE html><!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" type="text/css" href="https://distantreading.github.io/css/eltec-styler.css">
+      <title>Lacys Acting Edition</title>
+   </head>
+   <body>
+      <p class="explain">Click on a column heading to sort. Click on a text identifier to
+         read the text (may not work in older browsers).</p>
+      <table class="catalogue" id="theTable">
+         <tr class="label">
+            <th onclick="sortTable(0)">Identifier</th>
+            <th onclick="sortTable(1)">Vol.no</th>
+            <th onclick="sortTableNumerically(2)">Page count</th>
+            <th onclick="sortTableNumerically(3)">Word count</th>
+            <th onclick="sortTableNumerically(4)">Spoken word count</th>
+            <th onclick="sortTable(5)">Date</th>
+            <th onclick="sortTable(6)">First Performance</th>
+            <th onclick="sortTable(7)">Title</th>
+            <th onclick="sortTable(8)">Author</th>
+            <th onclick="sortTable(9)">Class codes</th>
+            <th onclick="sortTable(10)">Genre</th>
+         </tr>
+         <tr>
+            <td><a href="L0001.html">L0001</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0001.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>1.1</td>
+            <td>23</td>
+            <td>10037</td>
+            <td>8783</td>
+            <td>1848</td>
+            <td>Royal Olympic Theatre</td>
+            <td>Time Tries All!</td>
+            <td>Courtney, John </td>
+            <td>#sizeS #act2 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0012.html">L0012</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0012.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>1.12</td>
+            <td>46</td>
+            <td>16964</td>
+            <td>15290</td>
+            <td>1847</td>
+            <td>Theatre Royal Lyceum</td>
+            <td>The Crèole; or, Love's Fetters : VPP edition</td>
+            <td>Brooks, Shirley </td>
+            <td>#sizeM #act3 nic:M.D.</td>
+            <td>MELODRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0013.html">L0013</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0013.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>1.13</td>
+            <td>23</td>
+            <td>6831</td>
+            <td>5161</td>
+            <td>1850</td>
+            <td>Lyceum Theatre</td>
+            <td>Novelty Fair; or, Hints for 1851</td>
+            <td>[Taylor, Tom] [Smith, Albert] </td>
+            <td>#sizeS #act1 nic:Rev.</td>
+            <td>SPECTACLE</td>
+         </tr>
+         <tr>
+            <td><a href="L0039.html">L0039</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0039.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>3.9</td>
+            <td>48</td>
+            <td>18842</td>
+            <td>15743</td>
+            <td>1851</td>
+            <td>Royal Surrey Theatre</td>
+            <td>Belphegor, or the Mountebank and his Wife: TEI edition</td>
+            <td>Courtney, John </td>
+            <td>#sizeL #act4 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0042R.html">L0042R</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0042R.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>3.12</td>
+            <td>47</td>
+            <td>8108</td>
+            <td>7211</td>
+            <td>1759</td>
+            <td>Theatre Royal Drury Lane</td>
+            <td>High life below stairs: A farce.
+               </td>
+            <td>Townley, James </td>
+            <td>#sizeM #act2 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0048.html">L0048</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0048.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>4.3</td>
+            <td>13</td>
+            <td>4404</td>
+            <td>3674</td>
+            <td>1851</td>
+            <td>Royal Princess's Theatre</td>
+            <td>Apartments, "Visitors to the Exhibition may be Accommodated", &amp;c.
+               &amp;c.</td>
+            <td>Brough, William </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0053.html">L0053</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0053.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>4.8</td>
+            <td>36</td>
+            <td>7127</td>
+            <td>6462</td>
+            <td>1848</td>
+            <td>Royal Lyceum Theatre</td>
+            <td>Anything for a Change</td>
+            <td>Brooks, Shirley </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0057R.html">L0057R</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0057R.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>4.12</td>
+            <td>67</td>
+            <td>17870</td>
+            <td>16138</td>
+            <td>1810</td>
+            <td>Theatre Royal Drury Lane</td>
+            <td>A new way to pay old debts.</td>
+            <td>Massinger, Philip </td>
+            <td>#sizeL #act5 nic:C.</td>
+            <td>COMEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L0066.html">L0066</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0066.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>5.6</td>
+            <td>16</td>
+            <td>5835</td>
+            <td>5049</td>
+            <td>1843</td>
+            <td>Theatre Royal, Drury Lane</td>
+            <td>A Thumping Legacy</td>
+            <td>Morton, John Maddison </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0073.html">L0073</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0073.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>5.13</td>
+            <td>17</td>
+            <td>6309</td>
+            <td>5119</td>
+            <td>1847</td>
+            <td>Royal Lyceum Theatre</td>
+            <td>Box and Cox</td>
+            <td>Morton, John Maddison </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0075.html">L0075</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0075.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>5.15</td>
+            <td>19</td>
+            <td>6981</td>
+            <td>5905</td>
+            <td>1852</td>
+            <td>Royal
+               Olympic Theatre</td>
+            <td>An Organic Affection</td>
+            <td>Phillips, Mrs. Alfred </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0076.html">L0076</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0076.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>6.1</td>
+            <td>16</td>
+            <td>6537</td>
+            <td>5512</td>
+            <td>1852</td>
+            <td>Theatre Royal Haymarket</td>
+            <td>A Duel in the Dark</td>
+            <td>Coyne, Joseph Stirling </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0082.html">L0082</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0082.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>6.7</td>
+            <td>24</td>
+            <td>9600</td>
+            <td>7503</td>
+            <td>1818</td>
+            <td>Royal Coburg Theatre</td>
+            <td>El Hyder; the Chief of the Ghat Mountains</td>
+            <td>Barrymore, William </td>
+            <td>#sizeS #act2 nic:M.D.Spec.</td>
+            <td>MELODRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0105.html">L0105</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0105.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>7.15</td>
+            <td>29</td>
+            <td>10179</td>
+            <td>8633</td>
+            <td>1852</td>
+            <td>Royal
+               Olympic Theatre</td>
+            <td>The Master Passion</td>
+            <td>Phillips, Mrs. Alfred </td>
+            <td>#sizeS #act2 nic:C.</td>
+            <td>COMEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L0106.html">L0106</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0106.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>8.1</td>
+            <td>21</td>
+            <td>8627</td>
+            <td>7297</td>
+            <td>1852</td>
+            <td>Royal Princess's Theatre</td>
+            <td>The Prima Donna</td>
+            <td>Boucicault, Dion </td>
+            <td>#sizeS #act2 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0118.html">L0118</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0118.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>8.13</td>
+            <td>18</td>
+            <td>6727</td>
+            <td>5484</td>
+            <td>1850</td>
+            <td>Royal Princess's Theatre</td>
+            <td>Betsy Baker! or, Too Attentive by Half</td>
+            <td>Morton, John Maddison </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0124.html">L0124</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0124.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>9.4</td>
+            <td>25</td>
+            <td>7663</td>
+            <td>7268</td>
+            <td>1834</td>
+            <td>Royal Olympic Theatre</td>
+            <td>The Loan of a Lover</td>
+            <td>Planché, J.R. </td>
+            <td>#sizeS #act1 nic:Vaud.</td>
+            <td>SPECTACLE</td>
+         </tr>
+         <tr>
+            <td><a href="L0127.html">L0127</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0127.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>9.7</td>
+            <td>26</td>
+            <td>10021</td>
+            <td>8609</td>
+            <td>1830</td>
+            <td>Royal Adelphi Theatre</td>
+            <td>The Bold Dragoons</td>
+            <td>Barnett, Morris </td>
+            <td>#sizeS #act2 nic:Ba.</td>
+            <td>BURLETTA</td>
+         </tr>
+         <tr>
+            <td><a href="L0142.html">L0142</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0142.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>10.7</td>
+            <td>20</td>
+            <td>7993</td>
+            <td>7188</td>
+            <td>1835</td>
+            <td>Theatre Royal, Drury Lane</td>
+            <td>Stage Struck; or, The Loves of Augustus Portarlington and
+               Celestina Beverley</td>
+            <td>Dimond, William </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0144.html">L0144</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0144.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>10.9</td>
+            <td>22</td>
+            <td>9018</td>
+            <td>6966</td>
+            <td>1853</td>
+            <td>Theatre Royal Adelphi</td>
+            <td>A Desperate Game</td>
+            <td>Morton, John Maddison </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0157.html">L0157</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0157.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>11.7</td>
+            <td>27</td>
+            <td>8717</td>
+            <td>8023</td>
+            <td>1836</td>
+            <td>Royal Olympic Theatre</td>
+            <td>A Handsome Husband</td>
+            <td>Planché, Mrs. Elizabeth </td>
+            <td>#sizeS #act1 nic:Ba.</td>
+            <td>BURLETTA</td>
+         </tr>
+         <tr>
+            <td><a href="L0170.html">L0170</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0170.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>12.5</td>
+            <td>22</td>
+            <td>5691</td>
+            <td>5120</td>
+            <td>1853</td>
+            <td>Royal
+               Olympic Theatre</td>
+            <td>The Camp at the Olympic</td>
+            <td>Planché, J.R. </td>
+            <td>#sizeS #act0 nic:D.Rev.</td>
+            <td>SPECTACLE</td>
+         </tr>
+         <tr>
+            <td><a href="L0179.html">L0179</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0179.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>12.14</td>
+            <td>25</td>
+            <td>11372</td>
+            <td>10362</td>
+            <td>1853</td>
+            <td>Royal
+               Olympic Theatre</td>
+            <td>The Miller of Derwent Water</td>
+            <td>Fitzball, Edward </td>
+            <td>#sizeS #act3 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0191.html">L0191</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0191.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>13.11</td>
+            <td>54</td>
+            <td>17413</td>
+            <td>15066</td>
+            <td>1853</td>
+            <td>Royal Olympic Theatre</td>
+            <td>Plot and Passion</td>
+            <td>[Taylor, Tom] </td>
+            <td>#sizeL #act3 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0197.html">L0197</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0197.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>14.2</td>
+            <td>20</td>
+            <td>6215</td>
+            <td>4807</td>
+            <td>1851</td>
+            <td>Theatre Royal Haymarket</td>
+            <td>Willikind and Hys Dinah</td>
+            <td>Coyne, Joseph Stirling </td>
+            <td>#sizeS #act0 nic:Ba.</td>
+            <td>BURLETTA</td>
+         </tr>
+         <tr>
+            <td><a href="L0201.html">L0201</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0201.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>14.6</td>
+            <td>31</td>
+            <td>9712</td>
+            <td>8851</td>
+            <td>1847</td>
+            <td>Theatre Royal Haymarket</td>
+            <td>The Jacobite</td>
+            <td>Planché, J.R. </td>
+            <td>#sizeM #act2 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0206.html">L0206</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0206.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>14.11</td>
+            <td>24</td>
+            <td>10066</td>
+            <td>9163</td>
+            <td>1824</td>
+            <td>Theatre Royal Haymarket</td>
+            <td>'Twould Puzzle a Conjuror!</td>
+            <td>Poole, John </td>
+            <td>#sizeS #act2 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0219.html">L0219</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0219.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>15.9</td>
+            <td>14</td>
+            <td>7026</td>
+            <td>5703</td>
+            <td>1854</td>
+            <td>Roya Adelphi Theatre</td>
+            <td>Waiting for an Omnibus in the Lowther Arcade on a rainy
+               day</td>
+            <td>Morton, John Maddison </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0228.html">L0228</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0228.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>16.3</td>
+            <td>23</td>
+            <td>9653</td>
+            <td>8175</td>
+            <td>1854</td>
+            <td>Royal
+               Surrey Theatre</td>
+            <td>Ben Bolt</td>
+            <td>Johnstone, J.B. </td>
+            <td>#sizeS #act2 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0250.html">L0250</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0250.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>17.10</td>
+            <td>26</td>
+            <td>7217</td>
+            <td>6691</td>
+            <td>1847</td>
+            <td>Royal Lyceum Theatre</td>
+            <td>A Rough Diamond</td>
+            <td>Buckstone, John Baldwin </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0262.html">L0262</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0262.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>18.7</td>
+            <td>59</td>
+            <td>16441</td>
+            <td>12670</td>
+            <td>1830</td>
+            <td>Theatre Royal,
+               Covent Garden</td>
+            <td>Cinderella, or the Fairy-Queen and the Glass Slipper</td>
+            <td>Lacy, Michael Rophino </td>
+            <td>#sizeL #act3 nic:C.O.</td>
+            <td>OPERA</td>
+         </tr>
+         <tr>
+            <td><a href="L0271.html">L0271</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0271.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>19.1</td>
+            <td>29</td>
+            <td>8833</td>
+            <td>7784</td>
+            <td>1845</td>
+            <td>Royal Lyceum Theatre</td>
+            <td>The Golden Branch</td>
+            <td>Planché, J.R. </td>
+            <td>#sizeS #act2 nic:Ext.</td>
+            <td>SPECTACLE</td>
+         </tr>
+         <tr>
+            <td><a href="L0283.html">L0283</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0283.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>19.13</td>
+            <td>30</td>
+            <td>7456</td>
+            <td>6757</td>
+            <td>1840</td>
+            <td>Theatre Royal Drury Lane</td>
+            <td>Sleeping Beauty in the Wood</td>
+            <td>Planché, J.R. </td>
+            <td>#sizeM #act0 nic:Ext.</td>
+            <td>SPECTACLE</td>
+         </tr>
+         <tr>
+            <td><a href="L0296.html">L0296</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0296.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>20.11</td>
+            <td>33</td>
+            <td>9701</td>
+            <td>8795</td>
+            <td>1846</td>
+            <td>Theatre Royal Haymarket</td>
+            <td>The Irish Post</td>
+            <td>Planché, J.R. </td>
+            <td>#sizeM #act2 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0321.html">L0321</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0321.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>22.6</td>
+            <td>24</td>
+            <td>6368</td>
+            <td>5806</td>
+            <td>1839</td>
+            <td>Royal Olympic Theatre</td>
+            <td>The Garrick Fever</td>
+            <td>Planché, J.R. </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0327.html">L0327</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0327.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>22.12</td>
+            <td>8</td>
+            <td>6819</td>
+            <td>5310</td>
+            <td>1855</td>
+            <td>Royal Princess's Theatre</td>
+            <td>How stout you're getting!</td>
+            <td>Morton, John Maddison </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0359.html">L0359</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0359.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>24.14</td>
+            <td>23</td>
+            <td>6431</td>
+            <td>5844</td>
+            <td>1835</td>
+            <td>Royal Olympic Theatre</td>
+            <td>Twice Killed</td>
+            <td>Oxenford, John </td>
+            <td>#sizeS #act1 nic:Ba.</td>
+            <td>BURLETTA</td>
+         </tr>
+         <tr>
+            <td><a href="L0378.html">L0378</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0378.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>26.3</td>
+            <td>26</td>
+            <td>8910</td>
+            <td>7652</td>
+            <td>1835</td>
+            <td>Royal Surrey Theatre</td>
+            <td>The Jersey Girl; or, Les Rouge Voleurs</td>
+            <td>Pitt, George Dibdin </td>
+            <td>#sizeS #act2 nic:M.D.</td>
+            <td>MELODRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0399.html">L0399</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0399.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>27.9</td>
+            <td>10</td>
+            <td>4293</td>
+            <td>3545</td>
+            <td>1855</td>
+            <td>Theatre Royal, Drury Lane</td>
+            <td>Locked Out</td>
+            <td>Paul, Howard </td>
+            <td>#sizeS #act0 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0406.html">L0406</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0406.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>28.1</td>
+            <td>38</td>
+            <td>8092</td>
+            <td>6950</td>
+            <td>1856</td>
+            <td>Royal Lyceum Theatre</td>
+            <td>Perdita, or The Royal Milkmaid</td>
+            <td>Brough, William </td>
+            <td>#sizeM #act0 nic:Bsq.</td>
+            <td>BURLESQUE</td>
+         </tr>
+         <tr>
+            <td><a href="L0418.html">L0418</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0418.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>28.13</td>
+            <td>21</td>
+            <td>6838</td>
+            <td>6401</td>
+            <td>1842</td>
+            <td>Olympic Theatre</td>
+            <td>Bamboozling</td>
+            <td>Wilks, Thomas Egerton </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0491.html">L0491</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0491.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>33.11</td>
+            <td>11</td>
+            <td>3258</td>
+            <td>2863</td>
+            <td></td>
+            <td>Strand Theatre</td>
+            <td>Two Gay Deceivers, or Black, White and Grey</td>
+            <td>Robertson, T.W. Lacy, Thomas Hailes </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0494.html">L0494</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0494.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>33.14</td>
+            <td>41</td>
+            <td>14141</td>
+            <td>12125</td>
+            <td>1838</td>
+            <td>Pavilion Theatre</td>
+            <td>Oliver Twist; or, The Parish Boy's Progress</td>
+            <td>[Almar, George] </td>
+            <td>#sizeM #act3 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0499.html">L0499</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0499.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>34.4</td>
+            <td>15</td>
+            <td>8439</td>
+            <td>6328</td>
+            <td>1857</td>
+            <td>Royal
+               Olympic Theatre</td>
+            <td>What Will They Say at Brompton</td>
+            <td>Coyne, Joseph Stirling </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0526.html">L0526</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0526.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>36.1</td>
+            <td>37</td>
+            <td>10545</td>
+            <td>9054</td>
+            <td>1858</td>
+            <td>Royal Strand Theatre</td>
+            <td>Marriage a Lottery</td>
+            <td>Dance, Charles </td>
+            <td>#sizeS #act2 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0567.html">L0567</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0567.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>38.12</td>
+            <td>50</td>
+            <td>17996</td>
+            <td>15636</td>
+            <td>1858</td>
+            <td>Queen's Theatre</td>
+            <td>The Woman of the World</td>
+            <td>"Cavendish, Lady Clara" </td>
+            <td>#sizeL #act2 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0592.html">L0592</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0592.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>40.7</td>
+            <td>21</td>
+            <td>7267</td>
+            <td>5636</td>
+            <td>1859</td>
+            <td>New Royal Adelphi Theatre</td>
+            <td>Içi On Parle Français</td>
+            <td>Williams, Thomas J. </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0605.html">L0605</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0605.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>41.5</td>
+            <td>20</td>
+            <td>6151</td>
+            <td>5704</td>
+            <td>1859</td>
+            <td>Royal Olympic Theatre</td>
+            <td>Retained for the Defence</td>
+            <td>Oxenford, John </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0610.html">L0610</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0610.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>41.10</td>
+            <td>34</td>
+            <td>11780</td>
+            <td>10158</td>
+            <td>1859</td>
+            <td>New
+               Strand Theatre</td>
+            <td>A School For Coquettes</td>
+            <td>Simpson, John Palgrave </td>
+            <td>#sizeM #act1 nic:Ca.</td>
+            <td>COMEDIETTA</td>
+         </tr>
+         <tr>
+            <td><a href="L0707.html">L0707</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0707.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>48.2</td>
+            <td>26</td>
+            <td>8118</td>
+            <td>6740</td>
+            <td>1858</td>
+            <td>Royal Lyceum Theatre</td>
+            <td>A Hard Struggle</td>
+            <td>Marston, Westland </td>
+            <td>#sizeS #act1 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0737.html">L0737</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0737.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>50.2</td>
+            <td>59</td>
+            <td>18298</td>
+            <td>16322</td>
+            <td>1860</td>
+            <td>Royal
+               St. James's Theatre</td>
+            <td>Up at the Hills</td>
+            <td>Taylor, Tom </td>
+            <td>#sizeL #act2 nic:C.</td>
+            <td>COMEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L0743.html">L0743</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0743.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>50.8</td>
+            <td>23</td>
+            <td>7270</td>
+            <td>5981</td>
+            <td>1861</td>
+            <td>Strand
+               Theatre</td>
+            <td>The Cantab</td>
+            <td>Robertson, T.W. </td>
+            <td>#sizeS #act0 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0783.html">L0783</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0783.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>53.3</td>
+            <td>22</td>
+            <td>7539</td>
+            <td>6892</td>
+            <td>1861</td>
+            <td>Theatre Royal Drury Lane</td>
+            <td>Medea</td>
+            <td>Heron, Matilda </td>
+            <td>#sizeM #act3 nic:T.</td>
+            <td>TRAGEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L0796.html">L0796</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0796.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>54.1</td>
+            <td>20</td>
+            <td>4830</td>
+            <td>4217</td>
+            <td>1854</td>
+            <td>A.D.C. Rooms, Cambridge</td>
+            <td>Villikins and His Dinah</td>
+            <td>Burnand, Francis C. </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L0843.html">L0843</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0843.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>57.3</td>
+            <td>29</td>
+            <td>7237</td>
+            <td>6533</td>
+            <td>1862</td>
+            <td>Theatre Royal, Haymarket</td>
+            <td>Rasselas, Prince of Abyssinia; or, The Happy Valley</td>
+            <td>Brough, William </td>
+            <td>#sizeM #act0 nic:Bsq.</td>
+            <td>BURLESQUE</td>
+         </tr>
+         <tr>
+            <td><a href="L0845.html">L0845</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0845.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>57.5</td>
+            <td>17</td>
+            <td>5956</td>
+            <td>5144</td>
+            <td>1862</td>
+            <td>Theatre Royal St. James's</td>
+            <td>Carte de Visite</td>
+            <td>Williams, Montagu Burnand, Francis C. </td>
+            <td>#sizeS #act1 nic:Ca.</td>
+            <td>COMEDIETTA</td>
+         </tr>
+         <tr>
+            <td><a href="L0848.html">L0848</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0848.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>57.8</td>
+            <td>39</td>
+            <td>11628</td>
+            <td>9510</td>
+            <td>1856</td>
+            <td>Queen's
+               Theatre</td>
+            <td>Dred; A Tale of the Dismal Swamp</td>
+            <td>Suter, William E. </td>
+            <td>#sizeM #act2 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0849.html">L0849</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0849.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>57.9</td>
+            <td>33</td>
+            <td>14065</td>
+            <td>11915</td>
+            <td>1863</td>
+            <td>Queen's Theatre</td>
+            <td>Lady Audley's Secret</td>
+            <td>Suter, William E. </td>
+            <td>#sizeS #act2 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L0911.html">L0911</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0911.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>61.11</td>
+            <td>28</td>
+            <td>6737</td>
+            <td>6018</td>
+            <td>1863</td>
+            <td>Theatre Royal, St. James's</td>
+            <td>1863; or, The Sensations of the Past Season. With A Shameful Revelation of Lady
+               Somebody's Secret</td>
+            <td>Byron, Henry James </td>
+            <td>#sizeM #act1 nic:Ext.</td>
+            <td>SPECTACLE</td>
+         </tr>
+         <tr>
+            <td><a href="L0945.html">L0945</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0945.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>63.15</td>
+            <td>39</td>
+            <td>10996</td>
+            <td>8107</td>
+            <td>1864</td>
+            <td>Royal St. James's Theatre</td>
+            <td>Woodcock's Little Game</td>
+            <td>Morton, John Maddison </td>
+            <td>#sizeM #act2 nic:C.F.</td>
+            <td>COMEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L0979.html">L0979</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L0979.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>66.4</td>
+            <td>16</td>
+            <td>4929</td>
+            <td>4032</td>
+            <td></td>
+            <td>Unknown</td>
+            <td>"Wanted, A Young Lady"</td>
+            <td>Suter, William E. </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L1060.html">L1060</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1060.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>71.10</td>
+            <td>59</td>
+            <td>16649</td>
+            <td>12409</td>
+            <td>1865</td>
+            <td>Prince of Wales's Theatre Liverpool</td>
+            <td>Society</td>
+            <td>Robertson, T.W. </td>
+            <td>#sizeL #act3 nic:C.</td>
+            <td>COMEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L1124.html">L1124</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1124.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>75.14</td>
+            <td>22</td>
+            <td>8329</td>
+            <td>5968</td>
+            <td>1823</td>
+            <td>Royal Coburg Theatre</td>
+            <td>Frankenstein; or, The Man and the Monster</td>
+            <td>Milner, H. M. </td>
+            <td>#sizeS #act2 nic:M.D.</td>
+            <td>MELODRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L1246.html">L1246</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1246.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>84.1</td>
+            <td>62</td>
+            <td>23416</td>
+            <td>15075</td>
+            <td>1869</td>
+            <td>Queen's Theatre</td>
+            <td>Not Guilty</td>
+            <td>Phillips, Watts </td>
+            <td>#sizeL #act4 nic:D.</td>
+            <td>DRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L1263.html">L1263</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1263.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>85.3</td>
+            <td>40</td>
+            <td>15505</td>
+            <td>14651</td>
+            <td>1869</td>
+            <td>New Gaiety Theatre</td>
+            <td>An Old Score</td>
+            <td>Gilbert, W.S. </td>
+            <td>#sizeM #act3 nic:C.D.</td>
+            <td>COMEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L1285.html">L1285</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1285.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>86.10</td>
+            <td>43</td>
+            <td>14437</td>
+            <td>13078</td>
+            <td>1828</td>
+            <td>Coburg Theatre</td>
+            <td>Ambrose Gwinett; A Sea-Side Story</td>
+            <td>Jerrold, Douglas </td>
+            <td>#sizeM #act3 nic:M.D.</td>
+            <td>MELODRAMA</td>
+         </tr>
+         <tr>
+            <td><a href="L1315.html">L1315</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1315.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>88.10</td>
+            <td>34</td>
+            <td>9589</td>
+            <td>7582</td>
+            <td>1869</td>
+            <td>New Globe
+               Theatre</td>
+            <td>The Corsican "Bothers"or, The Troublesome
+               Twins</td>
+            <td>Byron, Henry James </td>
+            <td>#sizeM #act0 nic:Bsq.</td>
+            <td>BURLESQUE</td>
+         </tr>
+         <tr>
+            <td><a href="L1326.html">L1326</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1326.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>89.6</td>
+            <td>20</td>
+            <td>5393</td>
+            <td>5083</td>
+            <td>1837</td>
+            <td></td>
+            <td>The Death of Marlowe</td>
+            <td>Horne, R.H. </td>
+            <td>#sizeS #act1 nic:T.</td>
+            <td>TRAGEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L1330.html">L1330</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1330.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>89.10</td>
+            <td>18</td>
+            <td>5898</td>
+            <td>5076</td>
+            <td>1870</td>
+            <td>Charing Cross Theatre</td>
+            <td>Captain Smith</td>
+            <td>Berrie, Ernie </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L1359.html">L1359</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1359.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>91.10</td>
+            <td>14</td>
+            <td>5160</td>
+            <td>4345</td>
+            <td>1871</td>
+            <td>Royal Strand Theatre</td>
+            <td>In Three Volumes</td>
+            <td>Bilkins, Taylor </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L1378.html">L1378</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1378.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>92.14</td>
+            <td>54</td>
+            <td>19465</td>
+            <td>14957</td>
+            <td>1864</td>
+            <td>Royal St. James's Theatre</td>
+            <td>The Woman in Red</td>
+            <td>Coyne, Joseph Stirling </td>
+            <td>#sizeL #act3 nic:C.</td>
+            <td>COMEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L1387.html">L1387</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1387.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>93.8</td>
+            <td>17</td>
+            <td>5495</td>
+            <td>4488</td>
+            <td></td>
+            <td>Unknown</td>
+            <td>After the Party</td>
+            <td></td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L1411.html">L1411</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1411.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>95.2</td>
+            <td>15</td>
+            <td>5665</td>
+            <td>4465</td>
+            <td>1871</td>
+            <td>Olympic Theatre</td>
+            <td>Never Reckon Your Chickens</td>
+            <td>Reeve, Wybert </td>
+            <td>#sizeS #act1 nic:F.</td>
+            <td>FARCE</td>
+         </tr>
+         <tr>
+            <td><a href="L1459.html">L1459</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1459.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>98.5</td>
+            <td>44</td>
+            <td>16171</td>
+            <td>15063</td>
+            <td>1871</td>
+            <td>Royal Court Theatre</td>
+            <td>On Guard</td>
+            <td>Gilbert, W.S. </td>
+            <td>#sizeM #act3 nic:C.</td>
+            <td>COMEDY</td>
+         </tr>
+         <tr>
+            <td><a href="L1477.html">L1477</a><a href="https://raw.githubusercontent.com/lb42/Lacy/main/TEI/L1477.xml"><img src="media/teiLogo.jpg"></a></td>
+            <td>99.8</td>
+            <td>22</td>
+            <td>6971</td>
+            <td>5964</td>
+            <td>1873</td>
+            <td>Charing Cross Theatre</td>
+            <td>The Last of the Legends</td>
+            <td>A'Beckett, Gilbert Arthur </td>
+            <td>#sizeS #act0 nic:Bsq.</td>
+            <td>BURLESQUE</td>
+         </tr>
+      </table><script>
+                    function sortTable(n) {
+                    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+                    table = document.getElementById("theTable");
+                    switching = true;
+                    //Set the sorting direction to ascending:
+                    dir = "asc"; 
+                    /*Make a loop that will continue until
+                    no switching has been done:*/
+                    while (switching) {
+                    //start by saying: no switching is done:
+                    switching = false;
+                    rows = table.rows;
+                    /*Loop through all table rows (except the
+                    first, which contains table headers):*/
+                    for (i = 1; i < (rows.length - 1); i++) {
+                    //start by saying there should be no switching:
+                    shouldSwitch = false;
+                    /*Get the two elements you want to compare,
+                    one from current row and one from the next:*/
+                    x = rows[i].getElementsByTagName("td")[n];
+                    y = rows[i + 1].getElementsByTagName("td")[n];
+                    /*check if the two rows should switch place,
+                    based on the direction, asc or desc:*/
+                    
+                    //if (Number(x.innerHTML) > Number(y.innerHTML)) {
+                    //shouldSwitch = true;
+                    //break;
+                    //}
+                    
+                    
+                    if (dir == "asc") {
+                    
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    //if so, mark as a switch and break the loop:
+                    shouldSwitch= true;
+                    break;
+                    }
+                    } else if (dir == "desc") {
+                    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                    //if so, mark as a switch and break the loop:
+                    shouldSwitch = true;
+                    break;
+                    }
+                    }
+                    }
+                    if (shouldSwitch) {
+                    /*If a switch has been marked, make the switch
+                    and mark that a switch has been done:*/
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    //Each time a switch is done, increase this count by 1:
+                    switchcount ++;      
+                    } else {
+                    /*If no switching has been done AND the direction is "asc",
+                    set the direction to "desc" and run the while loop again.*/
+                    if (switchcount == 0 && dir == "asc") {
+                    dir = "desc";
+                    switching = true;
+                    }
+                    }
+                    }
+                    }
+                    function sortTableNumerically(n) {
+                    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+                    table = document.getElementById("theTable");
+                    switching = true;
+                    //Set the sorting direction to ascending:
+                    dir = "asc"; 
+                    /*Make a loop that will continue until
+                    no switching has been done:*/
+                    while (switching) {
+                    //start by saying: no switching is done:
+                    switching = false;
+                    rows = table.rows;
+                    /*Loop through all table rows (except the
+                    first, which contains table headers):*/
+                    for (i = 1; i < (rows.length - 1); i++) {
+                    //start by saying there should be no switching:
+                    shouldSwitch = false;
+                    /*Get the two elements you want to compare,
+                    one from current row and one from the next:*/
+                    x = rows[i].getElementsByTagName("td")[n];
+                    y = rows[i + 1].getElementsByTagName("td")[n];
+                    /*check if the two rows should switch place,
+                    based on the direction, asc or desc:*/
+                        if (dir == "asc") {
+                    
+                    if (Number(x.innerHTML) > Number(y.innerHTML)) {
+                    //if so, mark as a switch and break the loop:
+                    shouldSwitch= true;
+                    break;
+                    }
+                    } else if (dir == "desc") {
+                    if (Number(x.innerHTML) > Number(y.innerHTML)) {
+                    //if so, mark as a switch and break the loop:
+                    shouldSwitch = true;
+                    break;
+                    }
+                    }
+                    }
+                    if (shouldSwitch) {
+                    /*If a switch has been marked, make the switch
+                    and mark that a switch has been done:*/
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    //Each time a switch is done, increase this count by 1:
+                    switchcount ++;      
+                    } else {
+                    /*If no switching has been done AND the direction is "asc",
+                    set the direction to "desc" and run the while loop again.*/
+                    if (switchcount == 0 && dir == "asc") {
+                    dir = "desc";
+                    switching = true;
+                    }
+                    }
+                    }
+                    }
+                </script></body>
 </html>

@@ -229,10 +229,17 @@ tei-date[type=firstPerf]>tei-name::after{
 content: ", ";
 }
 
-tei-idno[type=nicoll]::before{
- content:". Nicoll ";
+tei-idno[type=nic]::before{
+ content:" [Nicoll ";
 }
 
+tei-idno[type=vpp]::before{
+ content:" [VPP:  ";
+}
+
+tei-idno[type]::after{
+    content:"] "; 
+}
 tei-note[type=otherPerfs]::before {
  content:". Other performances: "
 }
@@ -249,21 +256,16 @@ tei-relatedItem::after {
     content: "]";
 }
 
-tei-linkGrp::before {
-    content: " ";
+
+tei-note[type=localCopies]::before{
+content:". Local copies: ";
 }
 
-tei-linkGrp::after {
-    content: ". Local copies: ";
-}
-tei-linkGrp>tei-desc:after {
-  content: '  ';
-}
-
-tei-idno:after {
+tei-note>tei-ident:after {
   content: ';  ';
 }
-tei-bibl>tei-idno:last-child:after {
+
+tei-note>tei-ident:last-child:after {
   content: '.';
 }
 

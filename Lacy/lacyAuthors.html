@@ -22,7 +22,7 @@
     },
     "idno" : [
         ["[type=VIAF]", function(el) {
-          const prefix = 'http://viaf.org/'
+          const prefix = 'http://viaf.org/viaf/'
           const a = document.createElement("a") 
           a.setAttribute("href", prefix + el.innerHTML)
           a.innerHTML = ' VIAF  ';

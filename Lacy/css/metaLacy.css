@@ -221,11 +221,11 @@ tei-div>tei-bibl>tei-title:after {
   content: '. ';
 }
 
-tei-date[type=firstPerf]::before{
+tei-eventName[type=firstPerf]::before{
 content: ". First performed ";
 }
 
-tei-date[type=firstPerf]>tei-name::after{
+tei-eventName>tei-name::after{
 content: ", ";
 }
 
@@ -257,9 +257,12 @@ tei-relatedItem::after {
 }
 
 
+/* 
 tei-note[type=localCopies]::before{
 content:". Local copies: ";
 }
+*/
+tei-note[type=localCopies] { display: none; }
 
 tei-note>tei-ident:after {
   content: ';  ';
@@ -273,6 +276,7 @@ tei-note[type=LCPkeywords] {
     display: none;
 }
 
+/* 
 tei-note[type=authorInfo]::before {
 content: " (";
 font-size:smaller;
@@ -281,6 +285,9 @@ font-size:smaller;
 tei-note[type=authorInfo]::after {
 content: ") ";
 }
+*/
+
+tei-note[type=authorInfo] { display: none; }
 
 tei-person {
  display:table;

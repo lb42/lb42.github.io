@@ -230,16 +230,14 @@ content: ", ";
 }
 
 tei-idno[type=nic]::before{
- content:" [Nicoll ";
+ content:" Nicoll: ";
 }
 
 tei-idno[type=vpp]::before{
- content:" [VPP:  ";
+ content:" VPP:  ";
 }
 
-tei-idno[type]::after{
-    content:"] "; 
-}
+
 tei-note[type=otherPerfs]::before {
  content:". Other performances: "
 }

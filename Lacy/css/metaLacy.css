@@ -255,11 +255,6 @@ tei-relatedItem::after {
 }
 
 
-/* 
-tei-note[type=localCopies]::before{
-content:". Local copies: ";
-}
-*/
 tei-note[type=localCopies] { display: none; }
 
 tei-note>tei-ident:after {
@@ -274,16 +269,6 @@ tei-note[type=LCPkeywords] {
     display: none;
 }
 
-/* 
-tei-note[type=authorInfo]::before {
-content: " (";
-font-size:smaller;
-}
-
-tei-note[type=authorInfo]::after {
-content: ") ";
-}
-*/
 
 tei-note[type=authorInfo] { display: none; }
 

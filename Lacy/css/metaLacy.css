@@ -123,11 +123,11 @@ tei-note[type=ed] {
  display:none;
 }
  tei-note[place=foot]::before {
- content: "[";
+ content: "<";
 }
 
 tei-note[place=foot]::after {
- content: "]";
+ content: ">";
 }
 
 tei-note[place=foot] {

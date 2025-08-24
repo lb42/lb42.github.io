@@ -54,7 +54,6 @@ tei-body {
 
 
 tei-div {
-  display: block;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -69,6 +68,15 @@ font-size: 12pt;
   font-weight: bold;
   color: #00487D;
   background-color: #FFFFFF;
+}
+
+
+tei-div[type='work']::before {
+    content: "[" attr(xml\:id) "] ";
+}
+
+tei-div[type='work'] {
+ display: block;
 }
 
   tei-div>tei-head {
@@ -86,10 +94,12 @@ tei-listbibl {
   margin-bottom: .5em;
   padding-left: 0;
 }
-tei-listbibl>tei-bibl {
+/* 
+ tei-listbibl>tei-bibl {
   display: list-item;
   list-style-type: none;
 }
+*/
 
 tei-listPerson {
  display:table;
@@ -149,10 +159,7 @@ tei-note[type=source] {
  font-size:smaller;
 }
 
-tei-div>tei-bibl {
-  display: list-item;
-  list-style-type: none;
-}
+
 
 tei-lb::before {
   content: '\a';
@@ -188,8 +195,13 @@ tei-title::before {
       content: " ";
 }
 
-tei-div>tei-bibl::before {
-    content: "[" attr(xml\:id) "] ";
+
+tei-div>tei-bibl:after {
+content: " ";
+}
+
+tei-div>tei-bibl:last-child:after {
+  content: '.';
 }
 
 tei-bibl>tei-author {
@@ -221,13 +233,16 @@ tei-div>tei-bibl>tei-title:after {
   content: '. ';
 }
 
-tei-eventName[type=firstPerf]::before{
-content: ". First performed ";
+tei-listEvent {
+font-size: smaller;
+display: block;
+margin-left: 5mm;
 }
+tei-listEvent>tei-event {
+ display: list-item;
+  list-style-type:circle; 
+ }
 
-tei-eventName>tei-name::after{
-content: ", ";
-}
 
 tei-idno[type=nic]::before{
  content:" Nicoll: ";
@@ -237,6 +252,9 @@ tei-idno[type=vpp]::before{
  content:" VPP:  ";
 }
 
+tei-idno::after{
+ content:". ";
+}
 
 tei-note[type=otherPerfs]::before {
  content:". Other performances: "

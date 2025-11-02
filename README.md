@@ -2,6 +2,8 @@
 Assorted web pages from Lou Burnard 
 
 ## Recent Talks...
+- ["The most perfect edition of plays ever published": the
+Digital Lacy project](Lacy/2025-09-02_berlin.pdf) Very short presentation at [the Dracor Summit](https://summit.dracor.org/), Berlin, September, 2025.
 - [Digital Lacy and the Victorian sense of humour](Lacy/2024-11-07_caen.pdf) Presentation at ["We are amused": Victorian Humour in the Digital Age](https://we-are-amused.sciencesconf.org/) 7-8 November 2024 in Caen.
 - [«&nbsp;L'édition de pièces de théâtre la plus parfaite jamais publiée&nbsp;»](Lacy/2024-03-15_caen.html) Conférence invité, présenté le 15 mars 2024 à la MRSH de l'Université de Caen Normandie
  - [An introduction to ODD and ODD Chaining](Talks/2021-09-28-odd.pdf) Invited talk at [CLS Infra Workshop: Introduction and Discussion of Core Technologies and Projects](https://clsinfra.io/events/upcomingevents/) 28 September 2021, via Zoom
@@ -22,11 +24,12 @@ Indexer les corpus numeriques](media/SaintEtienne.pdf) Universite Jean Monnet, S
 Older talks are not yet listed [here]
 
 ## Recent Projects
- - [the TEI Cellar](https://lb42.github.io/theCellar/tcMins/index.html) An integrated archive of the TEI Technical Council's minutes from 2002 to 2023. 
- -  [Lacy's Acting Edition](https://lb42.github.io/Lacy/lacyCatalogue.html) A revised and expanded bibliography of T H Lacy's Acting Edition of Victorian Plays (1848-1873). Work in progress.
+
+ -  [Lacy's Acting Edition](https://lb42.github.io/Lacy/) A digital version of T H Lacy's Acting Edition of Victorian Plays (1848-1873). Work in progress.
  - [Pixi-Redux](https://lb42.github.io/PIXI/) A TEI-XML version of the venerable PIXI Corpus, now with added audio
  - [Seven steps to Ossian](https://github.com/lb42/Ossian-1773) A TEI-XML edition of the 1773 edition of the collected works of Ossian
  - [ELTeC-eng](https://distantreading.github.io/ELTeC/eng/) A carefully balanced selection of 100 English novels published between 1840 and 1920: my contribution to [CA 16204](https://distant-reading.net) 
+ - [the TEI Cellar](https://lb42.github.io/theCellar/tcMins/index.html) An integrated archive of the TEI Technical Council's minutes from 2002 to 2023. 
  
 ## Blogs
  

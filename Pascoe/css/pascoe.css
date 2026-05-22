@@ -1,0 +1,201 @@
+/* general styles */
+
+front {
+ background-color:aqua;
+}
+
+body {
+color: #000000;
+font-family: "Noto Sans", Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+font-size: 1em;
+line-height: 1.7em;
+margin:1em;
+}
+
+  
+tei-teiheader tei-titlestmt>tei-title {
+  display: block;
+  font-size: 16pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+  margin-bottom: .5em;
+}
+tei-filedesc>tei-titlestmt {
+  font-size: 12pt;
+}
+tei-filedesc>tei-titlestmt>tei-author:after {
+  content: ', ';
+}
+tei-filedesc>tei-titlestmt>tei-author:last-child:after {
+  content: '.';
+}
+tei-filedesc>tei-publicationstmt {
+  display: block;
+  font-size: 11pt;
+}
+tei-teiheader tei-sourcedesc tei-p {
+  display: block;
+}
+
+tei-teiheader tei-encodingdesc {
+  display: none;
+}
+tei-teiheader>tei-revisiondesc {
+  display: none;
+}
+
+
+tei-body {
+  display: block;
+  margin: 1em;
+}
+
+
+tei-div {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+tei-bibl>tei-date::before {
+    content: "[" ;
+}
+tei-bibl>tei-date::after {
+    content: "] " ;
+}
+
+tei-bibl {
+ display: block;
+ margin-bottom:1em;
+}
+
+tei-bibl:after {
+  content: ".   "
+}
+
+tei-bibl>tei-title {
+  font-style: italic; 
+}
+
+tei-bibl>tei-title::after {
+      content: " ";
+}
+
+tei-bibl>tei-ref::before {
+content: ". Online at ";
+}
+
+tei-div>tei-head {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #00487E;
+  background-color: #FFFFFF;
+} 
+
+
+tei-figure {
+ display:table-cell;
+ border-style:solid;
+ border-color:gray;
+ border-collapse:collapse;
+}
+
+tei-note[type=ed] {
+ display:none;
+}
+
+ tei-note[place=foot]::before {
+ content: "<";
+}
+
+tei-note[place=foot]::after {
+ content: ">";
+}
+
+tei-note[place=foot] {
+ display:block;
+ text-align:right;
+ font-size:smaller;
+}
+
+ tei-note[type=source]::before {
+ content: "[";
+}
+
+tei-note[type=source]::after {
+ content: "]";
+}
+tei-note[type=source] {
+ display:block;
+ text-align:right;
+ font-size:smaller;
+}
+
+
+
+tei-lb::before {
+  content: '\a';
+  white-space: pre;
+}
+tei-hi[rend=bold] {
+  font-weight: bold;
+}
+tei-hi[rend=italic] {
+  font-style: italic;
+}
+tei-emph {
+  font-weight: bold;
+}
+tei-term {
+    font-style: italic;
+}
+
+tei-label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+tei-label::after {
+    content: ' : ';
+}
+
+
+
+
+
+tei-persName {
+color: blue;
+}
+
+
+
+tei-placeName {
+color: purple;
+}
+
+ 
+tei-q::before {
+    content: "“";
+}
+
+tei-q::after {
+    content: "”";
+}
+
+tei-quote {
+ display: block;
+}
+
+  
+ tei-hi {
+     font-style:italic;    
+ } 
+ 
+ tei-emph {
+     font-style:italic;  
+     font-weight:bold;
+ } 
+ 
+ 

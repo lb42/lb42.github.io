@@ -317,8 +317,13 @@ tei-q::after {
     content: "”";
 }
 
+tei-q {
+ color:gray
+}
+
 tei-quote {
  display: block;
+ color:gray
 }
 tei-sp {
 display: block;

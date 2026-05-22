@@ -78,6 +78,7 @@ tei-bibl>tei-title {
   font-style: italic; 
 }
 
+
 tei-bibl>tei-title::after {
       content: " ";
 }
@@ -94,6 +95,13 @@ tei-div>tei-head {
   background-color: #FFFFFF;
 } 
 
+tei-body>tei-head {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #00487E;
+  background-color: #FFFFFF;
+} 
 
 tei-figure {
  display:table-cell;
@@ -131,6 +139,37 @@ tei-note[type=source] {
  display:block;
  text-align:right;
  font-size:smaller;
+}
+tei-div {
+ display:block;
+ margin: 1em;
+}
+tei-p {
+ display:block;
+ text-align:left;
+}
+
+tei-p>tei-title::before {
+    content: "“";
+}
+
+tei-p>tei-title::after {
+    content: "”";
+}
+
+
+tei-q::before {
+    content: "“";
+}
+
+tei-q::after {
+    content: "”";
+}
+
+tei-q { color: gray; }
+
+tei-term {
+ font-style:italic;
 }
 
 

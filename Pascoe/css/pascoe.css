@@ -84,7 +84,7 @@ tei-bibl>tei-title::after {
 }
 
 tei-bibl>tei-ref::before {
-content: ". Online at ";
+content: ". See ";
 }
 
 tei-div>tei-head {
@@ -150,11 +150,11 @@ tei-p {
 }
 
 tei-p>tei-title::before {
-    content: "“";
+    content: " ‘";
 }
 
 tei-p>tei-title::after {
-    content: "”";
+    content: "’ ";
 }
 
 

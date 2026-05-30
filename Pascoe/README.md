@@ -9,7 +9,6 @@ This page collects in one place all I have been able to discover about an obscur
 1. A [bibliography](https://lb42.github.io/Pascoe/CEP-bib.html) of books, pamphlets, letters, etc. attributed to Pascoe.
 1. A [biographical sketch](https://lb42.github.io/Pascoe/CEP-bio.pdf) of his life
 1. A [TEI conformant transcription](https://lb42.github.io/Pascoe/theDramaticList_1880.html) of the *Dramatic List* (2nd ed, 1880)
-1. A [newspaper report](https://lb42.github.io/Pascoe/CEP-death.html) of his death as printed in the *Sutton and Cheam Advertiser* 15 Nov 1912, page 5.
 1. [Selected letters to the press](https://lb42.github.io/Pascoe/CEP-letters.html) on various topics
-
-
+1. [Selected contemporary reviews](https://lb42.github.io/Pascoe/CEP-reviews.html) of his publications
+1. A [newspaper report](https://lb42.github.io/Pascoe/CEP-death.html) of his death as printed in the *Sutton and Cheam Advertiser* 15 Nov 1912, page 5.

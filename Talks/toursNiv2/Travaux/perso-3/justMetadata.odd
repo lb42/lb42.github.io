@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+          <title>Chaînage ODD: les métadonnées</title>
+            <author>Lou Burnard</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-12-28">First draft</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+
+      <body>
+        
+<div type="schemaSpec">
+            <head>Spécification des métadonnées</head>
+   <p>Ce schéma spécifie les éléments que nous utilisons pour fournir les métadonnées de notre corpus.</p>
+     <schemaSpec ident="justMetadata" start="teiHeader" source="motherODD_compiled.xml">
+
+       <moduleRef key="tei"/>
+
+<elementRef key="fileDesc"/>
+<elementRef key="idno"/>
+<elementRef key="listPerson"/> 
+<elementRef key="listPlace"/> 
+<elementRef key="name"/>
+<elementRef key="p"/>
+<elementRef key="particDesc"/> 
+<elementRef key="persName"/> 
+<elementRef key="person"/> 
+<elementRef key="place"/> 
+<elementRef key="placeName"/>
+<elementRef key="profileDesc"/>
+<elementRef key="publicationStmt"/>
+<elementRef key="resp"/>
+<elementRef key="respStmt"/>
+<elementRef key="settingDesc"/>
+<elementRef key="sourceDesc"/>
+<elementRef key="teiHeader"/>
+<elementRef key="title"/>
+<elementRef key="titleStmt"/>
+     
+   </schemaSpec>
+   </div>
+</body>
+   </text>
+</TEI>

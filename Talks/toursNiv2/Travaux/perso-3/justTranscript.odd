@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+          <title>Chaînage ODD: la transcription</title>
+            <author>Lou Burnard</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-12-28">First draft</change>
+        </revisionDesc>
+   </teiHeader>
+   <text>
+
+      <body>
+        
+<div type="schemaSpec">
+ <head>Spécification de la transcription</head>
+ <p>Ce schéma spécifie les éléments que nous utilisons pour encoder nos transcriptions documentaires.</p>
+     <schemaSpec ident="justTranscription" start="text" source="motherODD_compiled.xml">
+        <moduleRef key="tei"/>
+        <moduleRef key="core" include="pb p hi name title "/>
+        <elementSpec ident="name" mode="change">
+           <attList>
+              <attDef ident="ref" mode="change" usage="req"/>
+           </attList>
+        </elementSpec>
+        <moduleRef key="textstructure" include="body div text"/>
+   </schemaSpec>
+         </div>
+      </body>
+   </text>
+</TEI>

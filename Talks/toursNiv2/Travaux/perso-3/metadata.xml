@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="justMetadata.rnc" type="application/relax-ng-compact-syntax"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <fileDesc>
+  <titleStmt>
+   <title>Document <idno>1234</idno>: transcription TEI</title>
+<respStmt>
+    <resp>Transcrit par</resp>
+    <name><!-- votre nom ici --></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <p>Fichier inedit</p>
+  </publicationStmt>
+  <sourceDesc>
+   <p>Document extrait du <title>Fonds Imaginaire</title> de Tours (<idno><!-- inserez cote --> </idno>) </p>
+  </sourceDesc>
+ </fileDesc>
+   <profileDesc>
+    <particDesc>
+     <listPerson>
+      <person xml:id="JB007">
+       <persName>James Bond</persName>
+      </person>
+     </listPerson>
+    </particDesc>
+    <settingDesc>
+     <listPlace>
+      <place xml:id="PL0091">
+       <placeName>Paris</placeName>
+       <placeName>Lutetia</placeName>
+      </place>
+     </listPlace>
+    </settingDesc>
+   </profileDesc>
+ </teiHeader>

@@ -84,7 +84,7 @@ tei-bibl>tei-title::after {
 }
 
 tei-bibl>tei-ref::before {
-content: ". See ";
+content: ". ";
 }
 
 tei-div>tei-head {
@@ -109,6 +109,7 @@ tei-figure {
  border-color:gray;
  border-collapse:collapse;
 }
+
 
 tei-note[type=ed] {
  display:none;

@@ -7,11 +7,30 @@
   <script src="js/CETEI.js" ></script>
   <script>
     let ceteicean = new CETEI();
+    
+     ceteicean.shadowCSS = "css/pascoe.css"
+    
+    ceteicean.addBehaviors({ "tei": {
+    
+     "graphic": function(elt) {
+      let content = new Image();
+      content.src = this.rw(elt.getAttribute("url")); // "this" is the CETEI object.
+      if (elt.hasAttribute("width")) {
+        content.setAttribute("width",elt.getAttribute("width"));
+      }
+      if (elt.hasAttribute("height")) {
+        content.setAttribute("height",elt.getAttribute("height"));
+      }
+      return content;
+    },  
+    }});
+
+    
      ceteicean.getHTML5("https://raw.githubusercontent.com/lb42/Lacy/main/Pascoe/CEP-bib.xml",function(data) { 
       document.getElementsByTagName("body")[0].appendChild(data);
      });
     </script>
-  <title>Pascoe's Published Works</title>
+  <title>Pascoe's Published Works Online</title>
  </head>
  <body>   
  </body>

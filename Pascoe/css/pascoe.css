@@ -70,22 +70,31 @@ tei-listBibl {
  display:table;
  border-style:solid;
  border-color:gray;
- border-collapse:collapse; 
+  border-collapse: collapse;
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
-tei-bibl>tei-ref {
- display: table-cell;
- width: 10%; 
-}
 
 tei-bibl {
- display:table-row;
- width:100%;
- margin-top:1em; 
-vertical-align:top;
+ /*  column-count:3;
+ column-gap: 40px;
+ column-fill:auto;
+ column-rule-style:solid;
+*/
+display: table-row;
+margin-top:1em; 
+ border-bottom: 1px solid #e2e8f0;
 }
 
-
+tei-bibl>tei-ref:first-child {
+ font-weight: 600;
+  color: #475569;
+  background-color: #f8fafc; 
+  float: left;
+}
 
 
 tei-bibl:after {

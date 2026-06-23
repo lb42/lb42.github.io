@@ -72,28 +72,28 @@ tei-listBibl {
  border-color:gray;
   border-collapse: collapse;
   font-family: system-ui, -apple-system, sans-serif;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
+  margin: 1em;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 
 tei-bibl {
- /*  column-count:3;
- column-gap: 40px;
- column-fill:auto;
- column-rule-style:solid;
-*/
+
 display: table-row;
-margin-top:1em; 
+margin-top:2em; 
  border-bottom: 1px solid #e2e8f0;
+ 
 }
 
-tei-bibl>tei-ref:first-child {
+tei-listBibl[type=thumbed]>tei-bibl>tei-ref {
  font-weight: 600;
   color: #475569;
   background-color: #f8fafc; 
   float: left;
+  margin: 1em;
+  border-color:blue;
+  border-style:dotted;
 }
 
 
@@ -141,6 +141,12 @@ tei-figure {
 tei-note[type=ed] {
  display:none;
 }
+
+tei-note[type=reviews] {
+ display:block;
+}
+
+
 
  tei-note[place=foot]::before {
  content: "<";

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet" href="css/pascoe.css" media="screen" title="no title" />
+  <link type="application/tei+xml" rel=""
+   href='https://raw.githubusercontent.com/lb42/Lacy/main/Pascoe/CEP-canalBoats_1877.xml'/>
+  <script src="js/CETEI.js" ></script>
+  <script>
+    let ceteicean = new CETEI();
+    
+     ceteicean.shadowCSS = "css/pascoe.css"
+    
+    ceteicean.addBehaviors({ "tei": {
+    
+     "graphic": function(elt) {
+      let content = new Image();
+      content.src = this.rw(elt.getAttribute("url")); // "this" is the CETEI object.
+      if (elt.hasAttribute("width")) {
+        content.setAttribute("width",elt.getAttribute("width"));
+      }
+      if (elt.hasAttribute("height")) {
+        content.setAttribute("height",elt.getAttribute("height"));
+      }
+      return content;
+    },  
+    }});
+
+    
+     ceteicean.getHTML5("https://raw.githubusercontent.com/lb42/Lacy/main/Pascoe/canalBoats_1877.xml",function(data) { 
+      document.getElementsByTagName("body")[0].appendChild(data);
+     });
+    </script>
+  <title>Pascoe(?) on Canal boat life</title>
+ </head>
+ <body>   
+ </body>
+</html>

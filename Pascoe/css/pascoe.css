@@ -78,13 +78,37 @@ tei-listBibl {
 }
 
 
-tei-bibl {
-
+tei-listBibl>tei-bibl {
 display: table-row;
 margin-top:2em; 
- border-bottom: 1px solid #e2e8f0;
- 
+border-bottom: 1px solid #e2e8f0;
 }
+
+
+tei-cit {
+display: inline-block;
+border-bottom: 1px solid #e2e8f0;
+}
+
+tei-cit>tei-quote {
+color: gray;
+font-style:italic;
+}
+
+tei-cit>tei-bibl {
+ float:right;
+}
+
+ tei-quote::before {
+    content: "“";
+}
+
+tei-quote::after {
+    content: "”";
+}
+
+tei-q { color: gray;}
+ 
 
 tei-listBibl[type=thumbed]>tei-bibl>tei-ref {
  font-weight: 600;
@@ -97,9 +121,9 @@ tei-listBibl[type=thumbed]>tei-bibl>tei-ref {
 }
 
 
-tei-bibl:after {
+/*  tei-bibl:after {
   content: ".   "
-}
+}*/
 
 tei-bibl>tei-title {
   font-style: italic; 
@@ -143,9 +167,12 @@ tei-note[type=ed] {
 }
 
 tei-note[type=reviews] {
- display:block;
+ display:inline;
 }
 
+tei-note[type=reprint] {
+ display:inline;
+}
 
 
  tei-note[place=foot]::before {
@@ -174,6 +201,8 @@ tei-note[type=source] {
  text-align:right;
  font-size:smaller;
 }
+
+
 tei-div {
  display:block;
  margin: 1em;

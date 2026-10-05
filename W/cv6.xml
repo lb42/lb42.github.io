@@ -15,6 +15,7 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
+   <change><name>Lou</name> <date>2026-10-2</date> </change>
    <change><name>Lou</name> <date>2021-11-20</date> </change>
    <change><name>Lou</name> <date>2020-01-20</date> </change>
    <change> <name>Lou</name> <date>2008-06-09T11:50:49</date> </change>
@@ -32,11 +33,10 @@
    </div>
    <div type="div2">
     <head>Current position</head>
-
-    <p>Lou Burnard Consulting specialises in research applications of text encoding in literature
-     and linguistics, working mostly but not exclusively in France. Between 2011 and 2015 I provided
-     TEI consultancy services to the TGE Adonis (precursor of Huma-Num) and worked with many digital
-     projects in France, before setting up as an independent consultant. </p>
+<p>I am currently an independent researcher, focussing primarily on 19th century theatre. Since 2022 I have been working on production of a digital edition of Lacy's Acting Editions, a key resource in this area. (see further <ptr target="https://lb42.github.io/Lacy"/>)</p>
+    <p>Between 2011 and 2021, I ran a private consultancy specialising in research applications of text encoding in literature
+     and linguistics, working mostly but not exclusively in France; notably (until 2014) providing
+     TEI consultancy services to the TGE Adonis (precursor of Huma-Num). </p>
     <p>Before taking early retirement in 2010, I was Assistant Director of Oxford University
      Computing Services. Reporting to the Director of OUCS, my responsibilities included policy
      development, budgetary control, and strategic planning for the department, which was
@@ -54,12 +54,12 @@
      major revision of the TEI <emph>Guidelines</emph>. See <ptr target="http://www.tei-c.org"/>. I
      have twice been elected to the TEI Board, and was charged with providing editorial support to
      the TEI Council 2007-2010. After that date I was regularly elected to the Technical Council,
-     until 2016 when I decided to stand down. </p>
+     until 2016 when I decided to stand down. </p><p>Since 2020, I have carried out research on my own behalf, chiefly in the field of 19th century cultural history and drama.</p>
     <list type="unordered">
      <head>Funded research projects</head>
-
-
-     <item>I am one of two UK representatives on the COST Action CA 16204, "Distant Reading for
+<item>In 2022 I was funded to carry out a preliminary 
+ scoping study for revival of the Victorian Plays Project at the University of Galway: see further <ptr target="https://lb42.github.io/Lacy/2022-07-TNA_Activity_Report.pdf"/>.</item>
+     <item>I was one of two UK representatives on the COST Action CA 16204, "Distant Reading for
       European Literary History", with particular responsibility for Work Group 1 (Scholarly
       Resources) activities, notably the design and implementation of the "European Literary Text
       Collection" (ELTeC) corpus: see further <ptr target="https://www.distant-reading.net/"/> </item>
@@ -165,6 +165,10 @@ largescale language corpus projects. </p>
     <list>
      <head>Recent (since 2013) presentations, invited talks, etc.</head>
 
+     <item><title>The most perfect edition of plays ever published": the
+       Digital Lacy project</title> Brief presentation given at Dracor Summit in Berlin, September 2025
+     </item><item><title>Digital Lacy and the Victorian Sense of Humour</title>
+       Short talk given at  Punch Pocket Book colloquium at University of Caen, November 2024.</item>
      <item><!--/Talks/2021-09-28-odd.pdf"--><title>An introduction to ODD and ODD
       Chaining</title><!--/a--> (Invited talk at
       <!--a href="https://clsinfra.io/events/upcomingevents/"-->Computational Literary Studies Infra

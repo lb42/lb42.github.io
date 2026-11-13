@@ -39,11 +39,11 @@ tei-teiheader>tei-revisiondesc {
 }
 tei-body {
   display: block;
-  margin: 1em;
+  margin: 4em;
 }
 tei-div {
   display: block;
-  margin-top: 1em;
+  margin-top: 4em;
   margin-bottom: 1em;
 }
 tei-head {
@@ -56,16 +56,7 @@ tei-div>tei-head {
   color: #00487D;
   background-color: #FFFFFF;
 }
-tei-p {
-  display:block;
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
-tei-u {
-  display:block;
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
+t
 tei-l {
   display:block;
   margin-top: .2em;
@@ -73,11 +64,7 @@ tei-l {
   margin-bottom: .2em;
 }
 
-tei-sp::before {
-    display:inline-block;
-    margin-bottom: .2em;
-    content: attr(who)
-}
+
 tei-list {
   display: block;
   margin-left: 30px;
@@ -110,44 +97,11 @@ tei-list[type=ordered]>tei-item:before {
 tei-item {
   display: list-item;
 }
-tei-listbibl {
-  display: block;
-  margin-left: 30px;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  padding-left: 0;
-}
-tei-listbibl>tei-bibl {
-  display: list-item;
-  list-style-type: none;
-}
+
 tei-figure {
   display: block;
   text-align: center;
-}
-tei-code {
-  font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
-  background-color: #EEE;
-}
-tei-ident {
-  font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
-  background-color: #EEE;
-}
 
-tei-att,tei-gi {
-  font-family: "Noto Mono", Monaco, "Courier New", Courier, monospace;
-  background-color: #EEF;
-}
-
-tei-gi::before {
-    content: "<";
-  }
-tei-gi::after {
-  content: ">";
-}
-
-tei-att::before {
-  content: '@';
 }
 tei-lb::before {
   content: '\a';
@@ -162,10 +116,6 @@ tei-hi[rend=italic] {
 tei-emph {
   font-weight: bold;
 }
-tei-term {
-    font-weight: bold;
-    font-style: italic;
-}
 
 tei-label {
     font-weight: bold;
@@ -176,10 +126,6 @@ tei-label::after {
     content: ' : ';
 }
 
-tei-stage {
-    font-style:italic;
-    font-size: smaller;
-}
 tei-title {
       font-style: italic;
 }
